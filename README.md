@@ -43,7 +43,6 @@ BIM Agent 面向 BIM 审查研究人员、建筑设计人员和 IFC 应用开发
   - JSON Object 输出；
   - 表格/图片多模态输入；
   - 与内置 FAISS 索引匹配的 `Pro/BAAI/bge-m3`、1024 维查询向量。
-- 建议至少 4 GB 可用内存和 2 GB 可用磁盘空间。
 
 ### 获取代码与大文件
 
@@ -253,7 +252,7 @@ python -m pip install -r requirements-dev.txt
 python -m pytest -q
 ```
 
-当前验证基线为 `223 passed，5 subtests passed`。测试覆盖 IFC 解析、Schema、查询改写、BM25/FAISS 检索、证据媒体定位、多跳控制、T3/T4 缓存、规则脚本执行、T5 结果、统一编排和 Streamlit 页面。
+测试覆盖 IFC 解析、Schema、查询改写、BM25/FAISS 检索、证据媒体定位、多跳控制、T3/T4 缓存、规则脚本执行、T5 结果、统一编排和 Streamlit 页面。
 
 只做发布前启动检查：
 
@@ -265,7 +264,7 @@ python -m src.main --check
 
 ### `.env is missing` 或环境变量仍是占位符
 
-复制 `.env.example` 为 `.env`，填写真实 API 地址、密钥和模型名称。`.env` 已被 Git 忽略。
+复制 `.env.example` 为 `.env`，填写真实 API 地址、密钥和模型名称。
 
 ### 提示 IFC、PDF 或评估文件是 Git LFS pointer
 
@@ -278,15 +277,6 @@ git lfs pull
 
 当前索引由 `Pro/BAAI/bge-m3` 构建，维度为 1024。请确认 API 的 `embedding_model_name` 返回相同维度；否则必须重新构建 FAISS 索引。
 
-### Streamlit 端口已被占用
-
-```bash
-python -m src.main --port 8502
-```
-
-### 模型网关返回 ALB 400
-
-统一模型客户端会对 ALB HTML 400 做最多 3 次指数退避重试。若持续失败，应检查请求正文大小、图片格式、网关限制和模型的多模态兼容性。
 
 ## 版权与许可证
 
