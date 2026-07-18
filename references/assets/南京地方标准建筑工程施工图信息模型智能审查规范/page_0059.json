@@ -1,0 +1,491 @@
+{
+    "input_path": "/workspace/data/reference/南京地方标准建筑工程施工图信息模型智能审查规范.pdf",
+    "page_index": 58,
+    "page_count": 84,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "DB 3201/T 1143—2023",
+            "block_bbox": [
+                863,
+                144,
+                1081,
+                167
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    863.0,
+                    144.0
+                ],
+                [
+                    1081.0,
+                    144.0
+                ],
+                [
+                    1081.0,
+                    167.0
+                ],
+                [
+                    863.0,
+                    167.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表C.2 给排水专业BIM智能审查条文表（续）",
+            "block_bbox": [
+                404,
+                244,
+                823,
+                270
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    404.0,
+                    244.0
+                ],
+                [
+                    823.0,
+                    244.0
+                ],
+                [
+                    823.0,
+                    270.0
+                ],
+                [
+                    404.0,
+                    270.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>序号</td><td>审查条文</td><td>条文类型</td><td>条文内容</td><td>模型关联信息</td><td>准确性及说明</td></tr><tr><td>2</td><td>7.1.5</td><td>强条</td><td>除本规范另有规定外，汽车库、修车库、停车场应设置室外消火栓系统，其室外消防用水量应按消防用水量最大的一座计算，并应符合下列规定：\\n1 Ⅰ、Ⅱ类汽车库、修车库、停车场，不应小于20 L/s；\\n2 Ⅲ类汽车库、修车库、停车场，不应小于15 L/s；\\n3 Ⅳ类汽车库、修车库、停车场，不应小于10 L/s。</td><td>建筑、给排水全局属性</td><td>准确</td></tr><tr><td>3</td><td>7.1.8</td><td>强条</td><td>除本规范另有规定外，汽车库、修车库应设置室内消火栓系统，其消防用水量应符合下列规定：\\n1 Ⅰ、Ⅱ、Ⅲ类汽车库及Ⅰ、Ⅱ类修车库的用水量不应小于10 L/s，系统管道内的压力应保证相邻两个消火栓的水枪充实水柱同时到达室内任何部位；\\n2 Ⅳ类汽车库及Ⅲ、Ⅳ类修车库的用水量不应小于5 L/s，系统管道内的压力应保证一个消火栓的水枪充实水柱到达室内任何部位。</td><td>建筑、给排水全局属性</td><td>准确</td></tr><tr><td colspan=\"6\">注 1：准确指该条文审查准确性达 95%，无需人工复核。\\n注 2：需复核指该条文中部分内容需要人工复核确认。</td></tr></table>",
+            "block_bbox": [
+                138,
+                285,
+                1077,
+                889
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    138.0,
+                    285.0
+                ],
+                [
+                    1077.0,
+                    285.0
+                ],
+                [
+                    1077.0,
+                    889.0
+                ],
+                [
+                    138.0,
+                    889.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "[来源：GB 50067-2014]",
+            "block_bbox": [
+                181,
+                908,
+                406,
+                934
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    181.0,
+                    908.0
+                ],
+                [
+                    406.0,
+                    908.0
+                ],
+                [
+                    406.0,
+                    934.0
+                ],
+                [
+                    181.0,
+                    934.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表C. 3给排水专业BIM智能审查条文表",
+            "block_bbox": [
+                437,
+                955,
+                781,
+                980
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    437.0,
+                    955.0
+                ],
+                [
+                    781.0,
+                    955.0
+                ],
+                [
+                    781.0,
+                    980.0
+                ],
+                [
+                    437.0,
+                    980.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>序号</td><td>审查条文</td><td>条文类型</td><td>条文内容</td><td>模型关联信息</td><td>准确性及说明</td></tr><tr><td><img src=\"imgs/img_in_image_box_165_1096_321_1259.jpg\" alt=\"Image\"\" /></td><td></td><td></td><td>下列场所的室内消火栓给水系统应设置消防水泵接合器：\\n1 高层民用建筑；\\n2 设有消防给水的住宅、超过五层的其他多层民用建筑；\\n3 超过2层或建筑面积大于10000  $ m^{{2}} $的地下或半地下建筑（室）、室内消火栓设计流量大于10 L/s平战结合的人防工程；\\n4 高层工业建筑和超过四层的多层工业建筑；\\n5 城市交通隧道。</td><td>建筑、管道、水泵接合器、消火栓</td><td>需复核\\n需专家复核是否属于合用水泵接合器的情形。</td></tr><tr><td>2</td><td>5.4.2</td><td>强条</td><td>自动喷水灭火系统、水喷雾灭火系统、泡沫灭火系统和固定消防炮灭火系统等水灭火系统，均应设置消防水泵接合器。</td><td>灭火系统、水泵接合器</td><td>需复核\\n需专家复核是否属于合用水泵接合器的情形。</td></tr><tr><td>3</td><td>7.4.3</td><td>强条</td><td>设置室内消火栓的建筑，包括设备层在内的各层均应设置消火栓。</td><td>建筑、楼层、消火栓</td><td>准确</td></tr></table>",
+            "block_bbox": [
+                138,
+                995,
+                1081,
+                1537
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    138.0,
+                    995.0
+                ],
+                [
+                    1081.0,
+                    995.0
+                ],
+                [
+                    1081.0,
+                    1537.0
+                ],
+                [
+                    138.0,
+                    1537.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "53",
+            "block_bbox": [
+                1034,
+                1549,
+                1057,
+                1569
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    1034.0,
+                    1549.0
+                ],
+                [
+                    1056.0,
+                    1549.0
+                ],
+                [
+                    1056.0,
+                    1568.0
+                ],
+                [
+                    1034.0,
+                    1568.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8534814715385437,
+                "coordinate": [
+                    863,
+                    144,
+                    1081,
+                    167
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        863.0,
+                        144.0
+                    ],
+                    [
+                        1081.0,
+                        144.0
+                    ],
+                    [
+                        1081.0,
+                        167.0
+                    ],
+                    [
+                        863.0,
+                        167.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8619978427886963,
+                "coordinate": [
+                    404,
+                    244,
+                    823,
+                    270
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        404.0,
+                        244.0
+                    ],
+                    [
+                        823.0,
+                        244.0
+                    ],
+                    [
+                        823.0,
+                        270.0
+                    ],
+                    [
+                        404.0,
+                        270.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9797277450561523,
+                "coordinate": [
+                    138,
+                    285,
+                    1077,
+                    889
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        138.0,
+                        285.0
+                    ],
+                    [
+                        1077.0,
+                        285.0
+                    ],
+                    [
+                        1077.0,
+                        889.0
+                    ],
+                    [
+                        138.0,
+                        889.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.7616890668869019,
+                "coordinate": [
+                    181,
+                    908,
+                    406,
+                    934
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        181.0,
+                        908.0
+                    ],
+                    [
+                        406.0,
+                        908.0
+                    ],
+                    [
+                        406.0,
+                        934.0
+                    ],
+                    [
+                        181.0,
+                        934.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8569621443748474,
+                "coordinate": [
+                    437,
+                    955,
+                    781,
+                    980
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        437.0,
+                        955.0
+                    ],
+                    [
+                        781.0,
+                        955.0
+                    ],
+                    [
+                        781.0,
+                        980.0
+                    ],
+                    [
+                        437.0,
+                        980.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9797383546829224,
+                "coordinate": [
+                    138,
+                    995,
+                    1081,
+                    1537
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        138.0,
+                        995.0
+                    ],
+                    [
+                        1081.0,
+                        995.0
+                    ],
+                    [
+                        1081.0,
+                        1537.0
+                    ],
+                    [
+                        138.0,
+                        1537.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.4842854142189026,
+                "coordinate": [
+                    165,
+                    1096,
+                    321,
+                    1259
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        165.0,
+                        1096.0
+                    ],
+                    [
+                        321.0,
+                        1096.0
+                    ],
+                    [
+                        321.0,
+                        1259.0
+                    ],
+                    [
+                        165.0,
+                        1259.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7175358533859253,
+                "coordinate": [
+                    1034,
+                    1549,
+                    1057,
+                    1569
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        1034.0,
+                        1549.0
+                    ],
+                    [
+                        1056.0,
+                        1549.0
+                    ],
+                    [
+                        1056.0,
+                        1568.0
+                    ],
+                    [
+                        1034.0,
+                        1568.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,583 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 13,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "figure_title",
+            "block_content": "续表5.1.16",
+            "block_bbox": [
+                548,
+                145,
+                675,
+                172
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    548.0,
+                    145.0
+                ],
+                [
+                    675.0,
+                    145.0
+                ],
+                [
+                    675.0,
+                    172.0
+                ],
+                [
+                    548.0,
+                    172.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>房间名称</td><td>黑板</td><td>书写白板</td><td>讲台</td><td>投影仪接口</td><td>投影屏幕</td><td>显示屏</td><td>展示园地</td><td>挂镜线</td><td>广播音箱</td><td>储物柜</td><td>教具柜</td><td>清洁柜</td><td>通信外网接口</td></tr><tr><td>书法教室</td><td>●</td><td>—</td><td>●</td><td>●</td><td>●</td><td>—</td><td>○</td><td>●</td><td>●</td><td>○</td><td>○</td><td>○</td><td>—</td></tr><tr><td>现代艺术课教室</td><td>—</td><td>●</td><td>●</td><td>●</td><td>●</td><td>—</td><td>—</td><td>—</td><td>●</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>音乐教室</td><td>●</td><td>—</td><td>●</td><td>●</td><td>●</td><td>—</td><td>—</td><td>○</td><td>●</td><td>—</td><td>○</td><td>—</td><td>○</td></tr><tr><td>舞蹈教室</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>○</td><td>●</td><td>○</td><td>—</td><td>—</td><td>—</td></tr><tr><td>风雨操场</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>●</td><td>○</td><td>—</td><td>—</td><td>—</td></tr><tr><td>合班教室（容2个班）</td><td>●</td><td>—</td><td>●</td><td>●</td><td>●</td><td>●</td><td>—</td><td>—</td><td>●</td><td>—</td><td>—</td><td>—</td><td>○</td></tr><tr><td>阶梯教室</td><td>●</td><td>○</td><td>●</td><td>●</td><td>●</td><td>●</td><td>○</td><td>○</td><td>●</td><td>—</td><td>—</td><td>—</td><td>○</td></tr><tr><td>阅览室</td><td>—</td><td>—</td><td>—</td><td>●</td><td>●</td><td>—</td><td>○</td><td>○</td><td>●</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>视听阅览室</td><td>—</td><td>●</td><td>—</td><td>—</td><td>—</td><td>—</td><td>○</td><td>—</td><td>●</td><td>—</td><td>—</td><td>—</td><td>○</td></tr><tr><td>体质测试室</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>○</td><td>○</td><td>●</td><td>○</td><td>—</td><td>—</td><td>—</td></tr><tr><td>心理咨询室</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>○</td><td>○</td><td>—</td><td>—</td><td>●</td><td>—</td><td>○</td></tr><tr><td>德育展览室</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>●</td><td>●</td><td>○</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>教师办公室</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>○</td><td>●</td><td>○</td><td>—</td><td>○</td><td>○</td></tr></table>",
+            "block_bbox": [
+                239,
+                181,
+                988,
+                877
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    239.0,
+                    181.0
+                ],
+                [
+                    988.0,
+                    181.0
+                ],
+                [
+                    988.0,
+                    877.0
+                ],
+                [
+                    239.0,
+                    877.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "注：● 为应设置 ☐ 为宜设置 ○ 为可设置 — 为可不设置",
+            "block_bbox": [
+                257,
+                888,
+                821,
+                916
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    257.0,
+                    888.0
+                ],
+                [
+                    821.0,
+                    888.0
+                ],
+                [
+                    821.0,
+                    916.0
+                ],
+                [
+                    257.0,
+                    916.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．1．17 安装视听教学设备的教室应设置转暗设施。",
+            "block_bbox": [
+                147,
+                926,
+                834,
+                962
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    926.0
+                ],
+                [
+                    834.0,
+                    926.0
+                ],
+                [
+                    834.0,
+                    962.0
+                ],
+                [
+                    147.0,
+                    962.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "5 教学用房及教学辅助用房",
+            "block_bbox": [
+                430,
+                1019,
+                793,
+                1056
+            ],
+            "block_id": 4,
+            "block_order": 2,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    430.0,
+                    1019.0
+                ],
+                [
+                    793.0,
+                    1019.0
+                ],
+                [
+                    793.0,
+                    1056.0
+                ],
+                [
+                    430.0,
+                    1056.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "5.1 一般规定",
+            "block_bbox": [
+                512,
+                1097,
+                711,
+                1132
+            ],
+            "block_id": 5,
+            "block_order": 3,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    512.0,
+                    1097.0
+                ],
+                [
+                    711.0,
+                    1097.0
+                ],
+                [
+                    711.0,
+                    1132.0
+                ],
+                [
+                    512.0,
+                    1132.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．1．1 中小学校的教学及教学辅助用房应包括普通教室、专用教室、公共教学用房及其各自的辅助用房。",
+            "block_bbox": [
+                148,
+                1141,
+                1073,
+                1221
+            ],
+            "block_id": 6,
+            "block_order": 4,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    1141.0
+                ],
+                [
+                    1073.0,
+                    1141.0
+                ],
+                [
+                    1073.0,
+                    1221.0
+                ],
+                [
+                    148.0,
+                    1221.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．1.2 中小学校专用教室应包括下列用房：",
+            "block_bbox": [
+                147,
+                1262,
+                724,
+                1297
+            ],
+            "block_id": 7,
+            "block_order": 5,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1262.0
+                ],
+                [
+                    724.0,
+                    1262.0
+                ],
+                [
+                    724.0,
+                    1297.0
+                ],
+                [
+                    147.0,
+                    1297.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "1 小学的专用教室应包括科学教室、计算机教室、语言教室、美术教室、书法教室、音乐教室、舞蹈教室、体育建筑设施及劳动教室等，宜设置史地教室；",
+            "block_bbox": [
+                147,
+                1305,
+                1074,
+                1429
+            ],
+            "block_id": 8,
+            "block_order": 6,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1305.0
+                ],
+                [
+                    1074.0,
+                    1305.0
+                ],
+                [
+                    1074.0,
+                    1429.0
+                ],
+                [
+                    147.0,
+                    1429.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8066422343254089,
+                "coordinate": [
+                    548,
+                    145,
+                    675,
+                    172
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        548.0,
+                        145.0
+                    ],
+                    [
+                        675.0,
+                        145.0
+                    ],
+                    [
+                        675.0,
+                        172.0
+                    ],
+                    [
+                        548.0,
+                        172.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9618802666664124,
+                "coordinate": [
+                    239,
+                    181,
+                    988,
+                    877
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        239.0,
+                        181.0
+                    ],
+                    [
+                        988.0,
+                        181.0
+                    ],
+                    [
+                        988.0,
+                        877.0
+                    ],
+                    [
+                        239.0,
+                        877.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.8097379803657532,
+                "coordinate": [
+                    257,
+                    888,
+                    821,
+                    916
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        257.0,
+                        888.0
+                    ],
+                    [
+                        821.0,
+                        888.0
+                    ],
+                    [
+                        821.0,
+                        916.0
+                    ],
+                    [
+                        257.0,
+                        916.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5171957015991211,
+                "coordinate": [
+                    147,
+                    926,
+                    834,
+                    962
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        147.0,
+                        926.0
+                    ],
+                    [
+                        834.0,
+                        926.0
+                    ],
+                    [
+                        834.0,
+                        962.0
+                    ],
+                    [
+                        147.0,
+                        962.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8314716219902039,
+                "coordinate": [
+                    430,
+                    1019,
+                    793,
+                    1056
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        430.0,
+                        1019.0
+                    ],
+                    [
+                        793.0,
+                        1019.0
+                    ],
+                    [
+                        793.0,
+                        1056.0
+                    ],
+                    [
+                        430.0,
+                        1056.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6531538963317871,
+                "coordinate": [
+                    512,
+                    1097,
+                    711,
+                    1132
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        512.0,
+                        1097.0
+                    ],
+                    [
+                        711.0,
+                        1097.0
+                    ],
+                    [
+                        711.0,
+                        1132.0
+                    ],
+                    [
+                        512.0,
+                        1132.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9238786101341248,
+                "coordinate": [
+                    148,
+                    1141,
+                    1073,
+                    1221
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        148.0,
+                        1141.0
+                    ],
+                    [
+                        1073.0,
+                        1141.0
+                    ],
+                    [
+                        1073.0,
+                        1221.0
+                    ],
+                    [
+                        148.0,
+                        1221.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5420034527778625,
+                "coordinate": [
+                    147,
+                    1262,
+                    724,
+                    1297
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1262.0
+                    ],
+                    [
+                        724.0,
+                        1262.0
+                    ],
+                    [
+                        724.0,
+                        1297.0
+                    ],
+                    [
+                        147.0,
+                        1297.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9415296912193298,
+                "coordinate": [
+                    147,
+                    1305,
+                    1074,
+                    1429
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1305.0
+                    ],
+                    [
+                        1074.0,
+                        1305.0
+                    ],
+                    [
+                        1074.0,
+                        1429.0
+                    ],
+                    [
+                        147.0,
+                        1429.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

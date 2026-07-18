@@ -1,0 +1,705 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 4,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "3．0．3 接受残疾生源的中小学校，除应符合本规范的规定外，还应按照现行行业标准《城市道路和建筑物无障碍设计规范》JGJ 50的有关规定设置无障碍设施。",
+            "block_bbox": [
+                147,
+                183,
+                1075,
+                309
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    183.0
+                ],
+                [
+                    1075.0,
+                    183.0
+                ],
+                [
+                    1075.0,
+                    309.0
+                ],
+                [
+                    147.0,
+                    309.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3．0．4 校园内给水排水、电力、通信及供热等基础设施应与中小学校主体建筑同步建设，并宜先行施工。",
+            "block_bbox": [
+                147,
+                348,
+                1073,
+                429
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    348.0
+                ],
+                [
+                    1073.0,
+                    348.0
+                ],
+                [
+                    1073.0,
+                    429.0
+                ],
+                [
+                    147.0,
+                    429.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3．0．5中小学校设计应满足国家有关校园安全的规定，并应与校园应急策略相结合。安全设计应包括校园内防火、防灾、安防设施、通行安全、餐饮设施安全、环境安全等方面的设计。",
+            "block_bbox": [
+                147,
+                469,
+                1075,
+                594
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    469.0
+                ],
+                [
+                    1075.0,
+                    469.0
+                ],
+                [
+                    1075.0,
+                    594.0
+                ],
+                [
+                    147.0,
+                    594.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3．0．6由当地政府确定为避难疏散场所的学校应按国家和地方相关规定进行设计。",
+            "block_bbox": [
+                147,
+                633,
+                1071,
+                714
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    633.0
+                ],
+                [
+                    1071.0,
+                    633.0
+                ],
+                [
+                    1071.0,
+                    714.0
+                ],
+                [
+                    147.0,
+                    714.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3．0．7多个学校校址集中或组成学区时，各校宜合建可共用的建筑和场地。分设多个校址的学校可依教学及其他条件的需要，分散设置或在适中的校园内集中建设可共用的建筑和场地。",
+            "block_bbox": [
+                146,
+                754,
+                1075,
+                879
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    754.0
+                ],
+                [
+                    1075.0,
+                    754.0
+                ],
+                [
+                    1075.0,
+                    879.0
+                ],
+                [
+                    146.0,
+                    879.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3．0．8中小学校建设应符合环境保护的要求，宜按绿色校园、绿色建筑的有关要求进行设计。",
+            "block_bbox": [
+                146,
+                918,
+                1074,
+                1000
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    918.0
+                ],
+                [
+                    1074.0,
+                    918.0
+                ],
+                [
+                    1074.0,
+                    1000.0
+                ],
+                [
+                    146.0,
+                    1000.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3．0．9在改建、扩建项目中宜充分利用原有的场地、设施及建筑。",
+            "block_bbox": [
+                147,
+                1039,
+                1029,
+                1077
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1039.0
+                ],
+                [
+                    1029.0,
+                    1039.0
+                ],
+                [
+                    1029.0,
+                    1077.0
+                ],
+                [
+                    147.0,
+                    1077.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3．0．10 中小学校设计应与当地气候、地理环境、社会、经济、技术的发展水平、民族习俗及传统相适应。",
+            "block_bbox": [
+                147,
+                1117,
+                1074,
+                1198
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1117.0
+                ],
+                [
+                    1074.0,
+                    1117.0
+                ],
+                [
+                    1074.0,
+                    1198.0
+                ],
+                [
+                    147.0,
+                    1198.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3．0．11 环境设计、建筑的造型及装饰设计应朴素、安全、实用。",
+            "block_bbox": [
+                147,
+                1238,
+                1013,
+                1275
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1238.0
+                ],
+                [
+                    1013.0,
+                    1238.0
+                ],
+                [
+                    1013.0,
+                    1275.0
+                ],
+                [
+                    147.0,
+                    1275.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "4 场地和总平面",
+            "block_bbox": [
+                504,
+                1294,
+                719,
+                1330
+            ],
+            "block_id": 9,
+            "block_order": 10,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    504.0,
+                    1294.0
+                ],
+                [
+                    719.0,
+                    1294.0
+                ],
+                [
+                    719.0,
+                    1330.0
+                ],
+                [
+                    504.0,
+                    1330.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "4.1 场地",
+            "block_bbox": [
+                537,
+                1372,
+                686,
+                1408
+            ],
+            "block_id": 10,
+            "block_order": 11,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    537.0,
+                    1372.0
+                ],
+                [
+                    686.0,
+                    1372.0
+                ],
+                [
+                    686.0,
+                    1408.0
+                ],
+                [
+                    537.0,
+                    1408.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9456993937492371,
+                "coordinate": [
+                    147,
+                    183,
+                    1075,
+                    309
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        147.0,
+                        183.0
+                    ],
+                    [
+                        1075.0,
+                        183.0
+                    ],
+                    [
+                        1075.0,
+                        309.0
+                    ],
+                    [
+                        147.0,
+                        309.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9261858463287354,
+                "coordinate": [
+                    147,
+                    348,
+                    1073,
+                    429
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        147.0,
+                        348.0
+                    ],
+                    [
+                        1073.0,
+                        348.0
+                    ],
+                    [
+                        1073.0,
+                        429.0
+                    ],
+                    [
+                        147.0,
+                        429.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9491521716117859,
+                "coordinate": [
+                    147,
+                    469,
+                    1075,
+                    594
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        147.0,
+                        469.0
+                    ],
+                    [
+                        1075.0,
+                        469.0
+                    ],
+                    [
+                        1075.0,
+                        594.0
+                    ],
+                    [
+                        147.0,
+                        594.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.934870183467865,
+                "coordinate": [
+                    147,
+                    633,
+                    1071,
+                    714
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        147.0,
+                        633.0
+                    ],
+                    [
+                        1071.0,
+                        633.0
+                    ],
+                    [
+                        1071.0,
+                        714.0
+                    ],
+                    [
+                        147.0,
+                        714.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9489390850067139,
+                "coordinate": [
+                    146,
+                    754,
+                    1075,
+                    879
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        146.0,
+                        754.0
+                    ],
+                    [
+                        1075.0,
+                        754.0
+                    ],
+                    [
+                        1075.0,
+                        879.0
+                    ],
+                    [
+                        146.0,
+                        879.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9344840049743652,
+                "coordinate": [
+                    146,
+                    918,
+                    1074,
+                    1000
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        146.0,
+                        918.0
+                    ],
+                    [
+                        1074.0,
+                        918.0
+                    ],
+                    [
+                        1074.0,
+                        1000.0
+                    ],
+                    [
+                        146.0,
+                        1000.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8893904685974121,
+                "coordinate": [
+                    147,
+                    1039,
+                    1029,
+                    1077
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1039.0
+                    ],
+                    [
+                        1029.0,
+                        1039.0
+                    ],
+                    [
+                        1029.0,
+                        1077.0
+                    ],
+                    [
+                        147.0,
+                        1077.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9358017444610596,
+                "coordinate": [
+                    147,
+                    1117,
+                    1074,
+                    1198
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1117.0
+                    ],
+                    [
+                        1074.0,
+                        1117.0
+                    ],
+                    [
+                        1074.0,
+                        1198.0
+                    ],
+                    [
+                        147.0,
+                        1198.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8831159472465515,
+                "coordinate": [
+                    147,
+                    1238,
+                    1013,
+                    1275
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1238.0
+                    ],
+                    [
+                        1013.0,
+                        1238.0
+                    ],
+                    [
+                        1013.0,
+                        1275.0
+                    ],
+                    [
+                        147.0,
+                        1275.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8614800572395325,
+                "coordinate": [
+                    504,
+                    1294,
+                    719,
+                    1330
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        504.0,
+                        1294.0
+                    ],
+                    [
+                        719.0,
+                        1294.0
+                    ],
+                    [
+                        719.0,
+                        1330.0
+                    ],
+                    [
+                        504.0,
+                        1330.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8001667261123657,
+                "coordinate": [
+                    537,
+                    1372,
+                    686,
+                    1408
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        537.0,
+                        1372.0
+                    ],
+                    [
+                        686.0,
+                        1372.0
+                    ],
+                    [
+                        686.0,
+                        1408.0
+                    ],
+                    [
+                        537.0,
+                        1408.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

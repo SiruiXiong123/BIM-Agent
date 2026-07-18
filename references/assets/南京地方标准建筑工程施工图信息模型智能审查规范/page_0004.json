@@ -1,0 +1,522 @@
+{
+    "input_path": "/workspace/data/reference/南京地方标准建筑工程施工图信息模型智能审查规范.pdf",
+    "page_index": 3,
+    "page_count": 84,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "DB 3201/T 1143—2023",
+            "block_bbox": [
+                108,
+                144,
+                328,
+                167
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    108.0,
+                    144.0
+                ],
+                [
+                    328.0,
+                    144.0
+                ],
+                [
+                    328.0,
+                    167.0
+                ],
+                [
+                    108.0,
+                    167.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "前言",
+            "block_bbox": [
+                513,
+                254,
+                648,
+                292
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    513.0,
+                    254.0
+                ],
+                [
+                    648.0,
+                    254.0
+                ],
+                [
+                    648.0,
+                    292.0
+                ],
+                [
+                    513.0,
+                    292.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。",
+            "block_bbox": [
+                108,
+                353,
+                1052,
+                410
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    108.0,
+                    353.0
+                ],
+                [
+                    1052.0,
+                    353.0
+                ],
+                [
+                    1052.0,
+                    410.0
+                ],
+                [
+                    108.0,
+                    410.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "请注意本文件的某些内容可能涉及专利。本文件的发布机构不承担识别专利的责任。",
+            "block_bbox": [
+                149,
+                415,
+                926,
+                443
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    149.0,
+                    415.0
+                ],
+                [
+                    926.0,
+                    415.0
+                ],
+                [
+                    926.0,
+                    443.0
+                ],
+                [
+                    149.0,
+                    443.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "本文件由南京市城乡建设委员会提出并归口。",
+            "block_bbox": [
+                150,
+                447,
+                568,
+                472
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    150.0,
+                    447.0
+                ],
+                [
+                    568.0,
+                    447.0
+                ],
+                [
+                    568.0,
+                    472.0
+                ],
+                [
+                    150.0,
+                    472.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "本文件起草单位：南京市建设工程施工图设计审查管理中心、中通服咨询设计研究院有限公司、北京构力科技有限公司、南京市建筑工程质量安全监督站、奥格科技股份有限公司。",
+            "block_bbox": [
+                109,
+                478,
+                1052,
+                536
+            ],
+            "block_id": 5,
+            "block_order": 5,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    109.0,
+                    478.0
+                ],
+                [
+                    1052.0,
+                    478.0
+                ],
+                [
+                    1052.0,
+                    536.0
+                ],
+                [
+                    109.0,
+                    536.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "本文件主要起草人：彭为民、徐嵘、曹桂敏、王惠芳、许钰涓、院梅、谢维锺、陈蓉、贾凌、胡睿、汤宇红、吴大江、朱强、汪深、李兵、孙精科、孔燕、周海涛、张磊、罗磊、周盼生、周婷婷、杜娟、黄立新、杨炅澄、张朝阳、徐汉擎、王委、谢宇欣、冯川、朱佳迪、王童、张建宇、吕金健、桂尚品、陶雪峰。",
+            "block_bbox": [
+                107,
+                541,
+                1052,
+                661
+            ],
+            "block_id": 6,
+            "block_order": 6,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    107.0,
+                    541.0
+                ],
+                [
+                    1052.0,
+                    541.0
+                ],
+                [
+                    1052.0,
+                    661.0
+                ],
+                [
+                    107.0,
+                    661.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Ⅱ",
+            "block_bbox": [
+                130,
+                1549,
+                153,
+                1570
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    130.0,
+                    1549.0
+                ],
+                [
+                    152.0,
+                    1549.0
+                ],
+                [
+                    152.0,
+                    1569.0
+                ],
+                [
+                    130.0,
+                    1569.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8659698963165283,
+                "coordinate": [
+                    108,
+                    144,
+                    328,
+                    167
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        108.0,
+                        144.0
+                    ],
+                    [
+                        328.0,
+                        144.0
+                    ],
+                    [
+                        328.0,
+                        167.0
+                    ],
+                    [
+                        108.0,
+                        167.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8651826977729797,
+                "coordinate": [
+                    513,
+                    254,
+                    648,
+                    292
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        513.0,
+                        254.0
+                    ],
+                    [
+                        648.0,
+                        254.0
+                    ],
+                    [
+                        648.0,
+                        292.0
+                    ],
+                    [
+                        513.0,
+                        292.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.908048689365387,
+                "coordinate": [
+                    108,
+                    353,
+                    1052,
+                    410
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        108.0,
+                        353.0
+                    ],
+                    [
+                        1052.0,
+                        353.0
+                    ],
+                    [
+                        1052.0,
+                        410.0
+                    ],
+                    [
+                        108.0,
+                        410.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8291436433792114,
+                "coordinate": [
+                    149,
+                    415,
+                    926,
+                    443
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        149.0,
+                        415.0
+                    ],
+                    [
+                        926.0,
+                        415.0
+                    ],
+                    [
+                        926.0,
+                        443.0
+                    ],
+                    [
+                        149.0,
+                        443.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8176336288452148,
+                "coordinate": [
+                    150,
+                    447,
+                    568,
+                    472
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        150.0,
+                        447.0
+                    ],
+                    [
+                        568.0,
+                        447.0
+                    ],
+                    [
+                        568.0,
+                        472.0
+                    ],
+                    [
+                        150.0,
+                        472.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9186617136001587,
+                "coordinate": [
+                    109,
+                    478,
+                    1052,
+                    536
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        109.0,
+                        478.0
+                    ],
+                    [
+                        1052.0,
+                        478.0
+                    ],
+                    [
+                        1052.0,
+                        536.0
+                    ],
+                    [
+                        109.0,
+                        536.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9451686143875122,
+                "coordinate": [
+                    107,
+                    541,
+                    1052,
+                    661
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        107.0,
+                        541.0
+                    ],
+                    [
+                        1052.0,
+                        541.0
+                    ],
+                    [
+                        1052.0,
+                        661.0
+                    ],
+                    [
+                        107.0,
+                        661.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7134109139442444,
+                "coordinate": [
+                    130,
+                    1549,
+                    153,
+                    1570
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        130.0,
+                        1549.0
+                    ],
+                    [
+                        152.0,
+                        1549.0
+                    ],
+                    [
+                        152.0,
+                        1569.0
+                    ],
+                    [
+                        130.0,
+                        1569.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

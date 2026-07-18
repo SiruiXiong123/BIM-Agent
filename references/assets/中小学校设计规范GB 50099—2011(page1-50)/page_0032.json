@@ -1,0 +1,979 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 31,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "容纳1个班的心理活动室。",
+            "block_bbox": [
+                148,
+                149,
+                483,
+                186
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    149.0
+                ],
+                [
+                    483.0,
+                    149.0
+                ],
+                [
+                    483.0,
+                    186.0
+                ],
+                [
+                    148.0,
+                    186.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．16．2 心理咨询室宜安静、明亮。",
+            "block_bbox": [
+                146,
+                227,
+                626,
+                264
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    227.0
+                ],
+                [
+                    626.0,
+                    227.0
+                ],
+                [
+                    626.0,
+                    264.0
+                ],
+                [
+                    146.0,
+                    264.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "5. 17 德育展览室",
+            "block_bbox": [
+                489,
+                283,
+                735,
+                319
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    489.0,
+                    283.0
+                ],
+                [
+                    735.0,
+                    283.0
+                ],
+                [
+                    735.0,
+                    319.0
+                ],
+                [
+                    489.0,
+                    319.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．17．1 德育展览室的位置宜设在校门附近或主要教学楼入口处，也可设在会议室、合班教室附近，或在学生经常经过的走道处附设展览廊。",
+            "block_bbox": [
+                147,
+                327,
+                1075,
+                451
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    327.0
+                ],
+                [
+                    1075.0,
+                    327.0
+                ],
+                [
+                    1075.0,
+                    451.0
+                ],
+                [
+                    147.0,
+                    451.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．17．2 德育展览室可与其他展览空间合并或连通。",
+            "block_bbox": [
+                146,
+                491,
+                834,
+                528
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    491.0
+                ],
+                [
+                    834.0,
+                    491.0
+                ],
+                [
+                    834.0,
+                    528.0
+                ],
+                [
+                    146.0,
+                    528.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．17．3 德育展览室的面积不宜小于60.00m^{2}",
+            "block_bbox": [
+                147,
+                570,
+                745,
+                605
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    570.0
+                ],
+                [
+                    745.0,
+                    570.0
+                ],
+                [
+                    745.0,
+                    605.0
+                ],
+                [
+                    147.0,
+                    605.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "5. 18 任课教师办公室",
+            "block_bbox": [
+                459,
+                625,
+                764,
+                661
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    459.0,
+                    625.0
+                ],
+                [
+                    764.0,
+                    625.0
+                ],
+                [
+                    764.0,
+                    661.0
+                ],
+                [
+                    459.0,
+                    661.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．18．1 任课教师的办公室应包括年级组教师办公室和各课程教研组办公室。",
+            "block_bbox": [
+                147,
+                669,
+                1071,
+                749
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    669.0
+                ],
+                [
+                    1071.0,
+                    669.0
+                ],
+                [
+                    1071.0,
+                    749.0
+                ],
+                [
+                    147.0,
+                    749.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．18．2 年级组教师办公室宜设置在该年级普通教室附近。课程有专用教室时，该课程教研组办公室宜与专用教室成组设置。其他课程教研组可集中设置于行政办公室或图书室附近。",
+            "block_bbox": [
+                146,
+                790,
+                1073,
+                915
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    790.0
+                ],
+                [
+                    1073.0,
+                    790.0
+                ],
+                [
+                    1073.0,
+                    915.0
+                ],
+                [
+                    146.0,
+                    915.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．18．3 任课教师办公室内宜设洗手盆。",
+            "block_bbox": [
+                146,
+                955,
+                685,
+                991
+            ],
+            "block_id": 9,
+            "block_order": 10,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    955.0
+                ],
+                [
+                    685.0,
+                    955.0
+                ],
+                [
+                    685.0,
+                    991.0
+                ],
+                [
+                    146.0,
+                    991.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "6 行政办公用房和生活服务用房",
+            "block_bbox": [
+                400,
+                1012,
+                822,
+                1049
+            ],
+            "block_id": 10,
+            "block_order": 11,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    400.0,
+                    1012.0
+                ],
+                [
+                    822.0,
+                    1012.0
+                ],
+                [
+                    822.0,
+                    1049.0
+                ],
+                [
+                    400.0,
+                    1049.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "6.1 行政办公用房",
+            "block_bbox": [
+                482,
+                1090,
+                742,
+                1125
+            ],
+            "block_id": 11,
+            "block_order": 12,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    482.0,
+                    1090.0
+                ],
+                [
+                    742.0,
+                    1090.0
+                ],
+                [
+                    742.0,
+                    1125.0
+                ],
+                [
+                    482.0,
+                    1125.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "6．1.1 行政办公用房应包括校务、教务等行政办公室、档案室、会议室、学生组织及学生社团办公室、文印室、广播室、值班室、安防监控室、网络控制室、卫生室(保健室)、传达室、总务仓库及维修工作间等。",
+            "block_bbox": [
+                147,
+                1133,
+                1075,
+                1300
+            ],
+            "block_id": 12,
+            "block_order": 13,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1133.0
+                ],
+                [
+                    1075.0,
+                    1133.0
+                ],
+                [
+                    1075.0,
+                    1300.0
+                ],
+                [
+                    147.0,
+                    1300.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "6．1．2 主要行政办公用房的位置应符合下列规定：",
+            "block_bbox": [
+                146,
+                1341,
+                828,
+                1377
+            ],
+            "block_id": 13,
+            "block_order": 14,
+            "group_id": 13,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    1341.0
+                ],
+                [
+                    828.0,
+                    1341.0
+                ],
+                [
+                    828.0,
+                    1377.0
+                ],
+                [
+                    146.0,
+                    1377.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "1 校务办公室宜设置在与全校师生易于联系的位置，并宜靠近校",
+            "block_bbox": [
+                198,
+                1384,
+                1074,
+                1421
+            ],
+            "block_id": 14,
+            "block_order": 15,
+            "group_id": 14,
+            "block_polygon_points": [
+                [
+                    198.0,
+                    1384.0
+                ],
+                [
+                    1074.0,
+                    1384.0
+                ],
+                [
+                    1074.0,
+                    1421.0
+                ],
+                [
+                    198.0,
+                    1421.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8507916331291199,
+                "coordinate": [
+                    148,
+                    149,
+                    483,
+                    186
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        148.0,
+                        149.0
+                    ],
+                    [
+                        483.0,
+                        149.0
+                    ],
+                    [
+                        483.0,
+                        186.0
+                    ],
+                    [
+                        148.0,
+                        186.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8693159818649292,
+                "coordinate": [
+                    146,
+                    227,
+                    626,
+                    264
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        146.0,
+                        227.0
+                    ],
+                    [
+                        626.0,
+                        227.0
+                    ],
+                    [
+                        626.0,
+                        264.0
+                    ],
+                    [
+                        146.0,
+                        264.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8581023812294006,
+                "coordinate": [
+                    489,
+                    283,
+                    735,
+                    319
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        489.0,
+                        283.0
+                    ],
+                    [
+                        735.0,
+                        283.0
+                    ],
+                    [
+                        735.0,
+                        319.0
+                    ],
+                    [
+                        489.0,
+                        319.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9433754682540894,
+                "coordinate": [
+                    147,
+                    327,
+                    1075,
+                    451
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        147.0,
+                        327.0
+                    ],
+                    [
+                        1075.0,
+                        327.0
+                    ],
+                    [
+                        1075.0,
+                        451.0
+                    ],
+                    [
+                        147.0,
+                        451.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8704804182052612,
+                "coordinate": [
+                    146,
+                    491,
+                    834,
+                    528
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        146.0,
+                        491.0
+                    ],
+                    [
+                        834.0,
+                        491.0
+                    ],
+                    [
+                        834.0,
+                        528.0
+                    ],
+                    [
+                        146.0,
+                        528.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8770774602890015,
+                "coordinate": [
+                    147,
+                    570,
+                    745,
+                    605
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        147.0,
+                        570.0
+                    ],
+                    [
+                        745.0,
+                        570.0
+                    ],
+                    [
+                        745.0,
+                        605.0
+                    ],
+                    [
+                        147.0,
+                        605.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8720331788063049,
+                "coordinate": [
+                    459,
+                    625,
+                    764,
+                    661
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        459.0,
+                        625.0
+                    ],
+                    [
+                        764.0,
+                        625.0
+                    ],
+                    [
+                        764.0,
+                        661.0
+                    ],
+                    [
+                        459.0,
+                        661.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6910454630851746,
+                "coordinate": [
+                    637,
+                    571,
+                    740,
+                    604
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        637.0,
+                        571.0
+                    ],
+                    [
+                        740.0,
+                        571.0
+                    ],
+                    [
+                        740.0,
+                        604.0
+                    ],
+                    [
+                        637.0,
+                        604.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9213642477989197,
+                "coordinate": [
+                    147,
+                    669,
+                    1071,
+                    749
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        147.0,
+                        669.0
+                    ],
+                    [
+                        1071.0,
+                        669.0
+                    ],
+                    [
+                        1071.0,
+                        749.0
+                    ],
+                    [
+                        147.0,
+                        749.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9490522146224976,
+                "coordinate": [
+                    146,
+                    790,
+                    1073,
+                    915
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        146.0,
+                        790.0
+                    ],
+                    [
+                        1073.0,
+                        790.0
+                    ],
+                    [
+                        1073.0,
+                        915.0
+                    ],
+                    [
+                        146.0,
+                        915.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8522488474845886,
+                "coordinate": [
+                    146,
+                    955,
+                    685,
+                    991
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        146.0,
+                        955.0
+                    ],
+                    [
+                        685.0,
+                        955.0
+                    ],
+                    [
+                        685.0,
+                        991.0
+                    ],
+                    [
+                        146.0,
+                        991.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8437082171440125,
+                "coordinate": [
+                    400,
+                    1012,
+                    822,
+                    1049
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        400.0,
+                        1012.0
+                    ],
+                    [
+                        822.0,
+                        1012.0
+                    ],
+                    [
+                        822.0,
+                        1049.0
+                    ],
+                    [
+                        400.0,
+                        1049.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8552665114402771,
+                "coordinate": [
+                    482,
+                    1090,
+                    742,
+                    1125
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        482.0,
+                        1090.0
+                    ],
+                    [
+                        742.0,
+                        1090.0
+                    ],
+                    [
+                        742.0,
+                        1125.0
+                    ],
+                    [
+                        482.0,
+                        1125.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9588075280189514,
+                "coordinate": [
+                    147,
+                    1133,
+                    1075,
+                    1300
+                ],
+                "order": 14,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1133.0
+                    ],
+                    [
+                        1075.0,
+                        1133.0
+                    ],
+                    [
+                        1075.0,
+                        1300.0
+                    ],
+                    [
+                        147.0,
+                        1300.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6861013770103455,
+                "coordinate": [
+                    146,
+                    1341,
+                    828,
+                    1377
+                ],
+                "order": 15,
+                "polygon_points": [
+                    [
+                        146.0,
+                        1341.0
+                    ],
+                    [
+                        828.0,
+                        1341.0
+                    ],
+                    [
+                        828.0,
+                        1377.0
+                    ],
+                    [
+                        146.0,
+                        1377.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8755931854248047,
+                "coordinate": [
+                    198,
+                    1384,
+                    1074,
+                    1421
+                ],
+                "order": 16,
+                "polygon_points": [
+                    [
+                        198.0,
+                        1384.0
+                    ],
+                    [
+                        1074.0,
+                        1384.0
+                    ],
+                    [
+                        1074.0,
+                        1421.0
+                    ],
+                    [
+                        198.0,
+                        1421.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

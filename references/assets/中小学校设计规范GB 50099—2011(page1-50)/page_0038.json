@@ -1,0 +1,613 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 37,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "6．2．28 学生宿舍宜分层设置公共盥洗室、卫生间和浴室。盥洗室内、卫生间内与居室门间的距离不得大于20．00m。当每层寄宿学生较多时可分组设置。",
+            "block_bbox": [
+                147,
+                184,
+                1075,
+                308
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    184.0
+                ],
+                [
+                    1075.0,
+                    184.0
+                ],
+                [
+                    1075.0,
+                    308.0
+                ],
+                [
+                    147.0,
+                    308.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "6．2．29 学生宿舍每室居住学生不宜超过6人。居室每生占用使用面积不宜小于3．00m^{2}。当采用单层床时，居室净高不宜低于3.00m；当采用双层床时，居室净高不宜低于3．10m；当采用高架床时，居室净高不宜低于3．35m。注：居室面积指标内未计入储藏空间所占面积。",
+            "block_bbox": [
+                147,
+                350,
+                1076,
+                559
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    350.0
+                ],
+                [
+                    1076.0,
+                    350.0
+                ],
+                [
+                    1076.0,
+                    559.0
+                ],
+                [
+                    147.0,
+                    559.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "6．2．30 学生宿舍的居室内应设储藏空间，每人储藏空间宜为0.\n $ 30m^{3} $～0.45m $ ^{3} $，储藏空间的宽度和深度均不宜小于0.60m。",
+            "block_bbox": [
+                146,
+                599,
+                1050,
+                679
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    599.0
+                ],
+                [
+                    1050.0,
+                    599.0
+                ],
+                [
+                    1050.0,
+                    679.0
+                ],
+                [
+                    146.0,
+                    679.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "6．2．31 学生宿舍应设置衣物晾晒空间。当采用阳台、外走道或屋顶晾晒衣物时，应采取防坠落措施。",
+            "block_bbox": [
+                147,
+                720,
+                1074,
+                800
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    720.0
+                ],
+                [
+                    1074.0,
+                    720.0
+                ],
+                [
+                    1074.0,
+                    800.0
+                ],
+                [
+                    147.0,
+                    800.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "VI 设备用房",
+            "block_bbox": [
+                528,
+                808,
+                694,
+                841
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    528.0,
+                    808.0
+                ],
+                [
+                    694.0,
+                    808.0
+                ],
+                [
+                    694.0,
+                    841.0
+                ],
+                [
+                    528.0,
+                    841.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "6．2．32 设备用房包括变电室、配电室、锅炉房、通风机房、燃气调压箱、网络机房、消防水池等。中小学校建设应充分利用社会协作条件设置，减少设备用房的建设。",
+            "block_bbox": [
+                147,
+                850,
+                1074,
+                975
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    850.0
+                ],
+                [
+                    1074.0,
+                    850.0
+                ],
+                [
+                    1074.0,
+                    975.0
+                ],
+                [
+                    147.0,
+                    975.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "7 主要教学用房及教学辅助用房面积指标和净高",
+            "block_bbox": [
+                296,
+                1030,
+                927,
+                1067
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    296.0,
+                    1030.0
+                ],
+                [
+                    927.0,
+                    1030.0
+                ],
+                [
+                    927.0,
+                    1067.0
+                ],
+                [
+                    296.0,
+                    1067.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "7.1 面积指标",
+            "block_bbox": [
+                513,
+                1108,
+                713,
+                1142
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    513.0,
+                    1108.0
+                ],
+                [
+                    713.0,
+                    1108.0
+                ],
+                [
+                    713.0,
+                    1142.0
+                ],
+                [
+                    513.0,
+                    1142.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "7．1.1 主要教学用房的使用面积指标应符合表7．1.1的规定。",
+            "block_bbox": [
+                147,
+                1151,
+                953,
+                1188
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1151.0
+                ],
+                [
+                    953.0,
+                    1151.0
+                ],
+                [
+                    953.0,
+                    1188.0
+                ],
+                [
+                    147.0,
+                    1188.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9443197846412659,
+                "coordinate": [
+                    147,
+                    184,
+                    1075,
+                    308
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        147.0,
+                        184.0
+                    ],
+                    [
+                        1075.0,
+                        184.0
+                    ],
+                    [
+                        1075.0,
+                        308.0
+                    ],
+                    [
+                        147.0,
+                        308.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.952529788017273,
+                "coordinate": [
+                    147,
+                    350,
+                    1076,
+                    559
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        147.0,
+                        350.0
+                    ],
+                    [
+                        1076.0,
+                        350.0
+                    ],
+                    [
+                        1076.0,
+                        559.0
+                    ],
+                    [
+                        147.0,
+                        559.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9339731931686401,
+                "coordinate": [
+                    146,
+                    599,
+                    1050,
+                    679
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        146.0,
+                        599.0
+                    ],
+                    [
+                        1050.0,
+                        599.0
+                    ],
+                    [
+                        1050.0,
+                        679.0
+                    ],
+                    [
+                        146.0,
+                        679.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5394444465637207,
+                "coordinate": [
+                    150,
+                    646,
+                    352,
+                    676
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        150.0,
+                        646.0
+                    ],
+                    [
+                        352.0,
+                        646.0
+                    ],
+                    [
+                        352.0,
+                        676.0
+                    ],
+                    [
+                        150.0,
+                        676.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.925793468952179,
+                "coordinate": [
+                    147,
+                    720,
+                    1074,
+                    800
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        147.0,
+                        720.0
+                    ],
+                    [
+                        1074.0,
+                        720.0
+                    ],
+                    [
+                        1074.0,
+                        800.0
+                    ],
+                    [
+                        147.0,
+                        800.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.46311864256858826,
+                "coordinate": [
+                    528,
+                    808,
+                    694,
+                    841
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        528.0,
+                        808.0
+                    ],
+                    [
+                        694.0,
+                        808.0
+                    ],
+                    [
+                        694.0,
+                        841.0
+                    ],
+                    [
+                        528.0,
+                        841.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9439929127693176,
+                "coordinate": [
+                    147,
+                    850,
+                    1074,
+                    975
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        147.0,
+                        850.0
+                    ],
+                    [
+                        1074.0,
+                        850.0
+                    ],
+                    [
+                        1074.0,
+                        975.0
+                    ],
+                    [
+                        147.0,
+                        975.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8898026347160339,
+                "coordinate": [
+                    296,
+                    1030,
+                    927,
+                    1067
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        296.0,
+                        1030.0
+                    ],
+                    [
+                        927.0,
+                        1030.0
+                    ],
+                    [
+                        927.0,
+                        1067.0
+                    ],
+                    [
+                        296.0,
+                        1067.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8395335078239441,
+                "coordinate": [
+                    513,
+                    1108,
+                    713,
+                    1142
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        513.0,
+                        1108.0
+                    ],
+                    [
+                        713.0,
+                        1108.0
+                    ],
+                    [
+                        713.0,
+                        1142.0
+                    ],
+                    [
+                        513.0,
+                        1142.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8620626926422119,
+                "coordinate": [
+                    147,
+                    1151,
+                    953,
+                    1188
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1151.0
+                    ],
+                    [
+                        953.0,
+                        1151.0
+                    ],
+                    [
+                        953.0,
+                        1188.0
+                    ],
+                    [
+                        147.0,
+                        1188.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

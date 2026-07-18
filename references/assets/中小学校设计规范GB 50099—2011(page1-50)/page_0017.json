@@ -1,0 +1,522 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 16,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "3 黑板下边缘与讲台面的垂直距离应符合下列规定：",
+            "block_bbox": [
+                192,
+                149,
+                872,
+                186
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    192.0,
+                    149.0
+                ],
+                [
+                    872.0,
+                    149.0
+                ],
+                [
+                    872.0,
+                    186.0
+                ],
+                [
+                    192.0,
+                    186.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "1)小学宜为0.80m～0.90m；",
+            "block_bbox": [
+                200,
+                195,
+                602,
+                230
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    200.0,
+                    195.0
+                ],
+                [
+                    602.0,
+                    195.0
+                ],
+                [
+                    602.0,
+                    230.0
+                ],
+                [
+                    200.0,
+                    230.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2)中学宜为1.00m～1.10m；",
+            "block_bbox": [
+                199,
+                238,
+                563,
+                272
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    199.0,
+                    238.0
+                ],
+                [
+                    563.0,
+                    238.0
+                ],
+                [
+                    563.0,
+                    272.0
+                ],
+                [
+                    199.0,
+                    272.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "4 黑板表面应采用耐磨且光泽度低的材料；",
+            "block_bbox": [
+                192,
+                280,
+                755,
+                315
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    192.0,
+                    280.0
+                ],
+                [
+                    755.0,
+                    280.0
+                ],
+                [
+                    755.0,
+                    315.0
+                ],
+                [
+                    192.0,
+                    315.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5 讲台长度应大于黑板长度，宽度不应小于 0.80m，高度宜为 0.20m。其两端边缘与黑板两端边缘的水平距离分别不应小于 0.40m。",
+            "block_bbox": [
+                148,
+                323,
+                1052,
+                404
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    323.0
+                ],
+                [
+                    1052.0,
+                    323.0
+                ],
+                [
+                    1052.0,
+                    404.0
+                ],
+                [
+                    148.0,
+                    404.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．1．16 主要教学用房应配置的教学基本设备及设施应符合表5．1．16的规定。",
+            "block_bbox": [
+                148,
+                444,
+                1052,
+                520
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    444.0
+                ],
+                [
+                    1052.0,
+                    444.0
+                ],
+                [
+                    1052.0,
+                    520.0
+                ],
+                [
+                    148.0,
+                    520.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表 5.1.16 主要教学用房的教学基本设备及设施",
+            "block_bbox": [
+                364,
+                523,
+                858,
+                552
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    364.0,
+                    523.0
+                ],
+                [
+                    858.0,
+                    523.0
+                ],
+                [
+                    858.0,
+                    552.0
+                ],
+                [
+                    364.0,
+                    552.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>房间名称</td><td>黑板</td><td>书写白板</td><td>讲台</td><td>投影仪接口</td><td>投影屏幕</td><td>显示屏</td><td>展示园地</td><td>挂镜线</td><td>广播音箱</td><td>储物柜</td><td>教具柜</td><td>清洁柜</td><td>通信外网接口</td></tr><tr><td>普通教室</td><td>●</td><td>—</td><td>●</td><td>●</td><td>●</td><td>—</td><td>●</td><td>—</td><td>●</td><td>●</td><td>○</td><td>○</td><td>○</td></tr><tr><td>科学教室</td><td>●</td><td>—</td><td>●</td><td>●</td><td>●</td><td>—</td><td>●</td><td>—</td><td>●</td><td>—</td><td>○</td><td>—</td><td>—</td></tr><tr><td>化学、物理实验室</td><td>●</td><td>—</td><td>●</td><td>○</td><td>○</td><td>—</td><td>—</td><td>—</td><td>●</td><td>—</td><td>○</td><td>—</td><td>—</td></tr><tr><td>解剖实验室</td><td>●</td><td>—</td><td>●</td><td>●</td><td>●</td><td>—</td><td>○</td><td>○</td><td>●</td><td>—</td><td>○</td><td>○</td><td>—</td></tr><tr><td>显微镜观察实验室</td><td>—</td><td>●</td><td>●</td><td>○</td><td>○</td><td>—</td><td>○</td><td>○</td><td>●</td><td>—</td><td>○</td><td>—</td><td>—</td></tr><tr><td>综合实验室</td><td>●</td><td>—</td><td>●</td><td>○</td><td>○</td><td>—</td><td>—</td><td>—</td><td>●</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>演示实验室</td><td>●</td><td>—</td><td>●</td><td>●</td><td>●</td><td>○</td><td>—</td><td>—</td><td>●</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>史地教室</td><td>●</td><td>—</td><td>●</td><td>●</td><td>●</td><td>—</td><td>○</td><td>●</td><td>●</td><td>—</td><td>○</td><td>—</td><td>—</td></tr><tr><td>计算机教室</td><td>—</td><td>●</td><td>●</td><td>●</td><td>●</td><td>—</td><td>—</td><td>—</td><td>●</td><td>—</td><td>—</td><td>—</td><td>○</td></tr><tr><td>语言教室</td><td>●</td><td>—</td><td>●</td><td>●</td><td>●</td><td>—</td><td>—</td><td>—</td><td>●</td><td>—</td><td>—</td><td>—</td><td>○</td></tr><tr><td>美术教室</td><td>—</td><td>●</td><td>●</td><td>●</td><td>●</td><td>—</td><td>○</td><td>●</td><td>●</td><td>○</td><td>●</td><td>—</td><td>—</td></tr></table>",
+            "block_bbox": [
+                240,
+                556,
+                985,
+                1187
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    240.0,
+                    556.0
+                ],
+                [
+                    985.0,
+                    556.0
+                ],
+                [
+                    985.0,
+                    1187.0
+                ],
+                [
+                    240.0,
+                    1187.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8568952083587646,
+                "coordinate": [
+                    192,
+                    149,
+                    872,
+                    186
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        192.0,
+                        149.0
+                    ],
+                    [
+                        872.0,
+                        149.0
+                    ],
+                    [
+                        872.0,
+                        186.0
+                    ],
+                    [
+                        192.0,
+                        186.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8441175222396851,
+                "coordinate": [
+                    200,
+                    195,
+                    602,
+                    230
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        200.0,
+                        195.0
+                    ],
+                    [
+                        602.0,
+                        195.0
+                    ],
+                    [
+                        602.0,
+                        230.0
+                    ],
+                    [
+                        200.0,
+                        230.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8514493107795715,
+                "coordinate": [
+                    199,
+                    238,
+                    563,
+                    272
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        199.0,
+                        238.0
+                    ],
+                    [
+                        563.0,
+                        238.0
+                    ],
+                    [
+                        563.0,
+                        272.0
+                    ],
+                    [
+                        199.0,
+                        272.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8659929037094116,
+                "coordinate": [
+                    192,
+                    280,
+                    755,
+                    315
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        192.0,
+                        280.0
+                    ],
+                    [
+                        755.0,
+                        280.0
+                    ],
+                    [
+                        755.0,
+                        315.0
+                    ],
+                    [
+                        192.0,
+                        315.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9129319190979004,
+                "coordinate": [
+                    148,
+                    323,
+                    1052,
+                    404
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        148.0,
+                        323.0
+                    ],
+                    [
+                        1052.0,
+                        323.0
+                    ],
+                    [
+                        1052.0,
+                        404.0
+                    ],
+                    [
+                        148.0,
+                        404.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9302277565002441,
+                "coordinate": [
+                    148,
+                    444,
+                    1052,
+                    520
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        148.0,
+                        444.0
+                    ],
+                    [
+                        1052.0,
+                        444.0
+                    ],
+                    [
+                        1052.0,
+                        520.0
+                    ],
+                    [
+                        148.0,
+                        520.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8629331588745117,
+                "coordinate": [
+                    364,
+                    523,
+                    858,
+                    552
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        364.0,
+                        523.0
+                    ],
+                    [
+                        858.0,
+                        523.0
+                    ],
+                    [
+                        858.0,
+                        552.0
+                    ],
+                    [
+                        364.0,
+                        552.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9786956906318665,
+                "coordinate": [
+                    240,
+                    556,
+                    985,
+                    1187
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        240.0,
+                        556.0
+                    ],
+                    [
+                        985.0,
+                        556.0
+                    ],
+                    [
+                        985.0,
+                        1187.0
+                    ],
+                    [
+                        240.0,
+                        1187.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

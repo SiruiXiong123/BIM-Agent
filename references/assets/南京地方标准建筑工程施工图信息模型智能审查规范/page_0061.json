@@ -1,0 +1,461 @@
+{
+    "input_path": "/workspace/data/reference/南京地方标准建筑工程施工图信息模型智能审查规范.pdf",
+    "page_index": 60,
+    "page_count": 84,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "DB 3201/T 1143—2023",
+            "block_bbox": [
+                863,
+                145,
+                1080,
+                167
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    863.0,
+                    145.0
+                ],
+                [
+                    1080.0,
+                    145.0
+                ],
+                [
+                    1080.0,
+                    167.0
+                ],
+                [
+                    863.0,
+                    167.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表C.4给排水专业BIM智能审查条文表（续）",
+            "block_bbox": [
+                405,
+                244,
+                802,
+                269
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    405.0,
+                    244.0
+                ],
+                [
+                    802.0,
+                    244.0
+                ],
+                [
+                    802.0,
+                    269.0
+                ],
+                [
+                    405.0,
+                    269.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>序号</td><td>审查条文</td><td>条文类型</td><td>条文内容</td><td>模型关联信息</td><td>准确性及说明</td></tr><tr><td>4</td><td>5.0.5</td><td>强条</td><td>仓库及类似场所采用早期抑制快速响应喷头时，系统的设计基本参数不应低于GB 50084-2017中表5.0.5的规定。</td><td>建筑、喷头</td><td>准确</td></tr><tr><td>5</td><td>5.0.6</td><td>强条</td><td>仓库及类似场所采用仓库型特殊应用喷头时，湿式系统的设计基本参数不应低于GB 50084-2017中表5.0.6的规定。</td><td>建筑、喷头</td><td>准确</td></tr><tr><td>6</td><td>6.3.1</td><td>要点</td><td>除报警阀组控制的洒水喷头只保护不超过防火分区面积的同层场所外，每个防火分区、每个楼层均应设水流指示器。</td><td>建筑、楼层、防火分区、水流指示器</td><td>准确</td></tr><tr><td>7</td><td>6.3.3</td><td>要点</td><td>当水流指示器入口前设置控制阀时，应采用信号阀。</td><td>建筑、楼层、防火分区、水流指示器、信号阀</td><td>准确</td></tr><tr><td>8</td><td>6.5.1</td><td>强条</td><td>每个报警阀组控制的最不利点洒水喷头处应设末端试水装置，其他防火分区、楼层均应设直径为25mm的试水阀。</td><td>建筑、防火分区、试水阀、管道、喷头</td><td>需复核需要专家复核最不利点的位置是否为最高楼层。</td></tr><tr><td>9</td><td>8.0.10</td><td>一般</td><td>短立管及末端试水装置的连接管，其管径不应小于25 mm。</td><td>管道、试水阀、管件（弯头、三通、四通、变径）</td><td>准确</td></tr><tr><td>10</td><td>10.3.4</td><td>一般</td><td>高位消防水箱的出水管应符合下列规定：\\n1 应设止回阀，并应与报警阀入口前管道连接；\\n2 出水管管径应经计算确定，且不应小于100 mm。</td><td>高位消防水箱、管道、止回阀</td><td>准确</td></tr><tr><td>11</td><td>12.0.1</td><td>强条</td><td>局部应用系统应用于室内最大净空高度不超过8 m的民用建筑中，为局部设置且保护区域总建筑面积不超过1000  $ m^{{2}} $的湿式系统。设置局部应用系统的场所应为轻危险级或中危险级 I 级场所。</td><td>建筑类型、灭火系统、区域、火灾危险等级</td><td>准确</td></tr><tr><td colspan=\"6\">注 1：准确指该条文审查准确性达 95%，无需人工复核。\\n注 2：需复核指该条文中部分内容需要人工复核确认。</td></tr></table>",
+            "block_bbox": [
+                139,
+                288,
+                1081,
+                1204
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    139.0,
+                    288.0
+                ],
+                [
+                    1081.0,
+                    288.0
+                ],
+                [
+                    1081.0,
+                    1204.0
+                ],
+                [
+                    139.0,
+                    1204.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "[来源：GB 50084-2017]",
+            "block_bbox": [
+                182,
+                1226,
+                405,
+                1253
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    182.0,
+                    1226.0
+                ],
+                [
+                    405.0,
+                    1226.0
+                ],
+                [
+                    405.0,
+                    1253.0
+                ],
+                [
+                    182.0,
+                    1253.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表C. 5给排水专业BIM智能审查条文表",
+            "block_bbox": [
+                438,
+                1274,
+                781,
+                1298
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    438.0,
+                    1274.0
+                ],
+                [
+                    781.0,
+                    1274.0
+                ],
+                [
+                    781.0,
+                    1298.0
+                ],
+                [
+                    438.0,
+                    1298.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>序号</td><td>审查条文</td><td>条文类型</td><td>条文内容</td><td>模型关联信息</td><td>准确性及说明</td></tr><tr><td>1</td><td>3.1.4</td><td>强条</td><td>自建供水设施的供水管道严禁与城镇供水管道直接连接。生活饮用水管道严禁与建筑中水、回用雨水等非生活饮用水管道连接。</td><td>建筑、水箱</td><td>准确</td></tr></table>",
+            "block_bbox": [
+                138,
+                1316,
+                1078,
+                1447
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    138.0,
+                    1316.0
+                ],
+                [
+                    1078.0,
+                    1316.0
+                ],
+                [
+                    1078.0,
+                    1447.0
+                ],
+                [
+                    138.0,
+                    1447.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "55",
+            "block_bbox": [
+                1034,
+                1549,
+                1058,
+                1569
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    1034.0,
+                    1549.0
+                ],
+                [
+                    1057.0,
+                    1549.0
+                ],
+                [
+                    1057.0,
+                    1568.0
+                ],
+                [
+                    1034.0,
+                    1568.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8449482321739197,
+                "coordinate": [
+                    863,
+                    145,
+                    1080,
+                    167
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        863.0,
+                        145.0
+                    ],
+                    [
+                        1080.0,
+                        145.0
+                    ],
+                    [
+                        1080.0,
+                        167.0
+                    ],
+                    [
+                        863.0,
+                        167.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.78550124168396,
+                "coordinate": [
+                    405,
+                    244,
+                    802,
+                    269
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        405.0,
+                        244.0
+                    ],
+                    [
+                        802.0,
+                        244.0
+                    ],
+                    [
+                        802.0,
+                        269.0
+                    ],
+                    [
+                        405.0,
+                        269.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9814505577087402,
+                "coordinate": [
+                    139,
+                    288,
+                    1081,
+                    1204
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        139.0,
+                        288.0
+                    ],
+                    [
+                        1081.0,
+                        288.0
+                    ],
+                    [
+                        1081.0,
+                        1204.0
+                    ],
+                    [
+                        139.0,
+                        1204.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.5862828493118286,
+                "coordinate": [
+                    182,
+                    1226,
+                    405,
+                    1253
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        182.0,
+                        1226.0
+                    ],
+                    [
+                        405.0,
+                        1226.0
+                    ],
+                    [
+                        405.0,
+                        1253.0
+                    ],
+                    [
+                        182.0,
+                        1253.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8254461288452148,
+                "coordinate": [
+                    438,
+                    1274,
+                    781,
+                    1298
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        438.0,
+                        1274.0
+                    ],
+                    [
+                        781.0,
+                        1274.0
+                    ],
+                    [
+                        781.0,
+                        1298.0
+                    ],
+                    [
+                        438.0,
+                        1298.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9597625732421875,
+                "coordinate": [
+                    138,
+                    1316,
+                    1078,
+                    1447
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        138.0,
+                        1316.0
+                    ],
+                    [
+                        1078.0,
+                        1316.0
+                    ],
+                    [
+                        1078.0,
+                        1447.0
+                    ],
+                    [
+                        138.0,
+                        1447.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7047238349914551,
+                "coordinate": [
+                    1034,
+                    1549,
+                    1058,
+                    1569
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        1034.0,
+                        1549.0
+                    ],
+                    [
+                        1057.0,
+                        1549.0
+                    ],
+                    [
+                        1057.0,
+                        1568.0
+                    ],
+                    [
+                        1034.0,
+                        1568.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

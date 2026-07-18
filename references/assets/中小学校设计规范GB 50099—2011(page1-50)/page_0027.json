@@ -1,0 +1,766 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 26,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "5．9．6舞蹈教室宜采用木地板。",
+            "block_bbox": [
+                146,
+                184,
+                581,
+                221
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    184.0
+                ],
+                [
+                    581.0,
+                    184.0
+                ],
+                [
+                    581.0,
+                    221.0
+                ],
+                [
+                    146.0,
+                    221.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．9．7 当学校有地方或民族舞蹈课时，舞蹈教室设计宜满足其特殊需要。",
+            "block_bbox": [
+                147,
+                261,
+                1074,
+                341
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    261.0
+                ],
+                [
+                    1074.0,
+                    261.0
+                ],
+                [
+                    1074.0,
+                    341.0
+                ],
+                [
+                    147.0,
+                    341.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "5. 10体育建筑设施",
+            "block_bbox": [
+                474,
+                361,
+                751,
+                397
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    474.0,
+                    361.0
+                ],
+                [
+                    751.0,
+                    361.0
+                ],
+                [
+                    751.0,
+                    397.0
+                ],
+                [
+                    474.0,
+                    397.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．10．1体育建筑设施包括风雨操场、游泳池或游泳馆。体育建筑设施的位置应邻近室外体育场，并宜便于向社会开放。",
+            "block_bbox": [
+                147,
+                405,
+                1073,
+                485
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    405.0
+                ],
+                [
+                    1073.0,
+                    405.0
+                ],
+                [
+                    1073.0,
+                    485.0
+                ],
+                [
+                    147.0,
+                    485.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Ⅰ风雨操场",
+            "block_bbox": [
+                539,
+                492,
+                686,
+                526
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    539.0,
+                    492.0
+                ],
+                [
+                    686.0,
+                    492.0
+                ],
+                [
+                    686.0,
+                    526.0
+                ],
+                [
+                    539.0,
+                    526.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．10．2 风雨操场应附设体育器材室，也可与操场共用一个体育器材室，并宜附设更衣室、卫生间、浴室。教职工与学生的更衣室、卫生间、淋浴室应分设。",
+            "block_bbox": [
+                147,
+                535,
+                1074,
+                658
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    535.0
+                ],
+                [
+                    1074.0,
+                    535.0
+                ],
+                [
+                    1074.0,
+                    658.0
+                ],
+                [
+                    147.0,
+                    658.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．10．3 当风雨操场无围护墙时，应避免眩光影响。有围护墙的风雨操场外窗无避免眩光的设施时，窗台距室内地面高度不宜低于2.10m。窗台高度以下的墙面宜为深色。",
+            "block_bbox": [
+                146,
+                698,
+                1072,
+                824
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    698.0
+                ],
+                [
+                    1072.0,
+                    698.0
+                ],
+                [
+                    1072.0,
+                    824.0
+                ],
+                [
+                    146.0,
+                    824.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．10．4 根据运动占用空间的要求，应在风雨操场内预留各项目之间设置安全分隔的设施。",
+            "block_bbox": [
+                147,
+                863,
+                1073,
+                944
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    863.0
+                ],
+                [
+                    1073.0,
+                    863.0
+                ],
+                [
+                    1073.0,
+                    944.0
+                ],
+                [
+                    147.0,
+                    944.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．10．5 风雨操场内，运动场地的灯具等应设护罩。悬吊物应有可靠的固定措施。有围护墙时，在窗的室内一侧应设护网。",
+            "block_bbox": [
+                147,
+                984,
+                1073,
+                1065
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    984.0
+                ],
+                [
+                    1073.0,
+                    984.0
+                ],
+                [
+                    1073.0,
+                    1065.0
+                ],
+                [
+                    147.0,
+                    1065.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．10．6 风雨操场的楼、地面构造应根据主要运动项目的要求确定，不宜采用刚性地面。固定运动器械的预埋件应暗设。",
+            "block_bbox": [
+                146,
+                1104,
+                1057,
+                1186
+            ],
+            "block_id": 9,
+            "block_order": 10,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    1104.0
+                ],
+                [
+                    1057.0,
+                    1104.0
+                ],
+                [
+                    1057.0,
+                    1186.0
+                ],
+                [
+                    146.0,
+                    1186.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．10．7当风雨操场兼作集会场所时，宜进行声学处理。",
+            "block_bbox": [
+                146,
+                1226,
+                894,
+                1263
+            ],
+            "block_id": 10,
+            "block_order": 11,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    1226.0
+                ],
+                [
+                    894.0,
+                    1226.0
+                ],
+                [
+                    894.0,
+                    1263.0
+                ],
+                [
+                    146.0,
+                    1263.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5．10．8 风雨操场通风设计应符合本规范第9．1．3条的规定，应采用自然通风；当自然通风不满足要求时，宜设机械通风或空调。",
+            "block_bbox": [
+                147,
+                1303,
+                1075,
+                1385
+            ],
+            "block_id": 11,
+            "block_order": 12,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1303.0
+                ],
+                [
+                    1075.0,
+                    1303.0
+                ],
+                [
+                    1075.0,
+                    1385.0
+                ],
+                [
+                    147.0,
+                    1385.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8530324101448059,
+                "coordinate": [
+                    146,
+                    184,
+                    581,
+                    221
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        146.0,
+                        184.0
+                    ],
+                    [
+                        581.0,
+                        184.0
+                    ],
+                    [
+                        581.0,
+                        221.0
+                    ],
+                    [
+                        146.0,
+                        221.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9286031723022461,
+                "coordinate": [
+                    147,
+                    261,
+                    1074,
+                    341
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        147.0,
+                        261.0
+                    ],
+                    [
+                        1074.0,
+                        261.0
+                    ],
+                    [
+                        1074.0,
+                        341.0
+                    ],
+                    [
+                        147.0,
+                        341.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8284880518913269,
+                "coordinate": [
+                    474,
+                    361,
+                    751,
+                    397
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        474.0,
+                        361.0
+                    ],
+                    [
+                        751.0,
+                        361.0
+                    ],
+                    [
+                        751.0,
+                        397.0
+                    ],
+                    [
+                        474.0,
+                        397.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9265395998954773,
+                "coordinate": [
+                    147,
+                    405,
+                    1073,
+                    485
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        147.0,
+                        405.0
+                    ],
+                    [
+                        1073.0,
+                        405.0
+                    ],
+                    [
+                        1073.0,
+                        485.0
+                    ],
+                    [
+                        147.0,
+                        485.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6043655276298523,
+                "coordinate": [
+                    539,
+                    492,
+                    686,
+                    526
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        539.0,
+                        492.0
+                    ],
+                    [
+                        686.0,
+                        492.0
+                    ],
+                    [
+                        686.0,
+                        526.0
+                    ],
+                    [
+                        539.0,
+                        526.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.942116379737854,
+                "coordinate": [
+                    147,
+                    535,
+                    1074,
+                    658
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        147.0,
+                        535.0
+                    ],
+                    [
+                        1074.0,
+                        535.0
+                    ],
+                    [
+                        1074.0,
+                        658.0
+                    ],
+                    [
+                        147.0,
+                        658.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9432405829429626,
+                "coordinate": [
+                    146,
+                    698,
+                    1072,
+                    824
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        146.0,
+                        698.0
+                    ],
+                    [
+                        1072.0,
+                        698.0
+                    ],
+                    [
+                        1072.0,
+                        824.0
+                    ],
+                    [
+                        146.0,
+                        824.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9299283027648926,
+                "coordinate": [
+                    147,
+                    863,
+                    1073,
+                    944
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        147.0,
+                        863.0
+                    ],
+                    [
+                        1073.0,
+                        863.0
+                    ],
+                    [
+                        1073.0,
+                        944.0
+                    ],
+                    [
+                        147.0,
+                        944.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9325481057167053,
+                "coordinate": [
+                    147,
+                    984,
+                    1073,
+                    1065
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        147.0,
+                        984.0
+                    ],
+                    [
+                        1073.0,
+                        984.0
+                    ],
+                    [
+                        1073.0,
+                        1065.0
+                    ],
+                    [
+                        147.0,
+                        1065.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9316400289535522,
+                "coordinate": [
+                    146,
+                    1104,
+                    1057,
+                    1186
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        146.0,
+                        1104.0
+                    ],
+                    [
+                        1057.0,
+                        1104.0
+                    ],
+                    [
+                        1057.0,
+                        1186.0
+                    ],
+                    [
+                        146.0,
+                        1186.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8814651966094971,
+                "coordinate": [
+                    146,
+                    1226,
+                    894,
+                    1263
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        146.0,
+                        1226.0
+                    ],
+                    [
+                        894.0,
+                        1226.0
+                    ],
+                    [
+                        894.0,
+                        1263.0
+                    ],
+                    [
+                        146.0,
+                        1263.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9347167611122131,
+                "coordinate": [
+                    147,
+                    1303,
+                    1075,
+                    1385
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1303.0
+                    ],
+                    [
+                        1075.0,
+                        1303.0
+                    ],
+                    [
+                        1075.0,
+                        1385.0
+                    ],
+                    [
+                        147.0,
+                        1385.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

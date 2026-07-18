@@ -1,0 +1,18 @@
+{
+  "document_id": "南京地方标准建筑工程施工图信息模型智能审查规范",
+  "index_type": "bm25",
+  "tokenizer": "zh-mixed:v1",
+  "record_count": 169,
+  "modality_counts": {
+    "text": 64,
+    "table": 104,
+    "image": 1
+  },
+  "corpus_path": "bm25_corpus.json.gz",
+  "metadata_sources": [
+    "text_metadata.jsonl",
+    "table_metadata.jsonl",
+    "image_metadata.jsonl"
+  ],
+  "created_at": "2026-07-17T18:20:23.642520+00:00"
+}

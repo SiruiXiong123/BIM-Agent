@@ -1,0 +1,461 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 52,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "figure_title",
+            "block_content": "续表9.2.3",
+            "block_bbox": [
+                551,
+                142,
+                669,
+                169
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    551.0,
+                    142.0
+                ],
+                [
+                    669.0,
+                    142.0
+                ],
+                [
+                    669.0,
+                    169.0
+                ],
+                [
+                    551.0,
+                    169.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>表面部位</td><td>反射比</td></tr><tr><td>地面</td><td>0.20～0.40</td></tr><tr><td>侧墙、后墙</td><td>0.70～0.80</td></tr><tr><td>课桌面</td><td>0.25～0.45</td></tr><tr><td>黑板</td><td>0.10～0.20</td></tr></table>",
+            "block_bbox": [
+                239,
+                177,
+                984,
+                385
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    239.0,
+                    177.0
+                ],
+                [
+                    984.0,
+                    177.0
+                ],
+                [
+                    984.0,
+                    385.0
+                ],
+                [
+                    239.0,
+                    385.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "9.3 照明",
+            "block_bbox": [
+                538,
+                450,
+                685,
+                484
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    538.0,
+                    450.0
+                ],
+                [
+                    685.0,
+                    450.0
+                ],
+                [
+                    685.0,
+                    484.0
+                ],
+                [
+                    538.0,
+                    484.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "9．3．1 主要用房桌面或地面的照明设计值不应低于表9．3．1的规定，其照度均匀度不应低于0．7且不应产生眩光。",
+            "block_bbox": [
+                147,
+                493,
+                1072,
+                573
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    493.0
+                ],
+                [
+                    1072.0,
+                    493.0
+                ],
+                [
+                    1072.0,
+                    573.0
+                ],
+                [
+                    147.0,
+                    573.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表9.3.1 教学用房的照明标准",
+            "block_bbox": [
+                449,
+                572,
+                773,
+                601
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    449.0,
+                    572.0
+                ],
+                [
+                    773.0,
+                    572.0
+                ],
+                [
+                    773.0,
+                    601.0
+                ],
+                [
+                    449.0,
+                    601.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>房间名称</td><td>规定照度的平面</td><td>维持平均照度 (lx)</td><td>统一眩光值 UGR</td><td>显色指数 Ra</td></tr><tr><td>普通教室、史地教室、书法教室、音乐教室、语言教室、合班教室、阅览室</td><td>课桌面</td><td>300</td><td>19</td><td>80</td></tr><tr><td>科学教室、实验室</td><td>实验桌面</td><td>300</td><td>19</td><td>80</td></tr><tr><td>计算机教室</td><td>机台面</td><td>300</td><td>19</td><td>80</td></tr><tr><td>舞蹈教室</td><td>地面</td><td>300</td><td>19</td><td>80</td></tr><tr><td>美术教室</td><td>课桌面</td><td>500</td><td>19</td><td>90</td></tr><tr><td>风雨操场</td><td>地面</td><td>300</td><td>—</td><td>65</td></tr><tr><td>办公室、保健室</td><td>桌面</td><td>300</td><td>19</td><td>80</td></tr><tr><td>走道、楼梯间</td><td>地面</td><td>100</td><td>—</td><td>—</td></tr></table>",
+            "block_bbox": [
+                239,
+                602,
+                986,
+                1198
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    239.0,
+                    602.0
+                ],
+                [
+                    986.0,
+                    602.0
+                ],
+                [
+                    986.0,
+                    1198.0
+                ],
+                [
+                    239.0,
+                    1198.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "9．3．2 主要用房的照明功率密度值及对应照度值应符合表9．3．2的规定及现行国家标准《建筑照明设计标准》GB50034的有关规定。",
+            "block_bbox": [
+                146,
+                1214,
+                1072,
+                1296
+            ],
+            "block_id": 6,
+            "block_order": 2,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    1214.0
+                ],
+                [
+                    1072.0,
+                    1214.0
+                ],
+                [
+                    1072.0,
+                    1296.0
+                ],
+                [
+                    146.0,
+                    1296.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8310486674308777,
+                "coordinate": [
+                    551,
+                    142,
+                    669,
+                    169
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        551.0,
+                        142.0
+                    ],
+                    [
+                        669.0,
+                        142.0
+                    ],
+                    [
+                        669.0,
+                        169.0
+                    ],
+                    [
+                        551.0,
+                        169.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9651893973350525,
+                "coordinate": [
+                    239,
+                    177,
+                    984,
+                    385
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        239.0,
+                        177.0
+                    ],
+                    [
+                        984.0,
+                        177.0
+                    ],
+                    [
+                        984.0,
+                        385.0
+                    ],
+                    [
+                        239.0,
+                        385.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.6059914231300354,
+                "coordinate": [
+                    538,
+                    450,
+                    685,
+                    484
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        538.0,
+                        450.0
+                    ],
+                    [
+                        685.0,
+                        450.0
+                    ],
+                    [
+                        685.0,
+                        484.0
+                    ],
+                    [
+                        538.0,
+                        484.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9298523664474487,
+                "coordinate": [
+                    147,
+                    493,
+                    1072,
+                    573
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        147.0,
+                        493.0
+                    ],
+                    [
+                        1072.0,
+                        493.0
+                    ],
+                    [
+                        1072.0,
+                        573.0
+                    ],
+                    [
+                        147.0,
+                        573.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8809226751327515,
+                "coordinate": [
+                    449,
+                    572,
+                    773,
+                    601
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        449.0,
+                        572.0
+                    ],
+                    [
+                        773.0,
+                        572.0
+                    ],
+                    [
+                        773.0,
+                        601.0
+                    ],
+                    [
+                        449.0,
+                        601.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9778832197189331,
+                "coordinate": [
+                    239,
+                    602,
+                    986,
+                    1198
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        239.0,
+                        602.0
+                    ],
+                    [
+                        986.0,
+                        602.0
+                    ],
+                    [
+                        986.0,
+                        1198.0
+                    ],
+                    [
+                        239.0,
+                        1198.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9347391724586487,
+                "coordinate": [
+                    146,
+                    1214,
+                    1072,
+                    1296
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        146.0,
+                        1214.0
+                    ],
+                    [
+                        1072.0,
+                        1214.0
+                    ],
+                    [
+                        1072.0,
+                        1296.0
+                    ],
+                    [
+                        146.0,
+                        1296.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

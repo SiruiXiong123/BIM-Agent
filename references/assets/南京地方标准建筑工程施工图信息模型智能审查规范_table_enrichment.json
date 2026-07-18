@@ -1,0 +1,634 @@
+{
+  "document_name": "南京地方标准建筑工程施工图信息模型智能审查规范",
+  "asset_kind": "table",
+  "total_files": 104,
+  "successful_files": 104,
+  "failed_files": 0,
+  "failed_filenames": [],
+  "results": [
+    {
+      "filename": "table_0001_page_0010_表1_建筑专业审查规范清单.png",
+      "title": "Building Professional Review Specification List",
+      "metadata": "A list of building design standards; includes serial number, standard name, and standard code.",
+      "content": "The table lists nine building-related professional review specifications. Each row contains a serial number, the full name of the standard, and its corresponding code. The standards cover areas such as fire protection design, unified standards for civil building design, energy efficiency and renewable energy utilization, residential design, school design, archive building design, childcare facility design, office building design, and elderly care facility design. The table serves as a reference for identifying and applying relevant building codes."
+    },
+    {
+      "filename": "table_0002_page_0010_表2_结构专业审查规范清单.png",
+      "title": "Structural Professional Review Specification List",
+      "metadata": "A list of structural engineering review standards; includes standard names and standard numbers.",
+      "content": "The table lists five structural engineering review specifications. Each row contains a serial number, the full name of the standard, and its corresponding standard number. The standards include: 1) \"Building and Municipal Engineering Seismic Resistance General Specifications\" (GB 55002), 2) \"Concrete Structure General Specifications\" (GB 55008), 3) \"Concrete Structure Design Specifications\" (GB 50010), 4) \"Building Seismic Design Specifications\" (GB 50011), and 5) \"Technical Code for Concrete Structures of High-rise Buildings\" (JGJ 3). The table serves as a reference for structural professionals to identify applicable standards."
+    },
+    {
+      "filename": "table_0003_page_0010_表3_给排水专业审查规范清单.png",
+      "title": "Plumbing and Drainage Professional Review Specification List",
+      "metadata": "A list of plumbing and drainage standards; includes standard names and standard numbers; categorized into indoor plumbing and drainage.",
+      "content": "The table lists 10 specifications related to plumbing and drainage, organized into two main sections. The first section (rows 1-6) includes general fire protection and building design standards, such as \"Building Design Fire Protection Code\" (GB 50016) and \"Automated Sprinkler Fire Extinguishing System Design Code\" (GB 50084). The second section (rows 7-10), labeled \"Indoor Plumbing and Drainage,\" includes standards like \"Fire Protection and Fire Hydrant System Technical Code\" (GB 50974) and \"Building Water Supply and Drainage Design Code\" (GB 50015). Each row contains a standard name and its corresponding standard number, facilitating quick reference for compliance and design purposes."
+    },
+    {
+      "filename": "table_0004_page_0011_表3_给排水专业审查规范清单_续.png",
+      "title": "Continued List of Drainage and Water Supply Professional Review Standards",
+      "metadata": "A continuation table listing drainage and water supply professional review standards; includes serial number, standard name, and standard number.",
+      "content": "The table continues the list of drainage and water supply professional review standards. It contains one row with serial number 11, standard name \"《绿色建筑设计标准》\", and standard number \"DB32 / 3962\". Below this row, there is a note indicating \"室外给排水\" (Outdoor Water Supply and Drainage). The table appears to be a continuation of a previous list, providing specific standards relevant to outdoor water supply and drainage systems."
+    },
+    {
+      "filename": "table_0005_page_0011_表4_电气专业审查规范清单.png",
+      "title": "Electrical Professional Review Specification List",
+      "metadata": "A list of electrical engineering standards; includes standard names and standard numbers.",
+      "content": "The table lists ten electrical engineering standards with their corresponding standard numbers. The first column is a serial number from 1 to 10. The second column lists the standard names, such as \"《建筑设计防火规范》\" and \"《住宅设计规范》\". The third column lists the standard numbers, including GB 50016, GB 50067, and JGJ 25. The table serves as a reference for electrical design specifications."
+    },
+    {
+      "filename": "table_0006_page_0011_表5_暖通专业审查规范清单.png",
+      "title": "HVAC Professional Review Specification List",
+      "metadata": "A list of HVAC-related standards; includes standard names and their corresponding standard numbers.",
+      "content": "The table lists four HVAC-related standards with their corresponding standard numbers. The first column is a serial number (序号), the second column lists the standard names (标准名称), and the third column provides the standard numbers (标准编号). The listed standards include: 1) 《建筑设计防火规范》 (GB 50016), 2) 《汽车库、修车库、停车场设计防火规范》 (GB 50067), 3) 《建筑防排烟系统技术标准》 (GB 51251), and 4) 《住宅设计规范》 (GB 50096). The table serves as a reference for HVAC professionals to identify applicable specifications."
+    },
+    {
+      "filename": "table_0007_page_0011_表6_人防专业审查规范清单.png",
+      "title": "Human Defense Professional Review Specification List",
+      "metadata": "A list of human defense professional review specifications; includes standard name and standard number.",
+      "content": "The table lists human defense professional review specifications. It contains three columns: \"序号\" (Serial Number), \"标准名称\" (Standard Name), and \"标准编号\" (Standard Number). The only entry shown is Serial Number 1, with the Standard Name \"《人民防空地下室设计规范》\" and Standard Number \"GB 50038\". The table appears to be a partial or initial listing of specifications."
+    },
+    {
+      "filename": "table_0008_page_0012_表7_节能专业审查规范清单.png",
+      "title": "Energy-saving Professional Review Specification List",
+      "metadata": "A list of energy-saving standards; includes standard name and standard number.",
+      "content": "The table lists two energy-saving professional review specifications. The first row (serial number 1) lists the standard name “《建筑节能与可再生能源利用通用规范》” with standard number “GB 55015”. The second row (serial number 2) lists the standard name “《公共建筑节能设计标准》” with standard number “GB 50189”. The table provides a clear reference for energy-saving standards by name and corresponding code."
+    },
+    {
+      "filename": "table_0009_page_0013_表_A.1_建筑专业_BIM_智能审查条文表.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing building code clauses for BIM intelligent review; includes clause number, type, content, model-related information, and accuracy remarks.",
+      "content": "The table presents five building professional BIM intelligent review clauses. Each row corresponds to a clause, identified by its number (e.g., 5.1.3, 5.1.3A) and type (all \"强条\" or mandatory clauses). The \"条文内容\" column details the specific requirements, such as fire resistance ratings for different building types and maximum allowable floor areas for commercial spaces. The \"模型关联信息\" column indicates the model elements related to each clause, like building type, fire rating, or room attributes. The \"准确性及说明\" column provides remarks on the accuracy of the model's compliance, such as \"需复核\" (requires rechecking) or \"准确\" (accurate), along with specific notes like calculation errors or required attribute assignments."
+    },
+    {
+      "filename": "table_0010_page_0014_表A.1建筑专业BIM智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing building code clauses for BIM intelligent review; includes clause number, type, content, model-related information, and accuracy remarks.",
+      "content": "The table continues from a previous section and lists three building code clauses (numbered 6 to 8). Each row details the clause number (e.g., 5.4.2, 5.4.3, 5.4.4), its type (all marked as \"强条\" or mandatory clauses), the specific content of the clause regarding building fire safety and usage restrictions (e.g., limitations on production rooms, placement of business halls, and safety requirements for childcare facilities), model-related information (e.g., building type, floor count, fire rating, room, and door specifications), and accuracy remarks (e.g., \"准确\" for accurate, or \"需复核\" with additional notes on manual input requirements for skylights and identification issues with bay windows or door windows)."
+    },
+    {
+      "filename": "table_0011_page_0015_表A.1建筑专业BIM智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing building code clauses for BIM intelligent review; includes clause number, type, content, model association info, and accuracy assessment.",
+      "content": "The table continues from a previous section, listing specific building code clauses for BIM intelligent review. It contains six columns: \"Serial Number,\" \"Review Clause,\" \"Clause Type,\" \"Clause Content,\" \"Model Association Information,\" and \"Accuracy and Explanation.\" Row 9 details requirements for elderly care facility public activity rooms, specifying maximum area and occupancy limits based on whether they are underground, semi-underground, or above ground. Row 10 outlines fire safety regulations for hospital and nursing home inpatient areas, including maximum floor limits based on fire resistance rating and requirements for fire separation walls and doors. Row 11 covers fire safety regulations for educational buildings, canteens, and markets, specifying maximum floor limits and placement requirements based on fire resistance rating. The \"Model Association Information\" column lists relevant building model parameters, and the \"Accuracy and Explanation\" column indicates whether the clause is accurate and provides additional context."
+    },
+    {
+      "filename": "table_0012_page_0016_表A._1建筑专业BIM智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "BIM review clauses for building design; clause type, content, model association, and accuracy assessment.",
+      "content": "The table presents clause 5.4.9, categorized as a \"strong clause\" (强条), detailing regulations for the layout of entertainment venues such as dance halls, recording studios, karaoke lounges, game arcades, saunas, and internet cafes. The content specifies that these venues should not be located below the second basement level; if located in the first basement, the ground level must not differ from the outdoor entrance by more than 10 meters; if located in underground or above the fourth floor, the floor area of each hall or room must not exceed 200 m²; and fire separation walls with a fire resistance limit of at least 2.00 hours and non-combustible floor slabs with 1.00 hour resistance must be used, along with Class B fire doors for doors connecting to other parts of the building. The model association column indicates that the clause relates to building type, floor level, room, area, walls, floors, doors, and fire ratings. The accuracy column states \"accurate\" (准确)."
+    },
+    {
+      "filename": "table_0013_page_0017_表A.1建筑专业BIM智能审查条文表_续.png",
+      "title": "建筑专业BIM智能审查条文表（续）",
+      "metadata": "建筑专业BIM审查条文；强条；防火隔墙；安全出口；耐火极限",
+      "content": "该表为建筑专业BIM智能审查条文表的续表，包含序号、审查条文、条文类型、条文内容、模型关联信息及准确性及说明六列。条文内容主要涉及住宅建筑与非住宅部分的防火分隔、安全出口及疏散楼梯设置要求，以及商业服务网点的防火与疏散规定。模型关联信息列指明了与建筑类型、耐火极限、防火隔墙、楼梯、走道等模型元素的关联。准确性及说明列标注了条文的审查状态，如“准确”或“需复核”，并附有具体说明。例如，条文5.4.10规定住宅部分与非住宅部分应采用耐火极限不低于2.00h的防火隔墙，且高层建筑需满足更高要求；条文5.4.11则规定商业服务网点与住宅部分之间需满足类似防火分隔要求，并对分隔单元面积大于200平方米时的安全出口设置及疏散距离提出具体要求。"
+    },
+    {
+      "filename": "table_0014_page_0018_表A.1建筑专业BIM智能审查条文表_续.png",
+      "title": "建筑专业BIM智能审查条文表（续）",
+      "metadata": "建筑专业BIM审查条文；强条；防火规范；模型关联信息；准确性说明",
+      "content": "该表为建筑专业BIM智能审查条文表的续表，主要针对序号15的审查条文（5.4.12），条文类型为“强条”。条文内容详细规定了燃油或燃气锅炉房、油浸变压器室等设备的设置要求，包括：宜设置在建筑外的专用房间内；与邻近民用建筑分隔时需采用防火墙且不应贴邻人员密集场所；专用房间耐火等级不应低于二级；若布置在民用建筑内，不得位于人员密集场所的上、下层或贴邻；并列出了具体设置要求，如设置位置（首层或地下一层靠外墙部位）、疏散门要求、防火隔墙耐火极限（如2.00h、1.50h、3.00h）、储油间总储量限制（≤1m³）、防火门等级（甲级）以及需设置火灾报警装置等。模型关联信息列包括建筑类型、房间、墙、安全出口、耐火极限等。准确性及说明列指出“需复核”，并说明“人数目前需要手动填写，不准确”，同时对“人员密集场所”进行了详细解释，列举了宾馆、饭店、商场、医院门诊楼、学校教学楼、养老院、幼儿园、公共展览馆、劳动密集型企业车间等场所，并注明本条文中第6、8、9、10款未拆解。"
+    },
+    {
+      "filename": "table_0015_page_0019_表A.1建筑专业BIM智能审查条文表_续.png",
+      "title": "建筑专业BIM智能审查条文表（续）",
+      "metadata": "建筑专业BIM审查条文；强条；模型关联信息；准确性说明",
+      "content": "该表为建筑专业BIM智能审查条文表的续表，包含序号、审查条文、条文类型、条文内容、模型关联信息和准确性及说明六列。条文内容主要涉及柴油发电机房的布置规范（如防火隔墙、防火门、火灾报警装置、灭火设施等）及公共建筑安全出口设置条件（如单层公共建筑或特定场所的首层）。模型关联信息列指明了审查所需关联的建筑模型元素，如建筑类型、防火分区、楼层、安全出口、疏散楼梯、建筑面积、人数等。准确性及说明列对条文的审查结果进行标注，如“需复核”或“准确”，并附有具体说明。"
+    },
+    {
+      "filename": "table_0016_page_0020_表A.1建筑专业BIM智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing building code clauses for BIM intelligent review; includes clause number, type, content, model association info, and accuracy remarks.",
+      "content": "The table continues from a previous section, listing building code clauses for BIM intelligent review. It contains five columns: \"Serial Number,\" \"Review Clause,\" \"Clause Type,\" \"Clause Content,\" \"Model Association Information,\" and \"Accuracy and Explanation.\" Row 18 specifies that for certain high-rise public buildings, smoke-proof stairwells must be used, and for others, enclosed stairwells must be used, with a note that the judgment for classrooms in bag-shaped corridors requires rechecking. Row 19 details that for multi-story public buildings, enclosed stairwells are required except for specific cases, and the clause is marked as \"accurate.\" Row 20 outlines the minimum number of evacuation doors for public building rooms, with specific conditions for rooms located at the end of corridors or between two exits, and the clause is also marked as \"accurate.\" The \"Model Association Information\" column links the clauses to building type, height, area, and door dimensions. The \"Accuracy and Explanation\" column indicates whether the clause is accurate or requires rechecking, and provides specific notes for adjustments."
+    },
+    {
+      "filename": "table_0017_page_0021_表A.1建筑专业BIM智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing building code clauses for BIM intelligent review; includes clause number, type, content, model-related information, and accuracy remarks.",
+      "content": "The table presents two rows of building code clauses for BIM intelligent review. Row 21 (Clause 5.5.17, \"Strong Clause\") details safety evacuation distance requirements for public buildings, specifying maximum distances from doors to exits and adjustments for different building types and fire protection systems. Row 22 (Clause 5.5.18, \"Strong Clause\") specifies minimum net widths for evacuation doors, safety exits, corridors, and staircases, with additional notes on basement classification and dimensional deductions for fire doors. The \"Model Association Information\" column indicates relevant building parameters, while the \"Accuracy and Explanation\" column confirms accuracy and provides specific calculation notes."
+    },
+    {
+      "filename": "table_0018_page_0022_表A.1建筑专业BIM智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing building code clauses for BIM intelligent review; includes clause number, type, content, model-related information, and accuracy remarks.",
+      "content": "The table presents a single row (row 23) detailing a mandatory clause (强条) regarding the design requirements for refuge floors in public buildings exceeding 100 meters in height. The clause content specifies nine detailed requirements, including maximum height limits for the first refuge floor and subsequent floors, staircase design, net area calculation, equipment layer usage, fire separation, door placement, fire elevator, fire hydrants, emergency broadcast systems, and window specifications. The model-related information column lists associated building elements such as building type, height, floors, rooms, stairs, walls, doors, elevator shafts, fire facilities, communication facilities, signage, smoke control facilities, and windows. The accuracy column indicates the review result as \"accurate\" (准确)."
+    },
+    {
+      "filename": "table_0019_page_0023_表A.1建筑专业BIM智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing building code clauses for BIM intelligent review; includes clause number, type, content, model association info, and accuracy remarks.",
+      "content": "The table presents two rows of building code clauses (numbered 24 and 25) for BIM intelligent review. Clause 24 (5.5.24) is a mandatory clause detailing requirements for refuge rooms in high-rise hospital wards and clean operating departments, including nursing unit limits, net area, fire separation, and emergency facilities. Clause 25 (5.5.25) is also a mandatory clause specifying safety exit requirements for residential buildings based on height and floor area, with different thresholds for various height ranges. The “Model Association Information” column indicates relevant building parameters (e.g., building type, floor, room, area, window, height, etc.), and the “Accuracy and Remarks” column notes whether the clause is accurate or requires further review."
+    },
+    {
+      "filename": "table_0020_page_0024_表A.1建筑专业BIM智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing building code clauses for BIM intelligent review; includes clause number, type, content, model association info, and accuracy assessment.",
+      "content": "The table continues from a previous section and lists four building code clauses (numbered 26 to 29) related to residential buildings. Each row details the clause number, its type (all marked as \"强条\" or mandatory clauses), the specific content of the clause (covering topics like staircase design, safe evacuation distances, door and exit net widths, and refuge floors for high-rise buildings), the model association information (e.g., building type, door, staircase, floor, height, etc.), and an accuracy assessment (all marked as \"准确\" or accurate). The table provides a structured reference for BIM model validation against building codes."
+    },
+    {
+      "filename": "table_0021_page_0025_表A.1建筑专业BIM智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "BIM review clauses for building design; includes clause number, type, content, model association, and accuracy notes.",
+      "content": "The table lists building design review clauses, continuing from a previous section. It contains three main rows (30, 31, 32) detailing specific requirements. For clause 30 (6.1.5), it mandates that firewalls should not have doors, windows, or openings, and if necessary, must use class A fire doors/windows that cannot be opened or automatically close during a fire. It also prohibits flammable gas and liquid pipes from passing through firewalls and prohibits exhaust ducts within firewalls. The model association is “firewall, door, window, duct,” and the accuracy note is “requires recheck.” For clause 31 (6.2.2), it requires firewalls and floors with fire resistance limits of at least 2.00h and 1.00h respectively for specific medical facilities (e.g., operating rooms, ICUs, etc.), and doors/windows must be class B fire doors/windows. The model association is “building type, fire resistance limit, wall, floor, door, window,” and the accuracy note is “accurate.” For clause 32 (6.2.7), it specifies fire resistance limits for fire control rooms, fire pump rooms, and ventilation rooms (at least 2.00h for walls and 1.50h for floors), and for ventilation rooms in Class D and E factories (at least 1.00h for walls and 0.50h for floors). Doors to these rooms must be class A fire doors, while doors from fire control rooms and other equipment rooms must be class B fire doors. The model association is “room, fire resistance limit, wall, floor, building type,” and the accuracy note is “accurate,” with an additional note that the modeled area must include a space named “office area.”"
+    },
+    {
+      "filename": "table_0022_page_0026_表A.1建筑专业BIM智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing building code review clauses; includes clause number, type, content, model-related information, and accuracy assessment.",
+      "content": "The table presents a continuation of building professional BIM intelligent review clauses, starting from sequence number 33. Each row details a specific clause, including its number (e.g., 6.4.3, 6.4.5), type (e.g., \"强条\" for mandatory clauses, \"一般\" for general clauses), and full content. The \"模型关联信息\" column specifies relevant model elements (e.g., \"建筑类型、房间、区域、防烟设施\" for clause 33). The \"准确性及说明\" column indicates the accuracy of the clause (e.g., \"准确\") and provides additional notes (e.g., \"本条文第2款为一般条文\" for clause 33). The table serves as a reference for verifying BIM model compliance with building codes."
+    },
+    {
+      "filename": "table_0023_page_0027_表A.1建筑专业BIM智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing building code clauses for BIM intelligent review; includes clause number, type, content, model association info, and accuracy status.",
+      "content": "The table presents a continuation of building professional BIM intelligent review clauses, listing four specific clauses (numbered 38 to 41). Each row details the clause number, its type (all marked as \"强条\" or mandatory clauses), the full content of the clause (covering requirements for fire elevators, fire elevator placement, fire pump room specifications, and evacuation door requirements), the associated model information (e.g., building type, height, fire compartments, pump rooms), and the accuracy status (all marked as \"准确\" or accurate). Footnotes explain that \"准确\" means the clause review accuracy reaches 95% and requires no manual recheck, while \"需复核\" (not present in this table) indicates parts of the clause need manual confirmation."
+    },
+    {
+      "filename": "table_0024_page_0027_表_A.2_建筑专业_BIM_智能审查条文表.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing building code clauses for BIM intelligent review; includes clause number, type, content, model association, and accuracy remarks.",
+      "content": "The table presents one review clause for building professional BIM intelligent review. The clause, numbered 6.7.4, is classified as a \"strong clause\" (强条). Its content mandates that railings in residential, daycare, kindergarten, primary and secondary schools, and other facilities for minors must have anti-climbing structures; if vertical rods are used, the net spacing between rods must not exceed 0.11 meters. The model association column indicates \"building type, railing support,\" and the accuracy column states \"accurate, requires manual recheck for climbing prevention.\""
+    },
+    {
+      "filename": "table_0025_page_0028_表_A.2_建筑专业_BIM_智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing building professional BIM review clauses; includes clause number, type, content, model association info, and accuracy/notes.",
+      "content": "The table presents a single review clause (Clause 6.8.9) for building professional BIM. It is categorized as a \"strong clause\" (强条). The clause content mandates preventive measures for falls in stairwells of childcare facilities, schools, and other youth activity venues when the net width exceeds 0.2 m. The model association information indicates that calculations for complex shapes like double-run stairwells and spiral stairwells may be inaccurate, requiring manual review for anti-climbing and anti-falling measures. The accuracy column states \"Accurate\" (准确), with a footnote clarifying that \"accurate\" means the clause's review accuracy reaches 95% and no manual review is needed, while \"needs review\" (需复核) indicates parts of the clause require manual confirmation."
+    },
+    {
+      "filename": "table_0026_page_0028_表_A.3_建筑专业_BIM_智能审查条文表.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table",
+      "metadata": "BIM review clauses for building design; includes clause number, type, content, model association, and accuracy status.",
+      "content": "The table lists two review clauses for building design using BIM technology. Clause 1 (3.1.18) is a mandatory clause stating that the window-to-floor area ratio for main residential rooms (bedrooms, study rooms, living rooms, etc.) should not be less than 1/7. The model association information indicates the building type, room, and window, with the accuracy marked as \"Accurate\" and a note that Nanjing’s standard requires a ratio of no less than 1.1/7. Clause 2 (3.1.14.1) is also a mandatory clause specifying that the ventilation opening area for exterior windows in summer-hot and winter-cold, and temperate A-zone residential buildings should not be less than 5% of the room’s floor area. The model association information again refers to building type, room, and window, with the accuracy marked as \"Needs Recheck,\" explaining that skylights require manual input of net area, and if not filled, default to 0; it also notes that floating windows and door-and-window combinations are not supported and have low recognition accuracy. Footnotes clarify that \"Accurate\" means the clause review accuracy reaches 95% and no manual recheck is needed, while \"Needs Recheck\" means part of the clause content requires manual confirmation."
+    },
+    {
+      "filename": "table_0027_page_0029_表_A.4_建筑专业_BIM_智能审查条文表.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing building design review clauses; includes clause number, type, content, model-related information, and accuracy assessment.",
+      "content": "The table presents seven review clauses for building design, all categorized as \"strong clauses.\" Each row details the clause number, its content (e.g., requirements for bedroom layout, bathroom placement, balcony railing design, window protection), associated model-related information (e.g., building type, room, net height, floor level), and an accuracy assessment (either \"accurate\" or \"requires recheck\"). The table serves as a checklist for BIM model validation, ensuring compliance with building codes and safety standards."
+    },
+    {
+      "filename": "table_0028_page_0030_表A.4建筑专业BIM智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing building design code clauses; includes clause number, type, content, model association info, and accuracy remarks.",
+      "content": "The table continues from a previous section, listing building design code clauses for BIM intelligent review. It contains six columns: \"Serial Number,\" \"Review Clause,\" \"Clause Type,\" \"Clause Content,\" \"Model Association Information,\" and \"Accuracy and Explanation.\" Each row details a specific clause, such as requirements for guardrail heights, safety exits, door openings, and stair dimensions. The \"Model Association Information\" column specifies relevant building model elements (e.g., door, stair, railing). The \"Accuracy and Explanation\" column indicates whether the model calculation is accurate or requires rechecking, with explanations for discrepancies. For example, clause 6.1.2 requires guardrails with a net height of at least 1.05m for public entrances with steps over 0.70m, and the model calculation is marked as inaccurate. Clause 6.2.3 requires at least two safety exits per residential unit for buildings 19 floors and above, and the model is marked as accurate."
+    },
+    {
+      "filename": "table_0029_page_0031_表A.4建筑专业BIM智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing building BIM review clauses; includes clause number, type, content, model association, and accuracy/notes.",
+      "content": "The table continues from a previous section and lists two review clauses for building BIM. Clause 16 (6.3.5, \"Strong Clause\") requires anti-child-climbing measures if stairwell net width exceeds 0.11m. Clause 17 (6.4.7, \"Strong Clause\") mandates soundproofing and vibration-reducing measures for elevators adjacent to bedrooms, with model association to building type, elevator, and elevator shaft. The \"Accuracy & Explanation\" column indicates \"Accurate\" for both, with a footnote explaining \"Accurate\" means 95% review accuracy requiring no manual recheck, and \"Needs Recheck\" means part of the clause requires manual confirmation."
+    },
+    {
+      "filename": "table_0030_page_0031_表A._5建筑专业BIM智能审查条文表.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing building code clauses for BIM intelligent review; includes clause number, type, content, model association, and accuracy assessment.",
+      "content": "The table lists six review clauses for building design, each with a serial number, clause reference number, clause type (general or mandatory), detailed clause content, associated model elements, and accuracy assessment. For example, clause 4.3.2 (general) states that primary teaching rooms for primary and secondary schools should not be located above the fourth and fifth floors respectively. Clause 6.2.24 (mandatory) mandates that student dormitories must not be located in basements or semi-basements, with a note on basement determination criteria. Clause 8.1.5 (mandatory) requires the height of cantilevered window sills to be no less than 0.90 m. Clause 8.1.6 (mandatory) specifies that protective railings must be installed on cantilevered areas like rooftops and balconies, with minimum height and load-bearing requirements. The accuracy column indicates whether the clause is \"accurate\" or requires \"rechecking.\""
+    },
+    {
+      "filename": "table_0031_page_0032_表A.5建筑专业BIM智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing building design code clauses; includes clause number, type, content, model association, and accuracy status.",
+      "content": "The table continues from a previous section, listing building design code clauses for architectural BIM intelligent review. It contains six columns: \"Serial Number,\" \"Review Clause,\" \"Clause Type,\" \"Clause Content,\" \"Model Association Information,\" and \"Accuracy and Explanation.\" Each row details a specific clause, such as requirements for safety exits, staircases, door widths, and daylighting coefficients in school buildings. The \"Model Association Information\" column indicates relevant building elements (e.g., rooms, doors, stairs, windows). The \"Accuracy and Explanation\" column notes whether the clause is \"Accurate\" or \"Needs Recheck,\" with explanations for the latter. Footnotes clarify that \"Accurate\" means the clause's review accuracy is 95% or higher and does not require manual recheck, while \"Needs Recheck\" indicates part of the clause requires manual confirmation."
+    },
+    {
+      "filename": "table_0032_page_0033_表_A.6_建筑专业_BIM_智能审查条文表.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table",
+      "metadata": "A BIM review clause table for building design; includes clause number, type, content, model association, and accuracy assessment.",
+      "content": "The table lists two review clauses for building design using BIM technology. Clause 6.0.5, classified as a mandatory clause, requires special, first-class high-rise, and certain second-class archive building structures to install automatic fire alarm systems, along with specific rooms like server rooms and air conditioning rooms. The model association is noted as building type, room, and automatic alarm system, and its accuracy is marked as \"accurate.\" Clause 6.0.9, classified as a key point, mandates that doors in archive buffer zones and archive rooms must open toward evacuation directions and be Class A fire doors. The model association is \"room, door,\" and its accuracy is marked as \"requires recheck\" with a note to confirm door direction. Two footnotes explain that \"accurate\" means 95% accuracy and no manual recheck is needed, while \"requires recheck\" means part of the clause content needs manual confirmation."
+    },
+    {
+      "filename": "table_0033_page_0033_表_A.7_建筑专业_BIM_智能审查条文表.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing building code clauses for BIM review; includes clause number, type, content, model association, and accuracy assessment.",
+      "content": "The table presents four review clauses for building design in BIM context. Column 1 lists the clause sequence number; Column 2 shows the clause reference number (e.g., 4.1.3, 4.1.3A); Column 3 indicates the clause type (e.g., \"强制条文\" for mandatory clauses, \"一般\" for general clauses); Column 4 details the clause content, such as requirements for placement of living rooms in kindergartens or specifications for guardrails in nurseries; Column 5 specifies the model elements associated with the clause (e.g., building type, room, floor, door, guardrail); Column 6 provides accuracy assessment and explanation, such as \"准确\" (accurate) or \"需复核\" (requires rechecking) with specific notes. The table serves as a checklist for BIM model validation against building codes."
+    },
+    {
+      "filename": "table_0034_page_0034_表_A.7_建筑专业_BIM_智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing building professional BIM review clauses; includes clause number, type, content, model-related information, and accuracy remarks.",
+      "content": "The table presents a single review clause (No. 5, clause 4.1.12) for building professional BIM. The clause type is \"mandatory\". The content specifies that for stairwells used by children, when the net width exceeds 0.11 m, anti-climbing measures must be taken, and if vertical balusters are used, the net spacing should not exceed 0.09 m. The model-related information indicates the clause relates to building type, room, stairs, and railings/ handrails. The accuracy and explanation column states \"accurate\", with a note that \"stairwell net width\" is calculated, but complex shapes like double-run stairs or spiral stairs may not be calculated accurately. Two footnotes define \"accurate\" as 95% review accuracy requiring no manual recheck, and \"needs recheck\" as parts requiring manual confirmation."
+    },
+    {
+      "filename": "table_0035_page_0034_表_A.8_建筑专业_BIM_智能审查条文表.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing building design review clauses; includes clause number, type, content, model association information, and accuracy remarks.",
+      "content": "The table presents four review clauses for building design in BIM (Building Information Modeling) context. Each row corresponds to a specific clause, identified by its number (e.g., 4.1.9, 5.0.1). The \"Clause Type\" column indicates the category (all listed as \"一般\" meaning \"general\"). The \"Clause Content\" column details the specific requirements, such as corridor width, fire resistance ratings, and safety exit regulations. The \"Model Association Information\" column specifies the model elements or attributes that must be checked (e.g., building type, room, stairs, fire resistance limits). The \"Accuracy and Explanation\" column provides verification status (\"需复核\" meaning \"needs recheck\" or \"准确\" meaning \"accurate\") and additional notes on model requirements. The table serves as a checklist for BIM model validation against building code standards."
+    },
+    {
+      "filename": "table_0036_page_0035_表_A.8_建筑专业_BIM_智能审查条文表_续.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "BIM review clauses for building design; includes clause number, type, content, model association, and accuracy assessment.",
+      "content": "The table presents a single review clause (Clause 7.3.2) under the category \"General.\" The clause content specifies that substations should not be located directly below bathrooms, toilets, or other water-retaining areas, and if adjacent, waterproofing and anti-moisture measures must be taken. The model association column indicates the relevant building type, room, and floor level. The accuracy column states \"Accurate,\" meaning the clause's review accuracy is 95% and no manual recheck is required. Two footnotes clarify: \"Accurate\" means 95% review accuracy without manual recheck, and \"Needs Recheck\" means part of the clause content requires manual confirmation."
+    },
+    {
+      "filename": "table_0037_page_0035_表_A.9_建筑专业_BIM_智能审查条文表.png",
+      "title": "Building Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing BIM review clauses for building design; includes clause number, type, content, model-related information, and accuracy assessment.",
+      "content": "The table presents three review clauses for building design, all categorized as \"strong clauses.\" Clause 5.1.2 states that elderly rooms and restrooms in elderly care facilities should not be located in basements or semi-basements. Clause 5.6.4 requires elevators for elderly rooms on floors two and above, specifying they must be barrier-free and include at least one elevator capable of accommodating a stretcher. Clause 6.5.3 mandates that elderly rooms and restrooms should not be adjacent to elevator shafts or equipment rooms with noise and vibration. The \"Model Association Information\" column specifies relevant building model elements (e.g., building type, floor, room, elevator). The \"Accuracy and Explanation\" column indicates whether each clause is \"Accurate\" (with a 95% accuracy threshold, as noted in the footnote) or requires rechecking (e.g., \"noise and vibration\" needs revalidation)."
+    },
+    {
+      "filename": "table_0038_page_0036_表_B.1_结构专业_BIM_智能审查条文表.png",
+      "title": "Structural Professional BIM Intelligent Review Clause Table",
+      "metadata": "Structural engineering; BIM review; clause type; completeness status; seismic design",
+      "content": "The table presents a single clause (No. 1) for structural professional BIM intelligent review. It includes the clause number (4.2.3-1), type (mandatory clause), detailed content describing seismic force calculation standards under frequent earthquakes, including a formula (B.1) and definitions of variables (V_Eki, λ, G_j). The \"Remarks\" column indicates that only output is needed for calculation books, and the \"Completeness\" column states \"Complete\". Two footnotes define \"Complete\" as fully decomposed without manual review, and \"Incomplete\" as partially decomposed requiring manual review."
+    },
+    {
+      "filename": "table_0039_page_0036_表_B.2_结构专业_BIM_智能审查条文表.png",
+      "title": "Structural Professional BIM Intelligent Review Clause Table",
+      "metadata": "BIM review clauses for structural engineering; includes clause number, type, content, remarks, and completeness status.",
+      "content": "The table lists two review clauses for structural engineering BIM. The first clause (4.3.5) requires concrete structures to undergo overall stability analysis and overturning verification, meeting engineering safety requirements. The second clause (4.4.7-1) specifies minimum reinforcement ratios for shear walls in concrete residential buildings, with different requirements for seismic grades one through four. Both clauses are marked as “完整” (complete) in the completeness column, and the remarks column is blank for both entries."
+    },
+    {
+      "filename": "table_0040_page_0037_表_B.2_结构专业_BM_智能审查条文表_续.png",
+      "title": "Structural Professional BM Intelligent Review Clause Table (Continued)",
+      "metadata": "Structural engineering review clauses; strong provisions; concrete structures; reinforcement specifications; code compliance.",
+      "content": "The table lists review clauses for structural engineering, specifically for BM (Building Management) intelligent review, continuing from a previous section. It contains nine rows, each detailing a specific clause (e.g., 4.4.7-2, 4.4.7-4, etc.) categorized as \"强条\" (strong provisions). The \"内容\" column elaborates on technical requirements for concrete structures, such as minimum reinforcement ratios for shear walls, spacing and diameter of distribution bars, and specifications for beam-column joints. The \"备注\" column provides additional notes or calculations, and the \"完整性\" column indicates whether the clause is \"完整\" (complete) or \"不完整\" (incomplete). For example, row 8 is marked as incomplete because it does not consider the condition for spacing relaxation of stirrups. The table serves as a reference for ensuring structural design compliance with relevant codes."
+    },
+    {
+      "filename": "table_0041_page_0038_表B.2_结构专业BIM智能审查条文表_续.png",
+      "title": "结构专业BIM智能审查条文表（续）",
+      "metadata": "结构专业BIM审查条文；强条；混凝土柱与转换梁/柱设计规范；完整性评估",
+      "content": "该表为“结构专业BIM智能审查条文表”的续表，列出了序号10至15的审查条文。每条条文均属于“强条”类型，内容详细规定了混凝土柱纵向钢筋与箍筋配置、混凝土转换梁及转换柱的设计要求，包括钢筋直径、间距、配筋率等具体数值。备注栏说明了部分条文未包含混规或未考虑箍筋形式等细节，完整性栏则标注“完整”或“不完整”，用于指示条文是否已完整拆解。表末附注说明“完整”指条文已完整拆解无需人工复核，“不完整”指部分条款尚未拆解需人工复核。"
+    },
+    {
+      "filename": "table_0042_page_0039_表_B.3_结构专业_BIM_智能审查条文表.png",
+      "title": "Structural Professional BIM Intelligent Review Clause Table",
+      "metadata": "Structural engineering BIM review clauses; clause numbers; clause types; content specifications; remarks; completeness status.",
+      "content": "The table lists review clauses for structural engineering BIM, organized by serial number. Each row details a specific clause (e.g., 9.2.1-2, 9.2.1-3, 9.3.1-1, etc.), its type (e.g., \"要点\" or \"一般\"), and its content, which includes technical specifications for reinforcement in beams and columns (e.g., minimum diameter, spacing, anchorage length). The \"备注\" column provides additional notes, such as \"关联高规\" (referencing high regulations) or \"审查范围不含后半句\" (review scope excludes the latter half of the sentence). The \"完整性\" column indicates whether the clause is \"完整\" (complete) or \"不完整\" (incomplete). The table serves as a checklist or reference for BIM model review in structural design."
+    },
+    {
+      "filename": "table_0043_page_0040_表B.3结构专业BIM智能审查条文表_续.png",
+      "title": "Structural Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing structural BIM review clauses; includes clause number, type, content, remarks, and completeness status.",
+      "content": "The table presents a continuation of structural professional BIM intelligent review clauses, organized by serial number. Each row details a specific clause, including its review clause number, type (e.g., \"要点\" meaning \"key point\"), content (specifying structural reinforcement requirements such as diameter, spacing, and percentage), remarks (indicating related high regulations or conflicting regulations), and completeness status (\"完整\" meaning \"complete\" or \"不完整\" meaning \"incomplete\"). Footnotes explain that \"complete\" means the clause is fully decomposed and requires no manual review, while \"incomplete\" means some clauses remain undecomposed and require manual review. The table serves as a reference for automated BIM review and identifies clauses needing human intervention."
+    },
+    {
+      "filename": "table_0044_page_0041_表_B.4_结构专业_BIM_智能审查条文表.png",
+      "title": "Structural Professional BIM Intelligent Review Clause Table",
+      "metadata": "A structural engineering BIM review clause table; includes clause number, type, content, remarks, and completeness status.",
+      "content": "The table lists six review clauses for structural engineering BIM, each with a serial number, clause reference number, clause type (general or key point), detailed content, remarks (including associated regulations and notes on incompleteness), and completeness status. The content covers topics such as foundation isolation zones, seismic requirements for underground roof slabs, lateral stiffness calculations, column cross-section dimensions, and axial compression ratios for high-rise buildings on IV-class sites. The completeness column indicates whether each clause is fully addressed, with some entries marked as \"incomplete\" and providing specific reasons for incompleteness, such as not considering rectangular sections or not supporting certain annotations."
+    },
+    {
+      "filename": "table_0045_page_0042_表B.4结构专业BIM智能审查条文表_续.png",
+      "title": "Structural Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "Structural engineering BIM review clauses; clause types; content specifications; associated regulations; completeness status.",
+      "content": "The table continues listing review clauses for structural engineering BIM models. It contains six columns: \"Serial Number,\" \"Review Clause,\" \"Clause Type,\" \"Content,\" \"Remarks,\" and \"Completeness.\" Rows 7 to 9 detail specific requirements for column reinforcement configuration. Row 7 addresses reinforcement加密range for columns with shear span-to-depth ratio not exceeding 2. Row 8 specifies maximum spacing for reinforcement in加密zones based on seismic grade (e.g., ≤200mm for Grade I). Row 9 defines minimum volume reinforcement ratio (ρv ≥ λv·fc/fyv) and additional requirements for composite spiral stirrups. The \"Remarks\" column links to relevant codes and notes on scope limitations, while \"Completeness\" indicates the clauses are \"Incomplete\" and require manual judgment."
+    },
+    {
+      "filename": "table_0046_page_0043_表B.4结构专业BIM智能审查条文表_续.png",
+      "title": "结构专业BIM智能审查条文表（续）",
+      "metadata": "结构专业BIM审查条文；抗震墙设计规范；条文类型；审查完整性评估",
+      "content": "该表为结构专业BIM智能审查条文表的续表，包含序号、审查条文、条文类型、内容、备注和完整性六列。内容主要涉及抗震墙的厚度、分布钢筋配置、边缘构件设置等结构设计规范要求。例如，序号10条文6.4.1为“要点”类型，规定了不同抗震等级下抗震墙厚度及底部加强部位墙厚的最小值；序号11和12条文6.4.4-1和6.4.4-3为“一般”类型，规定了抗震墙竖向和横向分布钢筋的间距及直径要求；序号13条文6.4.5-1为“要点”类型，规定了抗震墙两端和洞口两侧边缘构件的设置要求及配筋标准。备注栏说明了各条文与相关规范的关联性，完整性栏则标注了审查是否完整，如“不完整”或“完整”，并附有具体说明。"
+    },
+    {
+      "filename": "table_0047_page_0044_表B.4结构专业BIM智能审查条文表_续.png",
+      "title": "Structural Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "BIM review clauses for structural design; clause numbers, types, content, notes, and completeness status.",
+      "content": "The table lists structural BIM intelligent review clauses, continuing from a previous section. It contains five columns: \"Serial Number,\" \"Review Clause,\" \"Clause Type,\" \"Content,\" \"Notes,\" and \"Completeness.\" Rows 14 to 17 detail specific review requirements for seismic construction measures in high-strength concrete frames. For example, row 14 specifies edge member requirements for shear walls, while rows 15-17 detail reinforcement ratios and axial pressure limits for columns based on concrete strength grades. The \"Notes\" column references related standards (e.g., \"抗规\" for seismic code, \"高规\" for high-rise code, \"混规\" for concrete code) and indicates whether the review is complete or incomplete, with incomplete entries noting specific missing checks (e.g., \"构件尺寸Lc未校审\" for unreviewed component dimensions). The \"Completeness\" column explicitly marks each clause as \"完整\" (complete) or \"不完整\" (incomplete)."
+    },
+    {
+      "filename": "table_0048_page_0045_表B.4结构专业BIM智能审查条文表_续.png",
+      "title": "Structural Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "BIM review clauses for structural engineering; clause number, clause type, content, remarks, and completeness status.",
+      "content": "The table presents a single row (row 18) of structural professional BIM intelligent review clauses. The row includes: clause number B.0.3-4, clause type \"要点\" (key point), detailed content regarding seismic construction measures for high-strength concrete frames, including specific requirements for minimum reinforcement feature values based on concrete strength grade and axial pressure ratio. The \"备注\" (remarks) column indicates correspondence to standard clause (6.1.17), and the \"完整性\" (completeness) column states \"完整\" (complete). Footnotes explain that \"完整\" means the clause is fully decomposed and requires no manual review, while \"不完整\" would indicate partial decomposition requiring manual review."
+    },
+    {
+      "filename": "table_0049_page_0045_表_B.5_结构专业_BIM_智能审查条文表.png",
+      "title": "Structural Professional BIM Intelligent Review Clause Table",
+      "metadata": "BIM review clauses for structural engineering; clause number, clause type, content, remarks, and completeness.",
+      "content": "The table presents a single review clause (Clause 3.4.5) for structural engineering BIM intelligent review. The content column details requirements for reducing torsional effects in structural floor layouts, specifying limits for horizontal displacement and inter-story drift under accidental eccentricity and seismic forces for A-grade and B-grade high-rise buildings. It also includes notes on period ratio requirements and conditions for relaxing displacement limits. The remarks column references related codes and indicates that the clause's note requires further judgment and verification. The completeness column marks this entry as \"完整\" (complete)."
+    },
+    {
+      "filename": "table_0050_page_0046_表B.5结构专业BIM智能审查条文表_续.png",
+      "title": "结构专业BIM智能审查条文表（续）",
+      "metadata": "结构设计审查条文；BIM智能审查；抗震设计；楼层侧向刚度比；楼层质量分布",
+      "content": "该表为结构专业BIM智能审查条文表的续表，列出了5条审查条文，涵盖抗震设计中高层建筑楼层侧向刚度变化、抗侧力结构受剪承载力及楼层质量分布等关键要求。表中包含序号、审查条文编号、条文类型（要点或一般）、具体内容（含公式及说明）、备注（关联规范或人工判断要求）及完整性判断。例如，条文3.5.2-2针对不同结构类型（如框架-剪力墙、筒中筒等）规定了侧向刚度比的计算公式及不同条件下的最小值要求；条文3.5.6则规定楼层质量应沿高度均匀分布，且不宜大于相邻下部楼层质量的1.5倍，同时指出输出结果需人工判断和校核。"
+    },
+    {
+      "filename": "table_0051_page_0047_表B.5结构专业BIM智能审查条文表_续.png",
+      "title": "结构专业BIM智能审查条文表（续）",
+      "metadata": "结构工程审查条文；BIM智能审查；建筑规范；高层建筑；配筋要求",
+      "content": "该表为结构专业BIM智能审查条文表的续表，列出了序号、审查条文、条文类型、内容、备注和完整性等六列信息。内容主要涉及高层建筑在不同高度范围下的风荷载或地震作用下楼层间最大水平位移与层高之比的限值规定，以及特一级框架柱、剪力墙等构件的配筋特征值和配筋率要求。备注栏说明了条文的关联规范、适用条件或限制（如“菱形箍、圆柱不支持”），完整性栏则标注条文是否完整（“完整”或“不完整”）。该表用于指导BIM模型审查中对结构设计合规性的智能判断。"
+    },
+    {
+      "filename": "table_0052_page_0048_表B.5结构专业BIM智能审查条文表_续.png",
+      "title": "结构专业BIM智能审查条文表（续）",
+      "metadata": "结构工程审查条文；BIM智能审查；条文类型；内容；备注；完整性",
+      "content": "该表为结构专业BIM智能审查条文表的续表，包含序号、审查条文、条文类型、内容、备注和完整性六列。序号从13至16，审查条文包括3.10.5-3、5.1.13-1、5.4.1-1和5.4.1-2。条文类型均为“一般”。内容列详细描述了不同结构构件（如特一级剪力墙、简体墙、高层建筑结构）的审查要求，包含具体公式（如B.7和B.8）及变量定义（如EJa、Hi、Di、Gi、n）。备注列说明了审查范围或计算输出情况，如“高规5.1.13-1条仅针对B级高层”或“以刚重比的验算结果输出至计算书中”。完整性列标注为“不完整”或“完整”，用于指示审查条文的覆盖程度。该表用于指导BIM模型在结构专业审查中的合规性判断。"
+    },
+    {
+      "filename": "table_0053_page_0049_表B.5结构专业BIM智能审查条文表_续.png",
+      "title": "结构专业BIM智能审查条文表（续）",
+      "metadata": "结构专业审查条文；BIM智能审查；抗震设计；钢筋配置；规范关联",
+      "content": "该表为结构专业BIM智能审查条文表的续表，列出了序号17至21的审查条文。表格包含六列：序号、审查条文、条文类型、内容、备注和完整性。内容列详细描述了框架梁和柱的纵向钢筋配置在抗震设计时的具体规定，包括配筋率、钢筋直径、箍筋肢距等技术参数，并引用了相关规范（如抗规、混规）。备注列说明了条文的关联规范，部分条文标注为“要点”或“重复”。完整性列统一标注为“完整”，表明所有条文均符合审查要求。该表用于指导BIM模型审查中结构专业钢筋配置的合规性检查。"
+    },
+    {
+      "filename": "table_0054_page_0050_表B.5结构专业BIM智能审查条文表_续.png",
+      "title": "Structural Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "Structural engineering BIM review clauses; clause numbers; clause types; content specifications; related regulations; completeness status.",
+      "content": "The table lists structural engineering BIM intelligent review clauses, continuing from a previous section. It contains six rows (numbered 22 to 27) detailing specific clauses. Each row includes: a serial number, the clause number (e.g., 6.4.4-3, 7.2.2-1), the clause type (e.g., “一般” for general, “要点” for key points), the detailed content of the clause (covering requirements for longitudinal reinforcement configuration in columns, design specifications for short shear walls under seismic conditions, and minimum reinforcement requirements for shear walls in specific structural types), related regulations (e.g., “抗规” for Code for Seismic Design of Buildings, “混规” for Code for Design of Concrete Structures), and a completeness status (e.g., “完整” for complete, “不完整” for incomplete). The table serves as a reference for verifying structural design compliance with BIM standards and relevant codes."
+    },
+    {
+      "filename": "table_0055_page_0051_表B.5结构专业BIM智能审查条文表_续.png",
+      "title": "Structural Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "Structural engineering BIM review clauses; clause numbers; clause types; content specifications; notes; completeness status.",
+      "content": "The table presents a continuation of structural professional BIM intelligent review clauses, listing clauses 28 to 31. Each row includes: a serial number, the clause number (e.g., 7.2.24, 7.2.25), the clause type (e.g., \"一般\" for general, \"要点\" for key points), detailed content describing structural reinforcement requirements for connections (e.g., minimum/maximum reinforcement ratios, diameter, spacing), notes (e.g., references to other codes like JGJ 3-2010, or remarks on incomplete calculations), and completeness status (e.g., \"完整\" for complete, \"不完整\" for incomplete). The content is technical, specifying reinforcement design rules for connections under different seismic and non-seismic design conditions, including references to related regulations and calculation methods."
+    },
+    {
+      "filename": "table_0056_page_0052_表B.5结构专业BIM智能审查条文表_续.png",
+      "title": "结构专业BIM智能审查条文表（续）",
+      "metadata": "结构专业BIM审查条文；抗震设计；框架-剪力墙结构；审查要点；完整性评估",
+      "content": "该表为结构专业BIM智能审查条文表的续表，列出了序号32至36的审查条文。每条条文包含审查条文编号、条文类型（均为“要点”）、详细内容、备注和完整性评估。内容主要围绕抗震设计的框架-剪力墙结构，根据框架部分承受的地震倾覆力矩与结构总地震倾覆力矩的比值，分不同区间（≤10%、10%-50%、50%-80%、>80%）规定了设计方法和适用条件。备注栏指出部分条文“仅输出至计算书中”，完整性评估栏显示条文32至35为“完整”，条文36为“不完整，未考虑抗风设计”，并关联条文“抗6.6.3-1”。"
+    },
+    {
+      "filename": "table_0057_page_0053_表B.5结构专业BIM智能审查条文表_续.png",
+      "title": "Structural Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "Structural engineering BIM review clauses; clause numbers; clause types; content specifications; notes; completeness status.",
+      "content": "The table presents continued structural professional BIM intelligent review clauses, organized by serial number (序号) from 37 to 39. Each row details a specific clause, including its review clause number (审查条文), type (条文类型, all marked as “要点” meaning “key points”), detailed content (内容) specifying design requirements (e.g., seismic design for frame parts, column design specifications, and frame shear wall structure layout), notes (备注) such as references to codes (e.g., “高规9.1.11-2”) or completeness status (“仅输出至计算书中” or “需人工校验”), and completeness status (完整性, all marked as “完整”). The content is technical and prescriptive, outlining structural design rules for seismic and non-seismic conditions."
+    },
+    {
+      "filename": "table_0058_page_0054_表B.5结构专业BIM智能审查条文表_续.png",
+      "title": "Structural Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "BIM review clauses for structural engineering; includes clause number, clause type, content with formulas, remarks, and completeness status.",
+      "content": "The table presents a single row (row 40) of structural professional BIM intelligent review clauses. The columns include: \"序号\" (Serial Number) with value 40, \"审查条文\" (Review Clause) with value \"E.0.1\", \"条文类型\" (Clause Type) with value \"一般\" (General), \"内容\" (Content) which contains detailed technical specifications and formulas for calculating the equivalent shear stiffness ratio γ_ei for conversion layers, including formulas (B.12), (B.13), and (B.14), along with definitions of variables such as G1, G2, A1, A2, Aw,i, Aci,j, hi, hci,j, and Ci,j. The \"备注\" (Remarks) column indicates correspondence to \"高规(10.2.3)\" and notes that output is limited to the calculation book. The \"完整性\" (Completeness) column states \"完整\" (Complete)."
+    },
+    {
+      "filename": "table_0059_page_0055_表B.5结构专业BIM智能审查条文表_续.png",
+      "title": "Structural Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "BIM review clauses for structural engineering; clause type; content with formulas; notes; completeness status.",
+      "content": "The table presents clause 41 from the structural professional BIM intelligent review clause list, continuing from a previous section. It includes the clause number (41), the clause identifier (E.0.3), and its type (\"一般\" meaning general). The content column details a technical specification regarding the equivalent lateral stiffness ratio (γe2) for structures with transfer floors above the 2nd level, including a formula (γe2 = Δ2H1 / Δ1H2) and definitions for variables H1, Δ1, H2, and Δ2. The \"备注\" (notes) column indicates correspondence to high-code section (10.2.3) and that output is limited to calculation books. The \"完整性\" (completeness) column states \"完整\" (complete), meaning the clause has been fully decomposed and requires no manual review, as per the footnotes explaining \"完整\" and \"不完整\" (incomplete) statuses."
+    },
+    {
+      "filename": "table_0060_page_0056_表C.1给排水专业BIM智能审查条文表.png",
+      "title": "Plumbing and Drainage Professional BIM Intelligent Review Clause Table",
+      "metadata": "A BIM review clause table for plumbing and drainage; includes clause number, clause type, clause content, model association information, and accuracy remarks.",
+      "content": "The table lists review clauses for plumbing and drainage systems in BIM models. It contains six columns: \"Serial Number,\" \"Review Clause,\" \"Clause Type,\" \"Clause Content,\" \"Model Association Information,\" and \"Accuracy and Explanation.\" The first row details clause 8.2.1 (a \"strong clause\") specifying buildings or venues that must install indoor fire hydrant systems, including factories, warehouses, high-rise public buildings, and specific types of theaters and stadiums. The second row details clause 8.3.1 (also a \"strong clause\") specifying factories or production areas that should install automatic fire suppression systems, such as cotton mills, match factories, shoe factories, and wood factories. The \"Model Association Information\" column lists relevant model parameters like building type, area, volume, and fire equipment. The \"Accuracy and Explanation\" column indicates whether the clause is \"accurate\" or requires \"rechecking.\""
+    },
+    {
+      "filename": "table_0061_page_0057_表C.1给排水专业BIM智能审查条文表_续.png",
+      "title": "Plumbing and Drainage Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "BIM review clauses for plumbing and drainage; automatic fire suppression systems; building types; verification requirements.",
+      "content": "The table continues from a previous section and lists specific clauses for automatic fire suppression systems in plumbing and drainage design. It includes two main entries: Clause 3 (8.3.2) for warehouses and Clause 4 (8.3.3) for high-rise civil buildings. Each clause specifies conditions under which automatic sprinkler fire suppression systems are required, such as warehouse floor area, fire hazard classification, and building height. The \"Model Association Information\" column indicates relevant building parameters like building type, area, temperature, and room details. The \"Accuracy and Explanation\" column notes that verification is required to confirm whether certain locations (e.g., electrical equipment rooms) are exempt from sprinkler installation. The table is structured with columns for serial number, review clause, clause type, clause content, model association information, and accuracy/verification notes."
+    },
+    {
+      "filename": "table_0062_page_0058_表C.1给排水专业BIM智能审查条文表_续.png",
+      "title": "给排水专业BIM智能审查条文表（续）",
+      "metadata": "BIM智能审查条文表；给排水专业；审查条文；模型关联信息；准确性说明",
+      "content": "该表为“给排水专业BIM智能审查条文表”的续表，主要列出了序号为5的审查条文内容。条文内容为“8.3.4（1～7）”，属于“强条”，详细规定了除本规范另有规定和不适用水保护或灭火的场所外，应设置自动灭火系统并宜采用自动喷水灭火系统的具体场所，包括：特等、甲等剧场；超过2000个座位的会堂或礼堂；超过3000个座位的体育馆；超过5000人的体育场的室内人员休息室与器材间；任一层建筑面积大于1500㎡或总建筑面积大于3000㎡的展览、商店、餐饮和旅馆建筑以及医院中同样建筑规模的病房楼、门诊楼和手术部；设置送回风道（管）的集中空气调节系统且总建筑面积大于3000㎡的办公建筑；藏书量超过50万册的图书馆；大、中型幼儿园，老年人照料设施；总建筑面积大于500㎡的地下或半地下商店；设置在地下或半地下或地上四层及以上楼层的歌舞娱乐放映游艺场所（除游泳场所外），设置在首层、二层和三层且任一层建筑面积大于300㎡的地上歌舞娱乐放映游艺场所（除游泳场所外）。模型关联信息列包括建筑类型、建筑层数、建筑面积、建筑座位数、灭火系统、房间、喷头、楼层、空调系统等。准确性及说明列指出“需复核”，并说明需复核是否属于电气设备间等不设置喷头的情况。表下方注1说明“完整”指该条文已完整拆解，无需人工复核；注2说明“不完整”指该条文中某些部分条款尚未拆解，需人工进行复核。"
+    },
+    {
+      "filename": "table_0063_page_0058_表_C.2_给排水专业_BIM_智能审查条文表.png",
+      "title": "Plumbing and Drainage Professional BIM Intelligent Review Clause Table",
+      "metadata": "BIM intelligent review clause for plumbing and drainage; clause content, model association, and accuracy assessment.",
+      "content": "The table presents a single review clause (Clause 7.2.1) for the plumbing and drainage professional in BIM. The clause is categorized as a \"strong clause\" (强条). The clause content specifies that, except for open-air parking lots and rooftop parking areas, the following types of parking garages and repair garages must be equipped with automatic fire suppression systems: Class I, II, and III above-ground parking garages; underground or semi-underground parking garages with more than 10 parked vehicles; mechanical parking garages; parking garages using dedicated car elevators for vehicle evacuation; and Class I repair garages. The model association information indicates that the clause relates to the building and plumbing/drainage global attributes. The accuracy assessment is marked as \"accurate\" (准确)."
+    },
+    {
+      "filename": "table_0064_page_0059_表C.2_给排水专业BIM智能审查条文表_续.png",
+      "title": "BIM智能审查条文表（续）",
+      "metadata": "给排水专业BIM智能审查条文；条文内容；模型关联信息；准确性及说明",
+      "content": "该表为“给排水专业BIM智能审查条文表”的续表，包含序号、审查条文、条文类型、条文内容、模型关联信息及准确性及说明六列。条文内容主要涉及汽车库、修车库、停车场的室外及室内消火栓系统设置要求，包括不同类别场所的消防用水量标准及系统压力要求。模型关联信息均指向“建筑、给排水全局属性”。准确性及说明栏显示条文审查准确性为“准确”或“需复核”，注释说明“准确”指审查准确性达95%无需人工复核，“需复核”指部分内容需人工确认。"
+    },
+    {
+      "filename": "table_0065_page_0059_表C._3给排水专业BIM智能审查条文表.png",
+      "title": "BIM智能审查条文表（给排水专业）",
+      "metadata": "给排水专业BIM审查条文；强条；消防水泵接合器设置；模型关联信息；准确性说明",
+      "content": "该表为给排水专业BIM智能审查条文表，共列出3条强条，分别对应审查条文5.4.1、5.4.2和7.4.3。每条条文内容详细说明了在何种场所或条件下应设置消防水泵接合器或室内消火栓。例如，条文5.4.1规定高层民用建筑、特定住宅及工业建筑、城市交通隧道等需设置消防水泵接合器；条文5.4.2规定自动喷水灭火系统等水灭火系统应设置消防水泵接合器；条文7.4.3规定设置室内消火栓的建筑各层均应设置消火栓。表中“模型关联信息”列指明了与建筑、管道、楼层等模型元素的关联；“准确性及说明”列则标注了每条条文的审查状态，如“需复核”或“准确”，并说明需专家复核的情形。"
+    },
+    {
+      "filename": "table_0066_page_0060_表C._3给排水专业BIM智能审查条文表_续.png",
+      "title": "Plumbing and Drainage Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "BIM review clauses for plumbing and drainage; includes clause number, type, content, model association, and accuracy status.",
+      "content": "The table presents a continuation of BIM intelligent review clauses for plumbing and drainage. It contains four rows (numbered 4 to 7) detailing specific review requirements. Each row includes: the clause number (e.g., 7.4.5, 7.4.9, 6.1.9(1), 9.2.3), its type (e.g., “要点” for key points, “强条” for mandatory clauses), the clause content (e.g., requirements for fire elevator lobbies, test fire hydrants, high-position fire water tanks, and fire elevator sump drainage), model association information (e.g., “建筑、消防电梯前室、消火栓/消火栓箱” for building, fire elevator lobby, fire hydrant/box), and accuracy status (e.g., “准确” for accurate, “需复核” for requiring recheck). Footnotes explain that “准确” means 95% accuracy and no manual recheck is needed, while “需复核” means part of the clause content requires manual reconfirmation."
+    },
+    {
+      "filename": "table_0067_page_0060_表C.4给排水专业BIM智能审查条文表.png",
+      "title": "BIM智能审查条文表（给排水专业）",
+      "metadata": "给排水专业BIM智能审查条文；强条；设计参数；GB 50084-2017；准确性评估",
+      "content": "该表为给排水专业BIM智能审查条文表，共包含六列：序号、审查条文、条文类型、条文内容、模型关联信息、准确性及说明。表中列出三条强条，分别对应审查条文5.0.1、5.0.2和5.0.4。条文内容主要涉及民用建筑和厂房采用湿式系统时的设计基本参数，需符合GB 50084-2017标准中的相应规定。其中，第3条进一步细分了仓库及类似场所的火灾危险等级（Ⅰ级～Ⅲ级）和混合储存物品情况下的参数要求。模型关联信息列指出与“建筑、管道、喷头”相关。准确性及说明列均标注为“准确”。该表用于指导BIM模型审查，确保设计参数符合规范。"
+    },
+    {
+      "filename": "table_0068_page_0061_表C.4给排水专业BIM智能审查条文表_续.png",
+      "title": "给排水专业BIM智能审查条文表（续）",
+      "metadata": "BIM智能审查条文表；给排水专业；审查条文；模型关联信息；准确性说明",
+      "content": "该表为给排水专业BIM智能审查条文表的续表，包含序号、审查条文、条文类型、条文内容、模型关联信息及准确性及说明六列。条文内容涉及仓库及类似场所喷头设计参数、水流指示器设置、试水阀配置、高位消防水箱出水管要求及局部应用系统设置等规范要求。模型关联信息列指明了与建筑、楼层、防火分区、管道、阀门等模型构件的关联。准确性及说明列标注了条文的审查结果，如“准确”或“需复核”，并附注说明“需复核”条文需专家复核或人工复核。注1说明“准确”条文审查准确性达95%，无需人工复核；注2说明“需复核”条文部分内容需人工复核确认。"
+    },
+    {
+      "filename": "table_0069_page_0061_表C._5给排水专业BIM智能审查条文表.png",
+      "title": "BIM智能审查条文表（给排水专业）",
+      "metadata": "给排水专业BIM智能审查条文；审查条文编号；条文类型；条文内容；模型关联信息；准确性及说明",
+      "content": "表格标题为“表C.5给排水专业BIM智能审查条文表”，包含六列：序号、审查条文、条文类型、条文内容、模型关联信息、准确性及说明。当前仅显示第一行数据：序号为1，审查条文为“3.1.4”，条文类型为“强条”，条文内容为“自建供水设施的供水管道严禁与城镇供水管道直接连接。生活饮用水管道严禁与建筑中水、回用雨水等非生活饮用水管道连接。”，模型关联信息为“建筑、水箱”，准确性及说明为“准确”。表格用于记录给排水专业BIM模型审查的条文及其验证结果。"
+    },
+    {
+      "filename": "table_0070_page_0062_表C.5给排水专业BIM智能审查条文表_续.png",
+      "title": "给排水专业BIM智能审查条文表（续）",
+      "metadata": "给排水专业BIM审查条文；强条；模型关联信息；准确性说明",
+      "content": "该表为给排水专业BIM智能审查条文的续表，包含序号、审查条文、条文类型、条文内容、模型关联信息及准确性及说明六列。条文内容主要涉及建筑室内生活饮用水管道布置规范、非生活饮用水贮水池补水要求、生活饮用水水池及水塔设置规范、水封装置深度要求及淋浴器和洗衣机部位排水设施设置等强制性条文。模型关联信息列指明了与建筑、水箱、消防水箱、管道系统类型、房间名称、坐便器、管件、阀门等BIM模型元素的关联。准确性及说明列标注了条文的审查结果，如“准确”或“需复核”，并针对需复核条文给出具体说明，如“需专家复核是否采用淹没式补水的情况”。"
+    },
+    {
+      "filename": "table_0071_page_0063_表C.5给排水专业BIM智能审查条文表_续.png",
+      "title": "Plumbing Specialty BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A BIM review clause table for plumbing specialty; includes clause number, clause type, clause content, model association information, and accuracy remarks.",
+      "content": "The table presents two review clauses for plumbing specialty BIM modeling. Clause 7 (4.2.4, mandatory) requires water seal devices at the connection between indoor domestic wastewater drains and outdoor domestic sewage pipes, with model association information specifying pipe system type and pipe fittings, and accuracy remark \"Needs recheck\". Clause 8 (5.3.5, mandatory) prohibits valve installation on expansion pipes, with model association information \"Building, floor drain\" and accuracy remark \"Accurate\". Footnotes define \"Accurate\" as 95% review accuracy requiring no manual recheck, and \"Needs recheck\" as requiring manual confirmation for部分内容."
+    },
+    {
+      "filename": "table_0072_page_0063_表_C.6_给排水专业_BIM_智能审查条文表.png",
+      "title": "Plumbing and Drainage Professional BIM Intelligent Review Clause Table",
+      "metadata": "A BIM review clause table for plumbing and drainage; includes clause number, type, content, model association, and accuracy.",
+      "content": "The table lists three review clauses for plumbing and drainage in BIM models. Each row corresponds to a clause, with details including the clause number (e.g., 8.2.6, 9.6.1, 9.6.2), its type (all marked as \"强条\" or mandatory clauses), the specific content (e.g., requiring water-saving fixtures, indoor fire protection for buildings of 8+ floors, and automatic sprinkler systems for 35+ floors), associated model information (e.g., building type, fixture type, fire equipment, pipe type), and accuracy assessment (all marked as \"准确\" or accurate). Footnotes clarify that \"准确\" means the clause review accuracy reaches 95% and requires no manual recheck, while \"需复核\" (not present in this table) would require manual reconfirmation. The table serves as a checklist for verifying compliance with mandatory plumbing and drainage standards in BIM models."
+    },
+    {
+      "filename": "table_0073_page_0063_表C._7给排水专业BIM智能审查条文表.png",
+      "title": "给排水专业BIM智能审查条文表",
+      "metadata": "BIM审查条文、条文类型、条文内容、模型关联信息、准确性及说明",
+      "content": "该表为给排水专业BIM智能审查条文表，包含序号、审查条文、条文类型、条文内容、模型关联信息及准确性及说明六列。表中仅有一行数据，序号为1，审查条文为7.2.6，条文类型为“一般”，条文内容详细规定了市政消火栓的布置要求，包括距路边距离（0.5m~2.0m）、距建筑外墙距离（不小于5.0m）及避免设置在机械易撞击地点等。模型关联信息为“管道附件、间距，道路”，准确性及说明为“需复核，需定义道路边缘”。表下方附注说明：准确指该条文审查准确性达95%，无需人工复核；需复核指该条文中部分内容需要人工复核确认。"
+    },
+    {
+      "filename": "table_0074_page_0064_表C._8给排水专业BIM智能审查条文表.png",
+      "title": "给排水专业BIM智能审查条文表",
+      "metadata": "BIM审查条文表; 给排水专业; 强条; 准确性评估",
+      "content": "该表为给排水专业BIM智能审查条文表，共列出9条审查条文，每条条文均包含序号、审查条文编号、条文类型（均为“强条”）、条文内容、模型关联信息及准确性及说明。条文内容涉及室外检查井、供水管道连接、防回流措施、蓄水池周边污染源、化粪池与取水构筑物间距、非传统水源系统设置、中水与雨水回用管道连接、地下构筑物人孔防坠落等规范要求。模型关联信息指与BIM模型相关的构件或系统类型，如“管道附件”、“管道系统类型”、“房间名称”等。准确性及说明栏分为“准确”或“需复核”，其中“需复核”条文需人工确认。表末注释说明“准确”指审查准确性达95%，无需人工复核；“需复核”指部分条文内容需人工复核确认。"
+    },
+    {
+      "filename": "table_0075_page_0065_表C._9给排水专业BIM智能审查条文表.png",
+      "title": "Drainage Professional BIM Intelligent Review Clause Table",
+      "metadata": "A BIM review clause table for drainage engineering; includes clause number, type, content, model association, and accuracy.",
+      "content": "The table presents a single review clause for drainage engineering. The clause (No. 3.13.8) specifies that outdoor water supply pipes equipped with outdoor fire hydrants must have a pipe diameter not less than 100 mm. The model association is noted as \"pipe system type, pipe diameter,\" and the accuracy is marked as \"accurate.\" Two footnotes clarify that \"accurate\" means the clause's review accuracy reaches 95% and requires no manual recheck, while \"needs recheck\" indicates部分内容 requires manual confirmation."
+    },
+    {
+      "filename": "table_0076_page_0065_表C._10给排水专业BIM智能审查条文表.png",
+      "title": "Drainage Professional BIM Intelligent Review Clause Table",
+      "metadata": "A BIM review clause table for drainage engineering; includes clause number, type, content, model association, and accuracy assessment.",
+      "content": "The table lists two review clauses for drainage engineering BIM models. Clause 5.1.8 and 5.2.4 are both categorized as \"general\" type. Clause 5.1.8 requires rainwater collection and infiltration systems to be equipped with overflow facilities. Clause 5.2.4 recommends using rainwater inlets or gutters with pollutant interception functions, with debris easily removable. The \"Model Association Information\" column specifies related model components (e.g., pipe system types, pipe fittings, descriptions). Both clauses are marked as \"accurate\" in the \"Accuracy and Explanation\" column. Footnotes clarify that \"accurate\" means the clause review accuracy reaches 95% and no manual recheck is needed, while \"needs recheck\" indicates部分内容 requires manual confirmation."
+    },
+    {
+      "filename": "table_0077_page_0065_表_C.11_给排水专业_BIM_智能审查条文表.png",
+      "title": "Drainage Professional BIM Intelligent Review Clause Table",
+      "metadata": "A BIM review clause table for drainage engineering; includes clause number, type, content, model association information, and accuracy remarks.",
+      "content": "The table presents a single review clause (Clause 9.1.1) for drainage engineering BIM intelligent review. The clause type is \"General,\" and its content requires the project to formulate a comprehensive water resource utilization plan, including: (1) new projects with land area ≥20,000 m² must adopt rainwater reuse measures, and those with land area ≥100,000 m² must conduct specialized rainwater control design; (2) outdoor landscape water use must not use municipal tap water or groundwater; (3) water systems for swimming pools, amusement pools, water parks, car washes, and centralized air conditioning cooling systems must adopt recycling measures to reduce water consumption; (4) non-traditional water source utilization facilities must be designed and constructed simultaneously with the main building. The model association information column indicates \"pipe system type, water tank effective capacity,\" and the accuracy and remarks column states \"Accurate.\" Footnotes clarify that \"Accurate\" means the clause review accuracy reaches 95% and does not require manual rechecking, while \"Needs rechecking\" indicates部分内容 requires manual confirmation."
+    },
+    {
+      "filename": "table_0078_page_0066_表D.1电气专业BIM智能审查条文表.png",
+      "title": "Electrical Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing electrical engineering BIM intelligent review clauses; includes clause number, clause type, clause content, model association information, and accuracy/notes.",
+      "content": "The table presents clause 8.4.1, categorized as a \"strong clause\" (强条). The clause content details specific buildings or venues that must be equipped with automatic fire alarm systems, including factories, warehouses, commercial buildings, libraries, broadcasting buildings, theaters, kindergartens, hospitals, entertainment venues, technical floors, server rooms, and other high-rise public buildings. It also specifies that elderly care facilities must install fire detectors and alarm systems. The \"model association information\" column indicates relevant building attributes such as type, area, floor, seating capacity, book collection, and fire protection equipment. The \"accuracy and explanation\" column notes whether review is required or specialized review is needed, and whether the building is a combustible warehouse."
+    },
+    {
+      "filename": "table_0079_page_0067_表D.1电气专业BIM智能审查条文表_续.png",
+      "title": "电气专业BIM智能审查条文表（续）",
+      "metadata": "电气专业BIM审查条文；强条；建筑消防用电；应急照明；疏散照明；模型关联信息；准确性说明",
+      "content": "该表为电气专业BIM智能审查条文表的续表，列出了5条强条审查内容。条文内容涉及建筑物的消防用电等级划分、建筑内消防应急照明和灯光疏散指示标志的备用电源连续供电时间要求，以及特定部位应设置疏散照明的规定。每条条文均对应具体的模型关联信息（如建筑类型、高度、面积、设备等），并标注“准确”或需人工复核。表末附注说明“准确”指审查准确性达95%，无需人工复核；“需复核”指部分内容需人工确认。"
+    },
+    {
+      "filename": "table_0080_page_0068_表D.2电气专业BIM智能审查条文表.png",
+      "title": "Electrical Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing electrical engineering BIM review clauses; includes clause number, type, content, model association info, and accuracy remarks.",
+      "content": "The table presents one review clause (Clause 9.0.7) under the electrical professional BIM intelligent review. The clause type is \"mandatory\" (强条). The clause content specifies that, except for open-air parking lots and rooftop parking lots, the following types of parking garages and repair shops must be equipped with automatic fire alarm systems: Class I parking garages and repair shops; underground or semi-underground parking garages and repair shops; high-rise parking garages and repair shops; mechanical parking garages; and parking garages using car-specific elevators for vehicle evacuation. The model association information indicates \"building and electrical global attributes,\" and the accuracy is marked as \"accurate.\" Two footnotes explain that \"accurate\" means the clause review accuracy reaches 95% and no manual recheck is needed, while \"needs recheck\" means part of the clause content requires manual confirmation."
+    },
+    {
+      "filename": "table_0081_page_0068_表D.3电气专业BIM智能审查条文表.png",
+      "title": "Electrical Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing electrical engineering BIM review clauses; includes clause number, type, content, model association, and accuracy status.",
+      "content": "The table lists eight review clauses for electrical engineering BIM models. Each row corresponds to a clause, identified by its number (e.g., 4.8.7, 6.1.1) and type (e.g., \"强条\" for mandatory, \"一般\" for general). The \"条文内容\" column details the specific requirement, while \"模型关联信息\" indicates the associated building model elements (e.g., \"建筑、火警设备\"). The \"准确性及说明\" column states whether the clause is \"准确\" (accurate) or \"需复核\" (requires rechecking), with a footnote explaining that \"准确\" means 95% accuracy and no manual recheck is needed, while \"需复核\" means part of the content requires manual confirmation."
+    },
+    {
+      "filename": "table_0082_page_0069_表D.4电气专业BIM智能审查条文表.png",
+      "title": "Electrical Professional BIM Intelligent Review Clause Table",
+      "metadata": "BIM review clause for electrical engineering; clause type, content, model association, and accuracy assessment.",
+      "content": "The table presents a single review clause (Clause 11.2.3) for electrical engineering BIM intelligent review. The clause is categorized as a \"strong clause\" (强条). The content details requirements for lightning protection classification of buildings, specifying conditions for categorizing buildings as third-class or second-class lightning protection structures based on height and expected lightning strike frequency. The \"Model Association Information\" column indicates the clause relates to \"building and electrical global attributes.\" The \"Accuracy and Explanation\" column states the clause is \"accurate\" (准确). Footnotes clarify that \"accurate\" means the review accuracy reaches 95% and no manual recheck is needed, while \"needs recheck\" indicates部分内容 requires manual confirmation."
+    },
+    {
+      "filename": "table_0083_page_0069_表D.5电气专业BIM智能审查条文表.png",
+      "title": "Electrical Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing electrical BIM review clauses; includes clause number, type, content, model association, and accuracy assessment.",
+      "content": "The table contains one row of review clause data. The clause number is 8.7.4, classified as a \"strong clause\" (强条). The clause content states that all sockets installed within 1.80 meters or below in rooms must use safety-type sockets. The model association is \"套型、插座\" (type, socket), and the accuracy is marked as \"准确\" (accurate). Two footnotes explain that \"accurate\" means the clause's review accuracy reaches 95% and no manual recheck is needed, while \"needs recheck\" indicates部分内容 requires manual confirmation."
+    },
+    {
+      "filename": "table_0084_page_0069_表D.6电气专业BIM智能审查条文表.png",
+      "title": "Electrical Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing electrical engineering BIM review clauses; includes clause number, type, content, model association, and accuracy assessment.",
+      "content": "The table contains two rows of electrical engineering BIM review clauses. The first row (Clause 8.5.5) specifies that power sockets and lighting in residential units must be on separate circuits, and sockets installed at or below 1.8m must use safety-type sockets. The model association is \"room, electrical equipment (socket)\" and the accuracy is marked as \"accurate\". The second row (Clause 9.7.2) requires that residential buildings of 35 floors or more must be equipped with a fire alarm system. The model association is \"building, fire alarm equipment (smoke detector, alarm)\" and the accuracy is also marked as \"accurate\"."
+    },
+    {
+      "filename": "table_0085_page_0070_表D.6电气专业BIM智能审查条文表_续.png",
+      "title": "Electrical Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "BIM review clause for electrical engineering; clause number, clause type, clause content, model association information, accuracy and explanation.",
+      "content": "The table presents a single row of review clause information for electrical engineering BIM. The row is labeled with sequence number 3, corresponding to clause 9.7.3, which is a mandatory clause. The clause content specifies that stairwells, elevator lobbies, and their anterooms in residential buildings of 10 floors or more must be equipped with emergency lighting. The model association information indicates building, room, and lighting equipment (emergency lighting). The accuracy is marked as \"accurate,\" meaning the clause review accuracy reaches 95% and no manual recheck is required, as per Note 1. Note 2 clarifies that \"needs recheck\" indicates部分内容 requires manual confirmation."
+    },
+    {
+      "filename": "table_0086_page_0070_表D.7电气专业BIM智能审查条文表.png",
+      "title": "Electrical Professional BIM Intelligent Review Clause Table",
+      "metadata": "BIM review clause for electrical engineering; clause number, type, content, model association, and accuracy assessment.",
+      "content": "The table presents a single clause for electrical engineering BIM intelligent review. It includes the clause number (8.11.11), type (general), content (elevator shafts should be equipped with electrical lighting and single-phase three-hole power sockets), model association information (room, lighting equipment (fixtures), single-phase three-hole power socket), and accuracy assessment (accurate). Two footnotes explain that \"accurate\" means the clause review accuracy reaches 95% and no manual recheck is needed, while \"needs recheck\" indicates部分内容 requires manual confirmation."
+    },
+    {
+      "filename": "table_0087_page_0070_表D.8电气专业BIM智能审查条文表.png",
+      "title": "Electrical Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing electrical engineering BIM review clauses; includes clause number, type, content, model association, and accuracy notes.",
+      "content": "The table presents two review clauses (both clause 3.3.7, classified as \"strong clauses\") related to lighting power density limits for various building types. The \"Clause Content\" column details the specific requirements, including an additional 5 W/m² for certain commercial spaces. The \"Model Association Information\" column indicates the associated building and electrical lighting spaces. The \"Accuracy and Explanation\" column notes that both clauses require manual revalidation, with explanations that current values are only baseline values and require verification if the space belongs to high-end categories. Footnotes clarify that \"accurate\" means 95% confidence and does not require manual revalidation, while \"needs revalidation\" means part of the clause content requires human confirmation."
+    },
+    {
+      "filename": "table_0088_page_0071_表D.9电气专业BIM智能审查条文表.png",
+      "title": "Electrical Professional BIM Intelligent Review Clause Table",
+      "metadata": "BIM review clause for electrical engineering; clause number, clause type, clause content, model association information, accuracy and explanation.",
+      "content": "The table presents a single review clause for electrical engineering BIM. It includes the clause number (5.2.4), clause type (mandatory clause), clause content (requires safety-type sockets in primary and kindergarten schools, with a minimum height of 1.8m for sockets in kindergarten activity areas), model association information (building name, room name, socket), and accuracy and explanation (requires rechecking as the review for kindergarten activity areas is inaccurate). Two footnotes define \"accurate\" as 95% accuracy requiring no manual recheck, and \"requires rechecking\" as needing manual confirmation for part of the clause content."
+    },
+    {
+      "filename": "table_0089_page_0071_表D._10电气专业BIM智能审查条文表.png",
+      "title": "Electrical Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing review clauses for electrical engineering BIM; includes clause number, type, content, model association, and accuracy.",
+      "content": "The table contains one row of data, detailing clause 7.3.2, which is a mandatory clause stating that \"Special archives should be equipped with backup power.\" The model association information indicates \"Building type, backup power,\" and the accuracy is marked as \"Accurate.\" Two footnotes provide additional context: Note 1 states that \"Accurate\" means the clause's review accuracy reaches 95% and does not require manual rechecking; Note 2 indicates that \"Needs rechecking\" means part of the clause's content requires manual confirmation."
+    },
+    {
+      "filename": "table_0090_page_0072_表E.1暖通专业BIM智能审查条文表.png",
+      "title": "HVAC Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing HVAC-related BIM review clauses; includes clause number, type, content, model association info, and accuracy remarks.",
+      "content": "The table outlines specific review clauses for HVAC (heating, ventilation, and air conditioning) systems in BIM (Building Information Modeling) projects. It is divided into two main rows, each detailing a \"strong clause\" (强条). Row 1 (Clause 8.5.1) specifies where smoke prevention facilities must be installed in buildings, including exceptions for stairwells under certain conditions. Row 2 (Clause 8.5.2) details where smoke exhaust facilities are required in factories or warehouses, listing specific scenarios such as large production areas or long evacuation corridors. Each row includes the clause number, type (strong clause), detailed content, model-related information (e.g., room type, system type), and accuracy remarks indicating that certain cases require expert review. The table serves as a reference for ensuring compliance with HVAC design standards during BIM model reviews."
+    },
+    {
+      "filename": "table_0091_page_0073_表E.1暖通专业BIM智能审查条文表_续.png",
+      "title": "HVAC Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing HVAC design review clauses; includes clause number, type, content, model association information, and accuracy/notes.",
+      "content": "The table continues from a previous section and lists specific review clauses for HVAC systems in building information modeling (BIM). It contains five rows, each detailing a clause with its number (e.g., 8.5.3, 8.5.4, 9.3.11), type (all marked as \"强条\" meaning mandatory clauses), content describing specific requirements (e.g., smoke exhaust facilities for certain venues, fire dampers for ventilation ducts), model association information (e.g., smoke systems, rooms, fire dampers, ventilation systems), and accuracy/notes indicating that these clauses require revalidation based on specific conditions (e.g., presence of people or combustibles, fire hazard levels). The table serves as a reference for ensuring compliance with mandatory HVAC design standards during BIM reviews."
+    },
+    {
+      "filename": "table_0092_page_0074_表E.1暖通专业BIM智能审查条文表_续.png",
+      "title": "HVAC Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "HVAC BIM review clauses; clause type; clause content; model association; accuracy and explanation.",
+      "content": "The table presents a single review clause (No. 6) from the HVAC professional BIM intelligent review clause list. The clause, labeled as a \"strong clause\" (强条), specifies ventilation requirements for oil or gas boiler rooms: normal ventilation should be at least 3 air changes per hour, and emergency exhaust ventilation should be at least 6 air changes per hour for oil boiler rooms, and at least 6 and 12 air changes per hour respectively for gas boiler rooms. The model association column indicates relevance to rooms, boilers, and ventilation systems/windows. The accuracy column states \"accurate\" (准确). Footnotes clarify that \"accurate\" means the clause's review accuracy is 95% and does not require manual rechecking, while \"needs rechecking\" indicates部分内容 requires manual verification."
+    },
+    {
+      "filename": "table_0093_page_0074_表E.2暖通专业BIM智能审查条文表.png",
+      "title": "HVAC Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing HVAC BIM review clauses; includes clause number, type, content, model association info, and accuracy assessment.",
+      "content": "The table presents a single review clause (Clause 8.2.1) for HVAC professional BIM intelligent review. The clause type is \"mandatory\" (强条). The clause content specifies that, except for open-air car parks and underground car parks/repair garages with floor area less than 1000 m², car parks and repair garages must be equipped with smoke exhaust systems and divided into smoke compartments. The model association information includes floor, room, smoke exhaust system, and smoke compartment. The accuracy assessment is marked as \"accurate\" (准确). A note below clarifies that \"accurate\" means the clause review accuracy reaches 95%, requiring no manual recheck."
+    },
+    {
+      "filename": "table_0094_page_0074_表_E.3_暖通专业_BIM_智能审查条文表.png",
+      "title": "HVAC Professional BIM Intelligent Review Clause Table",
+      "metadata": "HVAC BIM review clauses; clause number, clause type, clause content, model association information, accuracy and explanation.",
+      "content": "The table presents one review clause for HVAC professional BIM intelligent review. The clause, numbered 3.1.2 and classified as a mandatory clause, specifies that for public buildings, industrial buildings, and residential buildings exceeding 100m in height, mechanical pressurized air supply systems must be used for smoke staircases, independent anterooms, shared anterooms, and fire elevator anterooms. The model association information includes building type, building height, room, and ventilation system. The accuracy is marked as \"accurate\"."
+    },
+    {
+      "filename": "table_0095_page_0075_表E.3暖通专业BIM智能审查条文表_续.png",
+      "title": "HVAC Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing HVAC design review clauses; includes clause number, type, content, model-related information, and accuracy assessment.",
+      "content": "The table presents a continuation of HVAC professional BIM intelligent review clauses, starting from sequence number 2 to 8. Each row details a specific clause, including its number (e.g., 3.1.5, 3.2.1), type (all marked as \"强条\" meaning mandatory clause), content describing technical requirements (e.g., mechanical pressurization systems for smoke-proof stairwells, natural ventilation requirements for closed stairwells, and specifications for duct design), model-related information (e.g., \"房间、机械加压送风装置、楼梯\" meaning room, mechanical pressurization equipment, stairs), and an accuracy assessment column (all marked as \"准确\" meaning accurate). The table serves as a reference for verifying BIM model compliance with mandatory HVAC design standards."
+    },
+    {
+      "filename": "table_0096_page_0076_表E.3暖通专业BIM智能审查条文表_续.png",
+      "title": "HVAC Professional BIM Intelligent Review Clause Table (Continued)",
+      "metadata": "A table listing HVAC BIM review clauses; includes clause number, type, content, model association, and accuracy assessment.",
+      "content": "The table presents a continuation of HVAC professional BIM intelligent review clauses, starting from sequence number 9. Each row details a specific clause, including its number (e.g., 4.4.1, 4.4.2), type (all marked as \"强条\" or mandatory clauses), content describing technical requirements (e.g., independent smoke exhaust systems for fire compartments, pipe material specifications, and backdraft prevention), associated model elements (e.g., smoke exhaust systems, floors, fire compartments, ducts, fans), and accuracy assessment (either \"准确\" meaning accurate or \"需复核\" meaning requires expert recheck). The table also includes two footnotes: Note 1 defines \"准确\" as 95% accuracy requiring no manual recheck, and Note 2 defines \"需复核\" as requiring manual expert confirmation for部分内容 (part of the content)."
+    },
+    {
+      "filename": "table_0097_page_0077_表E.4暖通专业BIM智能审查条文表.png",
+      "title": "HVAC Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing HVAC BIM review clauses; includes clause number, type, content, model association, and accuracy notes.",
+      "content": "The table presents one review clause for HVAC professional BIM intelligent review. The clause, numbered 8.5.3 and classified as a mandatory clause, states that for dark bathrooms without windows, mechanical ventilation facilities to prevent backflow or reserved mechanical ventilation conditions must be set. The model association information includes the exhaust system, room, and backflow valve. The accuracy and explanation column indicates that the clause requires expert recheck, specifically to determine whether it belongs to a situation where the duct directly connects to the outdoors. Two footnotes clarify: “Accurate” means the clause review accuracy reaches 95% and no manual recheck is needed; “Requires recheck” means part of the clause content needs manual recheck confirmation."
+    },
+    {
+      "filename": "table_0098_page_0078_表F.1_人防专业BIM智能审查条文表.png",
+      "title": "人防专业BIM智能审查条文表",
+      "metadata": "人防工程审查条文；BIM智能审查；条文内容与模型关联信息",
+      "content": "该表列出了人防专业BIM智能审查的条文内容，包含序号、审查条文、条文类型、条文内容、模型关联信息及准确性及说明。表中条文1（3.2.6）为“一般”类型，规定了医疗救护工程、防空专业队工程等按建筑层数划分防护单元和抗爆单元的具体要求，并注明了特殊情况下的处理方式。条文2（3.2.13）为“强条”类型，规定了染毒区与清洁区之间应设置密闭隔墙及其厚度、施工要求，以及管道穿墙时的密闭措施。模型关联信息列指明了各条文对应的建筑类型、区域、建筑层数、人防等级、墙、水管、风管、门等模型要素。准确性及说明列均标注为“准确”。"
+    },
+    {
+      "filename": "table_0099_page_0079_表F.1_人防专业BIM智能审查条文表_续.png",
+      "title": "人防专业BIM智能审查条文表（续）",
+      "metadata": "人防工程审查条文；BIM模型关联；准确性评估",
+      "content": "该表为“人防专业BIM智能审查条文表”的续表，列出了编号为3至6的审查条文。表格包含六列：序号、审查条文、条文类型（强条或一般）、条文内容、模型关联信息和准确性及说明。条文内容涉及防空地下室出入口设置、通道尺寸、电梯位置及开水间设置等具体规范。模型关联信息指明了与BIM模型中建筑类型、房间、门洞、楼梯、区域或电梯等元素的关联。准确性及说明栏统一标注为“准确”，但附注说明“准确”指审查准确性达95%，无需人工复核；“需复核”指部分内容需人工复核。该表用于指导BIM模型审查，确保设计符合人防规范。"
+    },
+    {
+      "filename": "table_0100_page_0080_表G.1节能专业BIM智能审查条文表.png",
+      "title": "Energy-saving Professional BIM Intelligent Review Clause Table",
+      "metadata": "A table listing energy-saving review clauses; includes clause number, type, content, model association information, and accuracy status.",
+      "content": "The table presents two energy-saving review clauses for BIM intelligent review. Clause 3.1.6 (strong clause) specifies that the roof transparent area of Class A public buildings should not exceed 20% of the total roof area, with a method for judgment if the requirement is not met. Clause 3.1.13 (strong clause) addresses the transparent area of full glass curtain walls in public building entrances, limiting non-air glass area to no more than 15% of the same facade’s transparent area, and requiring weighted calculation of average heat transfer coefficient. The “Model Association Information” column indicates relevant building elements (e.g., building type, roof, windows, facade, curtain wall). The “Accuracy and Explanation” column shows both clauses are marked as “Accurate.” Footnotes explain that “Accurate” means the clause review accuracy reaches 95% and requires no manual recheck, while “Needs Recheck” indicates部分内容 requires manual confirmation."
+    },
+    {
+      "filename": "table_0101_page_0080_表G.2节能专业BIM智能审查条文表.png",
+      "title": "Energy-saving Professional BIM Intelligent Review Clause Table",
+      "metadata": "BIM review clauses for energy-saving design; clause number, clause type, clause content, model association information, and accuracy assessment.",
+      "content": "The table lists two energy-saving design review clauses. Clause 3.2.2 specifies that for Class A public buildings in severely cold regions, the window-to-wall area ratio (including translucent curtain walls) should not exceed 0.60, and for other regions, it should not exceed 0.70. Clause 3.2.4 stipulates that for Class A public buildings, if the window-to-wall area ratio is less than 0.40, the visible light transmittance of translucent materials should not be less than 0.60; if the ratio is greater than or equal to 0.40, the visible light transmittance should not be less than 0.40. Both clauses are marked as \"accurate\" in the \"Accuracy and Explanation\" column, indicating high confidence in their correctness. The \"Model Association Information\" column indicates that both clauses relate to building type, walls, and windows. Footnotes clarify that \"accurate\" means the clause review accuracy reaches 95% and no manual recheck is needed, while \"needs recheck\" indicates parts of the clause require manual confirmation."
+    },
+    {
+      "filename": "table_0102_page_0081_表_H.1_结构构件审查项不通过结论相关因素.png",
+      "title": "结构构件审查项不通过结论相关因素表",
+      "metadata": "结构构件审查, 审查项, 不通过原因, 柱, 梁",
+      "content": "该表详细列出了结构构件（柱和梁）在审查过程中不通过的结论相关因素。表格分为“审查对象”、“审查项”、“审查内容”和“不通过结论相关因素”四列。审查对象包括“柱”和“梁”两类。对于“柱”，审查项包括“纵筋”、“箍筋”、“截面”；对于“梁”，审查项包括“纵筋”、“箍筋”、“腰筋”、“截面”。每个审查项下进一步细分审查内容，如“纵筋”下的“最小直径”、“最大间距”等，并对应列出导致审查不通过的具体相关因素，如“柱纵筋根数过少”、“梁纵筋直径过小”等。该表旨在系统性地归纳结构构件审查失败的常见原因，便于工程审查和问题追溯。"
+    },
+    {
+      "filename": "table_0103_page_0082_表_H.1_结构构件审查项不通过结论相关因素_续.png",
+      "title": "结构构件审查项不通过结论相关因素表（续）",
+      "metadata": "结构审查；构件不通过原因；钢筋配置；墙体构造",
+      "content": "该表为“结构构件审查项不通过结论相关因素”的续表，主要针对“结构墙”类构件，按审查对象分类列出审查项及其不通过的结论相关因素。审查对象包括“约束边缘构件”、“构造边缘构件”、“墙身分布筋”、“连梁”和“截面”。每个审查对象下细分为多个审查项，如“纵筋最小配筋率”、“箍筋最小直径”等，对应列出导致审查不通过的具体相关因素，如“约束边缘构件纵筋根数过少/直径过小”、“连梁箍筋间距过大”等。该表系统性地归纳了结构墙构件在审查中常见的不通过原因，便于工程审查人员快速定位问题。"
+    },
+    {
+      "filename": "table_0104_page_0083_defaulttitle.png",
+      "title": "Reviewer Information Table",
+      "metadata": "A table for recording reviewer names; contains two identical \"Reviewer\" columns.",
+      "content": "The table consists of two columns, each labeled \"审查人\" (Reviewer), with empty cells beneath them. It appears to be a form or template intended for recording reviewer names, but no actual data is filled in. The structure suggests it may be used for dual-reviewer verification or approval processes."
+    }
+  ]
+}

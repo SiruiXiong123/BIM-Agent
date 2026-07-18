@@ -1,0 +1,339 @@
+{
+    "input_path": "/workspace/data/reference/南京地方标准建筑工程施工图信息模型智能审查规范.pdf",
+    "page_index": 81,
+    "page_count": 84,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "DB 3201/T 1143—2023",
+            "block_bbox": [
+                108,
+                144,
+                328,
+                167
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    108.0,
+                    144.0
+                ],
+                [
+                    328.0,
+                    144.0
+                ],
+                [
+                    328.0,
+                    167.0
+                ],
+                [
+                    108.0,
+                    167.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表 H.1 结构构件审查项不通过结论相关因素（续）",
+            "block_bbox": [
+                343,
+                241,
+                807,
+                268
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    343.0,
+                    241.0
+                ],
+                [
+                    807.0,
+                    241.0
+                ],
+                [
+                    807.0,
+                    268.0
+                ],
+                [
+                    343.0,
+                    268.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>审查对象</td><td>审查项</td><td>审查内容</td><td>不通过结论相关因素</td></tr><tr><td rowspan=\"22\">结构墙</td><td rowspan=\"4\">约束边缘构件</td><td>纵筋最小配筋率</td><td>约束边缘构件纵筋根数过少/直径过小</td></tr><tr><td>纵筋最小量</td><td>约束边缘构件纵筋根数过少/直径过小</td></tr><tr><td>最小体积配箍率</td><td>约束边缘构件箍筋间距过大/直径过小</td></tr><tr><td>箍筋沿竖向最大间距</td><td>约束边缘构件箍筋沿竖向间距过大</td></tr><tr><td rowspan=\"6\">构造边缘构件</td><td>纵筋最小配筋率</td><td>构造边缘构件纵筋根数过少/直径过小</td></tr><tr><td>纵筋最小量</td><td>构造边缘构件纵筋根数过少/直径过小</td></tr><tr><td>箍筋最小直径</td><td>构造边缘构件箍筋直径过小</td></tr><tr><td>箍筋沿竖向最大间距</td><td>构造边缘构件箍筋沿竖向间距过大</td></tr><tr><td>箍筋最大肢距</td><td>构造边缘构件箍筋肢距过大</td></tr><tr><td>最小体积配箍率</td><td>构造边缘构件箍筋间距过大/直径过小</td></tr><tr><td rowspan=\"5\">墙身分布筋</td><td>短肢墙全部竖向钢筋最小配筋率</td><td>短肢墙竖向分布筋间距过大/直径过小</td></tr><tr><td>最小配筋率</td><td>墙竖向和水平分布筋间距过大/直径过小</td></tr><tr><td>最小直径</td><td>墙竖向和水平分布筋直径过小</td></tr><tr><td>最大直径</td><td>墙竖向和水平分布筋直径过大</td></tr><tr><td>最大间距</td><td>墙竖向和水平分布筋间距过大</td></tr><tr><td rowspan=\"6\">连梁</td><td>纵筋最小配筋率</td><td>连梁纵筋根数过少/直径过小</td></tr><tr><td>纵筋最大配筋率</td><td>连梁纵筋根数过多/直径过大</td></tr><tr><td>箍筋最小直径</td><td>连梁箍筋直径过小</td></tr><tr><td>箍筋最大间距</td><td>连梁箍筋间距过大</td></tr><tr><td>腰筋最小直径</td><td>连梁腰筋直径过小</td></tr><tr><td>腰筋最小配筋率</td><td>连梁腰筋根数过少/直径过小</td></tr><tr><td>截面</td><td>最小厚度</td><td>墙厚过小</td></tr></table>",
+            "block_bbox": [
+                109,
+                291,
+                1052,
+                1044
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    109.0,
+                    291.0
+                ],
+                [
+                    1052.0,
+                    291.0
+                ],
+                [
+                    1052.0,
+                    1044.0
+                ],
+                [
+                    109.0,
+                    1044.0
+                ]
+            ]
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                161,
+                1095,
+                332,
+                1263
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    161.0,
+                    1095.0
+                ],
+                [
+                    332.0,
+                    1095.0
+                ],
+                [
+                    332.0,
+                    1263.0
+                ],
+                [
+                    161.0,
+                    1263.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "76",
+            "block_bbox": [
+                131,
+                1548,
+                154,
+                1569
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    131.0,
+                    1548.0
+                ],
+                [
+                    153.0,
+                    1548.0
+                ],
+                [
+                    153.0,
+                    1568.0
+                ],
+                [
+                    131.0,
+                    1568.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8640345931053162,
+                "coordinate": [
+                    108,
+                    144,
+                    328,
+                    167
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        108.0,
+                        144.0
+                    ],
+                    [
+                        328.0,
+                        144.0
+                    ],
+                    [
+                        328.0,
+                        167.0
+                    ],
+                    [
+                        108.0,
+                        167.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.874815821647644,
+                "coordinate": [
+                    343,
+                    241,
+                    807,
+                    268
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        343.0,
+                        241.0
+                    ],
+                    [
+                        807.0,
+                        241.0
+                    ],
+                    [
+                        807.0,
+                        268.0
+                    ],
+                    [
+                        343.0,
+                        268.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9816582202911377,
+                "coordinate": [
+                    109,
+                    291,
+                    1052,
+                    1044
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        109.0,
+                        291.0
+                    ],
+                    [
+                        1052.0,
+                        291.0
+                    ],
+                    [
+                        1052.0,
+                        1044.0
+                    ],
+                    [
+                        109.0,
+                        1044.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.531610369682312,
+                "coordinate": [
+                    161,
+                    1095,
+                    332,
+                    1263
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        161.0,
+                        1095.0
+                    ],
+                    [
+                        332.0,
+                        1095.0
+                    ],
+                    [
+                        332.0,
+                        1263.0
+                    ],
+                    [
+                        161.0,
+                        1263.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7183599472045898,
+                "coordinate": [
+                    131,
+                    1548,
+                    154,
+                    1569
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        131.0,
+                        1548.0
+                    ],
+                    [
+                        153.0,
+                        1548.0
+                    ],
+                    [
+                        153.0,
+                        1568.0
+                    ],
+                    [
+                        131.0,
+                        1568.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

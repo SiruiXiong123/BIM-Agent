@@ -1,0 +1,766 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 46,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "8．4．3 校园道路每通行100人道路净宽为0.70m，每一路段的宽度应按该段道路通达的建筑物容纳人数之和计算，每一路段的宽度不宜小于3.00m。",
+            "block_bbox": [
+                147,
+                184,
+                1076,
+                308
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    184.0
+                ],
+                [
+                    1076.0,
+                    184.0
+                ],
+                [
+                    1076.0,
+                    308.0
+                ],
+                [
+                    147.0,
+                    308.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．4．4 校园道路及广场设计应符合国家现行标准的有关规定。",
+            "block_bbox": [
+                146,
+                348,
+                970,
+                385
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    348.0
+                ],
+                [
+                    970.0,
+                    348.0
+                ],
+                [
+                    970.0,
+                    385.0
+                ],
+                [
+                    146.0,
+                    385.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．4．5 校园内人流集中的道路不宜设置台阶。设置台阶时，不得少于3级。",
+            "block_bbox": [
+                147,
+                425,
+                1073,
+                507
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    425.0
+                ],
+                [
+                    1073.0,
+                    425.0
+                ],
+                [
+                    1073.0,
+                    507.0
+                ],
+                [
+                    147.0,
+                    507.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．4．6 校园道路设计应符合现行国家标准《建筑设计防火规范》GB50016的有关规定。",
+            "block_bbox": [
+                147,
+                546,
+                1072,
+                628
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    546.0
+                ],
+                [
+                    1072.0,
+                    546.0
+                ],
+                [
+                    1072.0,
+                    628.0
+                ],
+                [
+                    147.0,
+                    628.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "8.5 建筑物出入口",
+            "block_bbox": [
+                481,
+                646,
+                740,
+                682
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    481.0,
+                    646.0
+                ],
+                [
+                    740.0,
+                    646.0
+                ],
+                [
+                    740.0,
+                    682.0
+                ],
+                [
+                    481.0,
+                    682.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．5．1 校园内除建筑面积不大于200 $ m^{2} $，人数不超过50人的单层建筑外，每栋建筑应设置2个出入口。非完全小学内，单栋建筑面积不超过500 $ m^{2} $，且耐火等级为一、二级的低层建筑可只设1个出入口。",
+            "block_bbox": [
+                147,
+                691,
+                1074,
+                815
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    691.0
+                ],
+                [
+                    1074.0,
+                    691.0
+                ],
+                [
+                    1074.0,
+                    815.0
+                ],
+                [
+                    147.0,
+                    815.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．5．2 教学用房在建筑的主要出入口处宜设门厅。",
+            "block_bbox": [
+                146,
+                854,
+                820,
+                891
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    854.0
+                ],
+                [
+                    820.0,
+                    854.0
+                ],
+                [
+                    820.0,
+                    891.0
+                ],
+                [
+                    146.0,
+                    891.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．5．3 教学用建筑物出入口净通行宽度不得小于1．40m，门内与门外各1．50m范围内不宜设置台阶。",
+            "block_bbox": [
+                147,
+                932,
+                1072,
+                1013
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    932.0
+                ],
+                [
+                    1072.0,
+                    932.0
+                ],
+                [
+                    1072.0,
+                    1013.0
+                ],
+                [
+                    147.0,
+                    1013.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．5．4 在寒冷或风沙大的地区，教学用建筑物出入口应设挡风间或双道门。",
+            "block_bbox": [
+                147,
+                1052,
+                1074,
+                1134
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1052.0
+                ],
+                [
+                    1074.0,
+                    1052.0
+                ],
+                [
+                    1074.0,
+                    1134.0
+                ],
+                [
+                    147.0,
+                    1134.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．5．5 教学用建筑物的出入口应设置无障碍设施，并应采取防止上部物体坠落和地面防滑的措施。",
+            "block_bbox": [
+                147,
+                1173,
+                1072,
+                1255
+            ],
+            "block_id": 9,
+            "block_order": 10,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1173.0
+                ],
+                [
+                    1072.0,
+                    1173.0
+                ],
+                [
+                    1072.0,
+                    1255.0
+                ],
+                [
+                    147.0,
+                    1255.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．5．6 停车场地及地下车库的出入口不应直接通向师生人流集中的道路。",
+            "block_bbox": [
+                147,
+                1294,
+                1073,
+                1374
+            ],
+            "block_id": 10,
+            "block_order": 11,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1294.0
+                ],
+                [
+                    1073.0,
+                    1294.0
+                ],
+                [
+                    1073.0,
+                    1374.0
+                ],
+                [
+                    147.0,
+                    1374.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "8.6 走道",
+            "block_bbox": [
+                538,
+                1394,
+                686,
+                1431
+            ],
+            "block_id": 11,
+            "block_order": 12,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    538.0,
+                    1394.0
+                ],
+                [
+                    686.0,
+                    1394.0
+                ],
+                [
+                    686.0,
+                    1431.0
+                ],
+                [
+                    538.0,
+                    1431.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9475307464599609,
+                "coordinate": [
+                    147,
+                    184,
+                    1076,
+                    308
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        147.0,
+                        184.0
+                    ],
+                    [
+                        1076.0,
+                        184.0
+                    ],
+                    [
+                        1076.0,
+                        308.0
+                    ],
+                    [
+                        147.0,
+                        308.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8786889314651489,
+                "coordinate": [
+                    146,
+                    348,
+                    970,
+                    385
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        146.0,
+                        348.0
+                    ],
+                    [
+                        970.0,
+                        348.0
+                    ],
+                    [
+                        970.0,
+                        385.0
+                    ],
+                    [
+                        146.0,
+                        385.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9200815558433533,
+                "coordinate": [
+                    147,
+                    425,
+                    1073,
+                    507
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        147.0,
+                        425.0
+                    ],
+                    [
+                        1073.0,
+                        425.0
+                    ],
+                    [
+                        1073.0,
+                        507.0
+                    ],
+                    [
+                        147.0,
+                        507.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9349047541618347,
+                "coordinate": [
+                    147,
+                    546,
+                    1072,
+                    628
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        147.0,
+                        546.0
+                    ],
+                    [
+                        1072.0,
+                        546.0
+                    ],
+                    [
+                        1072.0,
+                        628.0
+                    ],
+                    [
+                        147.0,
+                        628.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8571896553039551,
+                "coordinate": [
+                    481,
+                    646,
+                    740,
+                    682
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        481.0,
+                        646.0
+                    ],
+                    [
+                        740.0,
+                        646.0
+                    ],
+                    [
+                        740.0,
+                        682.0
+                    ],
+                    [
+                        481.0,
+                        682.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9468098282814026,
+                "coordinate": [
+                    147,
+                    691,
+                    1074,
+                    815
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        147.0,
+                        691.0
+                    ],
+                    [
+                        1074.0,
+                        691.0
+                    ],
+                    [
+                        1074.0,
+                        815.0
+                    ],
+                    [
+                        147.0,
+                        815.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8753964304924011,
+                "coordinate": [
+                    146,
+                    854,
+                    820,
+                    891
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        146.0,
+                        854.0
+                    ],
+                    [
+                        820.0,
+                        854.0
+                    ],
+                    [
+                        820.0,
+                        891.0
+                    ],
+                    [
+                        146.0,
+                        891.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9295526146888733,
+                "coordinate": [
+                    147,
+                    932,
+                    1072,
+                    1013
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        147.0,
+                        932.0
+                    ],
+                    [
+                        1072.0,
+                        932.0
+                    ],
+                    [
+                        1072.0,
+                        1013.0
+                    ],
+                    [
+                        147.0,
+                        1013.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9317987561225891,
+                "coordinate": [
+                    147,
+                    1052,
+                    1074,
+                    1134
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1052.0
+                    ],
+                    [
+                        1074.0,
+                        1052.0
+                    ],
+                    [
+                        1074.0,
+                        1134.0
+                    ],
+                    [
+                        147.0,
+                        1134.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9413439631462097,
+                "coordinate": [
+                    147,
+                    1173,
+                    1072,
+                    1255
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1173.0
+                    ],
+                    [
+                        1072.0,
+                        1173.0
+                    ],
+                    [
+                        1072.0,
+                        1255.0
+                    ],
+                    [
+                        147.0,
+                        1255.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9352654218673706,
+                "coordinate": [
+                    147,
+                    1294,
+                    1073,
+                    1374
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1294.0
+                    ],
+                    [
+                        1073.0,
+                        1294.0
+                    ],
+                    [
+                        1073.0,
+                        1374.0
+                    ],
+                    [
+                        147.0,
+                        1374.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8328750729560852,
+                "coordinate": [
+                    538,
+                    1394,
+                    686,
+                    1431
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        538.0,
+                        1394.0
+                    ],
+                    [
+                        686.0,
+                        1394.0
+                    ],
+                    [
+                        686.0,
+                        1431.0
+                    ],
+                    [
+                        538.0,
+                        1431.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "input_path": "/workspace/data/reference/南京地方标准建筑工程施工图信息模型智能审查规范.pdf",
+    "page_index": 5,
+    "page_count": 84,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "DB3201",
+            "block_bbox": [
+                148,
+                381,
+                1014,
+                1311
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    155.85255432128906,
+                    419.98577880859375
+                ],
+                [
+                    1007.93798828125,
+                    409.80145263671875
+                ],
+                [
+                    1018.0855712890625,
+                    1258.815673828125
+                ],
+                [
+                    166.0001220703125,
+                    1269.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.4652002453804016,
+                "coordinate": [
+                    148,
+                    381,
+                    1014,
+                    1311
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        155.85255432128906,
+                        419.98577880859375
+                    ],
+                    [
+                        1007.93798828125,
+                        409.80145263671875
+                    ],
+                    [
+                        1018.0855712890625,
+                        1258.815673828125
+                    ],
+                    [
+                        166.0001220703125,
+                        1269.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "document_id": "中小学校设计规范GB 50099—2011(page1-50)",
+  "source_file": "中小学校设计规范GB 50099—2011(page1-50).pdf",
+  "index_dir": "assets/indexes/中小学校设计规范GB 50099—2011(page1-50)",
+  "embedding_model": "Pro/BAAI/bge-m3",
+  "modalities": {
+    "text": {
+      "count": 115,
+      "faiss_path": "assets/indexes/中小学校设计规范GB 50099—2011(page1-50)/text.faiss",
+      "metadata_path": "assets/indexes/中小学校设计规范GB 50099—2011(page1-50)/text_metadata.jsonl",
+      "dimension": 1024
+    },
+    "table": {
+      "count": 25,
+      "faiss_path": "assets/indexes/中小学校设计规范GB 50099—2011(page1-50)/table.faiss",
+      "metadata_path": "assets/indexes/中小学校设计规范GB 50099—2011(page1-50)/table_metadata.jsonl",
+      "dimension": 1024
+    },
+    "image": {
+      "count": 0,
+      "faiss_path": "assets/indexes/中小学校设计规范GB 50099—2011(page1-50)/image.faiss",
+      "metadata_path": "assets/indexes/中小学校设计规范GB 50099—2011(page1-50)/image_metadata.jsonl",
+      "dimension": 1024
+    }
+  },
+  "metadata": {
+    "text_chunking": "native_semantic_chunking",
+    "embedding_provider": "siliconflow"
+  },
+  "indexed_at": "2026-07-17T10:57:05.161677+00:00",
+  "inputs": {
+    "text_chunks_path": "assets/中小学校设计规范GB 50099—2011(page1-50)_chunk_merge.json",
+    "table_enrichment_path": "assets/中小学校设计规范GB 50099—2011(page1-50)_table_enrichment.json",
+    "image_enrichment_path": "assets/中小学校设计规范GB 50099—2011(page1-50)_image_enrichment.json",
+    "table_asset_dir": "assets/中小学校设计规范GB 50099—2011(page1-50)_tables",
+    "image_asset_dir": "assets/中小学校设计规范GB 50099—2011(page1-50)_images",
+    "table_asset_manifest_path": "assets/中小学校设计规范GB 50099—2011(page1-50)_tables/asset_manifest.jsonl",
+    "image_asset_manifest_path": "assets/中小学校设计规范GB 50099—2011(page1-50)_images/asset_manifest.jsonl"
+  }
+}

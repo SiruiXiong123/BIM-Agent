@@ -1,0 +1,735 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 53,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "figure_title",
+            "block_content": "表9.3.2 教学用房的照明功率密度值及对应照度值",
+            "block_bbox": [
+                347,
+                140,
+                876,
+                178
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    347.0,
+                    140.0
+                ],
+                [
+                    876.0,
+                    140.0
+                ],
+                [
+                    876.0,
+                    178.0
+                ],
+                [
+                    347.0,
+                    178.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td rowspan=\"2\">房间名称</td><td colspan=\"2\">照明功率密度( $ W/m^{2} $)</td><td rowspan=\"2\">对应照度值 (lx)</td></tr><tr><td>现行值</td><td>目标值</td></tr><tr><td>普通教室、史地教室、书法教室、音乐教室、语言教室、合班教室、阅览室</td><td>11</td><td>9</td><td>300</td></tr><tr><td>科学教室、实验室、舞蹈教室</td><td>11</td><td>9</td><td>300</td></tr><tr><td>有多媒体设施的教室</td><td>11</td><td>9</td><td>300</td></tr><tr><td>美术教室</td><td>18</td><td>15</td><td>500</td></tr><tr><td>办公室、保健室</td><td>11</td><td>9</td><td>300</td></tr></table>",
+            "block_bbox": [
+                240,
+                174,
+                983,
+                550
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    240.0,
+                    174.0
+                ],
+                [
+                    983.0,
+                    174.0
+                ],
+                [
+                    983.0,
+                    550.0
+                ],
+                [
+                    240.0,
+                    550.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "9.4 噪声控制",
+            "block_bbox": [
+                511,
+                577,
+                711,
+                613
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    511.0,
+                    577.0
+                ],
+                [
+                    711.0,
+                    577.0
+                ],
+                [
+                    711.0,
+                    613.0
+                ],
+                [
+                    511.0,
+                    613.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "9．4．1 教学用房的环境噪声控制值应符合现行国家标准《民用建筑隔声设计规范》GB50118的有关规定。",
+            "block_bbox": [
+                146,
+                621,
+                1074,
+                702
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    621.0
+                ],
+                [
+                    1074.0,
+                    621.0
+                ],
+                [
+                    1074.0,
+                    702.0
+                ],
+                [
+                    146.0,
+                    702.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "9．4．2 主要教学用房的隔声标准应符合表9．4．2的规定。",
+            "block_bbox": [
+                146,
+                743,
+                923,
+                778
+            ],
+            "block_id": 4,
+            "block_order": 2,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    743.0
+                ],
+                [
+                    923.0,
+                    743.0
+                ],
+                [
+                    923.0,
+                    778.0
+                ],
+                [
+                    146.0,
+                    778.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表9.4.2 主要教学用房的隔声标准",
+            "block_bbox": [
+                427,
+                778,
+                798,
+                805
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    427.0,
+                    778.0
+                ],
+                [
+                    798.0,
+                    778.0
+                ],
+                [
+                    798.0,
+                    805.0
+                ],
+                [
+                    427.0,
+                    805.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>房间名称</td><td>空气声隔声标准 (dB)</td><td>顶部楼板撞击声隔声单值 评价量(dB)</td></tr><tr><td>语言教室、阅览室</td><td>$ \\geq $50</td><td>$ \\leq $65</td></tr><tr><td>普通教室、实验室等与 不产生噪声的房间之间</td><td>$ \\geq $45</td><td>$ \\leq $75</td></tr><tr><td>普通教室、实验室等与 产生噪声的房间之间</td><td>$ \\geq $50</td><td>$ \\leq $65</td></tr><tr><td>音乐教室等 产生噪声的房间之间</td><td>$ \\geq $45</td><td>$ \\leq $65</td></tr></table>",
+            "block_bbox": [
+                240,
+                809,
+                984,
+                1105
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    240.0,
+                    809.0
+                ],
+                [
+                    984.0,
+                    809.0
+                ],
+                [
+                    984.0,
+                    1105.0
+                ],
+                [
+                    240.0,
+                    1105.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "9．4．3 教学用房的混响时间应符合现行国家标准《民用建筑隔声设计规范》GB50118的有关规定。",
+            "block_bbox": [
+                146,
+                1122,
+                1072,
+                1204
+            ],
+            "block_id": 7,
+            "block_order": 3,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    1122.0
+                ],
+                [
+                    1072.0,
+                    1122.0
+                ],
+                [
+                    1072.0,
+                    1204.0
+                ],
+                [
+                    146.0,
+                    1204.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "10 建筑设备",
+            "block_bbox": [
+                528,
+                1222,
+                696,
+                1259
+            ],
+            "block_id": 8,
+            "block_order": 4,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    528.0,
+                    1222.0
+                ],
+                [
+                    696.0,
+                    1222.0
+                ],
+                [
+                    696.0,
+                    1259.0
+                ],
+                [
+                    528.0,
+                    1259.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "10.1 采暖通风与空气调节",
+            "block_bbox": [
+                430,
+                1299,
+                794,
+                1335
+            ],
+            "block_id": 9,
+            "block_order": 5,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    430.0,
+                    1299.0
+                ],
+                [
+                    794.0,
+                    1299.0
+                ],
+                [
+                    794.0,
+                    1335.0
+                ],
+                [
+                    430.0,
+                    1335.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "10．1．1中小学校建筑的采暖通风与空气调节系统的设计应满足舒适度的要求，并符合节约能源的原则。",
+            "block_bbox": [
+                148,
+                1343,
+                1074,
+                1425
+            ],
+            "block_id": 10,
+            "block_order": 6,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    1343.0
+                ],
+                [
+                    1074.0,
+                    1343.0
+                ],
+                [
+                    1074.0,
+                    1425.0
+                ],
+                [
+                    148.0,
+                    1425.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8741883039474487,
+                "coordinate": [
+                    347,
+                    140,
+                    876,
+                    178
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        347.0,
+                        140.0
+                    ],
+                    [
+                        876.0,
+                        140.0
+                    ],
+                    [
+                        876.0,
+                        178.0
+                    ],
+                    [
+                        347.0,
+                        178.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9672811031341553,
+                "coordinate": [
+                    240,
+                    174,
+                    983,
+                    550
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        240.0,
+                        174.0
+                    ],
+                    [
+                        983.0,
+                        174.0
+                    ],
+                    [
+                        983.0,
+                        550.0
+                    ],
+                    [
+                        240.0,
+                        550.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5028376579284668,
+                "coordinate": [
+                    708,
+                    185,
+                    780,
+                    209
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        708.0,
+                        185.0
+                    ],
+                    [
+                        708.0,
+                        208.0
+                    ],
+                    [
+                        779.0,
+                        208.0
+                    ],
+                    [
+                        779.0,
+                        185.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8591210842132568,
+                "coordinate": [
+                    511,
+                    577,
+                    711,
+                    613
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        511.0,
+                        577.0
+                    ],
+                    [
+                        711.0,
+                        577.0
+                    ],
+                    [
+                        711.0,
+                        613.0
+                    ],
+                    [
+                        511.0,
+                        613.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9317203164100647,
+                "coordinate": [
+                    146,
+                    621,
+                    1074,
+                    702
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        146.0,
+                        621.0
+                    ],
+                    [
+                        1074.0,
+                        621.0
+                    ],
+                    [
+                        1074.0,
+                        702.0
+                    ],
+                    [
+                        146.0,
+                        702.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8559120893478394,
+                "coordinate": [
+                    146,
+                    743,
+                    923,
+                    778
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        146.0,
+                        743.0
+                    ],
+                    [
+                        923.0,
+                        743.0
+                    ],
+                    [
+                        923.0,
+                        778.0
+                    ],
+                    [
+                        146.0,
+                        778.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8772290349006653,
+                "coordinate": [
+                    427,
+                    778,
+                    798,
+                    805
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        427.0,
+                        778.0
+                    ],
+                    [
+                        798.0,
+                        778.0
+                    ],
+                    [
+                        798.0,
+                        805.0
+                    ],
+                    [
+                        427.0,
+                        805.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9590944051742554,
+                "coordinate": [
+                    240,
+                    809,
+                    984,
+                    1105
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        240.0,
+                        809.0
+                    ],
+                    [
+                        984.0,
+                        809.0
+                    ],
+                    [
+                        984.0,
+                        1105.0
+                    ],
+                    [
+                        240.0,
+                        1105.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9303526878356934,
+                "coordinate": [
+                    146,
+                    1122,
+                    1072,
+                    1204
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        146.0,
+                        1122.0
+                    ],
+                    [
+                        1072.0,
+                        1122.0
+                    ],
+                    [
+                        1072.0,
+                        1204.0
+                    ],
+                    [
+                        146.0,
+                        1204.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8255094289779663,
+                "coordinate": [
+                    528,
+                    1222,
+                    696,
+                    1259
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        528.0,
+                        1222.0
+                    ],
+                    [
+                        696.0,
+                        1222.0
+                    ],
+                    [
+                        696.0,
+                        1259.0
+                    ],
+                    [
+                        528.0,
+                        1259.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8508238196372986,
+                "coordinate": [
+                    430,
+                    1299,
+                    794,
+                    1335
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        430.0,
+                        1299.0
+                    ],
+                    [
+                        794.0,
+                        1299.0
+                    ],
+                    [
+                        794.0,
+                        1335.0
+                    ],
+                    [
+                        430.0,
+                        1335.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9263625144958496,
+                "coordinate": [
+                    148,
+                    1343,
+                    1074,
+                    1425
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        148.0,
+                        1343.0
+                    ],
+                    [
+                        1074.0,
+                        1343.0
+                    ],
+                    [
+                        1074.0,
+                        1425.0
+                    ],
+                    [
+                        148.0,
+                        1425.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

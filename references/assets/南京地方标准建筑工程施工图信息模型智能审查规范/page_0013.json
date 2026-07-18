@@ -1,0 +1,612 @@
+{
+    "input_path": "/workspace/data/reference/南京地方标准建筑工程施工图信息模型智能审查规范.pdf",
+    "page_index": 12,
+    "page_count": 84,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "DB 3201/T 1143—2023",
+            "block_bbox": [
+                862,
+                144,
+                1081,
+                167
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    862.0,
+                    144.0
+                ],
+                [
+                    1081.0,
+                    144.0
+                ],
+                [
+                    1081.0,
+                    167.0
+                ],
+                [
+                    862.0,
+                    167.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "附录A",
+            "block_bbox": [
+                553,
+                255,
+                657,
+                280
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    553.0,
+                    255.0
+                ],
+                [
+                    657.0,
+                    255.0
+                ],
+                [
+                    657.0,
+                    280.0
+                ],
+                [
+                    553.0,
+                    280.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "（资料性）",
+            "block_bbox": [
+                563,
+                286,
+                657,
+                311
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    563.0,
+                    286.0
+                ],
+                [
+                    656.0,
+                    286.0
+                ],
+                [
+                    656.0,
+                    310.0
+                ],
+                [
+                    563.0,
+                    310.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "建筑专业BIM智能审查条文库",
+            "block_bbox": [
+                468,
+                317,
+                750,
+                343
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    468.0,
+                    317.0
+                ],
+                [
+                    750.0,
+                    317.0
+                ],
+                [
+                    750.0,
+                    343.0
+                ],
+                [
+                    468.0,
+                    343.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "建筑专业根据9本文件中已拆解的条文审查模型，现已拆解条文共88条，其中强条70条，一般性条文13条，要点5条。具体条文详见表A.1～表A.9。（拆解的条文随引用规范的修订而修订本规范。）",
+            "block_bbox": [
+                136,
+                367,
+                1081,
+                425
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    136.0,
+                    367.0
+                ],
+                [
+                    1081.0,
+                    367.0
+                ],
+                [
+                    1081.0,
+                    425.0
+                ],
+                [
+                    136.0,
+                    425.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表 A.1 建筑专业 BIM 智能审查条文表",
+            "block_bbox": [
+                453,
+                443,
+                806,
+                469
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    453.0,
+                    443.0
+                ],
+                [
+                    806.0,
+                    443.0
+                ],
+                [
+                    806.0,
+                    469.0
+                ],
+                [
+                    453.0,
+                    469.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>序号</td><td>审查条文</td><td>条文类型</td><td>条文内容</td><td>模型关联信息</td><td>准确性及说明</td></tr><tr><td>1</td><td>5.1.3</td><td>强条</td><td>民用建筑的耐火等级应根据其建筑高度、使用功能、重要性和火灾扑救难度等确定，并应符合下列规定：\\n1 地下或半地下建筑（室）和一类高层建筑的耐火等级不应低于一级；\\n2 单、多层重要公共建筑和二类高层建筑的耐火等级不应低于二级。</td><td>建筑类型、建筑层数、耐火等级</td><td>需复核\\n两个安全出口距离计算有200 mm左右的误差。</td></tr><tr><td>2</td><td>5.1.3A</td><td>强条</td><td>除木结构建筑外，老年人照料设施的耐火等级不应低于三级。</td><td>建筑类型、耐火等级</td><td>需复核\\n门开启方向。</td></tr><tr><td>3</td><td>5.1.4</td><td>强条</td><td>建筑高度大于100 m的民用建筑，其楼板的耐火极限不应低于2.00 h。\\n一、二级耐火等级建筑的上人平屋顶，其屋面板的耐火极限分别不应低于1.50 h和1.00 h。</td><td>建筑类型、建筑高度、耐火等级、楼板、平屋顶</td><td>需复核\\n楼梯宽度减去扶手宽度20 mm；\\n楼梯的宽度只能计算直梯和双跑楼梯，其他形状楼梯可能计算不准确。</td></tr><tr><td colspan=\"2\"><img src=\"imgs/img_in_image_box_164_1094_329_1261.jpg\" alt=\"Image\"\" /></td><td><img src=\"imgs/img_in_image_box_342_939_453_1106.jpg\" alt=\"Image\"\" /></td><td>除本规范另有规定外，不同耐火等级建筑的允许建筑高度或层数、防火分区最大允许建筑面积应符合表5.3.1（详见规范）的规定。</td><td>建筑类型、建筑层数、建筑高度、耐火等级、区域、房间、墙、灭火系统</td><td>准确</td></tr><tr><td>5</td><td>5.3.4</td><td>强条</td><td>一、二级耐火等级建筑内的商店营业厅、展览厅，当设置自动灭火系统和火灾自动报警系统并采用不燃或难燃装修材料时，其每个防火分区的最大允许建筑面积应符合下列规定：\\n1 设置在高层建筑内时，不应大于4000  $ m^{{2}} $；\\n2 设置在单层建筑或仅设置在多层建筑的首层内时，不应大于10000  $ m^{{2}} $；\\n3 设置在地下或半地下时，不应大于2000  $ m^{{2}} $。</td><td>建筑类型、建筑层数、耐火等级、区域、房间、灭火系统、火灾报警系统、楼层</td><td>准确\\n建模需对属性赋值。</td></tr></table>",
+            "block_bbox": [
+                138,
+                485,
+                1081,
+                1523
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    138.0,
+                    485.0
+                ],
+                [
+                    1081.0,
+                    485.0
+                ],
+                [
+                    1081.0,
+                    1523.0
+                ],
+                [
+                    138.0,
+                    1523.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "7",
+            "block_bbox": [
+                1043,
+                1549,
+                1057,
+                1568
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    1043.0,
+                    1549.0
+                ],
+                [
+                    1056.0,
+                    1549.0
+                ],
+                [
+                    1056.0,
+                    1567.0
+                ],
+                [
+                    1043.0,
+                    1567.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8568999767303467,
+                "coordinate": [
+                    862,
+                    144,
+                    1081,
+                    167
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        862.0,
+                        144.0
+                    ],
+                    [
+                        1081.0,
+                        144.0
+                    ],
+                    [
+                        1081.0,
+                        167.0
+                    ],
+                    [
+                        862.0,
+                        167.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8216707110404968,
+                "coordinate": [
+                    553,
+                    255,
+                    657,
+                    280
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        553.0,
+                        255.0
+                    ],
+                    [
+                        657.0,
+                        255.0
+                    ],
+                    [
+                        657.0,
+                        280.0
+                    ],
+                    [
+                        553.0,
+                        280.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7630287408828735,
+                "coordinate": [
+                    563,
+                    286,
+                    657,
+                    311
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        563.0,
+                        286.0
+                    ],
+                    [
+                        656.0,
+                        286.0
+                    ],
+                    [
+                        656.0,
+                        310.0
+                    ],
+                    [
+                        563.0,
+                        310.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7290472388267517,
+                "coordinate": [
+                    468,
+                    317,
+                    750,
+                    343
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        468.0,
+                        317.0
+                    ],
+                    [
+                        750.0,
+                        317.0
+                    ],
+                    [
+                        750.0,
+                        343.0
+                    ],
+                    [
+                        468.0,
+                        343.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9104320406913757,
+                "coordinate": [
+                    136,
+                    367,
+                    1081,
+                    425
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        136.0,
+                        367.0
+                    ],
+                    [
+                        1081.0,
+                        367.0
+                    ],
+                    [
+                        1081.0,
+                        425.0
+                    ],
+                    [
+                        136.0,
+                        425.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8719635605812073,
+                "coordinate": [
+                    453,
+                    443,
+                    806,
+                    469
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        453.0,
+                        443.0
+                    ],
+                    [
+                        806.0,
+                        443.0
+                    ],
+                    [
+                        806.0,
+                        469.0
+                    ],
+                    [
+                        453.0,
+                        469.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9845739006996155,
+                "coordinate": [
+                    138,
+                    485,
+                    1081,
+                    1523
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        138.0,
+                        485.0
+                    ],
+                    [
+                        1081.0,
+                        485.0
+                    ],
+                    [
+                        1081.0,
+                        1523.0
+                    ],
+                    [
+                        138.0,
+                        1523.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.3714574873447418,
+                "coordinate": [
+                    343,
+                    942,
+                    442,
+                    1023
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        343.0,
+                        942.0
+                    ],
+                    [
+                        442.0,
+                        942.0
+                    ],
+                    [
+                        442.0,
+                        1023.0
+                    ],
+                    [
+                        343.0,
+                        1023.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.3606729507446289,
+                "coordinate": [
+                    342,
+                    939,
+                    453,
+                    1106
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        342.0,
+                        939.0
+                    ],
+                    [
+                        453.0,
+                        939.0
+                    ],
+                    [
+                        453.0,
+                        1106.0
+                    ],
+                    [
+                        342.0,
+                        1106.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.3953305780887604,
+                "coordinate": [
+                    164,
+                    1094,
+                    329,
+                    1261
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        164.0,
+                        1094.0
+                    ],
+                    [
+                        329.0,
+                        1094.0
+                    ],
+                    [
+                        329.0,
+                        1261.0
+                    ],
+                    [
+                        164.0,
+                        1261.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6050470471382141,
+                "coordinate": [
+                    1043,
+                    1549,
+                    1057,
+                    1568
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        1043.0,
+                        1549.0
+                    ],
+                    [
+                        1056.0,
+                        1549.0
+                    ],
+                    [
+                        1056.0,
+                        1567.0
+                    ],
+                    [
+                        1043.0,
+                        1567.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

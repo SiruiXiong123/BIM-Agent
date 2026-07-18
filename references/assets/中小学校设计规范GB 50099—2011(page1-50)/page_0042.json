@@ -1,0 +1,552 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 41,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "figure_title",
+            "block_content": "表7.1.5 主要教学辅助用房的使用面积指标（ $ m^{2} $/每间）",
+            "block_bbox": [
+                318,
+                142,
+                896,
+                177
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    318.0,
+                    142.0
+                ],
+                [
+                    896.0,
+                    142.0
+                ],
+                [
+                    896.0,
+                    177.0
+                ],
+                [
+                    318.0,
+                    177.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>房间名称</td><td>小学</td><td>中学</td><td>备注</td></tr><tr><td>普通教室教师休息室</td><td>(3.50)</td><td>(3.50)</td><td>指标为使用面积/每位使用教师</td></tr><tr><td>实验员室</td><td>12.00</td><td>12.00</td><td rowspan=\"4\">—</td></tr><tr><td>仪器室</td><td>18.00</td><td>24.00</td></tr><tr><td>药品室</td><td>18.00</td><td>24.00</td></tr><tr><td>准备室</td><td>18.00</td><td>24.00</td></tr><tr><td>标本陈列室</td><td>42.00</td><td>42.00</td><td>可陈列在能封闭管理的走道内</td></tr><tr><td>历史资料室</td><td>12.00</td><td>12.00</td><td rowspan=\"4\">—</td></tr><tr><td>地理资料室</td><td>12.00</td><td>12.00</td></tr><tr><td>计算机教室资料室</td><td>24.00</td><td>24.00</td></tr><tr><td>语言教室资料室</td><td>24.00</td><td>24.00</td></tr><tr><td>美术教室教具室</td><td>24.00</td><td>24.00</td><td>可将部分教具置于美术教室内</td></tr><tr><td>乐器室</td><td>24.00</td><td>24.00</td><td rowspan=\"2\">—</td></tr><tr><td>舞蹈教室更衣室</td><td>12.00</td><td>12.00</td></tr></table>",
+            "block_bbox": [
+                239,
+                176,
+                983,
+                858
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    239.0,
+                    176.0
+                ],
+                [
+                    983.0,
+                    176.0
+                ],
+                [
+                    983.0,
+                    858.0
+                ],
+                [
+                    239.0,
+                    858.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "注：除注明者外，指标为每室最小面积。当部分功能移入走道或教室时，指标作相应调整。",
+            "block_bbox": [
+                259,
+                865,
+                986,
+                923
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    259.0,
+                    865.0
+                ],
+                [
+                    986.0,
+                    865.0
+                ],
+                [
+                    986.0,
+                    923.0
+                ],
+                [
+                    259.0,
+                    923.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "7.2 净高",
+            "block_bbox": [
+                540,
+                952,
+                685,
+                985
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    540.0,
+                    952.0
+                ],
+                [
+                    685.0,
+                    952.0
+                ],
+                [
+                    685.0,
+                    985.0
+                ],
+                [
+                    540.0,
+                    985.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "7．2．1 中小学校主要教学用房的最小净高应符合表7．2．1的规定。",
+            "block_bbox": [
+                147,
+                995,
+                1045,
+                1031
+            ],
+            "block_id": 4,
+            "block_order": 1,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    995.0
+                ],
+                [
+                    1045.0,
+                    995.0
+                ],
+                [
+                    1045.0,
+                    1031.0
+                ],
+                [
+                    147.0,
+                    1031.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表7.2.1 主要教学用房的最小净高（m）",
+            "block_bbox": [
+                401,
+                1031,
+                820,
+                1058
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    401.0,
+                    1031.0
+                ],
+                [
+                    820.0,
+                    1031.0
+                ],
+                [
+                    820.0,
+                    1058.0
+                ],
+                [
+                    401.0,
+                    1058.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>教室</td><td>小学</td><td>初中</td><td>高中</td></tr><tr><td>普通教室、史地、美术、音乐教室</td><td>3.00</td><td>3.05</td><td>3.10</td></tr><tr><td>舞蹈教室</td><td colspan=\"3\">4.50</td></tr><tr><td>科学教室、实验室、计算机教室、劳动教室、技术教室、合班教室</td><td colspan=\"3\">3.10</td></tr><tr><td>阶梯教室</td><td colspan=\"3\">最后一排（楼地面最高处）距顶棚或上方突出物最小距离为2.20m</td></tr></table>",
+            "block_bbox": [
+                239,
+                1064,
+                983,
+                1314
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    239.0,
+                    1064.0
+                ],
+                [
+                    983.0,
+                    1064.0
+                ],
+                [
+                    983.0,
+                    1314.0
+                ],
+                [
+                    239.0,
+                    1314.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "7．2．2 风雨操场的净高应取决于场地的运动内容。各类体育场地最小净高应符合表7．2．2的规定。",
+            "block_bbox": [
+                147,
+                1327,
+                1073,
+                1408
+            ],
+            "block_id": 7,
+            "block_order": 2,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1327.0
+                ],
+                [
+                    1073.0,
+                    1327.0
+                ],
+                [
+                    1073.0,
+                    1408.0
+                ],
+                [
+                    147.0,
+                    1408.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8635268211364746,
+                "coordinate": [
+                    318,
+                    142,
+                    896,
+                    177
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        318.0,
+                        142.0
+                    ],
+                    [
+                        896.0,
+                        142.0
+                    ],
+                    [
+                        896.0,
+                        177.0
+                    ],
+                    [
+                        318.0,
+                        177.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7279902100563049,
+                "coordinate": [
+                    785,
+                    143,
+                    831,
+                    169
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        785.0,
+                        143.0
+                    ],
+                    [
+                        785.0,
+                        168.0
+                    ],
+                    [
+                        830.0,
+                        168.0
+                    ],
+                    [
+                        830.0,
+                        143.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9751057028770447,
+                "coordinate": [
+                    239,
+                    176,
+                    983,
+                    858
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        239.0,
+                        176.0
+                    ],
+                    [
+                        983.0,
+                        176.0
+                    ],
+                    [
+                        983.0,
+                        858.0
+                    ],
+                    [
+                        239.0,
+                        858.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.9396949410438538,
+                "coordinate": [
+                    259,
+                    865,
+                    986,
+                    923
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        259.0,
+                        865.0
+                    ],
+                    [
+                        986.0,
+                        865.0
+                    ],
+                    [
+                        986.0,
+                        923.0
+                    ],
+                    [
+                        259.0,
+                        923.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.5711180567741394,
+                "coordinate": [
+                    540,
+                    952,
+                    685,
+                    985
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        540.0,
+                        952.0
+                    ],
+                    [
+                        685.0,
+                        952.0
+                    ],
+                    [
+                        685.0,
+                        985.0
+                    ],
+                    [
+                        540.0,
+                        985.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8497863411903381,
+                "coordinate": [
+                    147,
+                    995,
+                    1045,
+                    1031
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        147.0,
+                        995.0
+                    ],
+                    [
+                        1045.0,
+                        995.0
+                    ],
+                    [
+                        1045.0,
+                        1031.0
+                    ],
+                    [
+                        147.0,
+                        1031.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8703688383102417,
+                "coordinate": [
+                    401,
+                    1031,
+                    820,
+                    1058
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        401.0,
+                        1031.0
+                    ],
+                    [
+                        820.0,
+                        1031.0
+                    ],
+                    [
+                        820.0,
+                        1058.0
+                    ],
+                    [
+                        401.0,
+                        1058.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9688140153884888,
+                "coordinate": [
+                    239,
+                    1064,
+                    983,
+                    1314
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        239.0,
+                        1064.0
+                    ],
+                    [
+                        983.0,
+                        1064.0
+                    ],
+                    [
+                        983.0,
+                        1314.0
+                    ],
+                    [
+                        239.0,
+                        1314.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9276331663131714,
+                "coordinate": [
+                    147,
+                    1327,
+                    1073,
+                    1408
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1327.0
+                    ],
+                    [
+                        1073.0,
+                        1327.0
+                    ],
+                    [
+                        1073.0,
+                        1408.0
+                    ],
+                    [
+                        147.0,
+                        1408.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

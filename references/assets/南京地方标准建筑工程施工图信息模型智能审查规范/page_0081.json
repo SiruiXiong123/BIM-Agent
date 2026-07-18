@@ -1,0 +1,522 @@
+{
+    "input_path": "/workspace/data/reference/南京地方标准建筑工程施工图信息模型智能审查规范.pdf",
+    "page_index": 80,
+    "page_count": 84,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "DB 3201/T 1143—2023",
+            "block_bbox": [
+                863,
+                144,
+                1081,
+                167
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    863.0,
+                    144.0
+                ],
+                [
+                    1081.0,
+                    144.0
+                ],
+                [
+                    1081.0,
+                    167.0
+                ],
+                [
+                    863.0,
+                    167.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "附 录 H",
+            "block_bbox": [
+                553,
+                255,
+                658,
+                281
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    553.0,
+                    255.0
+                ],
+                [
+                    658.0,
+                    255.0
+                ],
+                [
+                    658.0,
+                    281.0
+                ],
+                [
+                    553.0,
+                    281.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "（资料性）",
+            "block_bbox": [
+                563,
+                286,
+                656,
+                311
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    563.0,
+                    286.0
+                ],
+                [
+                    655.0,
+                    286.0
+                ],
+                [
+                    655.0,
+                    310.0
+                ],
+                [
+                    563.0,
+                    310.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "审查项不通过结论相关因素",
+            "block_bbox": [
+                479,
+                317,
+                739,
+                343
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    479.0,
+                    317.0
+                ],
+                [
+                    739.0,
+                    317.0
+                ],
+                [
+                    739.0,
+                    343.0
+                ],
+                [
+                    479.0,
+                    343.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "结构专业审查项不通过结论相关因素可见表H.1查验。",
+            "block_bbox": [
+                177,
+                367,
+                669,
+                394
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    177.0,
+                    367.0
+                ],
+                [
+                    669.0,
+                    367.0
+                ],
+                [
+                    669.0,
+                    394.0
+                ],
+                [
+                    177.0,
+                    394.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表 H.1 结构构件审查项不通过结论相关因素",
+            "block_bbox": [
+                404,
+                411,
+                813,
+                438
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    404.0,
+                    411.0
+                ],
+                [
+                    813.0,
+                    411.0
+                ],
+                [
+                    813.0,
+                    438.0
+                ],
+                [
+                    404.0,
+                    438.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>审查对象</td><td>审查项</td><td>审查内容</td><td>不通过结论相关因素</td></tr><tr><td rowspan=\"12\">柱</td><td rowspan=\"7\">纵筋</td><td>圆柱纵筋最少根数</td><td>圆柱纵筋根数过少</td></tr><tr><td>最小直径</td><td>柱纵筋直径过小</td></tr><tr><td>最大间距</td><td>柱纵筋根数过少</td></tr><tr><td>最小间距</td><td>柱纵筋根数过多</td></tr><tr><td rowspan=\"2\">最小配筋率</td><td>柱纵筋根数过少/直径过小</td></tr><tr><td>框支柱纵筋根数过少/直径过小</td></tr><tr><td>最大配筋率</td><td>柱纵筋根数过多/直径过大</td></tr><tr><td rowspan=\"3\">箍筋</td><td>最小直径</td><td>柱箍筋直径过小</td></tr><tr><td rowspan=\"2\">最小体积配箍率</td><td>柱箍筋间距过大/直径过小</td></tr><tr><td>框支柱箍筋间距过大/直径过小</td></tr><tr><td rowspan=\"2\">截面</td><td>最小截面尺寸</td><td>柱截面尺寸过小</td></tr><tr><td>截面边长比</td><td>柱截面长边与短边的边长比过大</td></tr><tr><td rowspan=\"19\">梁</td><td rowspan=\"8\">纵筋</td><td>最小直径</td><td>梁纵筋直径过小</td></tr><tr><td>最大直径</td><td>梁纵筋直径过大</td></tr><tr><td>最大配筋率</td><td>梁纵筋根数过多/直径过大</td></tr><tr><td rowspan=\"2\">最小配筋率</td><td>梁纵筋根数过少/直径过小</td></tr><tr><td>转换梁纵筋根数过少/直径过小</td></tr><tr><td>底面和顶面钢筋面积比</td><td>梁端截面顶面筋过多/梁端截面底面筋过少</td></tr><tr><td>通长筋</td><td>转换梁通长筋根数过少/直径过小</td></tr><tr><td>纵筋净间距</td><td>梁纵筋排布错误</td></tr><tr><td rowspan=\"7\">箍筋</td><td>加密区最小直径</td><td>梁箍筋直径过小</td></tr><tr><td rowspan=\"2\">加密区长度和间距</td><td>梁箍筋间距过大</td></tr><tr><td>转换梁箍筋间距过大</td></tr><tr><td>加密区肢距</td><td>梁箍筋肢数过少</td></tr><tr><td>非加密区间距</td><td>梁箍筋间距过大</td></tr><tr><td>非加密区肢距</td><td>梁箍筋肢数过少</td></tr><tr><td>最小面积配筋率</td><td>梁箍筋间距过大/直径过小</td></tr><tr><td rowspan=\"2\">腰筋</td><td>腰筋最小配筋率</td><td>转换梁腰筋根数过少/直径过小</td></tr><tr><td>最小直径</td><td>梁腰筋直径过小</td></tr><tr><td rowspan=\"2\">截面</td><td>截面宽度</td><td>梁截面宽度过小</td></tr><tr><td>截面高宽比</td><td>梁截面高度与宽度的比值过大</td></tr></table>",
+            "block_bbox": [
+                145,
+                467,
+                1072,
+                1497
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    145.0,
+                    467.0
+                ],
+                [
+                    1072.0,
+                    467.0
+                ],
+                [
+                    1072.0,
+                    1497.0
+                ],
+                [
+                    145.0,
+                    1497.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "75",
+            "block_bbox": [
+                1034,
+                1549,
+                1058,
+                1570
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    1034.0,
+                    1549.0
+                ],
+                [
+                    1057.0,
+                    1549.0
+                ],
+                [
+                    1057.0,
+                    1569.0
+                ],
+                [
+                    1034.0,
+                    1569.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.851502537727356,
+                "coordinate": [
+                    863,
+                    144,
+                    1081,
+                    167
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        863.0,
+                        144.0
+                    ],
+                    [
+                        1081.0,
+                        144.0
+                    ],
+                    [
+                        1081.0,
+                        167.0
+                    ],
+                    [
+                        863.0,
+                        167.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8178334832191467,
+                "coordinate": [
+                    553,
+                    255,
+                    658,
+                    281
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        553.0,
+                        255.0
+                    ],
+                    [
+                        658.0,
+                        255.0
+                    ],
+                    [
+                        658.0,
+                        281.0
+                    ],
+                    [
+                        553.0,
+                        281.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7739800810813904,
+                "coordinate": [
+                    563,
+                    286,
+                    656,
+                    311
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        563.0,
+                        286.0
+                    ],
+                    [
+                        655.0,
+                        286.0
+                    ],
+                    [
+                        655.0,
+                        310.0
+                    ],
+                    [
+                        563.0,
+                        310.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7317938804626465,
+                "coordinate": [
+                    479,
+                    317,
+                    739,
+                    343
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        479.0,
+                        317.0
+                    ],
+                    [
+                        739.0,
+                        317.0
+                    ],
+                    [
+                        739.0,
+                        343.0
+                    ],
+                    [
+                        479.0,
+                        343.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8270050883293152,
+                "coordinate": [
+                    177,
+                    367,
+                    669,
+                    394
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        177.0,
+                        367.0
+                    ],
+                    [
+                        669.0,
+                        367.0
+                    ],
+                    [
+                        669.0,
+                        394.0
+                    ],
+                    [
+                        177.0,
+                        394.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8797850608825684,
+                "coordinate": [
+                    404,
+                    411,
+                    813,
+                    438
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        404.0,
+                        411.0
+                    ],
+                    [
+                        813.0,
+                        411.0
+                    ],
+                    [
+                        813.0,
+                        438.0
+                    ],
+                    [
+                        404.0,
+                        438.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9842785000801086,
+                "coordinate": [
+                    145,
+                    467,
+                    1072,
+                    1497
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        145.0,
+                        467.0
+                    ],
+                    [
+                        1072.0,
+                        467.0
+                    ],
+                    [
+                        1072.0,
+                        1497.0
+                    ],
+                    [
+                        145.0,
+                        1497.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7252206802368164,
+                "coordinate": [
+                    1034,
+                    1549,
+                    1058,
+                    1570
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        1034.0,
+                        1549.0
+                    ],
+                    [
+                        1057.0,
+                        1549.0
+                    ],
+                    [
+                        1057.0,
+                        1569.0
+                    ],
+                    [
+                        1034.0,
+                        1569.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,173 @@
+{
+  "document_name": "南京地方标准建筑工程施工图信息模型智能审查规范",
+  "asset_kind": "image",
+  "source_asset_dir": "references\\assets\\南京地方标准建筑工程施工图信息模型智能审查规范_images",
+  "output_path": "references\\assets\\南京地方标准建筑工程施工图信息模型智能审查规范_image_enrichment.json",
+  "prompt_path": "prompts\\image_enrichment_prompt.py",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "batch_size": 2,
+  "batch_schedule": [
+    2,
+    1
+  ],
+  "single_fallback_retries": 3,
+  "total_files": 10,
+  "success_count": 10,
+  "failed_count": 0,
+  "failed_filenames": [],
+  "results": [
+    {
+      "filename": "image_0001_page_0009_5_审查程序.png",
+      "title": "施工图BIM智能审查流程图",
+      "metadata": "流程图；BIM智能审查；施工图数字化审查；审查程序；数据生产；机器审查；人工审查",
+      "content": "该流程图展示了施工图BIM智能审查系统的程序。流程分为两个主要部分：上方为“施工图数字化审查”，包含“创建项目”、“窗口受理”、“项目分配”、“审查人员”、“备案管理”、“打印管理”和“数据归档”等步骤；下方为“BIM智能审查”，包含“数据生产”（由“NJM数据”、“图纸数据”和“BIM设计工具”通过“插件”生成）和“BIM智能审查环境”（分为“涉及范围”和“未涉及范围”）。其中，“涉及范围”进入“规范选择/一键审查”后进行“机器审查”，“未涉及范围”进入“BIM辅助工具人工审查”后进行“人工审查”，最终“合并审查意见”并“生成审查意见报告”。整个流程图清晰地描述了从数据准备到审查意见生成的完整路径。"
+    },
+    {
+      "filename": "image_0002_page_0019_defaulttitle.png",
+      "title": "未识别图像",
+      "metadata": "无可用信息；图像模糊；无法识别内容",
+      "content": "该图像内容模糊不清，无法识别任何文字、图形或结构。图像中仅可见一个灰色的抽象形状，无任何可读的标签、轴线、数据或说明文字。无法提取任何有效信息。"
+    },
+    {
+      "filename": "image_0003_page_0023_defaulttitle.png",
+      "title": "Unreadable Chart Fragment",
+      "metadata": "Unreadable; partial numerical labels; unclear chart type",
+      "content": "The image appears to be a partial, low-resolution chart fragment. It contains the numbers \"25\" and \"5.5.25\" within a gray, incomplete geometric shape. The content is too indistinct to determine the chart type, axes, or data meaning. All labels and context are unreadable."
+    },
+    {
+      "filename": "image_0004_page_0024_defaulttitle.png",
+      "title": "Unreadable Chart Fragment",
+      "metadata": "Unreadable; partial numerical labels; unclear chart type",
+      "content": "The image appears to be a partial, low-resolution chart fragment. It contains the numbers \"28\" and \"5.5.30\" along with the Chinese characters \"强条\" within a gray, incomplete geometric shape. The content is too indistinct to determine the chart type, axes, or data meaning. All labels and context are unreadable."
+    },
+    {
+      "filename": "image_0005_page_0040_defaulttitle.png",
+      "title": "Unreadable Chart Placeholder",
+      "metadata": "Unreadable chart; placeholder symbol; no discernible data or labels.",
+      "content": "The image contains only a gray placeholder symbol resembling a stylized letter 'D' or a partial oval with a diagonal cut. No axes, labels, data points, or text are readable. The chart content is entirely indiscernible."
+    },
+    {
+      "filename": "image_0006_page_0042_defaulttitle.png",
+      "title": "Unreadable Table or Chart Placeholder",
+      "metadata": "Unreadable table/chart; contains partial text; placeholder symbol; no discernible data or structure.",
+      "content": "The image shows a partial table or chart layout with three vertical columns. The left column contains the number \"9\", the middle column contains \"6.3.9-3\", and the right column contains the Chinese characters \"要点\". A gray placeholder symbol overlays the center. No axes, legends, or data points are readable. The content is largely indiscernible due to the overlay and lack of context."
+    },
+    {
+      "filename": "image_0007_page_0051_defaulttitle.png",
+      "title": "Unreadable Chart Placeholder",
+      "metadata": "Unreadable; placeholder graphic; no discernible data or labels",
+      "content": "The image appears to be a placeholder or corrupted graphic with a gray, incomplete D-shaped outline. No axes, labels, data points, or legends are visible. The top-left corner shows partial text \"31\" and \"7.2.27-4\", but these are insufficient to determine chart content. The chart is unreadable."
+    },
+    {
+      "filename": "image_0008_page_0053_defaulttitle.png",
+      "title": "Unreadable Chart Placeholder",
+      "metadata": "Unreadable; placeholder graphic; no discernible data or labels",
+      "content": "The image appears to be a placeholder or corrupted graphic with a gray, incomplete D-shaped outline. No axes, labels, data points, or legends are visible. The chart is unreadable."
+    },
+    {
+      "filename": "image_0009_page_0054_defaulttitle.png",
+      "title": "Placeholder Graphic",
+      "metadata": "Placeholder, no data, no axes, no labels",
+      "content": "The image is a placeholder graphic, appearing as a gray abstract shape with no discernible chart content, axes, labels, or data points. It does not convey any measurable information."
+    },
+    {
+      "filename": "image_0010_page_0082_defaulttitle.png",
+      "title": "Placeholder Graphic",
+      "metadata": "Placeholder, no data, no axes, no labels",
+      "content": "The image is a placeholder graphic, appearing as a gray abstract shape with no discernible chart content, axes, labels, or data points. It does not convey any measurable information."
+    }
+  ],
+  "attempts": [
+    {
+      "phase": "batch_round_1",
+      "batch_size": 2,
+      "filenames": [
+        "image_0001_page_0009_5_审查程序.png",
+        "image_0002_page_0019_defaulttitle.png"
+      ],
+      "parsed_filenames": [
+        "image_0001_page_0009_5_审查程序.png",
+        "image_0002_page_0019_defaulttitle.png"
+      ],
+      "missing_filenames": [],
+      "unexpected_filenames": [],
+      "duplicate_filenames": [],
+      "success": true,
+      "error": null,
+      "raw_response": null
+    },
+    {
+      "phase": "batch_round_1",
+      "batch_size": 2,
+      "filenames": [
+        "image_0003_page_0023_defaulttitle.png",
+        "image_0004_page_0024_defaulttitle.png"
+      ],
+      "parsed_filenames": [
+        "image_0003_page_0023_defaulttitle.png",
+        "image_0004_page_0024_defaulttitle.png"
+      ],
+      "missing_filenames": [],
+      "unexpected_filenames": [],
+      "duplicate_filenames": [],
+      "success": true,
+      "error": null,
+      "raw_response": null
+    },
+    {
+      "phase": "batch_round_1",
+      "batch_size": 2,
+      "filenames": [
+        "image_0005_page_0040_defaulttitle.png",
+        "image_0006_page_0042_defaulttitle.png"
+      ],
+      "parsed_filenames": [
+        "image_0005_page_0040_defaulttitle.png",
+        "image_0006_page_0042_defaulttitle.png"
+      ],
+      "missing_filenames": [],
+      "unexpected_filenames": [],
+      "duplicate_filenames": [],
+      "success": true,
+      "error": null,
+      "raw_response": null
+    },
+    {
+      "phase": "batch_round_1",
+      "batch_size": 2,
+      "filenames": [
+        "image_0007_page_0051_defaulttitle.png",
+        "image_0008_page_0053_defaulttitle.png"
+      ],
+      "parsed_filenames": [
+        "image_0007_page_0051_defaulttitle.png",
+        "image_0008_page_0053_defaulttitle.png"
+      ],
+      "missing_filenames": [],
+      "unexpected_filenames": [],
+      "duplicate_filenames": [],
+      "success": true,
+      "error": null,
+      "raw_response": null
+    },
+    {
+      "phase": "batch_round_1",
+      "batch_size": 2,
+      "filenames": [
+        "image_0009_page_0054_defaulttitle.png",
+        "image_0010_page_0082_defaulttitle.png"
+      ],
+      "parsed_filenames": [
+        "image_0009_page_0054_defaulttitle.png",
+        "image_0010_page_0082_defaulttitle.png"
+      ],
+      "missing_filenames": [],
+      "unexpected_filenames": [],
+      "duplicate_filenames": [],
+      "success": true,
+      "error": null,
+      "raw_response": null
+    }
+  ],
+  "created_at_unix": 1784205989
+}

@@ -1,0 +1,338 @@
+{
+    "input_path": "/workspace/data/reference/南京地方标准建筑工程施工图信息模型智能审查规范.pdf",
+    "page_index": 49,
+    "page_count": 84,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "DB 3201/T 1143—2023",
+            "block_bbox": [
+                108,
+                144,
+                328,
+                167
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    108.0,
+                    144.0
+                ],
+                [
+                    328.0,
+                    144.0
+                ],
+                [
+                    328.0,
+                    167.0
+                ],
+                [
+                    108.0,
+                    167.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表B.5结构专业BIM智能审查条文表（续）",
+            "block_bbox": [
+                385,
+                243,
+                764,
+                270
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    385.0,
+                    243.0
+                ],
+                [
+                    764.0,
+                    243.0
+                ],
+                [
+                    764.0,
+                    270.0
+                ],
+                [
+                    385.0,
+                    270.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>序号</td><td>审查条文</td><td>条文类型</td><td>内容</td><td>备注</td><td>完整性</td></tr><tr><td>22</td><td>6.4.4-3</td><td>一般</td><td>柱的纵向钢筋配置，尚应满足下列规定：\\n3 全部纵向钢筋的配筋率，非抗震设计时不宜大于5%、不应大于6%，抗震设计时不应大于5%。\\n<img src=\"imgs/img_in_image_box_593_681_697_757.jpg\" alt=\"Image\"\" /></td><td>关联\\n抗规(6.3.8-3)\\n混规(11.4.13)\\n混规9.3.1-1\\n（此条是要点）\\n有与混规\\n9.3.1-1条重复的地方；\\n混规9.3.1-1\\n条：纵向受力钢筋直径不宜小于12mm，全部纵向钢筋的配筋率不宜大于5%。</td><td>完整</td></tr><tr><td>23</td><td>6.4.4-4</td><td>一般</td><td>柱的纵向钢筋配置，尚应满足下列规定：\\n4 一级且剪跨比不大于2的柱，其单侧纵向受拉钢筋的配筋率不宜大于1.2%。</td><td>关联\\n抗规(6.3.8-3)\\n混规(11.4.13)</td><td>完整</td></tr><tr><td>24</td><td>7.2.2-1</td><td>要点</td><td>抗震设计时，短肢剪力墙的设计应符合下列规定：\\n1 短肢剪力墙截面厚度除应符合本规程第7.2.1条的要求外，底部加强部位尚不应小于200 mm，其他部位尚不应小于180 mm。</td><td>-</td><td>完整</td></tr><tr><td>25</td><td>7.2.2-2</td><td>要点</td><td>抗震设计时，短肢剪力墙的设计应符合下列规定：\\n2 一、二、三级短肢剪力墙的轴压比，分别不宜大于0.45、0.50、0.55，一字形截面短肢剪力墙的轴压比限值应相应减少0.1。</td><td>-</td><td>不完整\\n未考虑一字形短肢剪力墙。</td></tr><tr><td>26</td><td colspan=\"2\"><img src=\"imgs/img_in_image_box_184_1107_348_1254.jpg\" alt=\"Image\"\" /></td><td>抗震设计时，短肢剪力墙的设计应符合下列规定：\\n5 短肢剪力墙的全部竖向钢筋的配筋率，底部加强部位一、二级不宜小于1.2%，三、四级不宜小于1.0%；其他部位一、二级不宜小于1.0%，三、四级不宜小于0.8%。</td><td>-</td><td>完整</td></tr><tr><td>27</td><td>7.2.16-4</td><td>一般</td><td>抗震设计时，对于连体结构、错层结构以及B级高度高层建筑结构中的剪力墙（筒体），其构造边缘构件的最小配筋应符合下列要求：\\n1）竖向钢筋最小量应比表7.2.16中的数值提高0.001Ac采用；\\n2）箍筋的配筋范围宜取图7.2.16中阴影部分，其配箍特征值  $ \\lambda v $ 不宜小于0.1。</td><td>-</td><td>完整</td></tr></table>",
+            "block_bbox": [
+                109,
+                285,
+                1052,
+                1486
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    109.0,
+                    285.0
+                ],
+                [
+                    1052.0,
+                    285.0
+                ],
+                [
+                    1052.0,
+                    1486.0
+                ],
+                [
+                    109.0,
+                    1486.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "44",
+            "block_bbox": [
+                130,
+                1549,
+                154,
+                1569
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    130.0,
+                    1549.0
+                ],
+                [
+                    153.0,
+                    1549.0
+                ],
+                [
+                    153.0,
+                    1568.0
+                ],
+                [
+                    130.0,
+                    1568.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8580182790756226,
+                "coordinate": [
+                    108,
+                    144,
+                    328,
+                    167
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        108.0,
+                        144.0
+                    ],
+                    [
+                        328.0,
+                        144.0
+                    ],
+                    [
+                        328.0,
+                        167.0
+                    ],
+                    [
+                        108.0,
+                        167.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8435834050178528,
+                "coordinate": [
+                    385,
+                    243,
+                    764,
+                    270
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        385.0,
+                        243.0
+                    ],
+                    [
+                        764.0,
+                        243.0
+                    ],
+                    [
+                        764.0,
+                        270.0
+                    ],
+                    [
+                        385.0,
+                        270.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9837906956672668,
+                "coordinate": [
+                    109,
+                    285,
+                    1052,
+                    1486
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        109.0,
+                        285.0
+                    ],
+                    [
+                        1052.0,
+                        285.0
+                    ],
+                    [
+                        1052.0,
+                        1486.0
+                    ],
+                    [
+                        109.0,
+                        1486.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.3122815787792206,
+                "coordinate": [
+                    593,
+                    681,
+                    697,
+                    757
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        593.0,
+                        681.0
+                    ],
+                    [
+                        697.0,
+                        681.0
+                    ],
+                    [
+                        697.0,
+                        757.0
+                    ],
+                    [
+                        593.0,
+                        757.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.5046441555023193,
+                "coordinate": [
+                    184,
+                    1107,
+                    348,
+                    1254
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        184.0,
+                        1107.0
+                    ],
+                    [
+                        348.0,
+                        1107.0
+                    ],
+                    [
+                        348.0,
+                        1254.0
+                    ],
+                    [
+                        184.0,
+                        1254.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7071806192398071,
+                "coordinate": [
+                    130,
+                    1549,
+                    154,
+                    1569
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        130.0,
+                        1549.0
+                    ],
+                    [
+                        153.0,
+                        1549.0
+                    ],
+                    [
+                        153.0,
+                        1568.0
+                    ],
+                    [
+                        130.0,
+                        1568.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

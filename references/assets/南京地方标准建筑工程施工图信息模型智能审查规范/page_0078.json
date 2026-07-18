@@ -1,0 +1,522 @@
+{
+    "input_path": "/workspace/data/reference/南京地方标准建筑工程施工图信息模型智能审查规范.pdf",
+    "page_index": 77,
+    "page_count": 84,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "DB 3201/T 1143—2023",
+            "block_bbox": [
+                107,
+                144,
+                328,
+                167
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    107.0,
+                    144.0
+                ],
+                [
+                    328.0,
+                    144.0
+                ],
+                [
+                    328.0,
+                    167.0
+                ],
+                [
+                    107.0,
+                    167.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "附录 F",
+            "block_bbox": [
+                524,
+                254,
+                629,
+                280
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    524.0,
+                    254.0
+                ],
+                [
+                    629.0,
+                    254.0
+                ],
+                [
+                    629.0,
+                    280.0
+                ],
+                [
+                    524.0,
+                    280.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "（资料性）",
+            "block_bbox": [
+                534,
+                286,
+                628,
+                311
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    534.0,
+                    286.0
+                ],
+                [
+                    627.0,
+                    286.0
+                ],
+                [
+                    627.0,
+                    310.0
+                ],
+                [
+                    534.0,
+                    310.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "人防专业 BIM 智能审查条文库",
+            "block_bbox": [
+                440,
+                317,
+                723,
+                343
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    440.0,
+                    317.0
+                ],
+                [
+                    723.0,
+                    317.0
+                ],
+                [
+                    723.0,
+                    343.0
+                ],
+                [
+                    440.0,
+                    343.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "人防专业共根据1本文件中已拆解的条文审查模型，现已拆解条文共6条，其中强条3条，一般性条文3条。具体条文详见表F.1。（拆解的条文随引用规范的修订而修订本规范。）",
+            "block_bbox": [
+                108,
+                364,
+                1053,
+                422
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    108.0,
+                    364.0
+                ],
+                [
+                    1053.0,
+                    364.0
+                ],
+                [
+                    1053.0,
+                    422.0
+                ],
+                [
+                    108.0,
+                    422.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表F.1 人防专业BIM智能审查条文表",
+            "block_bbox": [
+                419,
+                441,
+                757,
+                468
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    419.0,
+                    441.0
+                ],
+                [
+                    757.0,
+                    441.0
+                ],
+                [
+                    757.0,
+                    468.0
+                ],
+                [
+                    419.0,
+                    468.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>序号</td><td>审查条文</td><td>条文类型</td><td>条文内容</td><td>模型关联信息</td><td>准确性及说明</td></tr><tr><td>1</td><td>3.2.6</td><td>一般</td><td>医疗救护工程、防空专业队工程、人员掩蔽工程和配套工程应按下列规定划分防护单元和抗爆单元：\\n1 上部建筑层数为九层或不足九层(包括没有上部建筑)的防空地下室应按表3.2.6的要求划分防护单元和抗爆单元（表格）；\\n注：防空地下内部为小房间布置时，可不划分抗爆单元。\\n2 上部建筑的层数为十层或多于十层(其中一部分上部建筑可不足十层或没有上部建筑，但其建筑面积不得大于200  $ m^{{2}} $)的防空地下室，可不划分防护单元和抗爆单元(注：位于多层地下室底层的防空地下室，其上方的地下室层数可计入上部建筑的层数)；\\n3 对于多层的乙类防空地下室和多层的核心5级、核6级、核6B级的甲类防空地下室，当其上下相邻楼层划分为不同防护单元时，位于下层及以下的各层可不再划分防护单元和抗爆单元。</td><td>建筑类型、区域、建筑层数、人防等级</td><td>准确</td></tr><tr><td>2</td><td>3.2.13</td><td>强条</td><td>在染毒区与清洁区之间应设置整体浇筑的钢筋混凝土密闭隔墙，其厚度不应小于200 mm，并应在染毒区一侧墙面用水泥砂浆抹光。当密闭隔墙上有管道穿过时，应采取密闭措施。在密闭隔墙上开设门洞时，应设置密闭门。</td><td>建筑类型、区域、墙、水管、风管、门</td><td>准确</td></tr></table>",
+            "block_bbox": [
+                108,
+                481,
+                1053,
+                1242
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    108.0,
+                    481.0
+                ],
+                [
+                    1053.0,
+                    481.0
+                ],
+                [
+                    1053.0,
+                    1242.0
+                ],
+                [
+                    108.0,
+                    1242.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "72",
+            "block_bbox": [
+                130,
+                1548,
+                155,
+                1569
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    130.0,
+                    1548.0
+                ],
+                [
+                    154.0,
+                    1548.0
+                ],
+                [
+                    154.0,
+                    1568.0
+                ],
+                [
+                    130.0,
+                    1568.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8730283379554749,
+                "coordinate": [
+                    107,
+                    144,
+                    328,
+                    167
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        107.0,
+                        144.0
+                    ],
+                    [
+                        328.0,
+                        144.0
+                    ],
+                    [
+                        328.0,
+                        167.0
+                    ],
+                    [
+                        107.0,
+                        167.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8130527138710022,
+                "coordinate": [
+                    524,
+                    254,
+                    629,
+                    280
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        524.0,
+                        254.0
+                    ],
+                    [
+                        629.0,
+                        254.0
+                    ],
+                    [
+                        629.0,
+                        280.0
+                    ],
+                    [
+                        524.0,
+                        280.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7608761787414551,
+                "coordinate": [
+                    534,
+                    286,
+                    628,
+                    311
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        534.0,
+                        286.0
+                    ],
+                    [
+                        627.0,
+                        286.0
+                    ],
+                    [
+                        627.0,
+                        310.0
+                    ],
+                    [
+                        534.0,
+                        310.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8120871782302856,
+                "coordinate": [
+                    440,
+                    317,
+                    723,
+                    343
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        440.0,
+                        317.0
+                    ],
+                    [
+                        723.0,
+                        317.0
+                    ],
+                    [
+                        723.0,
+                        343.0
+                    ],
+                    [
+                        440.0,
+                        343.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9104258418083191,
+                "coordinate": [
+                    108,
+                    364,
+                    1053,
+                    422
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        108.0,
+                        364.0
+                    ],
+                    [
+                        1053.0,
+                        364.0
+                    ],
+                    [
+                        1053.0,
+                        422.0
+                    ],
+                    [
+                        108.0,
+                        422.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8756260871887207,
+                "coordinate": [
+                    419,
+                    441,
+                    757,
+                    468
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        419.0,
+                        441.0
+                    ],
+                    [
+                        757.0,
+                        441.0
+                    ],
+                    [
+                        757.0,
+                        468.0
+                    ],
+                    [
+                        419.0,
+                        468.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.980826735496521,
+                "coordinate": [
+                    108,
+                    481,
+                    1053,
+                    1242
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        108.0,
+                        481.0
+                    ],
+                    [
+                        1053.0,
+                        481.0
+                    ],
+                    [
+                        1053.0,
+                        1242.0
+                    ],
+                    [
+                        108.0,
+                        1242.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7172079682350159,
+                "coordinate": [
+                    130,
+                    1548,
+                    155,
+                    1569
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        130.0,
+                        1548.0
+                    ],
+                    [
+                        154.0,
+                        1548.0
+                    ],
+                    [
+                        154.0,
+                        1568.0
+                    ],
+                    [
+                        130.0,
+                        1568.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

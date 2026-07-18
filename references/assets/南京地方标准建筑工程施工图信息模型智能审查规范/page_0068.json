@@ -1,0 +1,491 @@
+{
+    "input_path": "/workspace/data/reference/南京地方标准建筑工程施工图信息模型智能审查规范.pdf",
+    "page_index": 67,
+    "page_count": 84,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "DB 3201/T 1143—2023",
+            "block_bbox": [
+                108,
+                144,
+                328,
+                167
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    108.0,
+                    144.0
+                ],
+                [
+                    328.0,
+                    144.0
+                ],
+                [
+                    328.0,
+                    167.0
+                ],
+                [
+                    108.0,
+                    167.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表D.2电气专业BIM智能审查条文表",
+            "block_bbox": [
+                418,
+                243,
+                744,
+                270
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    418.0,
+                    243.0
+                ],
+                [
+                    744.0,
+                    243.0
+                ],
+                [
+                    744.0,
+                    270.0
+                ],
+                [
+                    418.0,
+                    270.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>序号</td><td>审查条文</td><td>条文类型</td><td>条文内容</td><td>模型关联信息</td><td>准确性及说明</td></tr><tr><td>1</td><td>9.0.7</td><td>强条</td><td>除敞开式汽车库、屋面停车场外，下列汽车库、修车库应设置火灾自动报警系统：\\n1 Ⅰ类汽车库、修车库；\\n2 Ⅱ类地下、半地下汽车库、修车库；\\n3 Ⅲ类高层汽车库、修车库；\\n4 机械式汽车库；\\n5 采用汽车专用升降机作汽车疏散出口的汽车库。</td><td>建筑、电气全局属性 准确</td><td></td></tr><tr><td colspan=\"6\">注 1：准确指该条文审查准确性达 95%，无需人工复核。\\n注 2：需复核指该条文中部分内容需要人工复核确认。</td></tr></table>",
+            "block_bbox": [
+                108,
+                286,
+                1051,
+                669
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    108.0,
+                    286.0
+                ],
+                [
+                    1051.0,
+                    286.0
+                ],
+                [
+                    1051.0,
+                    669.0
+                ],
+                [
+                    108.0,
+                    669.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "[来源：GB 50067-2014]",
+            "block_bbox": [
+                153,
+                689,
+                377,
+                715
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    153.0,
+                    689.0
+                ],
+                [
+                    377.0,
+                    689.0
+                ],
+                [
+                    377.0,
+                    715.0
+                ],
+                [
+                    153.0,
+                    715.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表D.3电气专业BIM智能审查条文表",
+            "block_bbox": [
+                419,
+                736,
+                743,
+                762
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    419.0,
+                    736.0
+                ],
+                [
+                    743.0,
+                    736.0
+                ],
+                [
+                    743.0,
+                    762.0
+                ],
+                [
+                    419.0,
+                    762.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>序号</td><td>审查条文</td><td>条文类型</td><td>条文内容</td><td>模型关联信息</td><td>准确性及说明</td></tr><tr><td>1</td><td>4.8.7</td><td>强条</td><td>集中报警系统和控制中心报警系统应设置消防应急广播。</td><td>建筑、火警设备（广播）</td><td>准确</td></tr><tr><td>2</td><td>4.8.1</td><td>强条</td><td>火灾自动报警系统应设置火灾声光警报器，并应在确认火灾后启动建筑内的所有火灾声光警报器。</td><td>建筑、声光报警器</td><td>准确</td></tr><tr><td>3</td><td>3.4.6</td><td><img src=\"imgs/img_in_image_box_321_943_422_1054.jpg\" alt=\"Image\"\" /></td><td>消防控制室内严禁穿过与消防设施无关的电气线路及管路。</td><td>建筑、房间、管道、线管、电缆桥架</td><td>需复核需要复核线管是否穿越。</td></tr><tr><td>4</td><td>6.1.1</td><td>一般</td><td>火灾报警控制器和消防联动控制器，应设置在消防控制室内或有人值班的房间和场所。</td><td>房间、火警设备（火灾报警控制器、消防联动控制器）</td><td>需复核需要复核是否属于有人值班的场所。</td></tr><tr><td>5</td><td>6.2.5</td><td>一般</td><td>点型探测器至墙壁、梁边的水平距离，不应小于0.5 m 。</td><td>房间、墙、火警设备（点型探测器）</td><td>准确</td></tr><tr><td>6</td><td>6.7.2</td><td>一般</td><td>消防控制室应设置消防专用电话总机。</td><td>房间（消防控制室）、火警设备（消防专用电话总机）</td><td>准确</td></tr><tr><td>7</td><td>6.11.1</td><td>一般</td><td>防火门监控器应设置在消防控制室内，未设置消防控制室时，应设置在有人值班的场所。</td><td>房间、火警设备（防火门监控器）</td><td>需复核需要复核是否属于有人值班的场所。</td></tr><tr><td>8</td><td>9.5.2</td><td>一般</td><td>未设消防控制室时，电气火灾监控器应设置在有人值班的场所。</td><td>房间、火警设备（电气火灾监控器）</td><td>需要复核是否属于有人值班的场所。</td></tr><tr><td colspan=\"6\">注 1：准确指该条文审查准确性达 95%，无需人工复核。\\n注 2：需复核指该条文中部分内容需要人工复核确认。</td></tr></table>",
+            "block_bbox": [
+                109,
+                777,
+                1052,
+                1543
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    109.0,
+                    777.0
+                ],
+                [
+                    1052.0,
+                    777.0
+                ],
+                [
+                    1052.0,
+                    1543.0
+                ],
+                [
+                    109.0,
+                    1543.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "62",
+            "block_bbox": [
+                131,
+                1549,
+                154,
+                1568
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    131.0,
+                    1549.0
+                ],
+                [
+                    153.0,
+                    1549.0
+                ],
+                [
+                    153.0,
+                    1567.0
+                ],
+                [
+                    131.0,
+                    1567.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8622254729270935,
+                "coordinate": [
+                    108,
+                    144,
+                    328,
+                    167
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        108.0,
+                        144.0
+                    ],
+                    [
+                        328.0,
+                        144.0
+                    ],
+                    [
+                        328.0,
+                        167.0
+                    ],
+                    [
+                        108.0,
+                        167.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8527013659477234,
+                "coordinate": [
+                    418,
+                    243,
+                    744,
+                    270
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        418.0,
+                        243.0
+                    ],
+                    [
+                        744.0,
+                        243.0
+                    ],
+                    [
+                        744.0,
+                        270.0
+                    ],
+                    [
+                        418.0,
+                        270.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9727964997291565,
+                "coordinate": [
+                    108,
+                    286,
+                    1051,
+                    669
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        108.0,
+                        286.0
+                    ],
+                    [
+                        1051.0,
+                        286.0
+                    ],
+                    [
+                        1051.0,
+                        669.0
+                    ],
+                    [
+                        108.0,
+                        669.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.46552321314811707,
+                "coordinate": [
+                    153,
+                    689,
+                    377,
+                    715
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        153.0,
+                        689.0
+                    ],
+                    [
+                        377.0,
+                        689.0
+                    ],
+                    [
+                        377.0,
+                        715.0
+                    ],
+                    [
+                        153.0,
+                        715.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8615050911903381,
+                "coordinate": [
+                    419,
+                    736,
+                    743,
+                    762
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        419.0,
+                        736.0
+                    ],
+                    [
+                        743.0,
+                        736.0
+                    ],
+                    [
+                        743.0,
+                        762.0
+                    ],
+                    [
+                        419.0,
+                        762.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9833555817604065,
+                "coordinate": [
+                    109,
+                    777,
+                    1052,
+                    1543
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        109.0,
+                        777.0
+                    ],
+                    [
+                        1052.0,
+                        777.0
+                    ],
+                    [
+                        1052.0,
+                        1543.0
+                    ],
+                    [
+                        109.0,
+                        1543.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.6636591553688049,
+                "coordinate": [
+                    321,
+                    943,
+                    422,
+                    1054
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        321.0,
+                        943.0
+                    ],
+                    [
+                        422.0,
+                        943.0
+                    ],
+                    [
+                        422.0,
+                        1054.0
+                    ],
+                    [
+                        321.0,
+                        1054.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7008114457130432,
+                "coordinate": [
+                    131,
+                    1549,
+                    154,
+                    1568
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        131.0,
+                        1549.0
+                    ],
+                    [
+                        153.0,
+                        1549.0
+                    ],
+                    [
+                        153.0,
+                        1567.0
+                    ],
+                    [
+                        131.0,
+                        1567.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

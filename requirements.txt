@@ -1,0 +1,9 @@
+ifcopenshell
+openai
+pydantic>=2
+python-dotenv
+faiss-cpu
+jieba
+numpy>=1.26,<2
+rank-bm25
+streamlit>=1.41

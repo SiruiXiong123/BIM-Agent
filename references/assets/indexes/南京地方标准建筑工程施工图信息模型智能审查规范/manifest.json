@@ -1,0 +1,59 @@
+{
+  "document_id": "南京地方标准建筑工程施工图信息模型智能审查规范",
+  "source_file": "南京地方标准建筑工程施工图信息模型智能审查规范.pdf",
+  "index_dir": "assets/indexes/南京地方标准建筑工程施工图信息模型智能审查规范",
+  "embedding_model": "Pro/BAAI/bge-m3",
+  "modalities": {
+    "text": {
+      "count": 64,
+      "faiss_path": "assets/indexes/南京地方标准建筑工程施工图信息模型智能审查规范/text.faiss",
+      "metadata_path": "assets/indexes/南京地方标准建筑工程施工图信息模型智能审查规范/text_metadata.jsonl",
+      "dimension": 1024
+    },
+    "table": {
+      "count": 104,
+      "faiss_path": "assets/indexes/南京地方标准建筑工程施工图信息模型智能审查规范/table.faiss",
+      "metadata_path": "assets/indexes/南京地方标准建筑工程施工图信息模型智能审查规范/table_metadata.jsonl",
+      "dimension": 1024
+    },
+    "image": {
+      "count": 1,
+      "faiss_path": "assets/indexes/南京地方标准建筑工程施工图信息模型智能审查规范/image.faiss",
+      "metadata_path": "assets/indexes/南京地方标准建筑工程施工图信息模型智能审查规范/image_metadata.jsonl",
+      "dimension": 1024
+    }
+  },
+  "metadata": {
+    "embedding_provider": "configured_remote_api",
+    "text_chunking": "native_semantic_chunking",
+    "text_embedding_provider": "siliconflow"
+  },
+  "indexed_at": "2026-07-16T14:12:17.249581+00:00",
+  "inputs": {
+    "text_chunks_path": "assets/南京地方标准建筑工程施工图信息模型智能审查规范_chunk_merge.json",
+    "table_enrichment_path": "assets/南京地方标准建筑工程施工图信息模型智能审查规范_table_enrichment.json",
+    "image_enrichment_path": "assets/南京地方标准建筑工程施工图信息模型智能审查规范_image_enrichment.json",
+    "table_asset_dir": "assets/南京地方标准建筑工程施工图信息模型智能审查规范_tables",
+    "image_asset_dir": "assets/南京地方标准建筑工程施工图信息模型智能审查规范_images",
+    "table_asset_manifest_path": "assets/南京地方标准建筑工程施工图信息模型智能审查规范_tables/asset_manifest.jsonl",
+    "image_asset_manifest_path": "assets/南京地方标准建筑工程施工图信息模型智能审查规范_images/asset_manifest.jsonl"
+  },
+  "maintenance": [
+    {
+      "action": "remove_low_quality_images",
+      "removed_ids": [
+        "image_000002",
+        "image_000003",
+        "image_000004",
+        "image_000005",
+        "image_000006",
+        "image_000007",
+        "image_000008",
+        "image_000009",
+        "image_000010"
+      ],
+      "performed_at": "2026-07-17T17:01:10.609028+00:00",
+      "backup_dir": "references\\assets\\indexes\\南京地方标准建筑工程施工图信息模型智能审查规范\\cleanup_backups\\20260717T170110Z"
+    }
+  ]
+}

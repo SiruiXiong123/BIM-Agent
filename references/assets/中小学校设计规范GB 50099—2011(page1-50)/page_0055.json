@@ -1,0 +1,630 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 54,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "10．1．2 中小学校的采暖与空调冷热源形式应根据所在地的气候特征、能源资源条件及其利用成本，经技术经济比较确定。",
+            "block_bbox": [
+                148,
+                184,
+                1073,
+                266
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    184.0
+                ],
+                [
+                    1073.0,
+                    184.0
+                ],
+                [
+                    1073.0,
+                    266.0
+                ],
+                [
+                    148.0,
+                    266.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "10．1．3 采暖地区学校的采暖系统热源宜纳入区域集中供热管网。无条件时宜设置校内集中采暖系统。非采暖地区，当舞蹈教室、浴室、游泳馆等有较高温度要求的房间在冬季室温达不到规定温度时，应设置采暖设施。",
+            "block_bbox": [
+                148,
+                305,
+                1075,
+                472
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    305.0
+                ],
+                [
+                    1075.0,
+                    305.0
+                ],
+                [
+                    1075.0,
+                    472.0
+                ],
+                [
+                    148.0,
+                    472.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "10．1．4 中小学校热环境设计中，当具备条件时，应进行技术经济比较，优先利用可再生能源作为冷热源。",
+            "block_bbox": [
+                149,
+                512,
+                1074,
+                594
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    149.0,
+                    512.0
+                ],
+                [
+                    1074.0,
+                    512.0
+                ],
+                [
+                    1074.0,
+                    594.0
+                ],
+                [
+                    149.0,
+                    594.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "10．1．5 中小学校的集中采暖系统应以热水为供热介质，其采暖设计供水温度不宜高于 $ 85^{\\circ}C $。",
+            "block_bbox": [
+                148,
+                633,
+                1071,
+                714
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    633.0
+                ],
+                [
+                    1071.0,
+                    633.0
+                ],
+                [
+                    1071.0,
+                    714.0
+                ],
+                [
+                    148.0,
+                    714.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "10．1．6 中小学校的采暖系统应实现分室控温：宜有分区或分层控制手段。",
+            "block_bbox": [
+                148,
+                755,
+                1074,
+                834
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    755.0
+                ],
+                [
+                    1074.0,
+                    755.0
+                ],
+                [
+                    1074.0,
+                    834.0
+                ],
+                [
+                    148.0,
+                    834.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "10．1．7中小学校内各种房间的采暖设计温度不应低于表10．1．7的规定。",
+            "block_bbox": [
+                148,
+                876,
+                1072,
+                954
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    876.0
+                ],
+                [
+                    1072.0,
+                    876.0
+                ],
+                [
+                    1072.0,
+                    954.0
+                ],
+                [
+                    148.0,
+                    954.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表 10.1.7 采暖设计温度",
+            "block_bbox": [
+                480,
+                955,
+                743,
+                983
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    480.0,
+                    955.0
+                ],
+                [
+                    743.0,
+                    955.0
+                ],
+                [
+                    743.0,
+                    983.0
+                ],
+                [
+                    480.0,
+                    983.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td colspan=\"2\">房间名称</td><td>室内设计温度 (°C)</td></tr><tr><td rowspan=\"5\">教学及教学辅助用房</td><td>普通教室、科学教室、实验室、史地教室、美术教室、书法教室、音乐教室、语言教室、学生活动室、心理咨询室、任课教师办公室</td><td>18</td></tr><tr><td>舞蹈教室</td><td>22</td></tr><tr><td>体育馆、体质测试室</td><td>12~15</td></tr><tr><td>计算机教室、合班教室、德育展览室、仪器室</td><td>16</td></tr><tr><td>图书室</td><td>20</td></tr></table>",
+            "block_bbox": [
+                241,
+                989,
+                985,
+                1257
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    241.0,
+                    989.0
+                ],
+                [
+                    985.0,
+                    989.0
+                ],
+                [
+                    985.0,
+                    1257.0
+                ],
+                [
+                    241.0,
+                    1257.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9373617768287659,
+                "coordinate": [
+                    148,
+                    184,
+                    1073,
+                    266
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        148.0,
+                        184.0
+                    ],
+                    [
+                        1073.0,
+                        184.0
+                    ],
+                    [
+                        1073.0,
+                        266.0
+                    ],
+                    [
+                        148.0,
+                        266.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9509674906730652,
+                "coordinate": [
+                    148,
+                    305,
+                    1075,
+                    472
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        148.0,
+                        305.0
+                    ],
+                    [
+                        1075.0,
+                        305.0
+                    ],
+                    [
+                        1075.0,
+                        472.0
+                    ],
+                    [
+                        148.0,
+                        472.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9299454092979431,
+                "coordinate": [
+                    149,
+                    512,
+                    1074,
+                    594
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        149.0,
+                        512.0
+                    ],
+                    [
+                        1074.0,
+                        512.0
+                    ],
+                    [
+                        1074.0,
+                        594.0
+                    ],
+                    [
+                        149.0,
+                        594.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9347329139709473,
+                "coordinate": [
+                    148,
+                    633,
+                    1071,
+                    714
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        148.0,
+                        633.0
+                    ],
+                    [
+                        1071.0,
+                        633.0
+                    ],
+                    [
+                        1071.0,
+                        714.0
+                    ],
+                    [
+                        148.0,
+                        714.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.4516882002353668,
+                "coordinate": [
+                    389,
+                    678,
+                    457,
+                    710
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        389.0,
+                        678.0
+                    ],
+                    [
+                        457.0,
+                        678.0
+                    ],
+                    [
+                        457.0,
+                        710.0
+                    ],
+                    [
+                        389.0,
+                        710.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9312424659729004,
+                "coordinate": [
+                    148,
+                    755,
+                    1074,
+                    834
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        148.0,
+                        755.0
+                    ],
+                    [
+                        1074.0,
+                        755.0
+                    ],
+                    [
+                        1074.0,
+                        834.0
+                    ],
+                    [
+                        148.0,
+                        834.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9272421598434448,
+                "coordinate": [
+                    148,
+                    876,
+                    1072,
+                    954
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        148.0,
+                        876.0
+                    ],
+                    [
+                        1072.0,
+                        876.0
+                    ],
+                    [
+                        1072.0,
+                        954.0
+                    ],
+                    [
+                        148.0,
+                        954.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8496580719947815,
+                "coordinate": [
+                    480,
+                    955,
+                    743,
+                    983
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        480.0,
+                        955.0
+                    ],
+                    [
+                        743.0,
+                        955.0
+                    ],
+                    [
+                        743.0,
+                        983.0
+                    ],
+                    [
+                        480.0,
+                        983.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9642508029937744,
+                "coordinate": [
+                    241,
+                    989,
+                    985,
+                    1257
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        241.0,
+                        989.0
+                    ],
+                    [
+                        985.0,
+                        989.0
+                    ],
+                    [
+                        985.0,
+                        1257.0
+                    ],
+                    [
+                        241.0,
+                        1257.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.3159700334072113,
+                "coordinate": [
+                    872,
+                    1025,
+                    915,
+                    1051
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        872.0,
+                        1032.0
+                    ],
+                    [
+                        872.0,
+                        1037.0
+                    ],
+                    [
+                        877.0,
+                        1037.0
+                    ],
+                    [
+                        878.0,
+                        1038.0
+                    ],
+                    [
+                        878.0,
+                        1050.0
+                    ],
+                    [
+                        909.0,
+                        1050.0
+                    ],
+                    [
+                        909.0,
+                        1045.0
+                    ],
+                    [
+                        910.0,
+                        1044.0
+                    ],
+                    [
+                        914.0,
+                        1044.0
+                    ],
+                    [
+                        914.0,
+                        1032.0
+                    ],
+                    [
+                        910.0,
+                        1032.0
+                    ],
+                    [
+                        909.0,
+                        1031.0
+                    ],
+                    [
+                        909.0,
+                        1025.0
+                    ],
+                    [
+                        878.0,
+                        1025.0
+                    ],
+                    [
+                        878.0,
+                        1031.0
+                    ],
+                    [
+                        877.0,
+                        1032.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

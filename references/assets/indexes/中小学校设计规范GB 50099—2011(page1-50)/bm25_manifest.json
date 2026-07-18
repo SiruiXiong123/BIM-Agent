@@ -1,0 +1,18 @@
+{
+  "document_id": "中小学校设计规范GB 50099—2011(page1-50)",
+  "index_type": "bm25",
+  "tokenizer": "zh-mixed:v1",
+  "record_count": 140,
+  "modality_counts": {
+    "text": 115,
+    "table": 25,
+    "image": 0
+  },
+  "corpus_path": "bm25_corpus.json.gz",
+  "metadata_sources": [
+    "text_metadata.jsonl",
+    "table_metadata.jsonl",
+    "image_metadata.jsonl"
+  ],
+  "created_at": "2026-07-17T14:52:07.725568+00:00"
+}

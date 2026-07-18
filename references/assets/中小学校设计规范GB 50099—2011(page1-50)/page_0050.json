@@ -1,0 +1,705 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 49,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "9 室内环境",
+            "block_bbox": [
+                535,
+                149,
+                690,
+                186
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    535.0,
+                    149.0
+                ],
+                [
+                    690.0,
+                    149.0
+                ],
+                [
+                    690.0,
+                    186.0
+                ],
+                [
+                    535.0,
+                    186.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "9.1 空气质量",
+            "block_bbox": [
+                512,
+                226,
+                711,
+                261
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    512.0,
+                    226.0
+                ],
+                [
+                    711.0,
+                    226.0
+                ],
+                [
+                    711.0,
+                    261.0
+                ],
+                [
+                    512.0,
+                    261.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "9．1.1 中小学校建筑的室内空气质量应符合现行国家标准《室内空气质量标准》GB/T18883及《民用建筑工程室内环境污染控制规范》GB50325的有关规定。",
+            "block_bbox": [
+                146,
+                270,
+                1074,
+                396
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    270.0
+                ],
+                [
+                    1074.0,
+                    270.0
+                ],
+                [
+                    1074.0,
+                    396.0
+                ],
+                [
+                    146.0,
+                    396.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "9．1．2 中小学校教学用房的新风量应符合现行国家标准《公共建筑节能设计标准》GB50189的有关规定。",
+            "block_bbox": [
+                146,
+                434,
+                1073,
+                517
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    434.0
+                ],
+                [
+                    1073.0,
+                    434.0
+                ],
+                [
+                    1073.0,
+                    517.0
+                ],
+                [
+                    146.0,
+                    517.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "9．1．3 当采用换气次数确定室内通风量时，各主要房间的最小换气次数应符合表9．13的规定。",
+            "block_bbox": [
+                147,
+                555,
+                1074,
+                636
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    555.0
+                ],
+                [
+                    1074.0,
+                    555.0
+                ],
+                [
+                    1074.0,
+                    636.0
+                ],
+                [
+                    147.0,
+                    636.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表9.1.3 各主要房间的最小换气次数标准",
+            "block_bbox": [
+                392,
+                633,
+                826,
+                663
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    392.0,
+                    633.0
+                ],
+                [
+                    826.0,
+                    633.0
+                ],
+                [
+                    826.0,
+                    663.0
+                ],
+                [
+                    392.0,
+                    663.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td colspan=\"2\">房间名称</td><td>换气次数（次/h）</td></tr><tr><td rowspan=\"3\">普通教室</td><td>小学</td><td>2.5</td></tr><tr><td>初中</td><td>3.5</td></tr><tr><td>高中</td><td>4.5</td></tr><tr><td colspan=\"2\">实验室</td><td>3.0</td></tr><tr><td colspan=\"2\">风雨操场</td><td>3.0</td></tr><tr><td colspan=\"2\">厕所</td><td>10.0</td></tr><tr><td colspan=\"2\">保健室</td><td>2.0</td></tr><tr><td colspan=\"2\">学生宿舍</td><td>2.5</td></tr></table>",
+            "block_bbox": [
+                240,
+                667,
+                984,
+                1046
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    240.0,
+                    667.0
+                ],
+                [
+                    984.0,
+                    667.0
+                ],
+                [
+                    984.0,
+                    1046.0
+                ],
+                [
+                    240.0,
+                    1046.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "9．1.4 中小学校设计中必须对建筑及室内装修所采用的建材、产品、部品进行严格择定，避免对校内空气造成污染。",
+            "block_bbox": [
+                146,
+                1062,
+                1053,
+                1144
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    1062.0
+                ],
+                [
+                    1053.0,
+                    1062.0
+                ],
+                [
+                    1053.0,
+                    1144.0
+                ],
+                [
+                    146.0,
+                    1144.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "9 室内环境",
+            "block_bbox": [
+                534,
+                1164,
+                690,
+                1201
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    534.0,
+                    1164.0
+                ],
+                [
+                    690.0,
+                    1164.0
+                ],
+                [
+                    690.0,
+                    1201.0
+                ],
+                [
+                    534.0,
+                    1201.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "9.1 空气质量",
+            "block_bbox": [
+                512,
+                1241,
+                711,
+                1277
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    512.0,
+                    1241.0
+                ],
+                [
+                    711.0,
+                    1241.0
+                ],
+                [
+                    711.0,
+                    1277.0
+                ],
+                [
+                    512.0,
+                    1277.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "9．1.1 中小学校建筑的室内空气质量应符合现行国家标准《室内空气质量标准》GB/T18883及《民用建筑工程室内环境污染控制规范》GB50325的有关规定。",
+            "block_bbox": [
+                147,
+                1285,
+                1073,
+                1411
+            ],
+            "block_id": 10,
+            "block_order": 9,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1285.0
+                ],
+                [
+                    1073.0,
+                    1285.0
+                ],
+                [
+                    1073.0,
+                    1411.0
+                ],
+                [
+                    147.0,
+                    1411.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8710034489631653,
+                "coordinate": [
+                    535,
+                    149,
+                    690,
+                    186
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        535.0,
+                        149.0
+                    ],
+                    [
+                        690.0,
+                        149.0
+                    ],
+                    [
+                        690.0,
+                        186.0
+                    ],
+                    [
+                        535.0,
+                        186.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8398070335388184,
+                "coordinate": [
+                    512,
+                    226,
+                    711,
+                    261
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        512.0,
+                        226.0
+                    ],
+                    [
+                        711.0,
+                        226.0
+                    ],
+                    [
+                        711.0,
+                        261.0
+                    ],
+                    [
+                        512.0,
+                        261.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9415951371192932,
+                "coordinate": [
+                    146,
+                    270,
+                    1074,
+                    396
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        146.0,
+                        270.0
+                    ],
+                    [
+                        1074.0,
+                        270.0
+                    ],
+                    [
+                        1074.0,
+                        396.0
+                    ],
+                    [
+                        146.0,
+                        396.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9283398389816284,
+                "coordinate": [
+                    146,
+                    434,
+                    1073,
+                    517
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        146.0,
+                        434.0
+                    ],
+                    [
+                        1073.0,
+                        434.0
+                    ],
+                    [
+                        1073.0,
+                        517.0
+                    ],
+                    [
+                        146.0,
+                        517.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.932123601436615,
+                "coordinate": [
+                    147,
+                    555,
+                    1074,
+                    636
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        147.0,
+                        555.0
+                    ],
+                    [
+                        1074.0,
+                        555.0
+                    ],
+                    [
+                        1074.0,
+                        636.0
+                    ],
+                    [
+                        147.0,
+                        636.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.884285032749176,
+                "coordinate": [
+                    392,
+                    633,
+                    826,
+                    663
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        392.0,
+                        633.0
+                    ],
+                    [
+                        826.0,
+                        633.0
+                    ],
+                    [
+                        826.0,
+                        663.0
+                    ],
+                    [
+                        392.0,
+                        663.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9727809429168701,
+                "coordinate": [
+                    240,
+                    667,
+                    984,
+                    1046
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        240.0,
+                        667.0
+                    ],
+                    [
+                        984.0,
+                        667.0
+                    ],
+                    [
+                        984.0,
+                        1046.0
+                    ],
+                    [
+                        240.0,
+                        1046.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9274198412895203,
+                "coordinate": [
+                    146,
+                    1062,
+                    1053,
+                    1144
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        146.0,
+                        1062.0
+                    ],
+                    [
+                        1053.0,
+                        1062.0
+                    ],
+                    [
+                        1053.0,
+                        1144.0
+                    ],
+                    [
+                        146.0,
+                        1144.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8445042967796326,
+                "coordinate": [
+                    534,
+                    1164,
+                    690,
+                    1201
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        534.0,
+                        1164.0
+                    ],
+                    [
+                        690.0,
+                        1164.0
+                    ],
+                    [
+                        690.0,
+                        1201.0
+                    ],
+                    [
+                        534.0,
+                        1201.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8314419388771057,
+                "coordinate": [
+                    512,
+                    1241,
+                    711,
+                    1277
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        512.0,
+                        1241.0
+                    ],
+                    [
+                        711.0,
+                        1241.0
+                    ],
+                    [
+                        711.0,
+                        1277.0
+                    ],
+                    [
+                        512.0,
+                        1277.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9447535872459412,
+                "coordinate": [
+                    147,
+                    1285,
+                    1073,
+                    1411
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1285.0
+                    ],
+                    [
+                        1073.0,
+                        1285.0
+                    ],
+                    [
+                        1073.0,
+                        1411.0
+                    ],
+                    [
+                        147.0,
+                        1411.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

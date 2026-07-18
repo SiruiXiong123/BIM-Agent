@@ -1,0 +1,613 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 40,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "figure_title",
+            "block_content": "表7.1.1 主要教学用房的使用面积指标（ $ m^{2} $/每座）",
+            "block_bbox": [
+                349,
+                143,
+                876,
+                173
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    349.0,
+                    143.0
+                ],
+                [
+                    876.0,
+                    143.0
+                ],
+                [
+                    876.0,
+                    173.0
+                ],
+                [
+                    349.0,
+                    173.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>房间名称</td><td>小学</td><td>中学</td><td>备注</td></tr><tr><td>普通教室</td><td>1.36</td><td>1.39</td><td>—</td></tr><tr><td>科学教室</td><td>1.78</td><td>—</td><td>—</td></tr><tr><td>实验室</td><td>—</td><td>1.92</td><td>—</td></tr><tr><td>综合实验室</td><td>—</td><td>2.88</td><td>—</td></tr><tr><td>演示实验室</td><td>—</td><td>1.44</td><td>若容纳2个班，则指标为1.20</td></tr><tr><td>史地教室</td><td>—</td><td>1.92</td><td>—</td></tr><tr><td>计算机教室</td><td>2.00</td><td>1.92</td><td>—</td></tr><tr><td>语言教室</td><td>2.00</td><td>1.92</td><td>—</td></tr><tr><td>美术教室</td><td>2.00</td><td>1.92</td><td>—</td></tr><tr><td>书法教室</td><td>2.00</td><td>1.92</td><td>—</td></tr><tr><td>音乐教室</td><td>1.70</td><td>1.64</td><td>—</td></tr><tr><td>舞蹈教室</td><td>2.14</td><td>3.15</td><td>宜和体操教室共用</td></tr><tr><td>合班教室</td><td>0.89</td><td>0.90</td><td>—</td></tr><tr><td>学生阅览室</td><td>1.80</td><td>1.90</td><td>—</td></tr><tr><td>教师阅览室</td><td>2.30</td><td>2.30</td><td>—</td></tr><tr><td>视听阅览室</td><td>1.80</td><td>2.00</td><td>—</td></tr><tr><td>报刊阅览室</td><td>1.80</td><td>2.30</td><td>可不集中设置</td></tr></table>",
+            "block_bbox": [
+                240,
+                173,
+                985,
+                846
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    240.0,
+                    173.0
+                ],
+                [
+                    985.0,
+                    173.0
+                ],
+                [
+                    985.0,
+                    846.0
+                ],
+                [
+                    240.0,
+                    846.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "注：1 表中指标是按完全小学每班45人、各类中学每班50人排布测定的每个学生所需使用面积；如果班级人数定额不同时需进行调整，但学生的全部座位均必须在“黑板可视线”范围以内；",
+            "block_bbox": [
+                255,
+                855,
+                985,
+                949
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    255.0,
+                    855.0
+                ],
+                [
+                    985.0,
+                    855.0
+                ],
+                [
+                    985.0,
+                    949.0
+                ],
+                [
+                    255.0,
+                    949.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "2 体育建筑设施、劳动教室、技术教室、心理咨询室未列入此表，另行规定；",
+            "block_bbox": [
+                293,
+                956,
+                973,
+                985
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    293.0,
+                    956.0
+                ],
+                [
+                    973.0,
+                    956.0
+                ],
+                [
+                    973.0,
+                    985.0
+                ],
+                [
+                    293.0,
+                    985.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "3 任课教师办公室未列入此表，应按每位教师使用面积不小于  $ 5.0m^{2} $ 计算。",
+            "block_bbox": [
+                293,
+                991,
+                974,
+                1019
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    293.0,
+                    991.0
+                ],
+                [
+                    974.0,
+                    991.0
+                ],
+                [
+                    974.0,
+                    1019.0
+                ],
+                [
+                    293.0,
+                    1019.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "7．1．2体育建筑设施的使用面积应按选定的体育项目确定。",
+            "block_bbox": [
+                148,
+                1031,
+                933,
+                1067
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    1031.0
+                ],
+                [
+                    933.0,
+                    1031.0
+                ],
+                [
+                    933.0,
+                    1067.0
+                ],
+                [
+                    148.0,
+                    1067.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "7．1．3劳动教室和技术教室的使用面积应按课程内容的工艺要求、工位要求、安全条件等因素确定。",
+            "block_bbox": [
+                147,
+                1108,
+                1073,
+                1189
+            ],
+            "block_id": 6,
+            "block_order": 1,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1108.0
+                ],
+                [
+                    1073.0,
+                    1108.0
+                ],
+                [
+                    1073.0,
+                    1189.0
+                ],
+                [
+                    147.0,
+                    1189.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "7．1．4心理咨询室的使用面积要求应符合本规范第5．16节的规定。",
+            "block_bbox": [
+                147,
+                1229,
+                1035,
+                1265
+            ],
+            "block_id": 7,
+            "block_order": 2,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1229.0
+                ],
+                [
+                    1035.0,
+                    1229.0
+                ],
+                [
+                    1035.0,
+                    1265.0
+                ],
+                [
+                    147.0,
+                    1265.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "7．1．5 主要教学辅助用房的使用面积不宜低于表7．1．5的规定。",
+            "block_bbox": [
+                146,
+                1307,
+                1007,
+                1343
+            ],
+            "block_id": 8,
+            "block_order": 3,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    1307.0
+                ],
+                [
+                    1007.0,
+                    1307.0
+                ],
+                [
+                    1007.0,
+                    1343.0
+                ],
+                [
+                    146.0,
+                    1343.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8573291301727295,
+                "coordinate": [
+                    349,
+                    143,
+                    876,
+                    173
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        349.0,
+                        143.0
+                    ],
+                    [
+                        876.0,
+                        143.0
+                    ],
+                    [
+                        876.0,
+                        173.0
+                    ],
+                    [
+                        349.0,
+                        173.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6260802149772644,
+                "coordinate": [
+                    765,
+                    144,
+                    813,
+                    171
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        765.0,
+                        144.0
+                    ],
+                    [
+                        765.0,
+                        170.0
+                    ],
+                    [
+                        812.0,
+                        170.0
+                    ],
+                    [
+                        812.0,
+                        144.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9706488847732544,
+                "coordinate": [
+                    240,
+                    173,
+                    985,
+                    846
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        240.0,
+                        173.0
+                    ],
+                    [
+                        985.0,
+                        173.0
+                    ],
+                    [
+                        985.0,
+                        846.0
+                    ],
+                    [
+                        240.0,
+                        846.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.9531024098396301,
+                "coordinate": [
+                    255,
+                    855,
+                    985,
+                    949
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        255.0,
+                        855.0
+                    ],
+                    [
+                        985.0,
+                        855.0
+                    ],
+                    [
+                        985.0,
+                        949.0
+                    ],
+                    [
+                        255.0,
+                        949.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.898875892162323,
+                "coordinate": [
+                    293,
+                    956,
+                    973,
+                    985
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        293.0,
+                        956.0
+                    ],
+                    [
+                        973.0,
+                        956.0
+                    ],
+                    [
+                        973.0,
+                        985.0
+                    ],
+                    [
+                        293.0,
+                        985.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.8981732130050659,
+                "coordinate": [
+                    293,
+                    991,
+                    974,
+                    1019
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        293.0,
+                        991.0
+                    ],
+                    [
+                        974.0,
+                        991.0
+                    ],
+                    [
+                        974.0,
+                        1019.0
+                    ],
+                    [
+                        293.0,
+                        1019.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.7818865180015564,
+                "coordinate": [
+                    148,
+                    1031,
+                    933,
+                    1067
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        148.0,
+                        1031.0
+                    ],
+                    [
+                        933.0,
+                        1031.0
+                    ],
+                    [
+                        933.0,
+                        1067.0
+                    ],
+                    [
+                        148.0,
+                        1067.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.928748607635498,
+                "coordinate": [
+                    147,
+                    1108,
+                    1073,
+                    1189
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1108.0
+                    ],
+                    [
+                        1073.0,
+                        1108.0
+                    ],
+                    [
+                        1073.0,
+                        1189.0
+                    ],
+                    [
+                        147.0,
+                        1189.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8695932030677795,
+                "coordinate": [
+                    147,
+                    1229,
+                    1035,
+                    1265
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1229.0
+                    ],
+                    [
+                        1035.0,
+                        1229.0
+                    ],
+                    [
+                        1035.0,
+                        1265.0
+                    ],
+                    [
+                        147.0,
+                        1265.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8643292784690857,
+                "coordinate": [
+                    146,
+                    1307,
+                    1007,
+                    1343
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        146.0,
+                        1307.0
+                    ],
+                    [
+                        1007.0,
+                        1307.0
+                    ],
+                    [
+                        1007.0,
+                        1343.0
+                    ],
+                    [
+                        146.0,
+                        1343.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

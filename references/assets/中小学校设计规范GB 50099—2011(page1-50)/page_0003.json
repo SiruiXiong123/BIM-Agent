@@ -1,0 +1,766 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 2,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "2 有益于学生身心健康成长；",
+            "block_bbox": [
+                192,
+                149,
+                576,
+                185
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    192.0,
+                    149.0
+                ],
+                [
+                    576.0,
+                    149.0
+                ],
+                [
+                    576.0,
+                    185.0
+                ],
+                [
+                    192.0,
+                    185.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3 校园本质安全，师生在学校内全过程安全。校园具备国家规定的防灾避难能力；",
+            "block_bbox": [
+                149,
+                193,
+                1072,
+                272
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    149.0,
+                    193.0
+                ],
+                [
+                    1072.0,
+                    193.0
+                ],
+                [
+                    1072.0,
+                    272.0
+                ],
+                [
+                    149.0,
+                    272.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "4 坚持以人为本、精心设计、科技创新和可持续发展的目标，满足保护环境、节地、节能、节水、节材的基本方针；并应满足有利于节约建设投资，降低运行成本的原则。",
+            "block_bbox": [
+                147,
+                279,
+                1074,
+                404
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    279.0
+                ],
+                [
+                    1074.0,
+                    279.0
+                ],
+                [
+                    1074.0,
+                    404.0
+                ],
+                [
+                    147.0,
+                    404.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "1．0．4中小学校的设计除应符合本规范的规定外，尚应符合国家现行有关标准的规定。",
+            "block_bbox": [
+                148,
+                443,
+                1074,
+                525
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    443.0
+                ],
+                [
+                    1074.0,
+                    443.0
+                ],
+                [
+                    1074.0,
+                    525.0
+                ],
+                [
+                    148.0,
+                    525.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "2 术语",
+            "block_bbox": [
+                561,
+                543,
+                663,
+                578
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    561.0,
+                    543.0
+                ],
+                [
+                    663.0,
+                    543.0
+                ],
+                [
+                    663.0,
+                    578.0
+                ],
+                [
+                    561.0,
+                    578.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2．0．1 完全小学 elementary school 对儿童、少年实施初等教育的场所，共有6个年级，属义务教育。",
+            "block_bbox": [
+                146,
+                586,
+                1072,
+                669
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    586.0
+                ],
+                [
+                    1072.0,
+                    586.0
+                ],
+                [
+                    1072.0,
+                    669.0
+                ],
+                [
+                    146.0,
+                    669.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2．0．2 非完全小学 lower elementary school 对儿童实施初等教育基础教育阶段的场所，设1年级～4年级，属义务教育。",
+            "block_bbox": [
+                146,
+                707,
+                1074,
+                790
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    707.0
+                ],
+                [
+                    1074.0,
+                    707.0
+                ],
+                [
+                    1074.0,
+                    790.0
+                ],
+                [
+                    146.0,
+                    790.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2．0．3 初级中学 junior secondary school 对青、少年实施初级中等教育的场所，共有3个年级，属义务教育。",
+            "block_bbox": [
+                147,
+                828,
+                1074,
+                910
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    828.0
+                ],
+                [
+                    1074.0,
+                    828.0
+                ],
+                [
+                    1074.0,
+                    910.0
+                ],
+                [
+                    147.0,
+                    910.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2．0．4 高级中学 senior secondary school 对青年实施高级中等教育的场所，共有3个年级。",
+            "block_bbox": [
+                147,
+                949,
+                1073,
+                1031
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    949.0
+                ],
+                [
+                    1073.0,
+                    949.0
+                ],
+                [
+                    1073.0,
+                    1031.0
+                ],
+                [
+                    147.0,
+                    1031.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2．0．5 完全中学 secondary school 对青、少年实施中等教育的场所，共有6个年级，含初级中学和高级中学教育的学校。其中，1年级～3年级属义务教育。",
+            "block_bbox": [
+                147,
+                1070,
+                1073,
+                1195
+            ],
+            "block_id": 9,
+            "block_order": 10,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1070.0
+                ],
+                [
+                    1073.0,
+                    1070.0
+                ],
+                [
+                    1073.0,
+                    1195.0
+                ],
+                [
+                    147.0,
+                    1195.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2．0．6 九年制学校 9-year school 对儿童、青少年连续实施初等教育和初级中等教育的学校，共有9个年级，其中完全小学6个年级，初级中学3个年级。属义务教育。",
+            "block_bbox": [
+                147,
+                1234,
+                1074,
+                1359
+            ],
+            "block_id": 10,
+            "block_order": 11,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1234.0
+                ],
+                [
+                    1074.0,
+                    1234.0
+                ],
+                [
+                    1074.0,
+                    1359.0
+                ],
+                [
+                    147.0,
+                    1359.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2．0．7中小学校school泛指对青、少年实施初等教育和中等教育的学",
+            "block_bbox": [
+                146,
+                1398,
+                1074,
+                1436
+            ],
+            "block_id": 11,
+            "block_order": 12,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    1398.0
+                ],
+                [
+                    1074.0,
+                    1398.0
+                ],
+                [
+                    1074.0,
+                    1436.0
+                ],
+                [
+                    146.0,
+                    1436.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.843554675579071,
+                "coordinate": [
+                    192,
+                    149,
+                    576,
+                    185
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        192.0,
+                        149.0
+                    ],
+                    [
+                        576.0,
+                        149.0
+                    ],
+                    [
+                        576.0,
+                        185.0
+                    ],
+                    [
+                        192.0,
+                        185.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9283878207206726,
+                "coordinate": [
+                    149,
+                    193,
+                    1072,
+                    272
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        149.0,
+                        193.0
+                    ],
+                    [
+                        1072.0,
+                        193.0
+                    ],
+                    [
+                        1072.0,
+                        272.0
+                    ],
+                    [
+                        149.0,
+                        272.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9412801861763,
+                "coordinate": [
+                    147,
+                    279,
+                    1074,
+                    404
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        147.0,
+                        279.0
+                    ],
+                    [
+                        1074.0,
+                        279.0
+                    ],
+                    [
+                        1074.0,
+                        404.0
+                    ],
+                    [
+                        147.0,
+                        404.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9308701753616333,
+                "coordinate": [
+                    148,
+                    443,
+                    1074,
+                    525
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        148.0,
+                        443.0
+                    ],
+                    [
+                        1074.0,
+                        443.0
+                    ],
+                    [
+                        1074.0,
+                        525.0
+                    ],
+                    [
+                        148.0,
+                        525.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8462210893630981,
+                "coordinate": [
+                    561,
+                    543,
+                    663,
+                    578
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        561.0,
+                        543.0
+                    ],
+                    [
+                        663.0,
+                        543.0
+                    ],
+                    [
+                        663.0,
+                        578.0
+                    ],
+                    [
+                        561.0,
+                        578.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9251701235771179,
+                "coordinate": [
+                    146,
+                    586,
+                    1072,
+                    669
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        146.0,
+                        586.0
+                    ],
+                    [
+                        1072.0,
+                        586.0
+                    ],
+                    [
+                        1072.0,
+                        669.0
+                    ],
+                    [
+                        146.0,
+                        669.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9286103248596191,
+                "coordinate": [
+                    146,
+                    707,
+                    1074,
+                    790
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        146.0,
+                        707.0
+                    ],
+                    [
+                        1074.0,
+                        707.0
+                    ],
+                    [
+                        1074.0,
+                        790.0
+                    ],
+                    [
+                        146.0,
+                        790.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9275694489479065,
+                "coordinate": [
+                    147,
+                    828,
+                    1074,
+                    910
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        147.0,
+                        828.0
+                    ],
+                    [
+                        1074.0,
+                        828.0
+                    ],
+                    [
+                        1074.0,
+                        910.0
+                    ],
+                    [
+                        147.0,
+                        910.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9287691712379456,
+                "coordinate": [
+                    147,
+                    949,
+                    1073,
+                    1031
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        147.0,
+                        949.0
+                    ],
+                    [
+                        1073.0,
+                        949.0
+                    ],
+                    [
+                        1073.0,
+                        1031.0
+                    ],
+                    [
+                        147.0,
+                        1031.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9491978287696838,
+                "coordinate": [
+                    147,
+                    1070,
+                    1073,
+                    1195
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1070.0
+                    ],
+                    [
+                        1073.0,
+                        1070.0
+                    ],
+                    [
+                        1073.0,
+                        1195.0
+                    ],
+                    [
+                        147.0,
+                        1195.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9522859454154968,
+                "coordinate": [
+                    147,
+                    1234,
+                    1074,
+                    1359
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1234.0
+                    ],
+                    [
+                        1074.0,
+                        1234.0
+                    ],
+                    [
+                        1074.0,
+                        1359.0
+                    ],
+                    [
+                        147.0,
+                        1359.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8616167902946472,
+                "coordinate": [
+                    146,
+                    1398,
+                    1074,
+                    1436
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        146.0,
+                        1398.0
+                    ],
+                    [
+                        1074.0,
+                        1398.0
+                    ],
+                    [
+                        1074.0,
+                        1436.0
+                    ],
+                    [
+                        146.0,
+                        1436.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

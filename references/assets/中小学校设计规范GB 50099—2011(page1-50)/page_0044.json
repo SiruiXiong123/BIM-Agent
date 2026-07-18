@@ -1,0 +1,827 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 43,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "3 科学教室、化学实验室、热学实验室、生物实验室、美术教室、书法教室、游泳池(馆)等有给水设施的教学用房及教学辅助用房；",
+            "block_bbox": [
+                150,
+                149,
+                1055,
+                230
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    150.0,
+                    149.0
+                ],
+                [
+                    1055.0,
+                    149.0
+                ],
+                [
+                    1055.0,
+                    230.0
+                ],
+                [
+                    150.0,
+                    230.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "4 卫生室(保健室)、饮水处、卫生间、盥洗室、浴室等有给水设施的房间。",
+            "block_bbox": [
+                149,
+                236,
+                1074,
+                314
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    149.0,
+                    236.0
+                ],
+                [
+                    1074.0,
+                    236.0
+                ],
+                [
+                    1074.0,
+                    314.0
+                ],
+                [
+                    149.0,
+                    314.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "8.1.8 教学用房的门窗设置应符合下列规定：",
+            "block_bbox": [
+                147,
+                323,
+                753,
+                359
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    323.0
+                ],
+                [
+                    753.0,
+                    323.0
+                ],
+                [
+                    753.0,
+                    359.0
+                ],
+                [
+                    147.0,
+                    359.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "1 疏散通道上的门不得使用弹簧门、旋转门、推拉门、大玻璃门等不利于疏散通畅、安全的门；",
+            "block_bbox": [
+                148,
+                366,
+                1071,
+                445
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    366.0
+                ],
+                [
+                    1071.0,
+                    366.0
+                ],
+                [
+                    1071.0,
+                    445.0
+                ],
+                [
+                    148.0,
+                    445.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2 各教学用房的门均应向疏散方向开启，开启的门扇不得挤占走道的疏散通道；",
+            "block_bbox": [
+                148,
+                452,
+                1072,
+                532
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    452.0
+                ],
+                [
+                    1072.0,
+                    452.0
+                ],
+                [
+                    1072.0,
+                    532.0
+                ],
+                [
+                    148.0,
+                    532.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3 靠外廊及单内廊一侧教室内隔墙的窗开启后，不得挤占走道的疏散通道，不得影响安全疏散；",
+            "block_bbox": [
+                148,
+                539,
+                1074,
+                619
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    539.0
+                ],
+                [
+                    1074.0,
+                    539.0
+                ],
+                [
+                    1074.0,
+                    619.0
+                ],
+                [
+                    148.0,
+                    619.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "4 二层及二层以上的临空外窗的开启扇不得外开。",
+            "block_bbox": [
+                190,
+                626,
+                835,
+                664
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    190.0,
+                    626.0
+                ],
+                [
+                    835.0,
+                    626.0
+                ],
+                [
+                    835.0,
+                    664.0
+                ],
+                [
+                    190.0,
+                    664.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．1．9 在抗震设防烈度为6度或6度以上地区建设的实验室不宜采用管道燃气作为实验用的热源。",
+            "block_bbox": [
+                146,
+                703,
+                1071,
+                784
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    703.0
+                ],
+                [
+                    1071.0,
+                    703.0
+                ],
+                [
+                    1071.0,
+                    784.0
+                ],
+                [
+                    146.0,
+                    784.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "8 安全、通行与疏散",
+            "block_bbox": [
+                474,
+                805,
+                748,
+                843
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    474.0,
+                    805.0
+                ],
+                [
+                    748.0,
+                    805.0
+                ],
+                [
+                    748.0,
+                    843.0
+                ],
+                [
+                    474.0,
+                    843.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "8.1 建筑环境安全",
+            "block_bbox": [
+                481,
+                883,
+                742,
+                919
+            ],
+            "block_id": 9,
+            "block_order": 10,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    481.0,
+                    883.0
+                ],
+                [
+                    742.0,
+                    883.0
+                ],
+                [
+                    742.0,
+                    919.0
+                ],
+                [
+                    481.0,
+                    919.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．1.1 中小学校应装设周界视频监控、报警系统。有条件的学校应接入当地的公安机关监控平台。中小学校安防设施的设置应符合现行国家标准《安全防范工程技术规范》GB50348的有关规定。",
+            "block_bbox": [
+                147,
+                927,
+                1072,
+                1053
+            ],
+            "block_id": 10,
+            "block_order": 11,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    927.0
+                ],
+                [
+                    1072.0,
+                    927.0
+                ],
+                [
+                    1072.0,
+                    1053.0
+                ],
+                [
+                    147.0,
+                    1053.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．1．2 中小学校建筑设计应符合现行国家标准《建筑抗震设计规范》GB50011、《建筑设计防火规范》GB50016的有关规定。",
+            "block_bbox": [
+                146,
+                1090,
+                1072,
+                1174
+            ],
+            "block_id": 11,
+            "block_order": 12,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    1090.0
+                ],
+                [
+                    1072.0,
+                    1090.0
+                ],
+                [
+                    1072.0,
+                    1174.0
+                ],
+                [
+                    146.0,
+                    1174.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．1．3 学校设计所采用的装修材料、产品、部品应符合现行国家标准《建筑内部装修设计防火规范》GB50222、《民用建筑工程室内环境污染控制规范》GB50325的有关规定及国家有关材料、产品、部品的标准规定。",
+            "block_bbox": [
+                147,
+                1211,
+                1074,
+                1380
+            ],
+            "block_id": 12,
+            "block_order": 13,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1211.0
+                ],
+                [
+                    1074.0,
+                    1211.0
+                ],
+                [
+                    1074.0,
+                    1380.0
+                ],
+                [
+                    147.0,
+                    1380.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9290851950645447,
+                "coordinate": [
+                    150,
+                    149,
+                    1055,
+                    230
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        150.0,
+                        149.0
+                    ],
+                    [
+                        1055.0,
+                        149.0
+                    ],
+                    [
+                        1055.0,
+                        230.0
+                    ],
+                    [
+                        150.0,
+                        230.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9316821694374084,
+                "coordinate": [
+                    149,
+                    236,
+                    1074,
+                    314
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        149.0,
+                        236.0
+                    ],
+                    [
+                        1074.0,
+                        236.0
+                    ],
+                    [
+                        1074.0,
+                        314.0
+                    ],
+                    [
+                        149.0,
+                        314.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7728341817855835,
+                "coordinate": [
+                    147,
+                    323,
+                    753,
+                    359
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        147.0,
+                        323.0
+                    ],
+                    [
+                        753.0,
+                        323.0
+                    ],
+                    [
+                        753.0,
+                        359.0
+                    ],
+                    [
+                        147.0,
+                        359.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9298250079154968,
+                "coordinate": [
+                    148,
+                    366,
+                    1071,
+                    445
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        148.0,
+                        366.0
+                    ],
+                    [
+                        1071.0,
+                        366.0
+                    ],
+                    [
+                        1071.0,
+                        445.0
+                    ],
+                    [
+                        148.0,
+                        445.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.934792697429657,
+                "coordinate": [
+                    148,
+                    452,
+                    1072,
+                    532
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        148.0,
+                        452.0
+                    ],
+                    [
+                        1072.0,
+                        452.0
+                    ],
+                    [
+                        1072.0,
+                        532.0
+                    ],
+                    [
+                        148.0,
+                        532.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9359123706817627,
+                "coordinate": [
+                    148,
+                    539,
+                    1074,
+                    619
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        148.0,
+                        539.0
+                    ],
+                    [
+                        1074.0,
+                        539.0
+                    ],
+                    [
+                        1074.0,
+                        619.0
+                    ],
+                    [
+                        148.0,
+                        619.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8661463260650635,
+                "coordinate": [
+                    190,
+                    626,
+                    835,
+                    664
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        190.0,
+                        626.0
+                    ],
+                    [
+                        835.0,
+                        626.0
+                    ],
+                    [
+                        835.0,
+                        664.0
+                    ],
+                    [
+                        190.0,
+                        664.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9326379895210266,
+                "coordinate": [
+                    146,
+                    703,
+                    1071,
+                    784
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        146.0,
+                        703.0
+                    ],
+                    [
+                        1071.0,
+                        703.0
+                    ],
+                    [
+                        1071.0,
+                        784.0
+                    ],
+                    [
+                        146.0,
+                        784.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8660712242126465,
+                "coordinate": [
+                    474,
+                    805,
+                    748,
+                    843
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        474.0,
+                        805.0
+                    ],
+                    [
+                        748.0,
+                        805.0
+                    ],
+                    [
+                        748.0,
+                        843.0
+                    ],
+                    [
+                        474.0,
+                        843.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8242737054824829,
+                "coordinate": [
+                    481,
+                    883,
+                    742,
+                    919
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        481.0,
+                        883.0
+                    ],
+                    [
+                        742.0,
+                        883.0
+                    ],
+                    [
+                        742.0,
+                        919.0
+                    ],
+                    [
+                        481.0,
+                        919.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9509983658790588,
+                "coordinate": [
+                    147,
+                    927,
+                    1072,
+                    1053
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        147.0,
+                        927.0
+                    ],
+                    [
+                        1072.0,
+                        927.0
+                    ],
+                    [
+                        1072.0,
+                        1053.0
+                    ],
+                    [
+                        147.0,
+                        1053.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9388033747673035,
+                "coordinate": [
+                    146,
+                    1090,
+                    1072,
+                    1174
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        146.0,
+                        1090.0
+                    ],
+                    [
+                        1072.0,
+                        1090.0
+                    ],
+                    [
+                        1072.0,
+                        1174.0
+                    ],
+                    [
+                        146.0,
+                        1174.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9581262469291687,
+                "coordinate": [
+                    147,
+                    1211,
+                    1074,
+                    1380
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1211.0
+                    ],
+                    [
+                        1074.0,
+                        1211.0
+                    ],
+                    [
+                        1074.0,
+                        1380.0
+                    ],
+                    [
+                        147.0,
+                        1380.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

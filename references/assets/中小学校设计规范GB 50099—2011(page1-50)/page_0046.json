@@ -1,0 +1,766 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 45,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "8．2．2 中小学校建筑的疏散通道宽度最少应为2股人流，并应按0.60m的整数倍增加疏散通道宽度。",
+            "block_bbox": [
+                146,
+                184,
+                1055,
+                266
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    184.0
+                ],
+                [
+                    1055.0,
+                    184.0
+                ],
+                [
+                    1055.0,
+                    266.0
+                ],
+                [
+                    146.0,
+                    266.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．2．3 中小学校建筑的安全出口、疏散走道、疏散楼梯和房间疏散门等处每100人的净宽度应按表8．2．3计算。同时，教学用房的内走道净宽度不应小于2．40m，单侧走道及外廊的净宽度不应小于1．80m。",
+            "block_bbox": [
+                146,
+                304,
+                1074,
+                468
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    144.6626434326172,
+                    312.0115966796875
+                ],
+                [
+                    1073.0,
+                    304.0
+                ],
+                [
+                    1074.337646484375,
+                    458.98846435546875
+                ],
+                [
+                    146.000244140625,
+                    467.00006103515625
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表8.2.3 安全出口、疏散走道、疏散楼梯和房间",
+            "block_bbox": [
+                357,
+                471,
+                864,
+                501
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    357.0,
+                    471.0
+                ],
+                [
+                    864.0,
+                    471.0
+                ],
+                [
+                    864.0,
+                    501.0
+                ],
+                [
+                    357.0,
+                    501.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "疏散门每100人的净宽度（m）",
+            "block_bbox": [
+                454,
+                508,
+                768,
+                538
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    454.0,
+                    508.0
+                ],
+                [
+                    768.0,
+                    508.0
+                ],
+                [
+                    768.0,
+                    538.0
+                ],
+                [
+                    454.0,
+                    538.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td rowspan=\"2\">所在楼层位置</td><td colspan=\"3\">耐火等级</td></tr><tr><td>一、二级</td><td>三级</td><td>四级</td></tr><tr><td>地上一、二层</td><td>0.70</td><td>0.80</td><td>1.05</td></tr><tr><td>地上三层</td><td>0.80</td><td>1.05</td><td>—</td></tr><tr><td>地上四、五层</td><td>1.05</td><td>1.30</td><td>—</td></tr><tr><td>地下一、二层</td><td>0.80</td><td>—</td><td>—</td></tr></table>",
+            "block_bbox": [
+                238,
+                542,
+                984,
+                797
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    238.0,
+                    542.0
+                ],
+                [
+                    984.0,
+                    542.0
+                ],
+                [
+                    984.0,
+                    797.0
+                ],
+                [
+                    238.0,
+                    797.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "8．2．4 房间疏散门开启后，每樘门净通行宽度不应小于0.90m。",
+            "block_bbox": [
+                147,
+                811,
+                1009,
+                848
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    811.0
+                ],
+                [
+                    1009.0,
+                    811.0
+                ],
+                [
+                    1009.0,
+                    848.0
+                ],
+                [
+                    147.0,
+                    848.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "8.3 校园出入口",
+            "block_bbox": [
+                495,
+                867,
+                726,
+                903
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    495.0,
+                    867.0
+                ],
+                [
+                    726.0,
+                    867.0
+                ],
+                [
+                    726.0,
+                    903.0
+                ],
+                [
+                    495.0,
+                    903.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．3．1 中小学校的校园应设置2个出入口。出入口的位置应符合教学、安全、管理的需要，出入口的布置应避免人流、车流交叉。有条件的学校宜设置机动车专用出入口。",
+            "block_bbox": [
+                146,
+                911,
+                1075,
+                1037
+            ],
+            "block_id": 7,
+            "block_order": 3,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    911.0
+                ],
+                [
+                    1075.0,
+                    911.0
+                ],
+                [
+                    1075.0,
+                    1037.0
+                ],
+                [
+                    146.0,
+                    1037.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．3．2 中小学校校园出入口应与市政交通衔接，但不应直接与城市主干道连接。校园主要出入口应设置缓冲场地。",
+            "block_bbox": [
+                146,
+                1075,
+                1073,
+                1156
+            ],
+            "block_id": 8,
+            "block_order": 4,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    1075.0
+                ],
+                [
+                    1073.0,
+                    1075.0
+                ],
+                [
+                    1073.0,
+                    1156.0
+                ],
+                [
+                    146.0,
+                    1156.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "8.4 校园道路",
+            "block_bbox": [
+                512,
+                1174,
+                714,
+                1209
+            ],
+            "block_id": 9,
+            "block_order": 5,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    512.0,
+                    1174.0
+                ],
+                [
+                    714.0,
+                    1174.0
+                ],
+                [
+                    714.0,
+                    1209.0
+                ],
+                [
+                    512.0,
+                    1209.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．4．1 校园内道路应与各建筑的出入口及走道衔接，构成安全、方便、明确、通畅的路网。",
+            "block_bbox": [
+                146,
+                1218,
+                1073,
+                1300
+            ],
+            "block_id": 10,
+            "block_order": 6,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    1218.0
+                ],
+                [
+                    1073.0,
+                    1218.0
+                ],
+                [
+                    1073.0,
+                    1300.0
+                ],
+                [
+                    146.0,
+                    1300.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "8．4．2 中小学校校园应设消防车道。消防车道的设置应符合现行国家标准《建筑设计防火规范》GB50016的有关规定。",
+            "block_bbox": [
+                146,
+                1339,
+                1074,
+                1421
+            ],
+            "block_id": 11,
+            "block_order": 7,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    146.0,
+                    1339.0
+                ],
+                [
+                    1074.0,
+                    1339.0
+                ],
+                [
+                    1074.0,
+                    1421.0
+                ],
+                [
+                    146.0,
+                    1421.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9264870285987854,
+                "coordinate": [
+                    146,
+                    184,
+                    1055,
+                    266
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        146.0,
+                        184.0
+                    ],
+                    [
+                        1055.0,
+                        184.0
+                    ],
+                    [
+                        1055.0,
+                        266.0
+                    ],
+                    [
+                        146.0,
+                        266.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9410201907157898,
+                "coordinate": [
+                    146,
+                    304,
+                    1074,
+                    468
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        144.6626434326172,
+                        312.0115966796875
+                    ],
+                    [
+                        1073.0,
+                        304.0
+                    ],
+                    [
+                        1074.337646484375,
+                        458.98846435546875
+                    ],
+                    [
+                        146.000244140625,
+                        467.00006103515625
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8540269732475281,
+                "coordinate": [
+                    357,
+                    471,
+                    864,
+                    501
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        357.0,
+                        471.0
+                    ],
+                    [
+                        864.0,
+                        471.0
+                    ],
+                    [
+                        864.0,
+                        501.0
+                    ],
+                    [
+                        357.0,
+                        501.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.6765915155410767,
+                "coordinate": [
+                    454,
+                    508,
+                    768,
+                    538
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        454.0,
+                        508.0
+                    ],
+                    [
+                        768.0,
+                        508.0
+                    ],
+                    [
+                        768.0,
+                        538.0
+                    ],
+                    [
+                        454.0,
+                        538.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9575907588005066,
+                "coordinate": [
+                    238,
+                    542,
+                    984,
+                    797
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        238.0,
+                        542.0
+                    ],
+                    [
+                        984.0,
+                        542.0
+                    ],
+                    [
+                        984.0,
+                        797.0
+                    ],
+                    [
+                        238.0,
+                        797.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.5896726250648499,
+                "coordinate": [
+                    147,
+                    811,
+                    1009,
+                    848
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        147.0,
+                        811.0
+                    ],
+                    [
+                        1009.0,
+                        811.0
+                    ],
+                    [
+                        1009.0,
+                        848.0
+                    ],
+                    [
+                        147.0,
+                        848.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.6159710884094238,
+                "coordinate": [
+                    495,
+                    867,
+                    726,
+                    903
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        495.0,
+                        867.0
+                    ],
+                    [
+                        726.0,
+                        867.0
+                    ],
+                    [
+                        726.0,
+                        903.0
+                    ],
+                    [
+                        495.0,
+                        903.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9382216930389404,
+                "coordinate": [
+                    146,
+                    911,
+                    1075,
+                    1037
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        146.0,
+                        911.0
+                    ],
+                    [
+                        1075.0,
+                        911.0
+                    ],
+                    [
+                        1075.0,
+                        1037.0
+                    ],
+                    [
+                        146.0,
+                        1037.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9312963485717773,
+                "coordinate": [
+                    146,
+                    1075,
+                    1073,
+                    1156
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        146.0,
+                        1075.0
+                    ],
+                    [
+                        1073.0,
+                        1075.0
+                    ],
+                    [
+                        1073.0,
+                        1156.0
+                    ],
+                    [
+                        146.0,
+                        1156.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.844671905040741,
+                "coordinate": [
+                    512,
+                    1174,
+                    714,
+                    1209
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        512.0,
+                        1174.0
+                    ],
+                    [
+                        714.0,
+                        1174.0
+                    ],
+                    [
+                        714.0,
+                        1209.0
+                    ],
+                    [
+                        512.0,
+                        1209.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9297261834144592,
+                "coordinate": [
+                    146,
+                    1218,
+                    1073,
+                    1300
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        146.0,
+                        1218.0
+                    ],
+                    [
+                        1073.0,
+                        1218.0
+                    ],
+                    [
+                        1073.0,
+                        1300.0
+                    ],
+                    [
+                        146.0,
+                        1300.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9288046360015869,
+                "coordinate": [
+                    146,
+                    1339,
+                    1074,
+                    1421
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        146.0,
+                        1339.0
+                    ],
+                    [
+                        1074.0,
+                        1339.0
+                    ],
+                    [
+                        1074.0,
+                        1421.0
+                    ],
+                    [
+                        146.0,
+                        1421.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

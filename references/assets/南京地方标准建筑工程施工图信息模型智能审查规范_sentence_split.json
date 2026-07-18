@@ -1,0 +1,2884 @@
+{
+  "document_name": "南京地方标准建筑工程施工图信息模型智能审查规范",
+  "source_path": "references\\assets\\南京地方标准建筑工程施工图信息模型智能审查规范_text.md",
+  "splitter": "nltk.sent_tokenize",
+  "language": "english",
+  "page_metadata_available": true,
+  "sentence_count": 479,
+  "sentences": [
+    {
+      "sentence_id": 1,
+      "text": "ICS 91.040.01",
+      "page": 1,
+      "page_index": 0
+    },
+    {
+      "sentence_id": 2,
+      "text": "CCSP30",
+      "page": 1,
+      "page_index": 0
+    },
+    {
+      "sentence_id": 3,
+      "text": "DB3201",
+      "page": 1,
+      "page_index": 0
+    },
+    {
+      "sentence_id": 4,
+      "text": "南 京 市 地 方 标 准",
+      "page": 1,
+      "page_index": 0
+    },
+    {
+      "sentence_id": 5,
+      "text": "DB 3201/T 1143—2023",
+      "page": 1,
+      "page_index": 0
+    },
+    {
+      "sentence_id": 6,
+      "text": "建筑工程施工图信息模型智能审查规范",
+      "page": 1,
+      "page_index": 0
+    },
+    {
+      "sentence_id": 7,
+      "text": "Intelligent review specification for construction drawing information model of building engineering",
+      "page": 1,
+      "page_index": 0
+    },
+    {
+      "sentence_id": 8,
+      "text": "2023-02-15 发布",
+      "page": 1,
+      "page_index": 0
+    },
+    {
+      "sentence_id": 9,
+      "text": "2023-02-18 实施",
+      "page": 1,
+      "page_index": 0
+    },
+    {
+      "sentence_id": 10,
+      "text": "南京市市场监督管理局 发 布",
+      "page": 1,
+      "page_index": 0
+    },
+    {
+      "sentence_id": 11,
+      "text": "DB 3201/T 1143—2023",
+      "page": 3,
+      "page_index": 2
+    },
+    {
+      "sentence_id": 12,
+      "text": "目次",
+      "page": 3,
+      "page_index": 2
+    },
+    {
+      "sentence_id": 13,
+      "text": "前言 ..... II 引言 ..... III 1 范围 ..... 1 2 规范性引用文件 ..... 1 3 术语和定义 ..... 2 4 总体要求 ..... 2 5 审查程序 ..... 3 6 审查范围 ..... 3 7 审查结果 ..... 6 附录 A （资料性）建筑专业 BIM 智能审查条文库 ..... 7 附录 B （资料性）结构专业 BIM 智能审查条文库 ..... 30 附录 C （资料性）给排水专业 BIM 智能审查条文库 ..... 50 附录 D （资料性）电气专业 BIM 智能审查条文库 ..... 60 附录 E （资料性）暖通专业 BIM 智能审查条文库 ..... 66 附录 F （资料性）人防专业 BIM 智能审查条文库 ..... 72 附录 G （资料性）节能专业 BIM 智能审查条文库 ..... 74 附录 H （资料性）审查项不通过结论相关因素 ..... 75 附录 I （资料性）审查意见示例 ..... 77 参考文献 ..... 78",
+      "page": 3,
+      "page_index": 2
+    },
+    {
+      "sentence_id": 14,
+      "text": "I",
+      "page": 3,
+      "page_index": 2
+    },
+    {
+      "sentence_id": 15,
+      "text": "DB 3201/T 1143—2023",
+      "page": 4,
+      "page_index": 3
+    },
+    {
+      "sentence_id": 16,
+      "text": "前言",
+      "page": 4,
+      "page_index": 3
+    },
+    {
+      "sentence_id": 17,
+      "text": "本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。",
+      "page": 4,
+      "page_index": 3
+    },
+    {
+      "sentence_id": 18,
+      "text": "请注意本文件的某些内容可能涉及专利。本文件的发布机构不承担识别专利的责任。",
+      "page": 4,
+      "page_index": 3
+    },
+    {
+      "sentence_id": 19,
+      "text": "本文件由南京市城乡建设委员会提出并归口。",
+      "page": 4,
+      "page_index": 3
+    },
+    {
+      "sentence_id": 20,
+      "text": "本文件起草单位：南京市建设工程施工图设计审查管理中心、中通服咨询设计研究院有限公司、北京构力科技有限公司、南京市建筑工程质量安全监督站、奥格科技股份有限公司。",
+      "page": 4,
+      "page_index": 3
+    },
+    {
+      "sentence_id": 21,
+      "text": "本文件主要起草人：彭为民、徐嵘、曹桂敏、王惠芳、许钰涓、院梅、谢维锺、陈蓉、贾凌、胡睿、汤宇红、吴大江、朱强、汪深、李兵、孙精科、孔燕、周海涛、张磊、罗磊、周盼生、周婷婷、杜娟、黄立新、杨炅澄、张朝阳、徐汉擎、王委、谢宇欣、冯川、朱佳迪、王童、张建宇、吕金健、桂尚品、陶雪峰。",
+      "page": 4,
+      "page_index": 3
+    },
+    {
+      "sentence_id": 22,
+      "text": "Ⅱ",
+      "page": 4,
+      "page_index": 3
+    },
+    {
+      "sentence_id": 23,
+      "text": "DB 3201/T 1143—2023",
+      "page": 5,
+      "page_index": 4
+    },
+    {
+      "sentence_id": 24,
+      "text": "引言",
+      "page": 5,
+      "page_index": 4
+    },
+    {
+      "sentence_id": 25,
+      "text": "利用计算机进行施工阶段信息模型的智能化审查，能有效提高模型审查的准确性和效率。当前阶段，计算机智能化审查与人工审查仍然处于并存的状态，即以人工审查为主、机器审查为辅的方式。随着计算机智能审查的不断演进，非常有必要建立一种约定计算机智能化审查的条文拆解方式、条文设计范围的规范。",
+      "page": 5,
+      "page_index": 4
+    },
+    {
+      "sentence_id": 26,
+      "text": "本文件明确了计算机智能化审查的方式及内容，有利于帮助审查人员区分人工审查与机器审查的界面。随着技术的发展，为审查规则的扩充提供依据，进一步完善计算机智能化审查的覆盖面，保障施工信息模型的合规性和完整性。",
+      "page": 5,
+      "page_index": 4
+    },
+    {
+      "sentence_id": 27,
+      "text": "III",
+      "page": 5,
+      "page_index": 4
+    },
+    {
+      "sentence_id": 28,
+      "text": "DB3201",
+      "page": 6,
+      "page_index": 5
+    },
+    {
+      "sentence_id": 29,
+      "text": "DB 3201/T 1143—2023",
+      "page": 7,
+      "page_index": 6
+    },
+    {
+      "sentence_id": 30,
+      "text": "建筑工程施工图信息模型智能审查规范",
+      "page": 7,
+      "page_index": 6
+    },
+    {
+      "sentence_id": 31,
+      "text": "1 范围",
+      "page": 7,
+      "page_index": 6
+    },
+    {
+      "sentence_id": 32,
+      "text": "本文件规定了施工图信息模型智能化审查的总体要求、审查程序、审查范围及审查结果，通过资料性附录形式记录了建设工程BIM施工图审查系统的审查内容。",
+      "page": 7,
+      "page_index": 6
+    },
+    {
+      "sentence_id": 33,
+      "text": "本文件适用于新建建筑工程施工图信息模型智能化审查管理，主要使用对象为审图机构等单位的专业技术人员。",
+      "page": 7,
+      "page_index": 6
+    },
+    {
+      "sentence_id": 34,
+      "text": "2 规范性引用文件",
+      "page": 7,
+      "page_index": 6
+    },
+    {
+      "sentence_id": 35,
+      "text": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本文件；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。",
+      "page": 7,
+      "page_index": 6
+    },
+    {
+      "sentence_id": 36,
+      "text": "GB 50010 混凝土结构设计规范",
+      "page": 7,
+      "page_index": 6
+    },
+    {
+      "sentence_id": 37,
+      "text": "GB 50011-2010 建筑抗震设计规范",
+      "page": 7,
+      "page_index": 6
+    },
+    {
+      "sentence_id": 38,
+      "text": "GB 50015 建筑给水排水设计标准",
+      "page": 7,
+      "page_index": 6
+    },
+    {
+      "sentence_id": 39,
+      "text": "GB 50016 建筑设计防火规范",
+      "page": 7,
+      "page_index": 6
+    },
+    {
+      "sentence_id": 40,
+      "text": "GB 50034 建筑照明设计标准",
+      "page": 7,
+      "page_index": 6
+    },
+    {
+      "sentence_id": 41,
+      "text": "GB 50038 人民防空地下室设计规范 GB 50067 汽车库、修车库、停车场设计防火规范 GB 50084-2017 自动喷水灭火系统设计规范 GB 50096 住宅设计规范 GB 50099 中小学校设计规范 GB 50116 火灾自动报警系统设计规范 GB 50189 公共建筑节能设计标准 GB 50352 民用建筑设计统一标准 GB 50368 住宅建筑规范 GB 50400 建筑与小区雨水控制及利用工程技术规范 GB 50974 消防给水及消火栓系统技术规范 GB 51251 建筑防排烟系统技术标准 GB 51348 民用建筑电气设计标准 GB 55002 建筑与市政工程抗震通用规范 GB 55008-2021 混凝土结构通用规范 GB 55015 建筑节能与可再生能源利用通用规范 GB 55020 建筑给水排水与节水通用规范 GB 55024 建筑电气与智能化通用规范 JGJ 3-2010 高层建筑混凝土结构技术规程 JGJ 25 档案馆建筑设计规范 JGJ 39 托儿所、幼儿园建筑设计规范",
+      "page": 7,
+      "page_index": 6
+    },
+    {
+      "sentence_id": 42,
+      "text": "1",
+      "page": 7,
+      "page_index": 6
+    },
+    {
+      "sentence_id": 43,
+      "text": "DB 3201/T 1143—2023",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 44,
+      "text": "JGJ/T 67 办公建筑设计标准",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 45,
+      "text": "JGJ 310 教育建筑电气设计规范",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 46,
+      "text": "JGJ 450 老年人照料设施建筑设计标准",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 47,
+      "text": "DB32/3962 绿色建筑设计标准",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 48,
+      "text": "3 术语和定义",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 49,
+      "text": "下列术语和定义适用于本文件。",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 50,
+      "text": "3.1",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 51,
+      "text": "建筑信息模型 building information modeling (BIM)",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 52,
+      "text": "在建设工程及设施全生命期内，对其物理和功能特性进行数字化表达，并依此设计、施工、运营的过程和结果的总称。",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 53,
+      "text": "[来源：GB/T 51212-2016，2.1.1]",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 54,
+      "text": "3.2",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 55,
+      "text": "施工图信息模型 BIM in construction drawing",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 56,
+      "text": "建筑工程项目施工图设计阶段，符合施工图审查要求的建筑信息模型。简称“施工图BIM”。",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 57,
+      "text": "[来源：DB3201/T1142-2023，3.2]",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 58,
+      "text": "3.3",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 59,
+      "text": "智能化审查 intelligent review",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 60,
+      "text": "智能化审查是利用计算机对施工图信息模型进行信息解析，自动识别设计标准规范对应条文并进行审查，输出审查结论的一种方法。",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 61,
+      "text": "3.4",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 62,
+      "text": "施工图 BIM 智能审查系统 BIM intelligent review system",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 63,
+      "text": "满足施工图信息模型的数据上传、数据存储、数据流转、数据审查、数据分析等要求，支撑施工图智能化审查的管理系统。",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 64,
+      "text": "3.5",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 65,
+      "text": "施工图 BIM 宁建模 NJM of BIM in construction drawing",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 66,
+      "text": "基于南京市施工图信息模型的开发，定义数据存储方式及数据结构等内容，实现BIM数据在工程建设项目规划、建设、运营管理全流程的无损流转与共享的一种数据格式，简称“宁建模”，缩写“NJM”。",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 67,
+      "text": "[来源：DB3201/T1142-2023，3.4]",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 68,
+      "text": "4 总体要求",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 69,
+      "text": "4.1 施工图 BIM 智能审查系统应遵循以人工审查为主，机器审查为辅助的原则。",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 70,
+      "text": "4.2 施工图 BIM 智能审查系统应包含对 NJM 数据和图纸的审查，系统应包含智能审查、数据统计、项目查询、规范查询等功能。",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 71,
+      "text": "4.3 南京市施工图 BIM 智能审查系统应包含建筑、结构、给排水、电气、暖通、人防、节能专业。",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 72,
+      "text": "2",
+      "page": 8,
+      "page_index": 7
+    },
+    {
+      "sentence_id": 73,
+      "text": "DB 3201/T 1143—2023",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 74,
+      "text": "5 审查程序",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 75,
+      "text": "5.1 施工图 BIM 智能审查系统是在施工图数字化审查系统基础上，增加 BIM 审查功能模块，实现计算机智能审查，施工图 BIM 智能审查遵循程序，如图 1 所示。",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 76,
+      "text": "图1 施工图 BIM 智能审查程序",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 77,
+      "text": "5.2 窗口受理建设单位项目资料时需审核建设单位填报信息的准确性和完整性。",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 78,
+      "text": "5.3 审图机构管理人员登录施工图 BIM 智能审查审图机构版账号，按对应专业进行项目分配，进入下一环节。",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 79,
+      "text": "5.4 审查人员通过施工图 BIM 智能审查系统审查专家版软件进入施工图 BIM 智能审查环境。",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 80,
+      "text": "5.5 审查人员按专业配置系统账号，使用施工图 BIM 智能审查系统分专业进行智能化审查。",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 81,
+      "text": "5.6 非本专业模型仅能进行查看，无法进入该专业 BIM 智能审查环境。",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 82,
+      "text": "5.7 审查人员在 BIM 智能审查环境中按照项目类型，对照本文件涉及范围选择适用规范。施工图 BIM 智能审查系统可按专业、规范筛选适用范围。",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 83,
+      "text": "5.8 模型在 BIM 智能审查环境中以树状列表结构呈现，通过开关按钮实现专业级、楼层级、构件级（此处按分类层级顺序列出）的显示与隐藏。",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 84,
+      "text": "5.9 审查人员在 BIM 智能审查环境中将二维图纸与三维模型进行联动，同一视图中进行审阅。",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 85,
+      "text": "5.10 审查人员在 BIM 智能审查环境中进行测量，辅助进行距离、高度信息获取。",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 86,
+      "text": "5.11 审查人员在 BIM 智能审查环境中进行模型视图切换，在视图控制球选择主视图、透视视图、正交视图、全视图、全方位视图等不同视图，实现对模型的全方位查看。",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 87,
+      "text": "5.12 审查人员在 BIM 智能审查环境中进行模型动态剖解，查看模型内部构造。",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 88,
+      "text": "5.13 需人工复核的条文内容、本文件范围未涉及的条文，审查人员需要对照图纸、模型进行复核，生成审查意见报告。",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 89,
+      "text": "6 审查范围",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 90,
+      "text": "6.1 建筑专业模型审查范围",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 91,
+      "text": "建筑专业根据9本文件审查模型，如表1所示。条文详见附录A。",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 92,
+      "text": "3",
+      "page": 9,
+      "page_index": 8
+    },
+    {
+      "sentence_id": 93,
+      "text": "DB 3201/T 1143—2023",
+      "page": 10,
+      "page_index": 9
+    },
+    {
+      "sentence_id": 94,
+      "text": "表1 建筑专业审查规范清单",
+      "page": 10,
+      "page_index": 9
+    },
+    {
+      "sentence_id": 95,
+      "text": "6.2 结构专业模型审查范围",
+      "page": 10,
+      "page_index": 9
+    },
+    {
+      "sentence_id": 96,
+      "text": "结构专业根据5本文件审查模型，如表2所示。条文详见附录B。",
+      "page": 10,
+      "page_index": 9
+    },
+    {
+      "sentence_id": 97,
+      "text": "表2 结构专业审查规范清单",
+      "page": 10,
+      "page_index": 9
+    },
+    {
+      "sentence_id": 98,
+      "text": "6.3 给排水专业模型审查范围",
+      "page": 10,
+      "page_index": 9
+    },
+    {
+      "sentence_id": 99,
+      "text": "给排水专业根据11本文件审查模型，其中1至6为室内给排水，7至11为室外给排水。如表3所示。条文详见附录C。",
+      "page": 10,
+      "page_index": 9
+    },
+    {
+      "sentence_id": 100,
+      "text": "表3 给排水专业审查规范清单",
+      "page": 10,
+      "page_index": 9
+    },
+    {
+      "sentence_id": 101,
+      "text": "4",
+      "page": 10,
+      "page_index": 9
+    },
+    {
+      "sentence_id": 102,
+      "text": "DB 3201/T 1143—2023",
+      "page": 11,
+      "page_index": 10
+    },
+    {
+      "sentence_id": 103,
+      "text": "表3 给排水专业审查规范清单（续）",
+      "page": 11,
+      "page_index": 10
+    },
+    {
+      "sentence_id": 104,
+      "text": "6.4 电气专业模型审查范围",
+      "page": 11,
+      "page_index": 10
+    },
+    {
+      "sentence_id": 105,
+      "text": "电气专业根据10本文件审查模型，如表4所示。条文详见附录D。",
+      "page": 11,
+      "page_index": 10
+    },
+    {
+      "sentence_id": 106,
+      "text": "表4 电气专业审查规范清单",
+      "page": 11,
+      "page_index": 10
+    },
+    {
+      "sentence_id": 107,
+      "text": "6.5 暖通专业模型审查范围",
+      "page": 11,
+      "page_index": 10
+    },
+    {
+      "sentence_id": 108,
+      "text": "暖通专业根据4本文件审查模型，如表5所示。条文详见附录E。",
+      "page": 11,
+      "page_index": 10
+    },
+    {
+      "sentence_id": 109,
+      "text": "表5 暖通专业审查规范清单",
+      "page": 11,
+      "page_index": 10
+    },
+    {
+      "sentence_id": 110,
+      "text": "6.6 人防专业模型审查范围",
+      "page": 11,
+      "page_index": 10
+    },
+    {
+      "sentence_id": 111,
+      "text": "人防专业根据1本文件审查模型，如表6所示。条文详见附录F。",
+      "page": 11,
+      "page_index": 10
+    },
+    {
+      "sentence_id": 112,
+      "text": "表6 人防专业审查规范清单",
+      "page": 11,
+      "page_index": 10
+    },
+    {
+      "sentence_id": 113,
+      "text": "5",
+      "page": 11,
+      "page_index": 10
+    },
+    {
+      "sentence_id": 114,
+      "text": "DB 3201/T 1143—2023",
+      "page": 12,
+      "page_index": 11
+    },
+    {
+      "sentence_id": 115,
+      "text": "6.7 节能专业模型审查范围",
+      "page": 12,
+      "page_index": 11
+    },
+    {
+      "sentence_id": 116,
+      "text": "节能专业根据2本文件审查模型，如表7所示。条文详见附录G。",
+      "page": 12,
+      "page_index": 11
+    },
+    {
+      "sentence_id": 117,
+      "text": "表7 节能专业审查规范清单",
+      "page": 12,
+      "page_index": 11
+    },
+    {
+      "sentence_id": 118,
+      "text": "7 审查结果",
+      "page": 12,
+      "page_index": 11
+    },
+    {
+      "sentence_id": 119,
+      "text": "7.1 施工图 BIM 智能审查意见按照建筑、结构、给排水、电气、暖通、人防、节能专业进行分类，与二维图纸审查人丁审查意见合并给出。",
+      "page": 12,
+      "page_index": 11
+    },
+    {
+      "sentence_id": 120,
+      "text": "7.2 审查意见应准确表达专业、项目编号、审查日期、项目名称（具体到单体）、问题类型（违反强制性条文、违反审查要点、其他）、审查结论等要素。审查项不通过结论相关因素示例详见附录H。",
+      "page": 12,
+      "page_index": 11
+    },
+    {
+      "sentence_id": 121,
+      "text": "7.3 对审查不通过构件列表详细报告违反标准规范名称、条文编号及条文内容，简述违反条文情况，同时列举错误构件ID信息。具体示例详见附录I。",
+      "page": 12,
+      "page_index": 11
+    },
+    {
+      "sentence_id": 122,
+      "text": "7.4 审查意见无违反强制性条文、审查要点及其他的情况时，表达为通过，其他情况表达为整改。",
+      "page": 12,
+      "page_index": 11
+    },
+    {
+      "sentence_id": 123,
+      "text": "7.5 审查意见的整改复审需同时对模型进行重新审查，审查流程与初审相同，直至无违反强制性条文、审查要点及其他的情况。",
+      "page": 12,
+      "page_index": 11
+    },
+    {
+      "sentence_id": 124,
+      "text": "7.6 由审查机构管理人员汇总所有专业意见，形成施工图 BIM 智能审查专业意见汇总报告。",
+      "page": 12,
+      "page_index": 11
+    },
+    {
+      "sentence_id": 125,
+      "text": "7.7 复审合格后，核发审查通过告知书。",
+      "page": 12,
+      "page_index": 11
+    },
+    {
+      "sentence_id": 126,
+      "text": "7.8 施工图 BIM 智能审查系统记录所有工程项目审查情况，按专业统计未通过审查条文频次。",
+      "page": 12,
+      "page_index": 11
+    },
+    {
+      "sentence_id": 127,
+      "text": "6",
+      "page": 12,
+      "page_index": 11
+    },
+    {
+      "sentence_id": 128,
+      "text": "DB 3201/T 1143—2023",
+      "page": 13,
+      "page_index": 12
+    },
+    {
+      "sentence_id": 129,
+      "text": "附录A",
+      "page": 13,
+      "page_index": 12
+    },
+    {
+      "sentence_id": 130,
+      "text": "（资料性）",
+      "page": 13,
+      "page_index": 12
+    },
+    {
+      "sentence_id": 131,
+      "text": "建筑专业BIM智能审查条文库",
+      "page": 13,
+      "page_index": 12
+    },
+    {
+      "sentence_id": 132,
+      "text": "建筑专业根据9本文件中已拆解的条文审查模型，现已拆解条文共88条，其中强条70条，一般性条文13条，要点5条。具体条文详见表A.1～表A.9。（拆解的条文随引用规范的修订而修订本规范。）",
+      "page": 13,
+      "page_index": 12
+    },
+    {
+      "sentence_id": 133,
+      "text": "表 A.1 建筑专业 BIM 智能审查条文表",
+      "page": 13,
+      "page_index": 12
+    },
+    {
+      "sentence_id": 134,
+      "text": "7",
+      "page": 13,
+      "page_index": 12
+    },
+    {
+      "sentence_id": 135,
+      "text": "DB 3201/T 1143—2023",
+      "page": 14,
+      "page_index": 13
+    },
+    {
+      "sentence_id": 136,
+      "text": "表A.1建筑专业BIM智能审查条文表（续）",
+      "page": 14,
+      "page_index": 13
+    },
+    {
+      "sentence_id": 137,
+      "text": "8",
+      "page": 14,
+      "page_index": 13
+    },
+    {
+      "sentence_id": 138,
+      "text": "DB 3201/T 1143—2023",
+      "page": 15,
+      "page_index": 14
+    },
+    {
+      "sentence_id": 139,
+      "text": "表A.1建筑专业BIM智能审查条文表（续）",
+      "page": 15,
+      "page_index": 14
+    },
+    {
+      "sentence_id": 140,
+      "text": "9",
+      "page": 15,
+      "page_index": 14
+    },
+    {
+      "sentence_id": 141,
+      "text": "DB 3201/T 1143—2023",
+      "page": 16,
+      "page_index": 15
+    },
+    {
+      "sentence_id": 142,
+      "text": "表A.",
+      "page": 16,
+      "page_index": 15
+    },
+    {
+      "sentence_id": 143,
+      "text": "1建筑专业BIM智能审查条文表（续）",
+      "page": 16,
+      "page_index": 15
+    },
+    {
+      "sentence_id": 144,
+      "text": "10",
+      "page": 16,
+      "page_index": 15
+    },
+    {
+      "sentence_id": 145,
+      "text": "DB 3201/T 1143—2023",
+      "page": 17,
+      "page_index": 16
+    },
+    {
+      "sentence_id": 146,
+      "text": "表A.1建筑专业BIM智能审查条文表（续）",
+      "page": 17,
+      "page_index": 16
+    },
+    {
+      "sentence_id": 147,
+      "text": "11",
+      "page": 17,
+      "page_index": 16
+    },
+    {
+      "sentence_id": 148,
+      "text": "DB 3201/T 1143—2023",
+      "page": 18,
+      "page_index": 17
+    },
+    {
+      "sentence_id": 149,
+      "text": "表A.1建筑专业BIM智能审查条文表（续）",
+      "page": 18,
+      "page_index": 17
+    },
+    {
+      "sentence_id": 150,
+      "text": "12",
+      "page": 18,
+      "page_index": 17
+    },
+    {
+      "sentence_id": 151,
+      "text": "DB 3201/T 1143—2023",
+      "page": 19,
+      "page_index": 18
+    },
+    {
+      "sentence_id": 152,
+      "text": "表A.1建筑专业BIM智能审查条文表（续）",
+      "page": 19,
+      "page_index": 18
+    },
+    {
+      "sentence_id": 153,
+      "text": "13",
+      "page": 19,
+      "page_index": 18
+    },
+    {
+      "sentence_id": 154,
+      "text": "DB 3201/T 1143—2023",
+      "page": 20,
+      "page_index": 19
+    },
+    {
+      "sentence_id": 155,
+      "text": "表A.1建筑专业BIM智能审查条文表（续）",
+      "page": 20,
+      "page_index": 19
+    },
+    {
+      "sentence_id": 156,
+      "text": "14",
+      "page": 20,
+      "page_index": 19
+    },
+    {
+      "sentence_id": 157,
+      "text": "DB 3201/T 1143—2023",
+      "page": 21,
+      "page_index": 20
+    },
+    {
+      "sentence_id": 158,
+      "text": "表A.1建筑专业BIM智能审查条文表（续）",
+      "page": 21,
+      "page_index": 20
+    },
+    {
+      "sentence_id": 159,
+      "text": "15",
+      "page": 21,
+      "page_index": 20
+    },
+    {
+      "sentence_id": 160,
+      "text": "DB 3201/T 1143—2023",
+      "page": 22,
+      "page_index": 21
+    },
+    {
+      "sentence_id": 161,
+      "text": "表A.1建筑专业BIM智能审查条文表（续）",
+      "page": 22,
+      "page_index": 21
+    },
+    {
+      "sentence_id": 162,
+      "text": "16",
+      "page": 22,
+      "page_index": 21
+    },
+    {
+      "sentence_id": 163,
+      "text": "DB 3201/T 1143—2023",
+      "page": 23,
+      "page_index": 22
+    },
+    {
+      "sentence_id": 164,
+      "text": "表A.1建筑专业BIM智能审查条文表（续）",
+      "page": 23,
+      "page_index": 22
+    },
+    {
+      "sentence_id": 165,
+      "text": "17",
+      "page": 23,
+      "page_index": 22
+    },
+    {
+      "sentence_id": 166,
+      "text": "DB 3201/T 1143—2023",
+      "page": 24,
+      "page_index": 23
+    },
+    {
+      "sentence_id": 167,
+      "text": "表A.1建筑专业BIM智能审查条文表（续）",
+      "page": 24,
+      "page_index": 23
+    },
+    {
+      "sentence_id": 168,
+      "text": "18",
+      "page": 24,
+      "page_index": 23
+    },
+    {
+      "sentence_id": 169,
+      "text": "DB 3201/T 1143—2023",
+      "page": 25,
+      "page_index": 24
+    },
+    {
+      "sentence_id": 170,
+      "text": "表A.1建筑专业BIM智能审查条文表（续）",
+      "page": 25,
+      "page_index": 24
+    },
+    {
+      "sentence_id": 171,
+      "text": "19",
+      "page": 25,
+      "page_index": 24
+    },
+    {
+      "sentence_id": 172,
+      "text": "DB 3201/T 1143—2023",
+      "page": 26,
+      "page_index": 25
+    },
+    {
+      "sentence_id": 173,
+      "text": "表A.1建筑专业BIM智能审查条文表（续）",
+      "page": 26,
+      "page_index": 25
+    },
+    {
+      "sentence_id": 174,
+      "text": "20",
+      "page": 26,
+      "page_index": 25
+    },
+    {
+      "sentence_id": 175,
+      "text": "DB 3201/T 1143—2023",
+      "page": 27,
+      "page_index": 26
+    },
+    {
+      "sentence_id": 176,
+      "text": "表A.1建筑专业BIM智能审查条文表（续）",
+      "page": 27,
+      "page_index": 26
+    },
+    {
+      "sentence_id": 177,
+      "text": "[来源：GB 50016-2014（2018年版）]",
+      "page": 27,
+      "page_index": 26
+    },
+    {
+      "sentence_id": 178,
+      "text": "表 A.2 建筑专业 BIM 智能审查条文表",
+      "page": 27,
+      "page_index": 26
+    },
+    {
+      "sentence_id": 179,
+      "text": "21",
+      "page": 27,
+      "page_index": 26
+    },
+    {
+      "sentence_id": 180,
+      "text": "DB 3201/T 1143—2023",
+      "page": 28,
+      "page_index": 27
+    },
+    {
+      "sentence_id": 181,
+      "text": "表 A.2 建筑专业 BIM 智能审查条文表（续）",
+      "page": 28,
+      "page_index": 27
+    },
+    {
+      "sentence_id": 182,
+      "text": "[来源：GB 50352-2019]",
+      "page": 28,
+      "page_index": 27
+    },
+    {
+      "sentence_id": 183,
+      "text": "表 A.3 建筑专业 BIM 智能审查条文表",
+      "page": 28,
+      "page_index": 27
+    },
+    {
+      "sentence_id": 184,
+      "text": "[来源：GB 55015-2021]",
+      "page": 28,
+      "page_index": 27
+    },
+    {
+      "sentence_id": 185,
+      "text": "22",
+      "page": 28,
+      "page_index": 27
+    },
+    {
+      "sentence_id": 186,
+      "text": "DB 3201/T 1143—2023",
+      "page": 29,
+      "page_index": 28
+    },
+    {
+      "sentence_id": 187,
+      "text": "表 A.4 建筑专业 BIM 智能审查条文表",
+      "page": 29,
+      "page_index": 28
+    },
+    {
+      "sentence_id": 188,
+      "text": "23",
+      "page": 29,
+      "page_index": 28
+    },
+    {
+      "sentence_id": 189,
+      "text": "DB 3201/T 1143—2023",
+      "page": 30,
+      "page_index": 29
+    },
+    {
+      "sentence_id": 190,
+      "text": "表A.4建筑专业BIM智能审查条文表（续）",
+      "page": 30,
+      "page_index": 29
+    },
+    {
+      "sentence_id": 191,
+      "text": "24",
+      "page": 30,
+      "page_index": 29
+    },
+    {
+      "sentence_id": 192,
+      "text": "DB 3201/T 1143—2023",
+      "page": 31,
+      "page_index": 30
+    },
+    {
+      "sentence_id": 193,
+      "text": "表A.4建筑专业BIM智能审查条文表（续）",
+      "page": 31,
+      "page_index": 30
+    },
+    {
+      "sentence_id": 194,
+      "text": "[来源：GB 50096-2011]",
+      "page": 31,
+      "page_index": 30
+    },
+    {
+      "sentence_id": 195,
+      "text": "表A.",
+      "page": 31,
+      "page_index": 30
+    },
+    {
+      "sentence_id": 196,
+      "text": "5建筑专业BIM智能审查条文表",
+      "page": 31,
+      "page_index": 30
+    },
+    {
+      "sentence_id": 197,
+      "text": "25",
+      "page": 31,
+      "page_index": 30
+    },
+    {
+      "sentence_id": 198,
+      "text": "DB 3201/T 1143—2023",
+      "page": 32,
+      "page_index": 31
+    },
+    {
+      "sentence_id": 199,
+      "text": "表A.5建筑专业BIM智能审查条文表（续）",
+      "page": 32,
+      "page_index": 31
+    },
+    {
+      "sentence_id": 200,
+      "text": "26",
+      "page": 32,
+      "page_index": 31
+    },
+    {
+      "sentence_id": 201,
+      "text": "DB 3201/T 1143—2023",
+      "page": 33,
+      "page_index": 32
+    },
+    {
+      "sentence_id": 202,
+      "text": "[来源：GB 50099-2011]",
+      "page": 33,
+      "page_index": 32
+    },
+    {
+      "sentence_id": 203,
+      "text": "表 A.6 建筑专业 BIM 智能审查条文表",
+      "page": 33,
+      "page_index": 32
+    },
+    {
+      "sentence_id": 204,
+      "text": "[来源：JGJ 25-2010]",
+      "page": 33,
+      "page_index": 32
+    },
+    {
+      "sentence_id": 205,
+      "text": "表 A.7 建筑专业 BIM 智能审查条文表",
+      "page": 33,
+      "page_index": 32
+    },
+    {
+      "sentence_id": 206,
+      "text": "27",
+      "page": 33,
+      "page_index": 32
+    },
+    {
+      "sentence_id": 207,
+      "text": "DB 3201/T 1143—2023",
+      "page": 34,
+      "page_index": 33
+    },
+    {
+      "sentence_id": 208,
+      "text": "表 A.7 建筑专业 BIM 智能审查条文表（续）",
+      "page": 34,
+      "page_index": 33
+    },
+    {
+      "sentence_id": 209,
+      "text": "[来源：JGJ 39-2016(2019年版)]",
+      "page": 34,
+      "page_index": 33
+    },
+    {
+      "sentence_id": 210,
+      "text": "表 A.8 建筑专业 BIM 智能审查条文表",
+      "page": 34,
+      "page_index": 33
+    },
+    {
+      "sentence_id": 211,
+      "text": "28",
+      "page": 34,
+      "page_index": 33
+    },
+    {
+      "sentence_id": 212,
+      "text": "DB 3201/T 1143—2023",
+      "page": 35,
+      "page_index": 34
+    },
+    {
+      "sentence_id": 213,
+      "text": "表 A.8 建筑专业 BIM 智能审查条文表（续）",
+      "page": 35,
+      "page_index": 34
+    },
+    {
+      "sentence_id": 214,
+      "text": "[来源：JGJ/T 67-2019]",
+      "page": 35,
+      "page_index": 34
+    },
+    {
+      "sentence_id": 215,
+      "text": "表 A.9 建筑专业 BIM 智能审查条文表",
+      "page": 35,
+      "page_index": 34
+    },
+    {
+      "sentence_id": 216,
+      "text": "注1：准确指该条文审查准确性达95%，无需人工复核。",
+      "page": 35,
+      "page_index": 34
+    },
+    {
+      "sentence_id": 217,
+      "text": "注2：需复核指该条文中部分内容需要人工复核确认。",
+      "page": 35,
+      "page_index": 34
+    },
+    {
+      "sentence_id": 218,
+      "text": "[来源：JGJ 450-2018]",
+      "page": 35,
+      "page_index": 34
+    },
+    {
+      "sentence_id": 219,
+      "text": "29",
+      "page": 35,
+      "page_index": 34
+    },
+    {
+      "sentence_id": 220,
+      "text": "DB 3201/T 1143—2023",
+      "page": 36,
+      "page_index": 35
+    },
+    {
+      "sentence_id": 221,
+      "text": "附录 B",
+      "page": 36,
+      "page_index": 35
+    },
+    {
+      "sentence_id": 222,
+      "text": "（资料性）",
+      "page": 36,
+      "page_index": 35
+    },
+    {
+      "sentence_id": 223,
+      "text": "结构专业 BIM 智能审查条文库",
+      "page": 36,
+      "page_index": 35
+    },
+    {
+      "sentence_id": 224,
+      "text": "结构专业根据5本文件中已拆解的条文审查模型，现已拆解条文共87条，其中强条16条，一般性条文26条，要点45条。具体条文详见表B.1～表B.5。（拆解的条文随引用规范的修订而修订本规范。）",
+      "page": 36,
+      "page_index": 35
+    },
+    {
+      "sentence_id": 225,
+      "text": "表 B.1 结构专业 BIM 智能审查条文表",
+      "page": 36,
+      "page_index": 35
+    },
+    {
+      "sentence_id": 226,
+      "text": "[来源：GB 55002-2021]",
+      "page": 36,
+      "page_index": 35
+    },
+    {
+      "sentence_id": 227,
+      "text": "表 B.2 结构专业 BIM 智能审查条文表",
+      "page": 36,
+      "page_index": 35
+    },
+    {
+      "sentence_id": 228,
+      "text": "30",
+      "page": 36,
+      "page_index": 35
+    },
+    {
+      "sentence_id": 229,
+      "text": "DB 3201/T 1143—2023",
+      "page": 37,
+      "page_index": 36
+    },
+    {
+      "sentence_id": 230,
+      "text": "表 B.2 结构专业 BM 智能审查条文表（续）",
+      "page": 37,
+      "page_index": 36
+    },
+    {
+      "sentence_id": 231,
+      "text": "31",
+      "page": 37,
+      "page_index": 36
+    },
+    {
+      "sentence_id": 232,
+      "text": "DB 3201/T 1143—2023",
+      "page": 38,
+      "page_index": 37
+    },
+    {
+      "sentence_id": 233,
+      "text": "表B.2 结构专业BIM智能审查条文表（续）",
+      "page": 38,
+      "page_index": 37
+    },
+    {
+      "sentence_id": 234,
+      "text": "[来源：GB 55008-2021]",
+      "page": 38,
+      "page_index": 37
+    },
+    {
+      "sentence_id": 235,
+      "text": "32",
+      "page": 38,
+      "page_index": 37
+    },
+    {
+      "sentence_id": 236,
+      "text": "DB 3201/T 1143—2023",
+      "page": 39,
+      "page_index": 38
+    },
+    {
+      "sentence_id": 237,
+      "text": "表 B.3 结构专业 BIM 智能审查条文表",
+      "page": 39,
+      "page_index": 38
+    },
+    {
+      "sentence_id": 238,
+      "text": "33",
+      "page": 39,
+      "page_index": 38
+    },
+    {
+      "sentence_id": 239,
+      "text": "DB 3201/T 1143—2023",
+      "page": 40,
+      "page_index": 39
+    },
+    {
+      "sentence_id": 240,
+      "text": "表B.3结构专业BIM智能审查条文表（续）",
+      "page": 40,
+      "page_index": 39
+    },
+    {
+      "sentence_id": 241,
+      "text": "[来源：GB 50010-2010(2015年版)]",
+      "page": 40,
+      "page_index": 39
+    },
+    {
+      "sentence_id": 242,
+      "text": "34",
+      "page": 40,
+      "page_index": 39
+    },
+    {
+      "sentence_id": 243,
+      "text": "DB 3201/T 1143—2023",
+      "page": 41,
+      "page_index": 40
+    },
+    {
+      "sentence_id": 244,
+      "text": "表 B.4 结构专业 BIM 智能审查条文表",
+      "page": 41,
+      "page_index": 40
+    },
+    {
+      "sentence_id": 245,
+      "text": "35",
+      "page": 41,
+      "page_index": 40
+    },
+    {
+      "sentence_id": 246,
+      "text": "DB 3201/T 1143—2023",
+      "page": 42,
+      "page_index": 41
+    },
+    {
+      "sentence_id": 247,
+      "text": "表B.4结构专业BIM智能审查条文表（续）",
+      "page": 42,
+      "page_index": 41
+    },
+    {
+      "sentence_id": 248,
+      "text": "36",
+      "page": 42,
+      "page_index": 41
+    },
+    {
+      "sentence_id": 249,
+      "text": "DB 3201/T 1143—2023",
+      "page": 43,
+      "page_index": 42
+    },
+    {
+      "sentence_id": 250,
+      "text": "表B.4结构专业BIM智能审查条文表（续）",
+      "page": 43,
+      "page_index": 42
+    },
+    {
+      "sentence_id": 251,
+      "text": "37",
+      "page": 43,
+      "page_index": 42
+    },
+    {
+      "sentence_id": 252,
+      "text": "DB 3201/T 1143—2023",
+      "page": 44,
+      "page_index": 43
+    },
+    {
+      "sentence_id": 253,
+      "text": "表B.4结构专业BIM智能审查条文表（续）",
+      "page": 44,
+      "page_index": 43
+    },
+    {
+      "sentence_id": 254,
+      "text": "38",
+      "page": 44,
+      "page_index": 43
+    },
+    {
+      "sentence_id": 255,
+      "text": "DB 3201/T 1143—2023",
+      "page": 45,
+      "page_index": 44
+    },
+    {
+      "sentence_id": 256,
+      "text": "表B.4结构专业BIM智能审查条文表（续）",
+      "page": 45,
+      "page_index": 44
+    },
+    {
+      "sentence_id": 257,
+      "text": "[来源：GB 50011-2010(2016年版)]",
+      "page": 45,
+      "page_index": 44
+    },
+    {
+      "sentence_id": 258,
+      "text": "表 B.5 结构专业 BIM 智能审查条文表",
+      "page": 45,
+      "page_index": 44
+    },
+    {
+      "sentence_id": 259,
+      "text": "39",
+      "page": 45,
+      "page_index": 44
+    },
+    {
+      "sentence_id": 260,
+      "text": "DB 3201/T 1143—2023",
+      "page": 46,
+      "page_index": 45
+    },
+    {
+      "sentence_id": 261,
+      "text": "表B.5结构专业BIM智能审查条文表（续）",
+      "page": 46,
+      "page_index": 45
+    },
+    {
+      "sentence_id": 262,
+      "text": "40",
+      "page": 46,
+      "page_index": 45
+    },
+    {
+      "sentence_id": 263,
+      "text": "DB 3201/T 1143—2023",
+      "page": 47,
+      "page_index": 46
+    },
+    {
+      "sentence_id": 264,
+      "text": "表B.5结构专业BIM智能审查条文表（续）",
+      "page": 47,
+      "page_index": 46
+    },
+    {
+      "sentence_id": 265,
+      "text": "41",
+      "page": 47,
+      "page_index": 46
+    },
+    {
+      "sentence_id": 266,
+      "text": "DB 3201/T 1143—2023",
+      "page": 48,
+      "page_index": 47
+    },
+    {
+      "sentence_id": 267,
+      "text": "表B.5结构专业BIM智能审查条文表（续）",
+      "page": 48,
+      "page_index": 47
+    },
+    {
+      "sentence_id": 268,
+      "text": "42",
+      "page": 48,
+      "page_index": 47
+    },
+    {
+      "sentence_id": 269,
+      "text": "DB 3201/T 1143—2023",
+      "page": 49,
+      "page_index": 48
+    },
+    {
+      "sentence_id": 270,
+      "text": "表B.5结构专业BIM智能审查条文表（续）",
+      "page": 49,
+      "page_index": 48
+    },
+    {
+      "sentence_id": 271,
+      "text": "43",
+      "page": 49,
+      "page_index": 48
+    },
+    {
+      "sentence_id": 272,
+      "text": "DB 3201/T 1143—2023",
+      "page": 50,
+      "page_index": 49
+    },
+    {
+      "sentence_id": 273,
+      "text": "表B.5结构专业BIM智能审查条文表（续）",
+      "page": 50,
+      "page_index": 49
+    },
+    {
+      "sentence_id": 274,
+      "text": "44",
+      "page": 50,
+      "page_index": 49
+    },
+    {
+      "sentence_id": 275,
+      "text": "DB 3201/T 1143—2023",
+      "page": 51,
+      "page_index": 50
+    },
+    {
+      "sentence_id": 276,
+      "text": "表B.5结构专业BIM智能审查条文表（续）",
+      "page": 51,
+      "page_index": 50
+    },
+    {
+      "sentence_id": 277,
+      "text": "45",
+      "page": 51,
+      "page_index": 50
+    },
+    {
+      "sentence_id": 278,
+      "text": "DB 3201/T 1143—2023",
+      "page": 52,
+      "page_index": 51
+    },
+    {
+      "sentence_id": 279,
+      "text": "表B.5结构专业BIM智能审查条文表（续）",
+      "page": 52,
+      "page_index": 51
+    },
+    {
+      "sentence_id": 280,
+      "text": "46",
+      "page": 52,
+      "page_index": 51
+    },
+    {
+      "sentence_id": 281,
+      "text": "DB 3201/T 1143—2023",
+      "page": 53,
+      "page_index": 52
+    },
+    {
+      "sentence_id": 282,
+      "text": "表B.5结构专业BIM智能审查条文表（续）",
+      "page": 53,
+      "page_index": 52
+    },
+    {
+      "sentence_id": 283,
+      "text": "47",
+      "page": 53,
+      "page_index": 52
+    },
+    {
+      "sentence_id": 284,
+      "text": "DB 3201/T 1143—2023",
+      "page": 54,
+      "page_index": 53
+    },
+    {
+      "sentence_id": 285,
+      "text": "表B.5结构专业BIM智能审查条文表（续）",
+      "page": 54,
+      "page_index": 53
+    },
+    {
+      "sentence_id": 286,
+      "text": "48",
+      "page": 54,
+      "page_index": 53
+    },
+    {
+      "sentence_id": 287,
+      "text": "DB 3201/T 1143—2023",
+      "page": 55,
+      "page_index": 54
+    },
+    {
+      "sentence_id": 288,
+      "text": "表B.5结构专业BIM智能审查条文表（续）",
+      "page": 55,
+      "page_index": 54
+    },
+    {
+      "sentence_id": 289,
+      "text": "[来源：JGJ 3-2010]",
+      "page": 55,
+      "page_index": 54
+    },
+    {
+      "sentence_id": 290,
+      "text": "49",
+      "page": 55,
+      "page_index": 54
+    },
+    {
+      "sentence_id": 291,
+      "text": "DB 3201/T 1143—2023",
+      "page": 56,
+      "page_index": 55
+    },
+    {
+      "sentence_id": 292,
+      "text": "附录 C",
+      "page": 56,
+      "page_index": 55
+    },
+    {
+      "sentence_id": 293,
+      "text": "（资料性）",
+      "page": 56,
+      "page_index": 55
+    },
+    {
+      "sentence_id": 294,
+      "text": "给排水专业BIM智能审查条文库",
+      "page": 56,
+      "page_index": 55
+    },
+    {
+      "sentence_id": 295,
+      "text": "给排水专业分为室内给排水和室外给排水两个部分，共根据11本文件中已拆解的条文审查模型，1至6为室内给排水，7至11为室外给排水。现已拆解条文共51条，强条40条，一般性条文7条，要点4条。其中室内给排水37条，强条31条，一般性条文2条，要点4条，具体条文详见表C.1～表C.6；室外给排水14条，强条9条，一般性条文5条。具体条文详见表C.7～表C.11。（拆解的条文随引用规范的修订而修订本规范。）",
+      "page": 56,
+      "page_index": 55
+    },
+    {
+      "sentence_id": 296,
+      "text": "表C.1给排水专业BIM智能审查条文表",
+      "page": 56,
+      "page_index": 55
+    },
+    {
+      "sentence_id": 297,
+      "text": "50",
+      "page": 56,
+      "page_index": 55
+    },
+    {
+      "sentence_id": 298,
+      "text": "DB 3201/T 1143—2023",
+      "page": 57,
+      "page_index": 56
+    },
+    {
+      "sentence_id": 299,
+      "text": "表C.1给排水专业BIM智能审查条文表（续）",
+      "page": 57,
+      "page_index": 56
+    },
+    {
+      "sentence_id": 300,
+      "text": "51",
+      "page": 57,
+      "page_index": 56
+    },
+    {
+      "sentence_id": 301,
+      "text": "DB 3201/T 1143—2023",
+      "page": 58,
+      "page_index": 57
+    },
+    {
+      "sentence_id": 302,
+      "text": "表C.1给排水专业BIM智能审查条文表（续）",
+      "page": 58,
+      "page_index": 57
+    },
+    {
+      "sentence_id": 303,
+      "text": "[来源：GB 50016-2014(2018年版)]",
+      "page": 58,
+      "page_index": 57
+    },
+    {
+      "sentence_id": 304,
+      "text": "表 C.2 给排水专业 BIM 智能审查条文表",
+      "page": 58,
+      "page_index": 57
+    },
+    {
+      "sentence_id": 305,
+      "text": "52",
+      "page": 58,
+      "page_index": 57
+    },
+    {
+      "sentence_id": 306,
+      "text": "DB 3201/T 1143—2023",
+      "page": 59,
+      "page_index": 58
+    },
+    {
+      "sentence_id": 307,
+      "text": "表C.2 给排水专业BIM智能审查条文表（续）",
+      "page": 59,
+      "page_index": 58
+    },
+    {
+      "sentence_id": 308,
+      "text": "[来源：GB 50067-2014]",
+      "page": 59,
+      "page_index": 58
+    },
+    {
+      "sentence_id": 309,
+      "text": "表C.",
+      "page": 59,
+      "page_index": 58
+    },
+    {
+      "sentence_id": 310,
+      "text": "3给排水专业BIM智能审查条文表",
+      "page": 59,
+      "page_index": 58
+    },
+    {
+      "sentence_id": 311,
+      "text": "53",
+      "page": 59,
+      "page_index": 58
+    },
+    {
+      "sentence_id": 312,
+      "text": "DB 3201/T 1143—2023",
+      "page": 60,
+      "page_index": 59
+    },
+    {
+      "sentence_id": 313,
+      "text": "表C.",
+      "page": 60,
+      "page_index": 59
+    },
+    {
+      "sentence_id": 314,
+      "text": "3给排水专业BIM智能审查条文表（续）",
+      "page": 60,
+      "page_index": 59
+    },
+    {
+      "sentence_id": 315,
+      "text": "[来源：GB 50974-2014]",
+      "page": 60,
+      "page_index": 59
+    },
+    {
+      "sentence_id": 316,
+      "text": "表C.4给排水专业BIM智能审查条文表",
+      "page": 60,
+      "page_index": 59
+    },
+    {
+      "sentence_id": 317,
+      "text": "54",
+      "page": 60,
+      "page_index": 59
+    },
+    {
+      "sentence_id": 318,
+      "text": "DB 3201/T 1143—2023",
+      "page": 61,
+      "page_index": 60
+    },
+    {
+      "sentence_id": 319,
+      "text": "表C.4给排水专业BIM智能审查条文表（续）",
+      "page": 61,
+      "page_index": 60
+    },
+    {
+      "sentence_id": 320,
+      "text": "[来源：GB 50084-2017]",
+      "page": 61,
+      "page_index": 60
+    },
+    {
+      "sentence_id": 321,
+      "text": "表C.",
+      "page": 61,
+      "page_index": 60
+    },
+    {
+      "sentence_id": 322,
+      "text": "5给排水专业BIM智能审查条文表",
+      "page": 61,
+      "page_index": 60
+    },
+    {
+      "sentence_id": 323,
+      "text": "55",
+      "page": 61,
+      "page_index": 60
+    },
+    {
+      "sentence_id": 324,
+      "text": "DB 3201/T 1143—2023",
+      "page": 62,
+      "page_index": 61
+    },
+    {
+      "sentence_id": 325,
+      "text": "表C.5给排水专业BIM智能审查条文表（续）",
+      "page": 62,
+      "page_index": 61
+    },
+    {
+      "sentence_id": 326,
+      "text": "56",
+      "page": 62,
+      "page_index": 61
+    },
+    {
+      "sentence_id": 327,
+      "text": "DB 3201/T 1143—2023",
+      "page": 63,
+      "page_index": 62
+    },
+    {
+      "sentence_id": 328,
+      "text": "表C.5给排水专业BIM智能审查条文表（续）",
+      "page": 63,
+      "page_index": 62
+    },
+    {
+      "sentence_id": 329,
+      "text": "[来源：GB 55020-2021]",
+      "page": 63,
+      "page_index": 62
+    },
+    {
+      "sentence_id": 330,
+      "text": "表 C.6 给排水专业 BIM 智能审查条文表",
+      "page": 63,
+      "page_index": 62
+    },
+    {
+      "sentence_id": 331,
+      "text": "[来源：GB 50368-2005]",
+      "page": 63,
+      "page_index": 62
+    },
+    {
+      "sentence_id": 332,
+      "text": "表C.",
+      "page": 63,
+      "page_index": 62
+    },
+    {
+      "sentence_id": 333,
+      "text": "7给排水专业BIM智能审查条文表",
+      "page": 63,
+      "page_index": 62
+    },
+    {
+      "sentence_id": 334,
+      "text": "[来源：GB 50974-2014]",
+      "page": 63,
+      "page_index": 62
+    },
+    {
+      "sentence_id": 335,
+      "text": "57",
+      "page": 63,
+      "page_index": 62
+    },
+    {
+      "sentence_id": 336,
+      "text": "DB 3201/T 1143—2023",
+      "page": 64,
+      "page_index": 63
+    },
+    {
+      "sentence_id": 337,
+      "text": "表C.",
+      "page": 64,
+      "page_index": 63
+    },
+    {
+      "sentence_id": 338,
+      "text": "8给排水专业BIM智能审查条文表",
+      "page": 64,
+      "page_index": 63
+    },
+    {
+      "sentence_id": 339,
+      "text": "[来源：GB 55020-2021]",
+      "page": 64,
+      "page_index": 63
+    },
+    {
+      "sentence_id": 340,
+      "text": "58",
+      "page": 64,
+      "page_index": 63
+    },
+    {
+      "sentence_id": 341,
+      "text": "DB 3201/T 1143—2023",
+      "page": 65,
+      "page_index": 64
+    },
+    {
+      "sentence_id": 342,
+      "text": "表C.",
+      "page": 65,
+      "page_index": 64
+    },
+    {
+      "sentence_id": 343,
+      "text": "9给排水专业BIM智能审查条文表",
+      "page": 65,
+      "page_index": 64
+    },
+    {
+      "sentence_id": 344,
+      "text": "[来源：GB 50015-2019]",
+      "page": 65,
+      "page_index": 64
+    },
+    {
+      "sentence_id": 345,
+      "text": "表C.",
+      "page": 65,
+      "page_index": 64
+    },
+    {
+      "sentence_id": 346,
+      "text": "10给排水专业BIM智能审查条文表",
+      "page": 65,
+      "page_index": 64
+    },
+    {
+      "sentence_id": 347,
+      "text": "[来源：GB 50400-2016]",
+      "page": 65,
+      "page_index": 64
+    },
+    {
+      "sentence_id": 348,
+      "text": "表 C.11 给排水专业 BIM 智能审查条文表",
+      "page": 65,
+      "page_index": 64
+    },
+    {
+      "sentence_id": 349,
+      "text": "[来源：DB32/3962-2020]",
+      "page": 65,
+      "page_index": 64
+    },
+    {
+      "sentence_id": 350,
+      "text": "59",
+      "page": 65,
+      "page_index": 64
+    },
+    {
+      "sentence_id": 351,
+      "text": "DB 3201/T 1143—2023",
+      "page": 66,
+      "page_index": 65
+    },
+    {
+      "sentence_id": 352,
+      "text": "附 录 D",
+      "page": 66,
+      "page_index": 65
+    },
+    {
+      "sentence_id": 353,
+      "text": "（资料性）",
+      "page": 66,
+      "page_index": 65
+    },
+    {
+      "sentence_id": 354,
+      "text": "电气专业 BIM 智能审查条文库",
+      "page": 66,
+      "page_index": 65
+    },
+    {
+      "sentence_id": 355,
+      "text": "电气专业共根据10本文件中已拆解的条文审查模型，现已拆解条文共24条，其中强条18条，一般性条文6条。具体条文详见表D.1～表D.10。（拆解的条文随引用规范的修订而修订本规范。）",
+      "page": 66,
+      "page_index": 65
+    },
+    {
+      "sentence_id": 356,
+      "text": "表D.1电气专业BIM智能审查条文表",
+      "page": 66,
+      "page_index": 65
+    },
+    {
+      "sentence_id": 357,
+      "text": "60",
+      "page": 66,
+      "page_index": 65
+    },
+    {
+      "sentence_id": 358,
+      "text": "DB 3201/T 1143—2023",
+      "page": 67,
+      "page_index": 66
+    },
+    {
+      "sentence_id": 359,
+      "text": "表D.1电气专业BIM智能审查条文表（续）",
+      "page": 67,
+      "page_index": 66
+    },
+    {
+      "sentence_id": 360,
+      "text": "[来源：GB 50016-2014(2018年版)]",
+      "page": 67,
+      "page_index": 66
+    },
+    {
+      "sentence_id": 361,
+      "text": "61",
+      "page": 67,
+      "page_index": 66
+    },
+    {
+      "sentence_id": 362,
+      "text": "DB 3201/T 1143—2023",
+      "page": 68,
+      "page_index": 67
+    },
+    {
+      "sentence_id": 363,
+      "text": "表D.2电气专业BIM智能审查条文表",
+      "page": 68,
+      "page_index": 67
+    },
+    {
+      "sentence_id": 364,
+      "text": "[来源：GB 50067-2014]",
+      "page": 68,
+      "page_index": 67
+    },
+    {
+      "sentence_id": 365,
+      "text": "表D.3电气专业BIM智能审查条文表",
+      "page": 68,
+      "page_index": 67
+    },
+    {
+      "sentence_id": 366,
+      "text": "62",
+      "page": 68,
+      "page_index": 67
+    },
+    {
+      "sentence_id": 367,
+      "text": "DB 3201/T 1143—2023",
+      "page": 69,
+      "page_index": 68
+    },
+    {
+      "sentence_id": 368,
+      "text": "[来源：GB 50116-2013]",
+      "page": 69,
+      "page_index": 68
+    },
+    {
+      "sentence_id": 369,
+      "text": "表D.4电气专业BIM智能审查条文表",
+      "page": 69,
+      "page_index": 68
+    },
+    {
+      "sentence_id": 370,
+      "text": "[来源：GB 55024-2022]",
+      "page": 69,
+      "page_index": 68
+    },
+    {
+      "sentence_id": 371,
+      "text": "表D.5电气专业BIM智能审查条文表",
+      "page": 69,
+      "page_index": 68
+    },
+    {
+      "sentence_id": 372,
+      "text": "[来源：GB 50096-2011]",
+      "page": 69,
+      "page_index": 68
+    },
+    {
+      "sentence_id": 373,
+      "text": "表D.6电气专业BIM智能审查条文表",
+      "page": 69,
+      "page_index": 68
+    },
+    {
+      "sentence_id": 374,
+      "text": "63",
+      "page": 69,
+      "page_index": 68
+    },
+    {
+      "sentence_id": 375,
+      "text": "DB 3201/T 1143—2023",
+      "page": 70,
+      "page_index": 69
+    },
+    {
+      "sentence_id": 376,
+      "text": "表D.6电气专业BIM智能审查条文表（续）",
+      "page": 70,
+      "page_index": 69
+    },
+    {
+      "sentence_id": 377,
+      "text": "[来源：GB 50368-2005]",
+      "page": 70,
+      "page_index": 69
+    },
+    {
+      "sentence_id": 378,
+      "text": "表D.7电气专业BIM智能审查条文表",
+      "page": 70,
+      "page_index": 69
+    },
+    {
+      "sentence_id": 379,
+      "text": "[来源：GB 51348-2019]",
+      "page": 70,
+      "page_index": 69
+    },
+    {
+      "sentence_id": 380,
+      "text": "表D.8电气专业BIM智能审查条文表",
+      "page": 70,
+      "page_index": 69
+    },
+    {
+      "sentence_id": 381,
+      "text": "[来源：GB 50034-2013]",
+      "page": 70,
+      "page_index": 69
+    },
+    {
+      "sentence_id": 382,
+      "text": "64",
+      "page": 70,
+      "page_index": 69
+    },
+    {
+      "sentence_id": 383,
+      "text": "DB 3201/T 1143—2023",
+      "page": 71,
+      "page_index": 70
+    },
+    {
+      "sentence_id": 384,
+      "text": "表D.9电气专业BIM智能审查条文表",
+      "page": 71,
+      "page_index": 70
+    },
+    {
+      "sentence_id": 385,
+      "text": "[来源：JGJ 310-2013]",
+      "page": 71,
+      "page_index": 70
+    },
+    {
+      "sentence_id": 386,
+      "text": "表D.",
+      "page": 71,
+      "page_index": 70
+    },
+    {
+      "sentence_id": 387,
+      "text": "10电气专业BIM智能审查条文表",
+      "page": 71,
+      "page_index": 70
+    },
+    {
+      "sentence_id": 388,
+      "text": "[来源：JGJ 25-2010]",
+      "page": 71,
+      "page_index": 70
+    },
+    {
+      "sentence_id": 389,
+      "text": "65",
+      "page": 71,
+      "page_index": 70
+    },
+    {
+      "sentence_id": 390,
+      "text": "DB 3201/T 1143—2023",
+      "page": 72,
+      "page_index": 71
+    },
+    {
+      "sentence_id": 391,
+      "text": "附录E",
+      "page": 72,
+      "page_index": 71
+    },
+    {
+      "sentence_id": 392,
+      "text": "（资料性）",
+      "page": 72,
+      "page_index": 71
+    },
+    {
+      "sentence_id": 393,
+      "text": "暖通专业BIM智能审查条文库",
+      "page": 72,
+      "page_index": 71
+    },
+    {
+      "sentence_id": 394,
+      "text": "暖通专业共根据4本文件中已拆解的条文审查模型，现已拆解条文共21条，其中强条21条。具体条文详见表E.1～表E.4。（拆解的条文随引用规范的修订而修订本规范。）",
+      "page": 72,
+      "page_index": 71
+    },
+    {
+      "sentence_id": 395,
+      "text": "表E.1暖通专业BIM智能审查条文表",
+      "page": 72,
+      "page_index": 71
+    },
+    {
+      "sentence_id": 396,
+      "text": "66",
+      "page": 72,
+      "page_index": 71
+    },
+    {
+      "sentence_id": 397,
+      "text": "DB 3201/T 1143—2023",
+      "page": 73,
+      "page_index": 72
+    },
+    {
+      "sentence_id": 398,
+      "text": "表E.1暖通专业BIM智能审查条文表（续）",
+      "page": 73,
+      "page_index": 72
+    },
+    {
+      "sentence_id": 399,
+      "text": "67",
+      "page": 73,
+      "page_index": 72
+    },
+    {
+      "sentence_id": 400,
+      "text": "DB 3201/T 1143—2023",
+      "page": 74,
+      "page_index": 73
+    },
+    {
+      "sentence_id": 401,
+      "text": "表E.1暖通专业BIM智能审查条文表（续）",
+      "page": 74,
+      "page_index": 73
+    },
+    {
+      "sentence_id": 402,
+      "text": "[来源：GB 50016-2014(2018年版)]",
+      "page": 74,
+      "page_index": 73
+    },
+    {
+      "sentence_id": 403,
+      "text": "表E.2暖通专业BIM智能审查条文表",
+      "page": 74,
+      "page_index": 73
+    },
+    {
+      "sentence_id": 404,
+      "text": "1：准确指该条文审查准确性达95%，无需人工复核。",
+      "page": 74,
+      "page_index": 73
+    },
+    {
+      "sentence_id": 405,
+      "text": "注2：需复核指该条文中部分内容需要人工复核确认。",
+      "page": 74,
+      "page_index": 73
+    },
+    {
+      "sentence_id": 406,
+      "text": "[来源：GB 50067-2014]",
+      "page": 74,
+      "page_index": 73
+    },
+    {
+      "sentence_id": 407,
+      "text": "表 E.3 暖通专业 BIM 智能审查条文表",
+      "page": 74,
+      "page_index": 73
+    },
+    {
+      "sentence_id": 408,
+      "text": "68",
+      "page": 74,
+      "page_index": 73
+    },
+    {
+      "sentence_id": 409,
+      "text": "DB 3201/T 1143—2023",
+      "page": 75,
+      "page_index": 74
+    },
+    {
+      "sentence_id": 410,
+      "text": "表E.3暖通专业BIM智能审查条文表（续）",
+      "page": 75,
+      "page_index": 74
+    },
+    {
+      "sentence_id": 411,
+      "text": "69",
+      "page": 75,
+      "page_index": 74
+    },
+    {
+      "sentence_id": 412,
+      "text": "DB 3201/T 1143—2023",
+      "page": 76,
+      "page_index": 75
+    },
+    {
+      "sentence_id": 413,
+      "text": "表E.3暖通专业BIM智能审查条文表（续）",
+      "page": 76,
+      "page_index": 75
+    },
+    {
+      "sentence_id": 414,
+      "text": "[来源：GB 51251-2017]",
+      "page": 76,
+      "page_index": 75
+    },
+    {
+      "sentence_id": 415,
+      "text": "70",
+      "page": 76,
+      "page_index": 75
+    },
+    {
+      "sentence_id": 416,
+      "text": "DB 3201/T 1143—2023",
+      "page": 77,
+      "page_index": 76
+    },
+    {
+      "sentence_id": 417,
+      "text": "表E.4暖通专业BIM智能审查条文表",
+      "page": 77,
+      "page_index": 76
+    },
+    {
+      "sentence_id": 418,
+      "text": "[来源：GB 50096-2011]",
+      "page": 77,
+      "page_index": 76
+    },
+    {
+      "sentence_id": 419,
+      "text": "71",
+      "page": 77,
+      "page_index": 76
+    },
+    {
+      "sentence_id": 420,
+      "text": "DB 3201/T 1143—2023",
+      "page": 78,
+      "page_index": 77
+    },
+    {
+      "sentence_id": 421,
+      "text": "附录 F",
+      "page": 78,
+      "page_index": 77
+    },
+    {
+      "sentence_id": 422,
+      "text": "（资料性）",
+      "page": 78,
+      "page_index": 77
+    },
+    {
+      "sentence_id": 423,
+      "text": "人防专业 BIM 智能审查条文库",
+      "page": 78,
+      "page_index": 77
+    },
+    {
+      "sentence_id": 424,
+      "text": "人防专业共根据1本文件中已拆解的条文审查模型，现已拆解条文共6条，其中强条3条，一般性条文3条。具体条文详见表F.1。（拆解的条文随引用规范的修订而修订本规范。）",
+      "page": 78,
+      "page_index": 77
+    },
+    {
+      "sentence_id": 425,
+      "text": "表F.1 人防专业BIM智能审查条文表",
+      "page": 78,
+      "page_index": 77
+    },
+    {
+      "sentence_id": 426,
+      "text": "72",
+      "page": 78,
+      "page_index": 77
+    },
+    {
+      "sentence_id": 427,
+      "text": "DB 3201/T 1143—2023",
+      "page": 79,
+      "page_index": 78
+    },
+    {
+      "sentence_id": 428,
+      "text": "表F.1 人防专业BIM智能审查条文表（续）",
+      "page": 79,
+      "page_index": 78
+    },
+    {
+      "sentence_id": 429,
+      "text": "[来源：GB 50038-2005]",
+      "page": 79,
+      "page_index": 78
+    },
+    {
+      "sentence_id": 430,
+      "text": "73",
+      "page": 79,
+      "page_index": 78
+    },
+    {
+      "sentence_id": 431,
+      "text": "DB 3201/T 1143—2023",
+      "page": 80,
+      "page_index": 79
+    },
+    {
+      "sentence_id": 432,
+      "text": "附录G",
+      "page": 80,
+      "page_index": 79
+    },
+    {
+      "sentence_id": 433,
+      "text": "（资料性）",
+      "page": 80,
+      "page_index": 79
+    },
+    {
+      "sentence_id": 434,
+      "text": "节能专业BIM智能审查条文库",
+      "page": 80,
+      "page_index": 79
+    },
+    {
+      "sentence_id": 435,
+      "text": "节能专业共根据2本文件中已拆解的条文审查模型，现已拆解条文共4条，强条2条，一般性条文2条。具体条文详见表G.1～表G.2。（拆解的条文随引用规范的修订而修订本规范。）",
+      "page": 80,
+      "page_index": 79
+    },
+    {
+      "sentence_id": 436,
+      "text": "表G.1节能专业BIM智能审查条文表",
+      "page": 80,
+      "page_index": 79
+    },
+    {
+      "sentence_id": 437,
+      "text": "[来源：GB 55015-2021]",
+      "page": 80,
+      "page_index": 79
+    },
+    {
+      "sentence_id": 438,
+      "text": "表G.2节能专业BIM智能审查条文表",
+      "page": 80,
+      "page_index": 79
+    },
+    {
+      "sentence_id": 439,
+      "text": "[来源：GB 50189-2015]",
+      "page": 80,
+      "page_index": 79
+    },
+    {
+      "sentence_id": 440,
+      "text": "74",
+      "page": 80,
+      "page_index": 79
+    },
+    {
+      "sentence_id": 441,
+      "text": "DB 3201/T 1143—2023",
+      "page": 81,
+      "page_index": 80
+    },
+    {
+      "sentence_id": 442,
+      "text": "附 录 H",
+      "page": 81,
+      "page_index": 80
+    },
+    {
+      "sentence_id": 443,
+      "text": "（资料性）",
+      "page": 81,
+      "page_index": 80
+    },
+    {
+      "sentence_id": 444,
+      "text": "审查项不通过结论相关因素",
+      "page": 81,
+      "page_index": 80
+    },
+    {
+      "sentence_id": 445,
+      "text": "结构专业审查项不通过结论相关因素可见表H.1查验。",
+      "page": 81,
+      "page_index": 80
+    },
+    {
+      "sentence_id": 446,
+      "text": "表 H.1 结构构件审查项不通过结论相关因素",
+      "page": 81,
+      "page_index": 80
+    },
+    {
+      "sentence_id": 447,
+      "text": "75",
+      "page": 81,
+      "page_index": 80
+    },
+    {
+      "sentence_id": 448,
+      "text": "DB 3201/T 1143—2023",
+      "page": 82,
+      "page_index": 81
+    },
+    {
+      "sentence_id": 449,
+      "text": "表 H.1 结构构件审查项不通过结论相关因素（续）",
+      "page": 82,
+      "page_index": 81
+    },
+    {
+      "sentence_id": 450,
+      "text": "76",
+      "page": 82,
+      "page_index": 81
+    },
+    {
+      "sentence_id": 451,
+      "text": "DB 3201/T 1143—2023",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 452,
+      "text": "附录Ⅰ",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 453,
+      "text": "（资料性）",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 454,
+      "text": "审查意见示例",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 455,
+      "text": "各专业审查意见格式可见表I.1，以暖通专业为例。",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 456,
+      "text": "表1.1 审查意见（暖通专业）",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 457,
+      "text": "审查意见（暖通专业）",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 458,
+      "text": "项目编号：XXXX-XXXX",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 459,
+      "text": "项目名称：XXXX-1#",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 460,
+      "text": "审查日期：XXXX/X/XX",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 461,
+      "text": "审查意见：",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 462,
+      "text": "一、违反强制性条文",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 463,
+      "text": "1.",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 464,
+      "text": "不符合《建筑设计防火规范》第8.5.3条。未设置排烟系统；",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 465,
+      "text": "错误构件ID：3339810，3345805，3345808，3340034，3345344，3345407，3345932",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 466,
+      "text": "2.",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 467,
+      "text": "不符合《建筑设计防火规范》第8.5.4条。地上大于50平米的无窗房间未设置排烟系统；总面积大于200平米的无窗房间未设置排烟系统；",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 468,
+      "text": "错误构件ID:",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 469,
+      "text": "3339808,3339810,3338910,3338926,3338924,3338928,3338930,3338932,3339812,3411609,3339937,3339933,3339935,3339959,3339951,3344830,3344833,3339953,3339955,3339963",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 470,
+      "text": "二、违反审查要点",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 471,
+      "text": "无",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 472,
+      "text": "三、其他",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 473,
+      "text": "无",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 474,
+      "text": "审查结论：整改",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 475,
+      "text": "77",
+      "page": 83,
+      "page_index": 82
+    },
+    {
+      "sentence_id": 476,
+      "text": "DB 3201/T 1143—2023",
+      "page": 84,
+      "page_index": 83
+    },
+    {
+      "sentence_id": 477,
+      "text": "参 考 文 献",
+      "page": 84,
+      "page_index": 83
+    },
+    {
+      "sentence_id": 478,
+      "text": "[1] DB3201/T 1142 建筑工程施工图信息模型智能审查系统数据规范",
+      "page": 84,
+      "page_index": 83
+    },
+    {
+      "sentence_id": 479,
+      "text": "78",
+      "page": 84,
+      "page_index": 83
+    }
+  ]
+}

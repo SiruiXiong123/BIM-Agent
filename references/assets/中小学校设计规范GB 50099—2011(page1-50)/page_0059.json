@@ -1,0 +1,807 @@
+{
+    "input_path": "/workspace/data/reference/中小学校设计规范GB 50099—2011(page1-50).pdf",
+    "page_index": 58,
+    "page_count": 59,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "手段。",
+            "block_bbox": [
+                149,
+                150,
+                230,
+                185
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    149.0,
+                    150.0
+                ],
+                [
+                    230.0,
+                    150.0
+                ],
+                [
+                    230.0,
+                    185.0
+                ],
+                [
+                    149.0,
+                    185.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "10．1．7中小学校内各种房间的采暖设计温度不应低于表10．1．7的规定。",
+            "block_bbox": [
+                148,
+                228,
+                1071,
+                304
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    228.0
+                ],
+                [
+                    1071.0,
+                    228.0
+                ],
+                [
+                    1071.0,
+                    304.0
+                ],
+                [
+                    148.0,
+                    304.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "表 10.1.7 采暖设计温度",
+            "block_bbox": [
+                480,
+                308,
+                744,
+                335
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    480.0,
+                    308.0
+                ],
+                [
+                    744.0,
+                    308.0
+                ],
+                [
+                    744.0,
+                    335.0
+                ],
+                [
+                    480.0,
+                    335.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td colspan=\"2\">房间名称</td><td>室内设计温度 (°C)</td></tr><tr><td rowspan=\"5\">教学及教学辅助用房</td><td>普通教室、科学教室、实验室、史地教室、美术教室、书法教室、音乐教室、语言教室、学生活动室、心理咨询室、任课教师办公室</td><td>18</td></tr><tr><td>舞蹈教室</td><td>22</td></tr><tr><td>体育馆、体质测试室</td><td>12~15</td></tr><tr><td>计算机教室、合班教室、德育展览室、仪器室</td><td>16</td></tr><tr><td>图书室</td><td>20</td></tr></table>",
+            "block_bbox": [
+                241,
+                338,
+                985,
+                609
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    241.0,
+                    338.0
+                ],
+                [
+                    985.0,
+                    338.0
+                ],
+                [
+                    985.0,
+                    609.0
+                ],
+                [
+                    241.0,
+                    609.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "续表10.1.7",
+            "block_bbox": [
+                545,
+                617,
+                673,
+                643
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    545.0,
+                    617.0
+                ],
+                [
+                    673.0,
+                    617.0
+                ],
+                [
+                    673.0,
+                    643.0
+                ],
+                [
+                    545.0,
+                    643.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td colspan=\"2\">房间名称</td><td>室内设计温度 (°C)</td></tr><tr><td rowspan=\"3\">行政办公用房</td><td>办公室、会议室、值班室、安防监控室、传达室</td><td>18</td></tr><tr><td>网络控制室、总务仓库及维修工作间</td><td>16</td></tr><tr><td>卫生室（保健室）</td><td>22</td></tr><tr><td rowspan=\"3\">生活服务用房</td><td>食堂、卫生间、走道、楼梯间</td><td>16</td></tr><tr><td>浴室</td><td>25</td></tr><tr><td>学生宿舍</td><td>18</td></tr></table>",
+            "block_bbox": [
+                239,
+                656,
+                983,
+                992
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    239.0,
+                    656.0
+                ],
+                [
+                    983.0,
+                    656.0
+                ],
+                [
+                    983.0,
+                    992.0
+                ],
+                [
+                    239.0,
+                    992.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "10.1.8 中小学校的通风设计应符合下列规定：",
+            "block_bbox": [
+                148,
+                1007,
+                753,
+                1042
+            ],
+            "block_id": 6,
+            "block_order": 3,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    1007.0
+                ],
+                [
+                    753.0,
+                    1007.0
+                ],
+                [
+                    753.0,
+                    1042.0
+                ],
+                [
+                    148.0,
+                    1042.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "1 应采取有效的通风措施，保证教学、行政办公用房及服务用房的室内空气中 $ CO_{2} $的浓度不超过0.15%；",
+            "block_bbox": [
+                149,
+                1051,
+                1072,
+                1130
+            ],
+            "block_id": 7,
+            "block_order": 4,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    149.0,
+                    1051.0
+                ],
+                [
+                    1072.0,
+                    1051.0
+                ],
+                [
+                    1072.0,
+                    1130.0
+                ],
+                [
+                    149.0,
+                    1130.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2 当采用换气次数确定室内通风量时，其换气次数不应低于本规范表9．1．3的规定；",
+            "block_bbox": [
+                149,
+                1140,
+                1073,
+                1218
+            ],
+            "block_id": 8,
+            "block_order": 5,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    149.0,
+                    1140.0
+                ],
+                [
+                    1073.0,
+                    1140.0
+                ],
+                [
+                    1073.0,
+                    1218.0
+                ],
+                [
+                    149.0,
+                    1218.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3 在各种有效通风设施选择中，应优先采用有组织的自然通风设施；",
+            "block_bbox": [
+                148,
+                1227,
+                1073,
+                1305
+            ],
+            "block_id": 9,
+            "block_order": 6,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    1227.0
+                ],
+                [
+                    1073.0,
+                    1227.0
+                ],
+                [
+                    1073.0,
+                    1305.0
+                ],
+                [
+                    148.0,
+                    1305.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "4 采用机械通风时，人员所需新风量不应低于表10.1.8的规定。",
+            "block_bbox": [
+                198,
+                1313,
+                1051,
+                1349
+            ],
+            "block_id": 10,
+            "block_order": 7,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    198.0,
+                    1313.0
+                ],
+                [
+                    1051.0,
+                    1313.0
+                ],
+                [
+                    1051.0,
+                    1349.0
+                ],
+                [
+                    198.0,
+                    1349.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7291955947875977,
+                "coordinate": [
+                    149,
+                    150,
+                    230,
+                    185
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        149.0,
+                        150.0
+                    ],
+                    [
+                        230.0,
+                        150.0
+                    ],
+                    [
+                        230.0,
+                        185.0
+                    ],
+                    [
+                        149.0,
+                        185.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9251784682273865,
+                "coordinate": [
+                    148,
+                    228,
+                    1071,
+                    304
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        148.0,
+                        228.0
+                    ],
+                    [
+                        1071.0,
+                        228.0
+                    ],
+                    [
+                        1071.0,
+                        304.0
+                    ],
+                    [
+                        148.0,
+                        304.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8573548793792725,
+                "coordinate": [
+                    480,
+                    308,
+                    744,
+                    335
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        480.0,
+                        308.0
+                    ],
+                    [
+                        744.0,
+                        308.0
+                    ],
+                    [
+                        744.0,
+                        335.0
+                    ],
+                    [
+                        480.0,
+                        335.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9626109600067139,
+                "coordinate": [
+                    241,
+                    338,
+                    985,
+                    609
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        241.0,
+                        338.0
+                    ],
+                    [
+                        985.0,
+                        338.0
+                    ],
+                    [
+                        985.0,
+                        609.0
+                    ],
+                    [
+                        241.0,
+                        609.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5755467414855957,
+                "coordinate": [
+                    873,
+                    377,
+                    915,
+                    402
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        873.0,
+                        377.0
+                    ],
+                    [
+                        873.0,
+                        401.0
+                    ],
+                    [
+                        914.0,
+                        401.0
+                    ],
+                    [
+                        914.0,
+                        377.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8562121391296387,
+                "coordinate": [
+                    545,
+                    617,
+                    673,
+                    643
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        545.0,
+                        617.0
+                    ],
+                    [
+                        673.0,
+                        617.0
+                    ],
+                    [
+                        673.0,
+                        643.0
+                    ],
+                    [
+                        545.0,
+                        643.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9734886288642883,
+                "coordinate": [
+                    239,
+                    656,
+                    983,
+                    992
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        239.0,
+                        656.0
+                    ],
+                    [
+                        983.0,
+                        656.0
+                    ],
+                    [
+                        983.0,
+                        992.0
+                    ],
+                    [
+                        239.0,
+                        992.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6351715922355652,
+                "coordinate": [
+                    871,
+                    688,
+                    913,
+                    713
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        871.0,
+                        688.0
+                    ],
+                    [
+                        871.0,
+                        712.0
+                    ],
+                    [
+                        912.0,
+                        712.0
+                    ],
+                    [
+                        912.0,
+                        688.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8728435635566711,
+                "coordinate": [
+                    148,
+                    1007,
+                    753,
+                    1042
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        148.0,
+                        1007.0
+                    ],
+                    [
+                        753.0,
+                        1007.0
+                    ],
+                    [
+                        753.0,
+                        1042.0
+                    ],
+                    [
+                        148.0,
+                        1042.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9281864166259766,
+                "coordinate": [
+                    149,
+                    1051,
+                    1072,
+                    1130
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        149.0,
+                        1051.0
+                    ],
+                    [
+                        1072.0,
+                        1051.0
+                    ],
+                    [
+                        1072.0,
+                        1130.0
+                    ],
+                    [
+                        149.0,
+                        1130.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7662261128425598,
+                "coordinate": [
+                    301,
+                    1097,
+                    348,
+                    1129
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        301.0,
+                        1097.0
+                    ],
+                    [
+                        301.0,
+                        1120.0
+                    ],
+                    [
+                        306.0,
+                        1120.0
+                    ],
+                    [
+                        307.0,
+                        1121.0
+                    ],
+                    [
+                        307.0,
+                        1128.0
+                    ],
+                    [
+                        347.0,
+                        1128.0
+                    ],
+                    [
+                        347.0,
+                        1097.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9426268339157104,
+                "coordinate": [
+                    149,
+                    1140,
+                    1073,
+                    1218
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        149.0,
+                        1140.0
+                    ],
+                    [
+                        1073.0,
+                        1140.0
+                    ],
+                    [
+                        1073.0,
+                        1218.0
+                    ],
+                    [
+                        149.0,
+                        1218.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9377526044845581,
+                "coordinate": [
+                    148,
+                    1227,
+                    1073,
+                    1305
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        148.0,
+                        1227.0
+                    ],
+                    [
+                        1073.0,
+                        1227.0
+                    ],
+                    [
+                        1073.0,
+                        1305.0
+                    ],
+                    [
+                        148.0,
+                        1305.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8775366544723511,
+                "coordinate": [
+                    198,
+                    1313,
+                    1051,
+                    1349
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        198.0,
+                        1313.0
+                    ],
+                    [
+                        1051.0,
+                        1313.0
+                    ],
+                    [
+                        1051.0,
+                        1349.0
+                    ],
+                    [
+                        198.0,
+                        1349.0
+                    ]
+                ]
+            }
+        ]
+    }
+}
