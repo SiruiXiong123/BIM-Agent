@@ -1,8 +1,9 @@
 # Brain Index
 
-_Auto-generated. Last updated 2026-07-18T17:07:13.829Z._
+_Auto-generated. Last updated 2026-07-18T17:36:18.273Z._
 
 - [domain-schema-contract](pages/domain-schema-contract.md) — category: decision | tags: [schema, pydantic, units] | - Domain entities, executable rules, AI classifications, derived assessments, check results, and iterative-retrieval state use strict Pydant
+- [github-publication-boundary](pages/github-publication-boundary.md) — category: decision | tags: [github, release, git-lfs] | - ????? `https://github.com/SiruiXiong123/BIM-Agent`?????? `main`?
 - [ifc-sample-corpus](pages/ifc-sample-corpus.md) — category: reference | tags: [ifc, testing, fixtures] | - Real IFC fixtures live in the project-root `.
 - [ifcopenshell-runtime](pages/ifcopenshell-runtime.md) — category: decision | tags: [ifc, dependency, runtime] | - The project Python environment `C:\Application\Anaconda\envs\llm_env\python.exe` uses IfcOpenShell 0.8.5 for deterministic IFC parsing.
 - [regulation-hybrid-search](pages/regulation-hybrid-search.md) — category: decision | tags: [rag, lancedb, retrieval] | - ?????? `FAISS + BM25 + RRF` ???????????????????????
