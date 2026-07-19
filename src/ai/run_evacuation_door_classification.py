@@ -23,7 +23,7 @@ def classify_jsonl(
     output_path: str | Path | None = None,
     *,
     limit: int | None = 20,
-    workers: int = 4,
+    workers: int = 5,
     client: StructuredLLMClient | None = None,
 ) -> Path:
     """Classify rows and write complete records with nested assessments.
@@ -53,7 +53,14 @@ def classify_jsonl(
     if len(records_by_guid) != len(records):
         raise ValueError("Classification input contains duplicate ifc_guid values")
 
-    llm_client = client or OpenAICompatibleJSONClient.from_env()
+    llm_client = client or OpenAICompatibleJSONClient.from_env(
+        model_env_key="evacuation_door_model_name",
+        timeout_env_key="evacuation_door_timeout_seconds",
+        max_output_tokens_env_key="evacuation_door_max_output_tokens",
+        enable_thinking_env_key="evacuation_door_enable_thinking",
+        default_max_output_tokens=768,
+        default_enable_thinking=False,
+    )
     errors: list[str] = []
     with ThreadPoolExecutor(max_workers=min(workers, len(pending))) as executor:
         futures = {
@@ -131,8 +138,8 @@ def main() -> None:
     parser.add_argument(
         "--workers",
         type=int,
-        default=4,
-        help="number of concurrent model requests (default: 4)",
+        default=5,
+        help="number of concurrent model requests (default: 5)",
     )
     args = parser.parse_args()
     classify_jsonl(

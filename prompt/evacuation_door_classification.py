@@ -109,7 +109,5 @@ Output format:
   "missing_information": []
 }
 
-Input door information:
-
-{door_json}
+The input door JSON is provided in the user message.
 """

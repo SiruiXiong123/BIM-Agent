@@ -6,9 +6,11 @@ import hashlib
 from collections.abc import Callable
 from concurrent.futures import Future, ThreadPoolExecutor, as_completed
 from pathlib import Path
+from time import perf_counter
 from typing import Protocol
 
 from src.ai.evacuation_door_classifier import (
+    PROMPT_VERSION,
     StructuredLLMClient,
     build_classification_input,
     classify_evacuation_door,
@@ -101,7 +103,7 @@ class T5BatchRunner(Protocol):
 
 
 ProgressCallback = Callable[[ReviewProgressEvent], None]
-DEFAULT_CLASSIFICATION_MAX_WORKERS = 4
+DEFAULT_CLASSIFICATION_MAX_WORKERS = 5
 
 
 class ReviewPreparationError(RuntimeError):
@@ -161,10 +163,15 @@ class ReviewService:
             total=0,
             message="正在解析 IFC 模型",
         )
+        parse_start = perf_counter()
         parse_result = self._parser(
             source,
             strict=strict,
             max_doors=max_doors,
+        )
+        print(
+            f"[PERF] IFC parsing finished: {perf_counter() - parse_start:.2f}s",
+            flush=True,
         )
         total = len(parse_result.doors)
         _emit_progress(
@@ -182,9 +189,14 @@ class ReviewService:
             message="正在判断疏散门与防火门属性",
         )
 
+        classification_start = perf_counter()
         classified = self._classify_doors(
             parse_result.doors,
             progress=progress,
+        )
+        print(
+            f"[PERF] Door classification finished: {perf_counter() - classification_start:.2f}s",
+            flush=True,
         )
         candidates = [
             _build_candidate(index, door, assessment)
@@ -253,6 +265,28 @@ class ReviewService:
                 try:
                     assessment = future.result()
                 except Exception as exc:
+                    if _is_empty_model_response_error(exc):
+                        assessment = _build_uncertain_fallback_for_empty_response(
+                            door,
+                            model_name=self._classification_client.model_name,
+                            error_message=str(exc),
+                        )
+                        print(
+                            f"[WARN] {door.door_id} classification degraded to uncertain: {exc}",
+                            flush=True,
+                        )
+                        results[index] = (door, assessment)
+                        _emit_progress(
+                            progress,
+                            stage=ReviewStage.CLASSIFY,
+                            current=completed_count,
+                            total=len(doors),
+                            door_id=door.door_id,
+                            message=(
+                                f"{door.door_id} 模型空响应，已降级为待确认"
+                            ),
+                        )
+                        continue
                     for pending in futures:
                         pending.cancel()
                     raise ReviewPreparationError(
@@ -494,4 +528,31 @@ def _emit_progress(
             door_id=door_id,
             message=message,
         )
+    )
+
+
+def _is_empty_model_response_error(exc: Exception) -> bool:
+    return "empty response" in str(exc).casefold()
+
+
+def _build_uncertain_fallback_for_empty_response(
+    door: Door,
+    *,
+    model_name: str,
+    error_message: str,
+) -> EvacuationDoorClassification:
+    return EvacuationDoorClassification(
+        ifc_guid=door.ifc_guid,
+        classification=EvacuationDoorClass.UNCERTAIN,
+        is_fire_door=None,
+        evidence=[],
+        reasoning=(
+            "Model returned an empty response. "
+            "The door is downgraded to uncertain for manual confirmation."
+        ),
+        missing_information=[f"llm_empty_response: {error_message}"],
+        evacuation_door_confidence=0.0,
+        fire_door_confidence=None,
+        model_name=model_name,
+        prompt_version=PROMPT_VERSION,
     )

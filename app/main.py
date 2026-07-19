@@ -184,6 +184,11 @@ def create_review_service() -> ReviewService:
     classification_client = OpenAICompatibleJSONClient.from_env(
         env_path,
         model_env_key="evacuation_door_model_name",
+        timeout_env_key="evacuation_door_timeout_seconds",
+        max_output_tokens_env_key="evacuation_door_max_output_tokens",
+        enable_thinking_env_key="evacuation_door_enable_thinking",
+        default_max_output_tokens=768,
+        default_enable_thinking=False,
     )
     review_client = OpenAICompatibleJSONClient.from_env(
         env_path,

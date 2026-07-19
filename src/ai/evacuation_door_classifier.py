@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import json
+import threading
 from pathlib import Path
+from time import perf_counter
 from typing import Any, Protocol
 
 from prompt.evacuation_door_classification import (
@@ -59,11 +61,20 @@ def classify_evacuation_door_input(
     """Classify an already-built LLM input payload."""
 
     payload = classifier_input.model_dump(mode="json")
-    rendered_prompt = SYSTEM_PROMPT.replace(
-        "{door_json}",
-        json.dumps(payload, ensure_ascii=False, indent=2),
+    rendered_prompt = SYSTEM_PROMPT
+    door_id = classifier_input.door_id
+    thread_name = threading.current_thread().name
+    start = perf_counter()
+    print(
+        f"[LLM START] door={door_id} thread={thread_name}",
+        flush=True,
     )
     response = client.complete_json(system_prompt=rendered_prompt, payload=payload)
+    elapsed = perf_counter() - start
+    print(
+        f"[LLM END] door={door_id} thread={thread_name} elapsed={elapsed:.2f}s",
+        flush=True,
+    )
     response.update(
         {
             "ifc_guid": classifier_input.ifc_guid,

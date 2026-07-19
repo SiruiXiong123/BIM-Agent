@@ -19,6 +19,10 @@ from src.review.models import (
     ReviewSelection,
     ReviewStage,
 )
+from src.ai.evacuation_door_classifier import (
+    build_classification_input,
+    classify_evacuation_door_input,
+)
 from src.review.service import (
     ReviewPreparationError,
     ReviewSelectionError,
@@ -168,6 +172,50 @@ def test_prepare_ifc_parses_classifies_and_emits_progress(tmp_path: Path) -> Non
         ReviewStage.AWAITING_CONFIRMATION,
     ]
     assert progress[-1].current == progress[-1].total == 2
+
+
+def test_prepare_ifc_emits_perf_logs(capsys: pytest.CaptureFixture[str], tmp_path: Path) -> None:
+    source = tmp_path / "school.ifc"
+    source.write_bytes(b"test IFC content")
+    doors = [make_door(ifc_id=1, ifc_guid="guid-1", door_id="Door 1", width=900)]
+
+    def fake_parser(
+        path: str | Path,
+        *,
+        strict: bool = False,
+        max_doors: int | None = None,
+    ) -> IFCParseResult:
+        del strict
+        return IFCParseResult(
+            source_file=str(path),
+            ifc_schema="IFC4",
+            unit_scale_to_mm=1000,
+            total_ifc_door_count=1,
+            requested_max_doors=max_doors,
+            door_count=1,
+            doors=doors,
+        )
+
+    client = FakeClassificationClient()
+    ReviewService(client, parser=fake_parser).prepare_ifc(source)
+
+    captured = capsys.readouterr()
+    assert "[PERF] IFC parsing finished:" in captured.out
+    assert "[PERF] Door classification finished:" in captured.out
+
+
+def test_classify_evacuation_door_input_emits_llm_timing_logs(
+    capsys: pytest.CaptureFixture[str],
+) -> None:
+    door = make_door(ifc_id=1, ifc_guid="guid-1", door_id="Door 1", width=900)
+    classifier_input = build_classification_input(door)
+
+    classify_evacuation_door_input(classifier_input, FakeClassificationClient())
+
+    captured = capsys.readouterr()
+    assert "[LLM START]" in captured.out
+    assert "[LLM END]" in captured.out
+    assert "door=Door 1" in captured.out
 
 
 def test_prepare_ifc_rejects_classifier_identity_mismatch(tmp_path: Path) -> None:

@@ -22,9 +22,11 @@ class SequencedCompletions:
     def __init__(self, outcomes: list[Any]) -> None:
         self.outcomes = list(outcomes)
         self.calls = 0
+        self.requests: list[dict[str, Any]] = []
 
-    def create(self, **_: Any) -> Any:
+    def create(self, **kwargs: Any) -> Any:
         self.calls += 1
+        self.requests.append(kwargs)
         outcome = self.outcomes.pop(0)
         if isinstance(outcome, Exception):
             raise outcome
@@ -53,9 +55,9 @@ def make_client(
     return client, completions, delays
 
 
-def success_response() -> Any:
+def success_response(content: str = '{"ok": true}') -> Any:
     return SimpleNamespace(
-        choices=[SimpleNamespace(message=SimpleNamespace(content='{"ok": true}'))]
+        choices=[SimpleNamespace(message=SimpleNamespace(content=content))]
     )
 
 
@@ -113,6 +115,70 @@ def test_structured_invalid_request_400_is_not_retried() -> None:
 
     assert completions.calls == 1
     assert delays == []
+
+
+def test_empty_response_retries_with_exponential_backoff_then_succeeds() -> None:
+    client, completions, delays = make_client(
+        [
+            success_response(content=""),
+            success_response(),
+        ],
+        max_request_retries=3,
+    )
+
+    result = client.complete_json(system_prompt="test", payload={})
+
+    assert result == {"ok": True}
+    assert completions.calls == 2
+    assert delays == [0.5]
+
+
+def test_empty_response_stops_after_retry_limit() -> None:
+    client, completions, delays = make_client(
+        [
+            success_response(content=""),
+            success_response(content=""),
+            success_response(content=""),
+        ],
+        max_request_retries=2,
+    )
+
+    with pytest.raises(ValueError, match="empty response"):
+        client.complete_json(system_prompt="test", payload={})
+
+    assert completions.calls == 3
+    assert delays == [0.5, 1.0]
+
+
+def test_can_disable_provider_thinking_mode() -> None:
+    client = OpenAICompatibleJSONClient(
+        base_url="https://example.test/v1",
+        api_key="test-key",
+        model_name="test-model",
+        enable_thinking=False,
+        json_attempts=1,
+    )
+    completions = SequencedCompletions([success_response()])
+    client._client = SimpleNamespace(  # type: ignore[assignment]
+        chat=SimpleNamespace(completions=completions)
+    )
+
+    result = client.complete_json(system_prompt="test", payload={})
+
+    assert result == {"ok": True}
+    assert completions.requests == [
+        {
+            "model": "test-model",
+            "messages": [
+                {"role": "system", "content": "test"},
+                {"role": "user", "content": "{}"},
+            ],
+            "response_format": {"type": "json_object"},
+            "temperature": 0,
+            "max_tokens": 8192,
+            "extra_body": {"enable_thinking": False},
+        }
+    ]
 
 
 @pytest.mark.parametrize("value", [-1, True, 1.5])
