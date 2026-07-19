@@ -20,10 +20,6 @@ BIM Agent 面向 BIM 审查研究人员、建筑设计人员和 IFC 应用开发
 > [!IMPORTANT]
 > 本项目目前是研究与工程验证原型，输出不能替代注册专业人员的正式设计审查、消防审查或法律意见。
 
-## 最终结果示例
-
-![BIM Agent 最终分析结果](references/assets/screenshots/result_example.png)
-
 ## 功能概览
 
 - 解析 IFC2X3/IFC4 门构件，并将线性尺寸统一为毫米。
@@ -291,3 +287,7 @@ git lfs pull
 ## 项目状态
 
 当前版本已经完成本地 MVP 主流程，但仍处于研究和工程验证阶段。在线演示、生产部署、用户认证、持久化任务、CI 徽章和正式问题反馈链接将在 GitHub 仓库地址确定后补充。
+
+## 最终结果示例
+
+![BIM Agent 最终分析结果](references/assets/screenshots/result_example.png)
